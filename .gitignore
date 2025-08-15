@@ -1,6 +1,6 @@
 # KubeJS 生成文件
 .probe/
-local/kubjs/
+local/
 
 # Minecraft 运行时文件
 logs/
@@ -13,6 +13,8 @@ usercache.json
 usernamecache.json
 
 #mod文件
+*/iris.properties
+*/xaerominimap_entities.json
 *Cataclysm *.jar
 CustomSkinLoader/
 patchouli_books/
@@ -35,14 +37,12 @@ patchouli_data.json
 PCL/
 downloads/
 servers.dat
-.gitattributes
 
 # IDE 文件
 .vscode/
 .idea/
 
 # 系统文件
-.git-rewrite
 .DS_Store
 *README.txt
 Thumbs.db
