@@ -1,6 +1,6 @@
 # KubeJS 生成文件
 .probe/
-local/
+local/kubjs/
 
 # Minecraft 运行时文件
 logs/
@@ -35,6 +35,7 @@ patchouli_data.json
 PCL/
 downloads/
 servers.dat
+.gitattributes
 
 # IDE 文件
 .vscode/
