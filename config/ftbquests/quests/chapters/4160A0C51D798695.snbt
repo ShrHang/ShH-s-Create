@@ -1,0 +1,97 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4160A0C51D798695"
+	group: "7437108D1F64EFF9"
+	icon: {
+		id: "create_enchantment_industry:blaze_enchanter"
+	}
+	id: "4160A0C51D798695"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "253B8855197D37F5"
+			tasks: [{
+				id: "669577495CBC5B9C"
+				item: { count: 1, id: "create_dragons_plus:blaze_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["253B8855197D37F5"]
+			id: "1BE0B4762DAEB494"
+			tasks: [{
+				id: "29430E92E4A27823"
+				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["253B8855197D37F5"]
+			id: "77A7A4E32DD76997"
+			tasks: [{
+				id: "1AD101AC177AF7DE"
+				item: { count: 1, id: "create_enchantment_industry:blaze_forger" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "17F718311F966137"
+			tasks: [{
+				id: "0ED11D8036A19683"
+				item: { count: 1, id: "create_enchantment_industry:enchanting_template" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["77A7A4E32DD76997"]
+			id: "0C726B729E7C5BC9"
+			tasks: [{
+				id: "52E2BF79C2D7105D"
+				item: { count: 1, id: "create_enchantment_industry:super_enchanting_template" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "4C9FE5FC5AD5B1D1"
+			tasks: [{
+				id: "7DD976AA148C3940"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "266E0A7D1ECB2C6F"
+			tasks: [{
+				id: "1726084410D7B712"
+				item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "7DB5A5E21C9F79B3"
+			tasks: [{
+				id: "0E9C7880C6CFFA1A"
+				item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+	]
+}

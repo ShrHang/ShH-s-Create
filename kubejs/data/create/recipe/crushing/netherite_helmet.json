@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_helmet"
+    }
+  ],
+  "processing_time": 350,
+  "results": [
+    {
+      "id": "minecraft:netherite_scrap"
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+{
+	chapter.099D9445D1F810D2.title: "Boss挑战"
+	chapter.0CC74F672FCF93FE.title: "世间最远的捷径"
+	chapter.1148DF0D158A4899.title: "恶意"
+	chapter.3D300303E6965C1A.title: "弓艺"
+	chapter.40437B4F8E0FBBDF.title: "扩充"
+	chapter.4160A0C51D798695.title: "附魔工业"
+	chapter.475C7F3D65AA0036.title: "古遗物"
+	chapter.48B0B9F661CF0116.title: "物流与自动化"
+	chapter.48BC07C8B5074FEB.title: "主线"
+	chapter.51292469AFAE2775.title: "安山时代"
+	chapter.51BA51265914BD32.title: "黄铜时代"
+	chapter.599CD03FA645D8B1.title: "游玩须知"
+	chapter.619E8811D76BAD23.title: "实用工具"
+	chapter.627FF5181137FAF1.title: "潘多拉之咒"
+	chapter.676633C80B312D5A.title: "实用工具"
+	chapter.6BBCFD30B324B7DE.title: "装备一览"
+	chapter.7097F4A4201A50E6.title: "来乘坐列车吧！"
+	chapter.7274D26AA4181B26.title: "农夫乐事"
+	chapter.733710CB459E6FC3.title: "恶意·女仆"
+	chapter.772F31D64B2CF17E.title: "电……电力？"
+	chapter_group.04704A4785A6D007.title: "开始"
+	chapter_group.04ABB4452F0A1E9A.title: "Iron的魔法书"
+	chapter_group.24E1E7D7A02B474F.title: "莱特兰"
+	chapter_group.2E8C4C8E8DD43C94.title: "养成"
+	chapter_group.7437108D1F64EFF9.title: "机械动力"
+	quest.001A9C8C6DD0DE2B.quest_desc: [
+		"&a在&e风车轴承&a上拼起&6连接的&e风帆类方块&a来使用的&6动力源&a。"
+		""
+		"&e风帆类方块&a包括&e风帆&a、&e风帆框架&a和&e羊毛&a。"
+		""
+		"&6满配&a需要&d128个&e风帆类方块&a。"
+		"{@pagebreak}"
+		"&a在放置&a的&e风车轴承&a的&6粘连面&a上，连接&a包含&d至少8个&e风帆类方块&a的&6粘黏结构&a，&b空手右击&e风车轴承&a即可启动，同时&6粘黏结构&a转化为&6动态结构&a。"
+		"{image:kubejs:textures/ftbquests/windmill.png width:160 height:90 align:center}"
+		"{@pagebreak}"
+		"&a技巧：&e风帆&a和&e风帆框架&a的&6侧面&6相接&a时，会&6互相粘黏&a形成&6粘黏结构&a，从而节省&e强力胶&a。"
+		""
+		"&a可通过&6模型在视觉上的相接&a来判断。使用&e羊毛&a代替&e风帆&a必须使用&e强力胶&a。"
+		"{@pagebreak}"
+		"&e风车轴承&a侧面可设置&d转向&a。"
+		""
+		"&d每八个&e风帆类方块&a提供&d1RPM转速&a，最高可达&d16RPM&a。产出&d512su/RPM&a的&d应力&a，最高可达&d8192su&a。"
+	]
+	quest.001A9C8C6DD0DE2B.quest_subtitle: "较昂贵也较高效的庞大动力源"
+	quest.001A9C8C6DD0DE2B.title: "风车"
+	quest.005CB2419C22AB61.quest_subtitle: "优雅的太空步"
+	quest.013277EFC1F614DA.quest_subtitle: "列车所行之路"
+	quest.02ED933D0A028B2D.quest_desc: [
+		"&e空白魔晶&a可以合成&d带有不同效果的魔晶&a。"
+		"{image:kubejs:textures/ftbquests/upgrade-1.png width:150 height:110 align:center}"
+		""
+		"&7                                     看下一页"
+		"{@pagebreak}"
+		"&d魔晶&a可以在铁砧上升级&5莱特兰·弓艺&a的弓。"
+		""
+		"&a弓的&e升级槽个数&a代表了弓可以镶嵌几个魔晶。"
+		""
+		"&c不可镶嵌相同效果的魔晶，升级操作不可逆。"
+		"{image:kubejs:textures/ftbquests/upgrade-2.png width:150 height:90 align:center}"
+		""
+		"&7                                     还有一页"
+		"{@pagebreak}"
+		"&a将弓合成为更高等级的弓将&6保留原有的魔晶升级效果&a。"
+	]
+	quest.02ED933D0A028B2D.quest_subtitle: "强力升级"
+	quest.04CD6CA61B04F007.quest_desc: [
+		"&e十字齿轮箱&a能在&6四个方向上&a传动。"
+		"{@pagebreak}"
+		"&e十字齿轮箱&a常用于&6共面垂直传动&a和&d反转转向&a。"
+		""
+		"&6共面垂直传动&a类似于&e一圈大齿轮之间&a的咬合传动，但&e十字齿轮箱&6占地更小&a。"
+	]
+	quest.04CD6CA61B04F007.quest_subtitle: "传动的好手，善于转向调整。"
+	quest.058EE180EC5A2119.quest_desc: [
+		"&a使用&e诅咒&a状态效果对策。"
+		""
+		"&a使用&5诅咒之刃&a附魔对策。"
+	]
+	quest.058EE180EC5A2119.quest_subtitle: "打的还没它回的快.jpg"
+	quest.06B15B851CF8C678.quest_desc: [
+		"&a打开&6物品栏&a，将&b鼠标光标&a放在&e机械动力物品&a上，长按[w]键以进行&6思索&a，学习&e物品&a的官方用法。"
+		"{image:kubejs:textures/ftbquests/ponder-1.png width:150 height:80 align:center}"
+		"{image:kubejs:textures/ftbquests/ponder-2.png width:180 height:100 align:center}"
+		""
+		"&a任务只负责告诉你&3要做什么&a，而思索可以告诉你&3能做什么&a。"
+		""
+		"&c有不会的先 思索"
+		"&c有不会的先 思索"
+		"&c有不会的先 思索"
+		"{@pagebreak}"
+		"&a没有&6思索&a的物品通常功能简单，根据物品显示的提示，大都可按&bshift键&a来获取官方说明。"
+	]
+	quest.06B15B851CF8C678.quest_subtitle: "官方内置的图文攻略"
+	quest.073962841F5707A8.quest_desc: ["&a该词条只在Boss身上出现。"]
+	quest.073962841F5707A8.quest_subtitle: "领域展开！"
+	quest.077B7A6F5DDFC2E3.quest_desc: ["&a使用&5保险&a、&5硬化&a、&5永恒&a附魔对策。"]
+	quest.077B7A6F5DDFC2E3.quest_subtitle: "满耐久特攻"
+	quest.08A12E6FDC61C4E6.quest_desc: ["&a对策&c分裂&a。"]
+	quest.08A12E6FDC61C4E6.title: "分裂抑制"
+	quest.0A6F69B11C27C5E5.title: "细雪行者"
+	quest.0A8F420158CB6587.quest_desc: [
+		""
+		"{image:kubejs:textures/ftbquests/encased_fan.png width:200 height:150 align:center}"
+	]
+	quest.0ABFB74FC9F4026F.title: "&2奇迹抢夺宝珠"
+	quest.0B4961BB1B9CFB4D.title: "永恒"
+	quest.0C7FAE5FB0D2C3BE.quest_desc: [
+		"手持&7空的烈焰人燃烧室&r右键&6烈焰人&r,即可将烈焰人装进燃烧室。"
+		"{image:kubejs:textures/ftbquests/catch_blaze.png width:100 height:150 align:center}"
+	]
+	quest.0C7FAE5FB0D2C3BE.quest_subtitle: "黄铜时代的起点，人们掌握了更优质的加热源。"
+	quest.0C7FAE5FB0D2C3BE.title: "&6获取烈焰人燃烧室"
+	quest.0D06B4E8FFCFB8FD.quest_desc: [
+		"&e安山岩&a与&e铁&a是&e机械动力&a的&6核心原料&a，用于合成&e安山合金&a。"
+		""
+		"&a在&6早期&a，需要通过&e安山合金&a合成&6基础元件&a，所以称为&6安山时代&a。"
+		"{@pagebreak}"
+		"&a技巧：&b按住[~]键&a，使用&6连锁挖掘&a。"
+		""
+		"&a若还发现&e锌&a和&e铜&a，最好也&6挖回来&a。&6黄铜时代&a需要用到。"
+	]
+	quest.0D06B4E8FFCFB8FD.quest_subtitle: "合成安山合金前的准备"
+	quest.0D06B4E8FFCFB8FD.title: "获取安山岩和铁粒"
+	quest.0FCB5207A394C397.quest_desc: [
+		"&a基于&e铜&a的&e流体元件&a可用于&6获取、储存和运输流体&a。"
+		""
+		"&a内容合并于&e黄铜时代&a章节，点击下列链接跳转。"
+		""
+		"{ \"text\": \"点击跳转\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C7FAE5FB0D2C3BE\" } }"
+	]
+	quest.0FCB5207A394C397.quest_subtitle: "流体元件"
+	quest.0FCB5207A394C397.title: "自动为工作盆加液体？"
+	quest.0FCECC1606771A8A.title: "盔甲耐久"
+	quest.0FD80C44EB48FBDC.quest_desc: [
+		"&a每当玩家击杀怪物提升难度等级时，会获得一个恶意吸收宝珠"
+		""
+		"&a使用后，可以创造一个没有恶意难度的区域，区域内生成的怪物不再具有&5恶意等级&a。"
+		""
+		"&a想要使用它，您需要&6副手持有恶意探测器，并将侦测眼镜佩戴在饰品栏。"
+	]
+	quest.0FD80C44EB48FBDC.quest_subtitle: "恶意净空"
+	quest.12174CFBAEEBADA7.quest_desc: [
+		"&a使用&6侦测眼镜&a对策。"
+		""
+		"{ \"text\": \"点击跳转：侦测眼镜\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17BCF9DCB1C16EC1\" } }"
+	]
+	quest.12174CFBAEEBADA7.quest_subtitle: "&m看不见我看不见我看不见我看不见我看不见我"
+	quest.126141DE9CB118AD.quest_desc: [
+		"&a做一台&e动力冲压机&a。这是&6最早可做，日后也很有用&a的&e加工作业元件&a。"
+		"{@pagebreak}"
+		"&a将&e动力冲压机&a放置在&e开放存储容器&a上方的第二格中，即可进行加工。"
+		""
+		"&a对于&6冲压&a，可使用&e置物台&a、&e传送带&a等，但不能是&e工作盆&a。"
+		"{@pagebreak}"
+		"&6塑形&a和&6自动压缩&a则仅限&e工作盆&a。有&6加热条件&a时，在&e工作盆&a下方放置并点燃&e烈焰人燃烧室&a。"
+		"{@pagebreak}"
+		"&e动力冲压机&a消耗&d8su/RPM应力&a。"
+		""
+		"&a传动形式&a与&e传动杆箱&a相似，可以连成一条线。"
+	]
+	quest.126141DE9CB118AD.quest_subtitle: "最基础也最常用的加工机器"
+	quest.13AA3F2CEA919A1D.quest_subtitle: "其实是转向架"
+	quest.143E5A18E6E326E3.title: "冰刃"
+	quest.15041FC0BF517E03.quest_subtitle: "我是说，有没有一种可能，这些怪物都随身携带了一个潜影贝？"
+	quest.153F4F5F54A8175F.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c神速III重装III&a词条怪物获取。"]
+	quest.16E7F8EE6E7A3C99.title: "虚空之触"
+	quest.17BCF9DCB1C16EC1.quest_subtitle: "让你看见看不见的威胁。"
+	quest.17BCF9DCB1C16EC1.title: "恶意的可视化"
+	quest.189836E7FFEC976C.quest_subtitle: "黑龙之欲念，深不见底。"
+	quest.1900936ABB258B78.quest_desc: [
+		"&a由远古守卫者受到闪电的伤害后死亡才掉落，所以不能用引雷附魔三叉戟直接攻击远古守卫者。"
+		""
+		"&c铁魔法的雷电法术不算雷电伤害。"
+		""
+		"&a可以在雷雨天使用&5引雷附魔&a的&b三叉戟&a攻击&c避雷针&a形成闪电，使其受到雷击伤害后死亡掉落。"
+		"&e（避雷针要距离远古守卫者要有一段距离，否则闪电会销毁掉落物）"
+		""
+		"&a也可以使用灾变的&6神怒长槊&a的远程攻击击杀远古守卫者。"
+		"{image:kubejs:textures/ftbquests/get_gruadian_eye.png width:200 height:112 align:center}"
+		""
+		"&a你也可以："
+		"{ \"text\": \"点击跳转：用抢夺宝珠获取守卫者之眼\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7A6856E70C510D74\" } }"
+	]
+	quest.1900936ABB258B78.quest_subtitle: "海洋生命的精华"
+	quest.1A3791FE4CD8DCD3.quest_subtitle: "奇迹于你"
+	quest.1A3791FE4CD8DCD3.title: "&2奇迹锭"
+	quest.1A3BFE17B16B041D.quest_subtitle: "不要贪杯哦。"
+	quest.1B0A8515FEE973A2.quest_subtitle: "不需要解锁就可以传送"
+	quest.1B0A8515FEE973A2.title: "共享石碑"
+	quest.1DBFF38A134ADB85.title: "御币"
+	quest.1DFF9BB5BB6E367E.quest_desc: ["&a使用&5绝缘&a附魔对策。"]
+	quest.1DFF9BB5BB6E367E.quest_subtitle: "不对不对不对"
+	quest.1EA8C22A9B614614.title: "&d混沌抢夺宝珠"
+	quest.1EE1243EB3F752C8.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.1EE1243EB3F752C8.quest_subtitle: "让你飞起来！"
+	quest.1FB411220A26B0E2.quest_desc: [
+		"&a将&e铁锭&a扔到&e动力冲压机&a下方的&e开放储存容器&a（如&e置物台&a)上方，将&e动力冲压机&a与&6动力源&a相连，即可将&e一块铁锭&a加工为&e一块铁板&a。"
+		""
+		"&a如果需要，&b右键&e容器上方&a，拿取物品。"
+		"{@pagebreak}"
+		"&a也可放在&e传送带&a上加工，利用简单的&6物流元件&a来&6放置和收集&a，即可&6简单量产&a。"
+	]
+	quest.1FB411220A26B0E2.quest_subtitle: "合成新机器的常用原料"
+	quest.1FB411220A26B0E2.title: "制造铁板"
+	quest.212936F7AD6C9177.title: "诅咒之刃"
+	quest.21B1C3B5BA524287.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.21B1C3B5BA524287.quest_subtitle: "爱~情~好像流沙~"
+	quest.22D46E770D66A030.quest_desc: [
+		"&a前往&e地狱&a找到&e下界岩&a，将它与&e四块铁板&a合成为&e空的烈焰人燃烧室&a。"
+		""
+		"&a完成后前往&e黄铜时代&a章节，学习如何抓捕一只&e烈焰人&a。"
+		""
+		"{ \"text\": \"点击跳转：获取烈焰人燃烧室\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C7FAE5FB0D2C3BE\" } }"
+	]
+	quest.22D46E770D66A030.quest_subtitle: "来到黄铜时代的大门前"
+	quest.2396F47A8B33F251.quest_desc: ["&a使用&5绝缘&a附魔对策。"]
+	quest.2396F47A8B33F251.quest_subtitle: "对的对的对的"
+	quest.253B8855197D37F5.quest_desc: ["可在下界要塞和猪灵堡垒的箱子中找到。"]
+	quest.253B8855197D37F5.quest_subtitle: "用于升级烈焰人燃烧室"
+	quest.25B68E2426B7998D.title: "冰棘"
+	quest.2600AAD51FFD0860.quest_subtitle: "感到厌倦了？"
+	quest.2613DD2AB71652A8.quest_subtitle: "都说我没有胖！"
+	quest.26BE72F4A0B6196E.title: "硬化"
+	quest.26CEC88F4384CA99.quest_desc: ["&a使用&5分裂抑制&a附魔对策。"]
+	quest.26CEC88F4384CA99.quest_subtitle: "本以为抓个小贼，没想到捅了老窝！"
+	quest.279C59EDF80D7AD2.title: "必须掌握的知识：FTB任务书"
+	quest.28C318A414DAA913.quest_desc: [
+		"&a饮用后将清空玩家的&6难度等级&a。"
+		""
+		"&a不同于原版的&c食物和饮品&a，该物品&c没有进食速度&a。"
+		""
+		"&a无需长按，只需单次右键就能饮用。"
+		"&e（小心长按导致一次性喝光好几瓶哦）"
+	]
+	quest.28C318A414DAA913.quest_subtitle: "洗心革面"
+	quest.28CB99069C2B6416.quest_desc: [
+		"&a使用&e动力冲压机&6冲压&e金锭&a来获得。"
+		"{@pagebreak}"
+		"&a与获取&e铁板&a的方式一致。不要将它与&e黄铜板&a混淆。"
+		""
+		"{ \"text\": \"点击跳转：制造铁板\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FB411220A26B0E2\" } }"
+	]
+	quest.28CB99069C2B6416.quest_subtitle: "高级工具的关键材料"
+	quest.28DD61278EF8AA55.quest_desc: [
+		"&a佩戴&d混沌抢夺宝珠&a击杀&5100级以上&c神速III&a词条怪物获取。"
+		""
+		"&a您也可以："
+		"{ \"text\": \"点击跳转：按照物品描述获取千风精华\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A2711A24A442F3B\" } }"
+	]
+	quest.291DCC19505D3807.quest_subtitle: "没有人会拒绝预制建筑吧"
+	quest.29DC9DE71E8B6DCB.quest_subtitle: "这潜影贝吃苦力怕长大的？"
+	quest.29E5F3919F542B5C.title: "采集作业元件"
+	quest.2A2711A24A442F3B.quest_desc: [
+		"&a当玩家移动速度达到要求的时候，玩家背包内的&e捕风瓶&a会自动转化成&e千风精华&a。"
+		""
+		"&a比较稳定的获取手段是搭建&cTNT大炮&a，将自己发射出去。"
+		"&d(单次发射至少需要17个TNT才能达到要求，当心别被炸死哦)"
+		"{image:kubejs:textures/ftbquests/tnt_cannon.png width:145 height:145 align:center}"
+		""
+		""
+		"&a被&612级以上的呼啸之风&a吹飞也可以获取。"
+		""
+		"&a当然，你也可以："
+		"{ \"text\": \"点击跳转：使用抢夺宝珠获取千风精华\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"28DD61278EF8AA55\" } }"
+	]
+	quest.2A2711A24A442F3B.quest_subtitle: "把风装进瓶子里吧！"
+	quest.2C942ACE94FB1FD2.quest_desc: ["&a使用&5保险&a、&5硬化&a、&5永恒&a附魔对策。"]
+	quest.2C942ACE94FB1FD2.quest_subtitle: "低耐久特攻"
+	quest.2D3297847FD0A3DA.quest_desc: [
+		"&a使用&e禁锢&a状态效果对策。"
+		""
+		"&a使用&6禁锢诅咒之戒&a对策。"
+	]
+	quest.2D3297847FD0A3DA.quest_subtitle: "试想一下，一只离你足足16格远的苦力怕下一刻就出现在你的面前……"
+	quest.2D5EC5886118C87E.title: "同心"
+	quest.2D8145CB64C58C0A.quest_desc: [
+		"&a在&e大齿轮&a的&6径向斜角处&a放置&e小齿轮&a，即可让&e小齿轮&a的&d转速翻倍&a，且&d转向取反&a。"
+		""
+		"&c注意：加速到超过转速上限时，齿轮会崩解。"
+		"{@pagebreak}"
+		"&a技巧：将&e齿轮&6封装为&e齿轮箱&a后，可实现&6早期&a内&6较为紧凑&a的&6变速结构&a。最好从&6输入端&a开始搭建（图中是&6从下到上&a）。"
+		""
+		"{image:kubejs:textures/ftbquests/gear_shifting.png width:100 height:100 align:center}"
+	]
+	quest.2D8145CB64C58C0A.quest_subtitle: "最基础的变速方案"
+	quest.2D8145CB64C58C0A.title: "齿轮变速法"
+	quest.2EE2BD3B54AEF633.quest_desc: [
+		"&a适当使用下列的&6传动元件&a，可让工程结构变得&6小巧浓缩&a。也可以只用&e齿轮&a和&e传动杆&a。"
+		"{@pagebreak}"
+		"&6传动元件&a专职传递&d应力&a。"
+		"&c注意：应力输入存在转向冲突时，传动处的构件将崩解为掉落物。"
+		""
+		"&c有转速冲突而没有转向冲突时，转速高的一方会加速转速低的一方，让传动处转速相等。"
+	]
+	quest.2EE2BD3B54AEF633.quest_subtitle: "运输应力的元件"
+	quest.2EE2BD3B54AEF633.title: "基础传动元件"
+	quest.2F649E1B6AFBE5FB.title: "撕裂之刃"
+	quest.30FE98FEA6FF26F2.title: "弹射物免疫"
+	quest.30FF51B4DE9BFB79.quest_subtitle: "百分比减伤"
+	quest.3133CB90FA04C967.title: "剑风"
+	quest.31464096DE2E0E87.quest_subtitle: "还是个列车装配站"
+	quest.3230FF1273472908.quest_desc: [
+		"&a对策&c诸神黄昏&a。"
+		""
+		"{ \"text\": \"诸神黄昏\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71CA96A3BFE47C3A\" } }"
+	]
+	quest.3230FF1273472908.quest_subtitle: "它需要一个经验修补。"
+	quest.323628E260BA2EE8.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.323628E260BA2EE8.quest_subtitle: "珍惜眼前的美好"
+	quest.32B43C0B72E9AA6A.quest_subtitle: "我要我要我还要"
+	quest.3393327B6C04B7A8.title: "末影迁移"
+	quest.33E62BE9423ADFE5.quest_desc: [
+		"&e机械动力&a是以&6机械传动&a、&6动态结构&a、&6趣味物流&a、以及&6各种独特产品&a等等为特色的&8&m建筑装饰&r&a工业模组。"
+		""
+		"&a该模组相比于传统工业模组&6更美观、更有趣，也更简单易上手&a。因此，请对自己有些信心，&e轻松愉快地享受机械动力的乐趣吧！"
+		""
+		"&a本整合包还提供了&6大量附属&a扩展玩家的体验！"
+		"&c                                                                             这里还有第二页哦↓"
+		"{@pagebreak}"
+		"&a在&e本章节的任务&a中，除第一页外，&6其他分页&a均用于&6更深入的说明&a。"
+		""
+		"&e机械动力&a拥有官方的&6思索&a功能，可&6直观地学习&a各个元件的使用细节。&7（游戏里内置官方wiki说是）"
+		""
+		"&a本篇任务仅作为入门指引，以防你面对琳琅满目的方块，而感到无从下手。因此&6不需要也不建议&a读完全部任务文本。"
+		""
+		"{ \"text\": \"点击跳转：思索\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06B15B851CF8C678\" } }"
+	]
+	quest.33E62BE9423ADFE5.quest_subtitle: "齿轮传动的工业之旅"
+	quest.33E62BE9423ADFE5.title: "&e欢迎来到机械动力"
+	quest.34812373C595A7D1.quest_desc: ["&a对策&c排斥&a、&c吸引&a。"]
+	quest.34812373C595A7D1.title: "绝缘"
+	quest.350F017B80A1EC55.quest_subtitle: "君临天下"
+	quest.350F017B80A1EC55.title: "&6【核心】&r傲慢诅咒"
+	quest.35B582322016F1BD.title: "工具箱"
+	quest.35BFB220692FFD11.quest_desc: ["&a该词条只在Boss身上出现。"]
+	quest.35BFB220692FFD11.quest_subtitle: "“你就是我的Master吗？”"
+	quest.3633695070B06A45.quest_desc: [
+		"&e离合器&a在收到&6红石信号&a后，&6切断输出端的传动&a。"
+		"{@pagebreak}"
+		"&a技巧：如果只需要&6手动开关传动&a，可以直接用&e扳手&a拧转&6传动元件&a。"
+	]
+	quest.3633695070B06A45.quest_subtitle: "搭配红石来开关传动"
+	quest.364F919B91A2E2EF.title: "火焰免疫"
+	quest.36DC02421E05E651.quest_desc: [
+		"可以使用法术&c止心术&r来抵抗伤害。"
+		""
+		"{image:kubejs:textures/ftbquests/list_explosion_damage.png width:140 height:70 align:center}"
+	]
+	quest.371AE1A194994D09.quest_desc: [
+		"&a首次制作混沌锭需要通过以下方式："
+		"{image:kubejs:textures/ftbquests/recipe_of_chaos_ingot.png width:92 height:46 align:center}"
+		""
+		"&a其中除了&b千风精华&a，其余材料都可以通过&3魔能抢夺宝珠&a击杀对应词条怪物获取。"
+		""
+		"{ \"text\": \"点击跳转：获取千风精华\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A2711A24A442F3B\" } }"
+	]
+	quest.371AE1A194994D09.quest_subtitle: "制作强大饰品的必需材料"
+	quest.371AE1A194994D09.title: "&5混沌锭"
+	quest.37670BDF8DB8F020.title: "欢迎来到ShH's Create"
+	quest.3787F8C1BA907180.quest_desc: [
+		"&6充分利用&a各类&e辅助工具&a，以让&6建造&a变得&6更加简单&a。"
+		""
+		"&a前往&e实用工具&a章节获取更多信息。"
+		""
+		"{ \"text\": \"点击跳转：实用工具\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E617E68463DA6A9\" } }"
+	]
+	quest.3787F8C1BA907180.quest_subtitle: "搭建工程的辅助工具"
+	quest.3787F8C1BA907180.title: "实用工具"
+	quest.382FA06FAA6DA1B4.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.382FA06FAA6DA1B4.quest_subtitle: "像是一脚踩进了细雪。"
+	quest.3A19D3B1A7C76533.quest_desc: [
+		"&e蒸汽引擎&a用来构建&e锅炉&a。建议到&6黄铜时代&a再来使用这个&6超强动力源&a！"
+		""
+		"&a也可以先睹为快↓"
+		""
+		"{ \"text\": \"点击跳转：蒸汽引擎\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"27F3E9E03417A028\" } }"
+		"{@pagebreak}"
+		"&e锅炉&a真正的效率只在&6黄铜时代&a才能表现出来。不过，也可以在拥有&e动力冲压机&a和&e动力泵&a后就开始应用它，即&6被动状态的锅炉&a。"
+		""
+		"{ \"text\": \"点击跳转：被动状态\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"470D440D698DE696\" } }"
+	]
+	quest.3A19D3B1A7C76533.quest_subtitle: "蒸汽动力"
+	quest.3A19D3B1A7C76533.title: "更强的动力？"
+	quest.3A51AFAD260A1F59.quest_desc: [
+		"&5【莱特兰·恶意】&a是一个增强怪物的mod。"
+		""
+		"&a模组增加了难度系统，分为玩家的&6难度等级&a和怪物的&5恶意等级。"
+		""
+		"&a随着玩家&6难度等级&a的提升，生成的怪物的&5恶意等级&a也会提升，从而变得更加强大，甚至还会拥有独特的机制。"
+		""
+		"&a玩家击杀怪物将&6提升难度等级&a，死亡将&6降低难度等级&a，从而维持玩家实力与怪物实力的动态平衡。"
+	]
+	quest.3A51AFAD260A1F59.quest_subtitle: "开始探索这个恶意的世界吧"
+	quest.3A51AFAD260A1F59.title: "&5莱特兰恶意教程"
+	quest.3B1956E03B3BD46A.quest_subtitle: "圣人始终不偏不倚地行走在正确的道路上。"
+	quest.3DA7D8412EDDB308.quest_desc: [
+		"&e工作盆&a可暂存多种&e物品&a和&e液体&a，且&6输入&a和&6输出&a都有独立的缓存空间。"
+		""
+		"&a后面几页依次介绍&6操作细节&a、&6龙头/开口机制&a、&6储存空间&a和&6加工/输出细节&a。"
+		"{@pagebreak}"
+		"&a可通过&b空手右键&a取出工作盆里的&e全部物品&a。手持&e海绵&b右键&a则清空全部流体，不消耗海绵。"
+		""
+		"&a储存的&e液体&a不发生相互作用，如&e水&a与&e岩浆&a可以&6安全共存&a。"
+		""
+		"&c挖掉工作盆会导致液体储存全部丢失。"
+		"&c每种产品最多储存1组。"
+		"{@pagebreak}"
+		"&a当&e工作盆&a侧面无遮挡，斜下方有&6上方开口&a的&e开放容器&a时，根据容器的类型&e液体/物品&a，可在&6该侧面上&a生成&e龙头/开口&a，指向开放容器。&e龙头/开口&a只存在一个。"
+		""
+		"&e龙头/开口&a自动向目标容器输出&e流体/物品&a，不会把输入的物品输出。"
+		""
+		"&a可用的开放容器包括&e传送带&a、&e石磨&a等。"
+		"{@pagebreak}"
+		"&e工作盆&a可储存&d18格物品&a。&6输入&a、&6输出&a各有&d9格&a，每格储存&d一组物品&a。有&d4个液体槽位&a，&6输入&a、&6输出&a各有&d2个槽位&a，每个槽位储存&d1000mb液体&a。"
+		""
+		"&c龙头/开口包含一个隐藏槽位，其堵塞时会中止加工。"
+		"{@pagebreak}"
+		"&e工作盆&a对&e物品&a的单次输入上限为&d16个&a，仅&6吸收掉落物&a时可单次输入&d64个&a。"
+		""
+		"&e工作盆&a的加工优先级为：&e物品间配方&6>&e物液间配方&6>&e液体间配方&a。"
+		""
+		"&e输入槽内&a存在&6可处理配方&a时，优先处理&e输出槽内&a，否则考虑&e所有储存物品/液体之间&a的&6可处理配方&a。"
+		""
+		"&c使用漏斗/泵进行输出时，若输出槽为空，输入槽的物品/液体就会被输出。"
+	]
+	quest.3DA7D8412EDDB308.quest_subtitle: "固液混储的中容量开放容器"
+	quest.3E617E68463DA6A9.title: "实用工具"
+	quest.3E7F5D1A8726E2B9.quest_desc: [
+		"&6手动&a的&6动力源&a，消耗&6饥饿值&a。"
+		""
+		"&b右键点击&a来使用一次。"
+		"{@pagebreak}"
+		"&b右键点击&a时产生&d逆时针&d应力&a。"
+		""
+		"&b潜行右键点击&a产生&d顺时针&d应力&a。"
+		""
+		"&6单次点击&a维持&d0.5s&a，&6固定产生&d256su应力&a和&d32RPM转速&a。"
+	]
+	quest.3E7F5D1A8726E2B9.quest_subtitle: "低效简单的手动动力源"
+	quest.3F602DF739238E4A.quest_subtitle: "不消耗燃料的飞机"
+	quest.3FACB517CA63ADF5.title: "生命修补"
+	quest.410D164F96E48678.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.410D164F96E48678.quest_subtitle: "扭~曲~"
+	quest.42A11C13B5873E38.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c榴弹III&a词条怪物获取。"]
+	quest.42C2A3AAD4DAADBE.quest_subtitle: "衣服什么的全都扒光光"
+	quest.4357B662BA244220.quest_subtitle: "抽帧抽走了无敌帧"
+	quest.43D22963AB7E5295.quest_desc: ["&a当&e反转齿轮箱&a接收到&e红石信号&a时，其输出侧将&6反转转向&a。无信号时，&6什么都不做&a，相当于一个&e传动杆箱&a。"]
+	quest.43D22963AB7E5295.quest_subtitle: "搭配红石来控制转向"
+	quest.4420075730625D44.quest_subtitle: "恃强凌弱之人最害怕弱者的反抗。"
+	quest.445564C4C0A6A27F.quest_desc: [
+		"&b莱特兰·扩充&a是一个为&d莱特兰其他模组&a提供了大量&c特殊的材料&a模组。"
+		""
+		"&a您可以通过完成物品描述所写的挑战去获取对应的物品或者材料。"
+		""
+		""
+		"&e本章节任务将为您提供获取这些特殊材料的方法。"
+	]
+	quest.445564C4C0A6A27F.quest_subtitle: "说是扩充，实际上是一切莱特兰模组的起源。"
+	quest.448FD101F7DE41CE.quest_subtitle: "杀~戮~光~环~！"
+	quest.4519D0B28AD8DFA1.quest_subtitle: "简单粗暴的数值。"
+	quest.46AA61D3F63ADDE8.quest_subtitle: "学会如何使用JEI查看物品的来源、用途，以及相关配方。"
+	quest.46AA61D3F63ADDE8.title: "请务必掌握的知识：使用JEI"
+	quest.470CEC5E9E905235.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.470CEC5E9E905235.quest_subtitle: "你反手无力，正手不精，脚步松散，反应迟钝！"
+	quest.470D440D698DE696.quest_desc: [
+		"&a没有点燃的烈焰人燃烧室，而使用各类火、营火等被动热源时，锅炉只能进入低效的被动状态，固定产出较少应力。"
+		""
+		"&a不过，被动状态的锅炉可在黄铜时代前就造出来。"
+		"{@pagebreak}"
+		"&a使用一个&e被动热源&a（比如&e火&a、&e营火&a等）、&d20RPM&a的&e动力泵&a、四个&e相连的流体储罐&a、一个&e蒸汽引擎&a和一格&e无限水&a。此法构建的&e锅炉&a固定产生&d2048su应力&a，净输出&d1968su应力&a。前期可以用&e可调节链式齿轮箱&a调出&d20RPM&a。也可以&d32RPM&a的&e动力泵&a代替，则净输出&d1920su应力&a。&m&6还不到四个水车。&r"
+		""
+		"&c注意：如果你真打算这么做，且建造了多个，请确保它们没有连成一个锅炉。"
+	]
+	quest.470D440D698DE696.quest_subtitle: "断档级低效的锅炉状态"
+	quest.477B6C3FBFD228E8.quest_desc: [
+		"&e齿轮&a和&e传动杆&a是最常用&a的&6传动元件&a。"
+		"{@pagebreak}"
+		"&e齿轮&a分为&e大&a、&e小&a两种，都&d实占&d1x1x1&a。但&e大齿轮&a的&6径向四面&a上不能放置&e齿轮&a。"
+		""
+		"&a手持&e安山机壳&a对&e齿轮&b右键&a，可将&e齿轮&a封装为&e齿轮箱&a，停止&6轴向传动&a，避免&c传动冲突&a损坏&e齿轮&a，且&6不消耗机壳&a。"
+	]
+	quest.477B6C3FBFD228E8.quest_subtitle: "常见的传动元件，也是多个元件的材料"
+	quest.477B6C3FBFD228E8.title: "齿轮和传动杆"
+	quest.4B81E7FEB1AD5A56.quest_subtitle: "随时随地进行传送"
+	quest.4BC2F7E20BF9F6EE.quest_subtitle: "多在野外逛逛吧"
+	quest.4BC2F7E20BF9F6EE.title: "传送石碑"
+	quest.4CCD86ADF1674738.quest_subtitle: "好热——好热啊——！"
+	quest.4E2836EF2F6E283F.title: "炎刃"
+	quest.4E468925B183FF26.title: "自动冶炼"
+	quest.4F04A65311FE539C.quest_desc: ["&a对策&c适应&a、&c摄魂&a。"]
+	quest.4F04A65311FE539C.quest_subtitle: "其实是【幻想杀手】"
+	quest.4F04D8CCD3277063.quest_desc: [
+		"&e置物台&a可以接收&e一种物品&a，并储存&d至多一组&a在其上表面。"
+		"{@pagebreak}"
+		"&a手持物品&b右键点击&e置物台&a，即可将&e手持物品&a与&e置物台上的物品&6交换&a或&6合并&a。当&e掉落物&a出现在&e空置物台&a上方时，也会被&e置物台&6吸收储存。"
+		"{@pagebreak}"
+		"&a在置物台上加工时的&e产品&a可以缓存&d8组&a。"
+		"&c注意：已放有物品的置物台不接收右键点击和加工产出以外的物品输入，即使这些物品可以堆叠。"
+	]
+	quest.4F04D8CCD3277063.quest_subtitle: "暂存物品的小容量开放容器"
+	quest.4FCCF74457D8144F.quest_desc: ["&4无法对策。"]
+	quest.4FCCF74457D8144F.quest_subtitle: "被真实了。"
+	quest.507FFB6534902FBA.quest_desc: [
+		"&a你有&e动力搅拌器&a和&e工作盆&a了吗？如果没有，先准备好它们。"
+		""
+		"{ \"text\": \"点击跳转：动力搅拌器\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F6A3C29FC3450BC\" } }"
+	]
+	quest.507FFB6534902FBA.quest_subtitle: "将锌与铜熔炼融合，重铸成性能更强的合金。"
+	quest.50D6AC4EF0F3DDFC.title: "爆炸免疫"
+	quest.511F5544DF512BB1.quest_desc: [
+		""
+		"{ \"text\": \"圣光守护之戒\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05CD9B7622BEB3AC\" } }"
+	]
+	quest.511F5544DF512BB1.quest_subtitle: "圣光守护之戒的好搭档"
+	quest.51AE3A73498DFF63.quest_desc: [
+		"&a使用&b魔法伤害&a对策。"
+		""
+		"&a使用&5虚空之触&a附魔对策。"
+		""
+		"&a使用&6破咒遗骨&a对策。"
+	]
+	quest.51AE3A73498DFF63.quest_subtitle: "物免+无视护甲"
+	quest.525DDB4B52D1051A.quest_desc: [
+		"&6物流元件&a提供了&6运输和储存&a的便利方法，使您可以搭建&6挂机就能生产的流水线&a。"
+		""
+		"&a翻阅&e物流与自动化&a章节获取灵感。"
+	]
+	quest.525DDB4B52D1051A.quest_subtitle: "物流与自动化"
+	quest.525DDB4B52D1051A.title: "要解放劳动力？"
+	quest.53A9570F1323BD81.quest_desc: [
+		"&a使用&5魔法免疫&a附魔或&6圣光守护之戒&a对策。"
+		""
+		"{ \"text\": \"圣光守护之戒\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05CD9B7622BEB3AC\" } }"
+	]
+	quest.53A9570F1323BD81.quest_subtitle: "死因分析出来了，是自杀.jpg"
+	quest.53BAB5CC16AC95C0.quest_desc: [
+		"&a推荐使用&e能够持续造成伤害的药水或方块(如岩浆块、细雪等)&a来抵消一部分适应造成的影响。"
+		""
+		"&a使用&5冰刃&a、&5炎刃&a、&5撕裂之刃&a、&5虚空之触&a附魔对策。"
+		""
+		"&a使用&6破咒遗骨&a对策。"
+	]
+	quest.53BAB5CC16AC95C0.quest_subtitle: "久而久之，不正常也变得正常。"
+	quest.554E80B94490907E.quest_desc: [
+		"&a将&6放置&a的&e原木&a用&e斧头&a右键&a去皮，手持&e安山合金&a右键&e去皮原木&a，将其封装&a为&e安山机壳&a。&6使用工具把它挖回手上&a。"
+		"{@pagebreak}"
+		"&6手持&e安山机壳&a右键&e齿轮&a、&e传动杆&a、&e传送带&a，可&6封装&a为&e齿轮箱&a或&e传动杆箱&a，作为装饰、避免碰撞。&e齿轮箱&a还具有独特的&6传动&a变化。"
+	]
+	quest.554E80B94490907E.quest_subtitle: "合成作业元件与传动元件的关键材料"
+	quest.55B1EE12FB0F9449.quest_subtitle: "获取大量瓶装恶意。"
+	quest.55DEDCFB44C9F72E.title: "魔法免疫"
+	quest.561CB1A791BF6EE4.quest_desc: [
+		"&a能和其他&e链式齿轮箱&a组成独特的传动系统。"
+		"{@pagebreak}"
+		"&e链式齿轮箱&a常用于&6平行轴传动&a和&6异面垂直传动&a。"
+		""
+		"&6平行轴传动&a类似&e小齿轮之间&a的咬合传动&a，由并列连接的&e链式齿轮箱&a实现。&6转向一致，但只能摆直线&a。"
+		""
+		"{image:kubejs:textures/ftbquests/encased_chain_drive-1.png width:160 height:90 align:center}"
+		"{@pagebreak}"
+		"&6异面垂直传动&a是&e链式齿轮箱&a的特色，只能在&6两种朝向&a的&e链式齿轮箱之间&a形成。可根据&6纹理&a来判断拼接的位置和朝向。"
+		"{image:kubejs:textures/ftbquests/encased_chain_drive-2.png width:160 height:90 align:center}"
+	]
+	quest.561CB1A791BF6EE4.quest_subtitle: "另一位传动的好手，提供独特的传动方法"
+	quest.56A8F476C3B11610.quest_desc: [
+		"&a选择&6一个或多个装置&a，为&6驱动你的机器&a做准备。这些装置就是&6动力源&a。"
+		"{@pagebreak}"
+		"&e机械动力&a的&6能源&a为&d应力&a，&6动力源&a就是产生&d应力&a的&6元件&a。所有&6动力源&a都只有向&e传动杆&a的输出口。"
+		"&c注意：通过动力源输出应力时，应使其转速、转向与传动处一致，否则可能无效或损坏。"
+	]
+	quest.56A8F476C3B11610.quest_subtitle: "产生应力的能源元件"
+	quest.56A8F476C3B11610.title: "基础动力源"
+	quest.56BCED2FDD1D0F87.quest_subtitle: "我即天命"
+	quest.56BCED2FDD1D0F87.title: "&6【核心】&r宝石手套"
+	quest.5A13E6C10C18D5C3.quest_desc: [
+		"&a能工作的元件就是&6作业元件&a，用来加工的元件就是&6加工作业元件&a。&6妥善利用它们&a是&e机械动力&a的&6主要玩法之一&a。"
+		"{@pagebreak}"
+		"&6作业元件&a消耗&d应力&a来&6实现功能&a。&e加工作业元件&a用来&6实现特殊配方&a。"
+		""
+		"&e动力源&a、&e传动元件&a和&e作业元件&a构成一个&e应力网络&a。其中，&e作业元件&a的&6作业速率&a随着&d转速&a的上升而上升。&d应力消耗&a也是如此。"
+		""
+		"&d转速&a的上限是&d256RPM&a。"
+		""
+		"&c注意：当应力消耗大于应力产出时，应力网络将中止所有的传动与作业，称为应力过载。"
+	]
+	quest.5A13E6C10C18D5C3.quest_subtitle: "早期可用的加工机器"
+	quest.5A13E6C10C18D5C3.title: "基础加工作业元件"
+	quest.5AB0D3993583910C.quest_desc: [
+		"&a使用&e缓慢&a、&e禁锢&a状态效果对策。"
+		""
+		"&a使用&6禁锢诅咒之戒&a对策。"
+	]
+	quest.5AB0D3993583910C.quest_subtitle: "跑得超快！"
+	quest.5B4E1E5F9AB883F2.quest_subtitle: "增加头饰栏位"
+	quest.5B4E1E5F9AB883F2.title: "&3异&5色&6眼镜"
+	quest.5C88216A88C8A529.quest_desc: [
+		"&a使你可以&6快速手动合成&a某种物品，但只在&6固定地点&a提供便利。&6早期批量合成&a时有用。"
+		""
+		"&a不要将其与&e蓝图&a混淆。"
+		""
+		"{ \"text\": \"点击跳转：空白蓝图\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2682D13C14C3B547\" } }"
+		""
+		"{@pagebreak}"
+		"&e合成蓝图&a可放置在方块的&6任意一面&a。"
+		""
+		"&a在平面上放置时，如果空间足够，一张合成蓝图就可以存放&d2*2/3*3&a个配方，实现节约。"
+		"{image:kubejs:textures/ftbquests/crafting_blueprint-1.png width:200 height:150 align:center}"
+		""
+		"&c注意：谨防弹射物。&m比如女仆和女仆妖精的弹幕&r&r"
+		""
+		"{@pagebreak}"
+		"&a放置后，&b右键&a打开面板&a，填入&e合成表&a。"
+		""
+		"&a技巧：&6配置合成表&a时，可使用&eJEI&a。"
+		"{image:kubejs:textures/ftbquests/crafting_blueprint-2.png width:150 height:145 align:center}"
+		""
+		"&a在&eJEI&a打开&e物品合成表&a后，&a点击&b“+”&a转移物品即可。"
+		"{image:kubejs:textures/ftbquests/crafting_blueprint-3.png width:150 height:50 align:center}"
+		""
+		"&a该方法&6自动提供标签过滤&a，应优先使用。"
+		"{ \"text\": \"点击跳转：必须掌握的知识：使用JEI\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"46AA61D3F63ADDE8\" } }"
+		""
+		"{@pagebreak}"
+		"&a完成配置&a且&6背包内有原料&a时，对&e合成蓝图&b右键&a可合成&e一个物品&a，&b潜行右键&a可合成&e一组&a。"
+		"{image:kubejs:textures/ftbquests/crafting_blueprint-4.png width:150 height:150 align:center}"
+	]
+	quest.5C88216A88C8A529.quest_subtitle: "手动合成辅助工具"
+	quest.5CB83B207F4279BA.quest_desc: ["想要连接不同的电源、用电器，我们需要使用&b连接器&r和&b线(轴)&r来将它们连接起来。目前，模组提供了铜线（轴）、金线（轴）、琥珀金线（轴）"]
+	quest.5CB83B207F4279BA.quest_subtitle: "将电力导出的方法"
+	quest.5CB83B207F4279BA.title: "让我们开导！"
+	quest.5DF518B27AF3EEFB.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c吸引&a词条怪物获取。"]
+	quest.5E2D39EB6D39D681.quest_subtitle: "增加背饰栏位"
+	quest.5E2D39EB6D39D681.title: "三&4色&8披&6风"
+	quest.5E489B1EF65A6F5F.quest_desc: [
+		"&a佩戴&e粗糙抢夺宝珠&a，击杀带有&c重力&a或者&c月步&a词条的怪物，获取龙息。"
+		""
+		"&a当然，你也可以通过原版的方式获取。"
+	]
+	quest.5E489B1EF65A6F5F.quest_subtitle: "制作&3魔能抢夺宝珠&r的材料，可以通过&e粗糙抢夺宝珠&r提前获取。"
+	quest.5E4DCC0622BAD2AC.title: "&3魔能抢夺宝珠"
+	quest.5EE90FA94FD5B51E.quest_subtitle: "提供禁锢状态效果"
+	quest.5F26A88503E116ED.title: "伤害免疫"
+	quest.5F6A3C29FC3450BC.quest_desc: [
+		"&e动力搅拌器&a同样是&6不可或缺的&a加工元件。在获得&e烈焰人燃烧室&a后，需要用它合成&e黄铜&a。"
+		""
+		"&e动力搅拌器&a还兼容所有&6无序配方&a、&6酿造配方&a，非常实用。"
+		"{@pagebreak}"
+		"&a只在&d30RPM以上&a的转速工作。"
+	]
+	quest.5F6A3C29FC3450BC.quest_subtitle: "加工无序配方，酿造，以及制造黄铜"
+	quest.63511257FA9EFF84.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c排斥&a词条怪物获取。"]
+	quest.63AB0604E9CF10DD.quest_desc: ["&6最基本&a的合金材料。使用两个&e铁粒&a和两个&e安山岩&a即可&6合成&a&e安山合金&a。"]
+	quest.63AB0604E9CF10DD.quest_subtitle: "机械动力的起源"
+	quest.63B601D905A574E1.quest_desc: ["&6莱特兰·恶意的最终饰品，那些作用在你身上的恶意词条都不再起效，转而施加于那些对你怀揣恶意的人身上。"]
+	quest.63B601D905A574E1.quest_subtitle: "“若世人恨你们，你们知道，恨你们以先已经恨我了。”"
+	quest.63B601D905A574E1.title: "&6【核心】&r扭曲之魂"
+	quest.6446BF9EC4F89451.title: "保险"
+	quest.6448EE01DD79E42F.quest_subtitle: "知晓这些按键分别对应着什么功能。"
+	quest.6448EE01DD79E42F.title: "需要掌握的知识：基础按键绑定"
+	quest.64C3BF58E57323D2.quest_desc: [
+		"&l&6总目录"
+		""
+		""
+		""
+		""
+		"{@pagebreak}"
+	]
+	quest.64C3BF58E57323D2.title: "相比于原版的一些改动"
+	quest.69A2A7FD953ED239.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.69A2A7FD953ED239.quest_subtitle: "凋零骷髅的饭碗"
+	quest.69A5BFA6AD5A8F4E.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.69A5BFA6AD5A8F4E.quest_subtitle: "洞穴蜘蛛的饭碗"
+	quest.6A10338F82E25563.quest_desc: [
+		"&a使用&e诅咒&a状态效果对策。"
+		""
+		"&a使用&5诅咒之刃&a附魔对策。"
+	]
+	quest.6A10338F82E25563.quest_subtitle: "什么叫不死图腾也有不死图腾？"
+	quest.6ACBD05D3E554657.quest_subtitle: "现在，它可以通过击杀对应词条的怪物掉落获取。"
+	quest.6B0C072AA2D028F9.quest_desc: [
+		"&a基于&e红石&a的&6红石元件&a可实现更方便的&6延迟&a、&6中继&a、&6信号延长&a、&6定时触发&a和&6远程遥控&a。"
+		""
+		"&a需要时前往&e物流与自动化&a章节查看。"
+	]
+	quest.6B0C072AA2D028F9.quest_subtitle: "高级红石元件"
+	quest.6B0C072AA2D028F9.title: "需要远程控制？"
+	quest.6B65CB16A7C09F97.quest_desc: [
+		"&b交流发电机&a是本包获取电力的唯一途径，电力以为&bFE&a单位，为与模组统一口径，下文将以FE指代电力。"
+		""
+		"&a通过向交流发电机施加应力，即可将应力转化为FE。要使交流发电力能够正常发电，需要使其达到至少&b30RPM&a的转速，应力消耗量为&e64su/RPM&a。转速越高则应力向FE的转化速率越高，转化速率可从&b42FE/t&a提高至最多&b360FE/t&a。"
+		""
+		"&a交流发电机可以储存&b5kFE&a的电力。"
+		""
+		"&a你将在后续任务中学会如何传输并使用FE。"
+	]
+	quest.6B65CB16A7C09F97.quest_subtitle: "交流发电机"
+	quest.6B65CB16A7C09F97.title: "让我们来获取电！"
+	quest.6BE34726A5C658EE.title: "&6【核心】&r再生之戒"
+	quest.6C002386065B888C.title: "环境免疫"
+	quest.6E9DD2D68EB01709.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c复印&a词条怪物获取。"]
+	quest.6F98338D5F83FA2C.quest_desc: ["&a使用&b物理伤害&a对策。"]
+	quest.6F98338D5F83FA2C.quest_subtitle: "魔免+封禁附魔"
+	quest.7048A4F8D9CF70D4.title: "召唤者保护"
+	quest.70D385E9FD29CDD5.quest_subtitle: "包含传送、设置家园等无需作弊也能使用的指令。"
+	quest.70D385E9FD29CDD5.title: "建议掌握的知识：快捷指令"
+	quest.71CA96A3BFE47C3A.quest_desc: [
+		"&a使用&6解咒口袋&a对策。"
+		""
+		"{ \"text\": \"解咒口袋\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3230FF1273472908\" } }"
+	]
+	quest.71CA96A3BFE47C3A.quest_subtitle: "众神死亡的荒原"
+	quest.73A8056B636335D0.quest_desc: [
+		"&4无法对策。"
+		""
+		"&a后期唯一可威胁到玩家的词条。若怪物复制了&6虚空之触&a附魔，则可以击穿伤害免疫附魔。"
+	]
+	quest.73A8056B636335D0.quest_subtitle: "看来是同类型的替身呢。"
+	quest.78FC1D37DCC2C65D.quest_desc: [
+		"&a佩戴这类饰品后&6击杀带有词条的怪物&a会获取对应的掉落物。"
+		""
+		"&e粗糙抢夺宝珠&a获取的大部分是原版的物品，而从&3魔能抢夺宝珠&a开始，玩家可以通过击杀带有词条的怪物获取大部分莱特兰扩充和恶意中的材料，"
+		""
+		"&c具体对应材料可以查看JEI。"
+		"{image:kubejs:textures/ftbquests/charm_of_looting.png width:130 height:130 align:center}"
+		""
+		""
+		"&a作为潘多拉饰品，这些抢夺宝珠也可以被放入潘多拉饰品串中。"
+		"{image:kubejs:textures/ftbquests/charm_of_looting_in_pandora.png width:150 height:50 align:center}"
+	]
+	quest.78FC1D37DCC2C65D.title: "&e粗糙抢夺宝珠"
+	quest.7941AF87A3F0FCAD.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.7941AF87A3F0FCAD.quest_subtitle: "灼烧灵魂"
+	quest.7A6856E70C510D74.quest_desc: ["&a佩戴&3魔能抢夺宝珠&a击杀&c分裂&a词条怪物获取。"]
+	quest.7A8DD18DE6BA3B81.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c再生III&a词条怪物获取。"]
+	quest.7B38EC488FFC125C.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.7B38EC488FFC125C.quest_subtitle: "你的伤口无法愈合"
+	quest.7C14A160A1024E72.title: "炎棘"
+	quest.7CADD1827FAFACB9.quest_desc: ["&c该词条仅在史莱姆身上出现。"]
+	quest.7CADD1827FAFACB9.quest_subtitle: "无限生长"
+	quest.7CBED737E7CED270.quest_subtitle: "齿轮变速已成过去式"
+	quest.7CE4FE7F4520A49B.quest_subtitle: "【神之手】"
+	quest.7D2F0EEA397C59A5.quest_desc: [
+		"&a使用&e禁锢&a状态效果对策。"
+		""
+		"&a使用&6禁锢诅咒之戒&a对策。"
+	]
+	quest.7D2F0EEA397C59A5.quest_subtitle: "吼吼，非但没有逃跑，反而还向我靠近了吗？"
+	quest.7E31F579872775F7.quest_subtitle: "区区致命伤"
+	quest.7E31F579872775F7.title: "&6【核心】&r屹立不倒之戒"
+	quest.7EE4991628B8A64C.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.7EE4991628B8A64C.quest_subtitle: "止心术的天敌"
+	quest.7FD21E494B9F661F.quest_desc: [
+		"&a有&e流动液体&a就能用的&6动力源&a。有&e水车&a和&e大型水车。"
+		""
+		"&a水车上有&6单一转向趋势&a的&e流动液体&a时，&e水车&a即产生&d应力&a，&d转向&a与趋势相同。"
+		"{@pagebreak}"
+		"&a具体来说，在水车&6径向边缘方格&a上，存在&6切向&a的&e流动液体&a，且两种转向的&e流动液体&a所占的&6方格数不相等&a时，&d转向&a等同于两类转向中&6占方格最多&a的一类。"
+		"{image:kubejs:textures/ftbquests/water_wheel.png width:160 height:90 align:center}"
+		"{@pagebreak}"
+		"&e水车&d实占1x1x1&a，&e大型水车&d实占3x3x1&a。&6固定产生&d256su&e（小）&a或&d512su&e（大)&d应力&a，和&d8RPM&e(小）&a或&d4RPM&e（大）&d转速&a。"
+	]
+	quest.7FD21E494B9F661F.quest_subtitle: "廉价的庞大动力源"
+	quest.7FD21E494B9F661F.title: "水车"
+	task.0D2EAB9DC0EE9372.title: "Hello World"
+	task.0E3AAFF3E2DB6DBD.title: "自动完成"
+	task.13AA535FC2321FBA.title: "快捷指令"
+	task.20AC3D2430FF9866.title: "被动状态"
+	task.26D9FB0D05921639.title: "思索"
+	task.2A66344E9DA3439E.title: "Any #waystones:sharestones"
+	task.3BF7DC55415C61E5.title: "自动完成"
+	task.3DA0D7B56F8D5981.title: "JEI"
+	task.426CDA8DC02E4D4C.title: "列车！"
+	task.4F0404DAE6529C9C.title: "合成一个御币"
+	task.5534BC01A2B821FE.title: "按键绑定"
+	task.5A30DC29722C269C.title: "自动完成"
+	task.66440F1D17637E87.title: "投影三件套"
+	task.69EB950B0396926A.title: "Any #minecraft:logs"
+	task.7059C99A2FD01A26.title: "FTB任务书"
+	task.757ACA05CA85791D.title: "一些改动"
+	task.79CB87E352172A5D.title: "开始"
+	task.7C0F8D619ED894EB.title: "Any #waystones:waystones"
+}

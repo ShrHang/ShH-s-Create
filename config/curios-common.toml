@@ -1,0 +1,14 @@
+#List of slots to create or modify.
+#See documentation for syntax: https://docs.illusivesoulworks.com/curios/configuration#slot-configuration
+#
+slots = [
+    "id=hostility_curse;size=3;add_cosmetic=fale;render_toggle=false",
+    "id=charm;size=6",
+    "id=bracelet;size=2;add_cosmetic=false;render_toggle=false",
+    "id=ring;size=4;add_cosmetic=false;render_toggle=false",
+    "id=artifact_belt;size=2;add_cosmetic=false;render_toggle=false",
+    "id=artifact_body;size=2;add_cosmetic=false;render_toggle=false",
+    "id=artifact_bracelet;size=2;add_cosmetic=false;render_toggle=false",
+    "id=artifact_head;size=2;add_cosmetic=false;render_toggle=false",
+    "id=artifact_necklace;size=2;add_cosmetic=false;render_toggle=false"
+]

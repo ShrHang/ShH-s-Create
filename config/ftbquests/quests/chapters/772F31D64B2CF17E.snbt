@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "772F31D64B2CF17E"
+	group: "7437108D1F64EFF9"
+	icon: {
+		id: "createaddition:large_connector"
+	}
+	id: "772F31D64B2CF17E"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B65CB16A7C09F97"
+			tasks: [{
+				id: "400F81BFC42B5591"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "5CB83B207F4279BA"
+			tasks: [
+				{
+					id: "1BB065C931439128"
+					item: { count: 1, id: "createaddition:rolling_mill" }
+					type: "item"
+				}
+				{
+					id: "273942834F210CF1"
+					item: { count: 1, id: "createaddition:connector" }
+					type: "item"
+				}
+				{
+					id: "285D3DAEB9477769"
+					item: { count: 1, id: "createaddition:copper_spool" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+}

@@ -1,0 +1,891 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "40437B4F8E0FBBDF"
+	group: "24E1E7D7A02B474F"
+	icon: {
+		id: "l2complements:resonant_feather"
+	}
+	id: "40437B4F8E0FBBDF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "445564C4C0A6A27F"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "79CB87E352172A5D"
+				type: "checkmark"
+			}]
+			x: -1.25d
+			y: -2.5d
+		}
+		{
+			id: "5EE90FA94FD5B51E"
+			tasks: [{
+				id: "6CBD3A165BA615BE"
+				item: { count: 1, id: "l2complements:black_fire_charge" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			id: "7B48A4337C56ACA8"
+			tasks: [{
+				id: "455FF119D92F6C0D"
+				item: { count: 1, id: "l2complements:soul_fire_charge" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			id: "69DA76FC93319E47"
+			tasks: [{
+				id: "7204BF37FB506C4D"
+				item: { count: 1, id: "l2complements:strong_fire_charge" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69DA76FC93319E47"]
+			id: "36DC02421E05E651"
+			tasks: [{
+				id: "74949B5CF2A8CF21"
+				item: { count: 1, id: "l2complements:explosion_shard" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B48A4337C56ACA8"]
+			id: "07A05CCD2FFE024F"
+			tasks: [{
+				id: "0E5AC97DB2D33494"
+				item: { count: 1, id: "l2complements:soul_flame" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5EE90FA94FD5B51E"
+				"045065603B453201"
+			]
+			dependency_requirement: "one_completed"
+			id: "2FCC371D5213B83E"
+			tasks: [{
+				id: "0B2FC893DD194DD9"
+				item: { count: 1, id: "l2complements:blackstone_core" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["42A010BDA9943D1D"]
+			id: "045065603B453201"
+			tasks: [{
+				id: "07BB81E9D34A5BC1"
+				item: { count: 1, id: "l2complements:piglin_rune" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["43557FB7BC2C9B01"]
+			id: "1900936ABB258B78"
+			tasks: [{
+				id: "7F458D19178D891A"
+				item: { count: 1, id: "l2complements:guardian_eye" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A50194C27D6472B"]
+			id: "43557FB7BC2C9B01"
+			tasks: [{
+				id: "24D95BDE9BF86923"
+				item: { count: 1, id: "l2complements:guardian_rune" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "1534307BE9B7D761"
+			tasks: [{
+				id: "02992771828783C1"
+				item: { count: 1, id: "l2complements:wind_capture_bottle" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1534307BE9B7D761"]
+			id: "1A6A47C2970611F0"
+			tasks: [{
+				id: "375EE489E2860F7A"
+				item: { count: 1, id: "l2complements:captured_shulker_bullet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1534307BE9B7D761"]
+			id: "2A2711A24A442F3B"
+			tasks: [{
+				id: "475AE4C8CE172101"
+				item: { count: 1, id: "l2complements:captured_wind" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69DA76FC93319E47"]
+			dependency_requirement: "one_started"
+			id: "22D8C6F11DA33EB3"
+			tasks: [{
+				id: "0626B173664933E3"
+				item: { count: 1, id: "l2complements:storm_core" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			id: "16C0632E73E17B48"
+			tasks: [{
+				id: "2CEC1C68FE00CDBA"
+				item: { count: 1, id: "l2complements:life_essence" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "42A010BDA9943D1D"
+			tasks: [{
+				id: "41D2180AAEE1C31A"
+				item: { count: 1, id: "l2complements:cursed_droplet" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1A6A47C2970611F0"]
+			id: "6CD223F1D620B7A2"
+			tasks: [{
+				id: "1459FBD7E588B378"
+				item: { count: 1, id: "l2complements:shulkerate_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["39370AFC4F72970F"]
+			id: "0E41D3E620DD7B7B"
+			tasks: [{
+				id: "3B4C290EE0EBC504"
+				item: { count: 1, id: "l2complements:totemic_gold_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0D135F571A0A051B"]
+			id: "5BA70E60F0245D1C"
+			tasks: [{
+				id: "7DCF6FD6E2C64062"
+				item: { count: 1, id: "l2complements:eternium_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E4490C78600DB97"]
+			id: "7A50194C27D6472B"
+			tasks: [{
+				id: "54121B2E7DD8AC23"
+				item: { count: 1, id: "l2complements:poseidite_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["513F429DAB95E36D"]
+			id: "72C9BCE11B9BCEB9"
+			tasks: [{
+				id: "117FB06810525BFB"
+				item: { count: 1, id: "l2complements:sculkium_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "2E4490C78600DB97"
+			tasks: [{
+				id: "1712288304DB67EF"
+				item: { count: 1, id: "minecraft:trident" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "39370AFC4F72970F"
+			tasks: [{
+				id: "66F6C07C4CBDDEAA"
+				item: { count: 1, id: "minecraft:totem_of_undying" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			id: "513F429DAB95E36D"
+			tasks: [{
+				id: "2A8810146C248861"
+				item: { count: 1, id: "l2complements:warden_bone_shard" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "0D135F571A0A051B"
+			tasks: [{
+				id: "08C64F90792B9CD7"
+				item: { count: 1, id: "l2complements:eternium_nugget" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E41D3E620DD7B7B"]
+			id: "7C4FE9B979684280"
+			tasks: [
+				{
+					id: "210744F3F7C3FD35"
+					item: { count: 1, id: "l2complements:totemic_gold_helmet" }
+					type: "item"
+				}
+				{
+					id: "0F1F5886CBFFA950"
+					item: { count: 1, id: "l2complements:totemic_gold_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4584FF972A726E45"
+					item: { count: 1, id: "l2complements:totemic_gold_leggings" }
+					type: "item"
+				}
+				{
+					id: "0EE86D420C743B51"
+					item: { count: 1, id: "l2complements:totemic_gold_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7A50194C27D6472B"]
+			id: "4AF9F7E5BE97E372"
+			tasks: [
+				{
+					id: "0CF0246094B24186"
+					item: { count: 1, id: "l2complements:poseidite_helmet" }
+					type: "item"
+				}
+				{
+					id: "5F30282D7464C8D7"
+					item: { count: 1, id: "l2complements:poseidite_chestplate" }
+					type: "item"
+				}
+				{
+					id: "066D875FFC840888"
+					item: { count: 1, id: "l2complements:poseidite_leggings" }
+					type: "item"
+				}
+				{
+					id: "00F0836DB584B429"
+					item: { count: 1, id: "l2complements:poseidite_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6CD223F1D620B7A2"]
+			id: "7536FBAA2A6AB4FB"
+			tasks: [
+				{
+					id: "1B45942B902297FC"
+					item: { count: 1, id: "l2complements:shulkerate_helmet" }
+					type: "item"
+				}
+				{
+					id: "3DE2B977A82339A4"
+					item: { count: 1, id: "l2complements:shulkerate_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6B7B0FD8C6CF686E"
+					item: { count: 1, id: "l2complements:shulkerate_leggings" }
+					type: "item"
+				}
+				{
+					id: "1CE867398F14C0ED"
+					item: { count: 1, id: "l2complements:shulkerate_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5BA70E60F0245D1C"]
+			id: "52C0DA5CB8DFFA0A"
+			tasks: [
+				{
+					id: "7F90FC3D8C9E8A04"
+					item: { count: 1, id: "l2complements:eternium_helmet" }
+					type: "item"
+				}
+				{
+					id: "442B771EE443355E"
+					item: { count: 1, id: "l2complements:eternium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "107320FA24291F58"
+					item: { count: 1, id: "l2complements:eternium_leggings" }
+					type: "item"
+				}
+				{
+					id: "0A543E6A2F71E8F9"
+					item: { count: 1, id: "l2complements:eternium_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72C9BCE11B9BCEB9"]
+			id: "41FFC8C3F0613F13"
+			tasks: [
+				{
+					id: "108C9EF9204C02BA"
+					item: { count: 1, id: "l2complements:sculkium_helmet" }
+					type: "item"
+				}
+				{
+					id: "11D17B2A064B808F"
+					item: { count: 1, id: "l2complements:sculkium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7E31EB7287B7C6D0"
+					item: { count: 1, id: "l2complements:sculkium_leggings" }
+					type: "item"
+				}
+				{
+					id: "542C6651C7C5BF77"
+					item: { count: 1, id: "l2complements:sculkium_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BA70E60F0245D1C"]
+			id: "385C75490D2E5ECA"
+			tasks: [{
+				id: "1EDB9E8DFC90532A"
+				item: { count: 1, id: "l2complements:eternal_anvil" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72C9BCE11B9BCEB9"]
+			id: "087EF00396B3E238"
+			tasks: [{
+				id: "6D033F3720508363"
+				item: { count: 1, id: "l2complements:sculkium_pickaxe" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0E41D3E620DD7B7B"]
+			id: "3221CA24BA35A5E1"
+			tasks: [
+				{
+					id: "49E10D2DAF820614"
+					item: { count: 1, id: "l2complements:enchanted_totemic_apple" }
+					type: "item"
+				}
+				{
+					id: "0DEEE639B6C974A6"
+					item: { count: 1, id: "l2complements:enchanted_totemic_carrot" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			id: "429CB3F060E6199C"
+			tasks: [{
+				id: "4ED9463C249C014C"
+				item: { count: 1, id: "l2complements:sun_membrane" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			id: "354040B445266F74"
+			tasks: [{
+				id: "24DDB6D8E27BD049"
+				item: { count: 1, id: "l2complements:resonant_feather" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			id: "0CDBF046E90EA142"
+			tasks: [{
+				id: "1A42ADAE1D06B15C"
+				item: { count: 1, id: "l2complements:heirophant_green" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			id: "68931E77BEA478A2"
+			tasks: [{
+				id: "3F1A129F2C0AA010"
+				item: { count: 1, id: "l2complements:void_eye" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			id: "01EABBC317C95D4D"
+			tasks: [{
+				id: "36F563C471F32944"
+				item: { count: 1, id: "l2complements:hard_ice" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "0A6F69B11C27C5E5"
+			shape: "square"
+			tasks: [{
+				id: "1FAB4FB64BB09AA8"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:snow_walker": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			id: "3393327B6C04B7A8"
+			shape: "square"
+			tasks: [{
+				id: "14C7B5875DDB20DF"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:ender_transport": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["07A05CCD2FFE024F"]
+			hide_dependency_lines: true
+			id: "4E468925B183FF26"
+			shape: "square"
+			tasks: [{
+				id: "11744FC8D85D1219"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:smelt_touch": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4640FE4E2D3DE60A"]
+			hide_dependency_lines: true
+			id: "2D5EC5886118C87E"
+			shape: "square"
+			tasks: [{
+				id: "2D7B3BB37857B763"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:life_sync": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"26BE72F4A0B6196E"
+				"7B6ABAEC0B769D75"
+				"5BA70E60F0245D1C"
+			]
+			hide_dependency_lines: true
+			id: "0B4961BB1B9CFB4D"
+			shape: "square"
+			tasks: [{
+				id: "09FE0508359470BC"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:eternal": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "6446BF9EC4F89451"
+			shape: "square"
+			tasks: [{
+				id: "7C5A39F908F9F6F0"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:safeguard": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "0FCECC1606771A8A"
+			shape: "square"
+			tasks: [{
+				id: "75A73AEFF79B2452"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:durable_armor": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "3FACB517CA63ADF5"
+			shape: "square"
+			tasks: [{
+				id: "623F836ACE8CF467"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:life_mending": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"513F429DAB95E36D"
+				"36DC02421E05E651"
+				"6CD223F1D620B7A2"
+			]
+			hide_dependency_lines: true
+			id: "26BE72F4A0B6196E"
+			shape: "square"
+			tasks: [{
+				id: "488989F2F22B345B"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:hardened": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22D8C6F11DA33EB3"]
+			hide_dependency_lines: true
+			id: "3133CB90FA04C967"
+			shape: "square"
+			tasks: [{
+				id: "2CF78139A75D31D6"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:wind_sweep": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"429CB3F060E6199C"
+				"354040B445266F74"
+				"68931E77BEA478A2"
+			]
+			hide_dependency_lines: true
+			id: "16E7F8EE6E7A3C99"
+			shape: "square"
+			tasks: [{
+				id: "38A06BC8B0989B88"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:void_touch": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01EABBC317C95D4D"]
+			hide_dependency_lines: true
+			id: "143E5A18E6E326E3"
+			shape: "square"
+			tasks: [{
+				id: "25182043EA4FFCFB"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:freezing_blade": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07A05CCD2FFE024F"]
+			hide_dependency_lines: true
+			id: "4E2836EF2F6E283F"
+			shape: "square"
+			tasks: [{
+				id: "4EF3675140043C94"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:hellfire_blade": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42A010BDA9943D1D"]
+			hide_dependency_lines: true
+			id: "212936F7AD6C9177"
+			shape: "square"
+			tasks: [{
+				id: "7433E1B3F725916C"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:cursed_blade": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"42A010BDA9943D1D"
+				"36DC02421E05E651"
+			]
+			hide_dependency_lines: true
+			id: "2F649E1B6AFBE5FB"
+			shape: "square"
+			tasks: [{
+				id: "1B9697D53FBF6B7A"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:sharp_blade": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01EABBC317C95D4D"]
+			hide_dependency_lines: true
+			id: "25B68E2426B7998D"
+			shape: "square"
+			tasks: [{
+				id: "39DBF5B80D04380B"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:freezing_thorn": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07A05CCD2FFE024F"]
+			hide_dependency_lines: true
+			id: "7C14A160A1024E72"
+			shape: "square"
+			tasks: [{
+				id: "647629E05538018A"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:hellfire_thorn": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4640FE4E2D3DE60A"]
+			hide_dependency_lines: true
+			id: "30FE98FEA6FF26F2"
+			shape: "hexagon"
+			tasks: [{
+				id: "4C6B44396F695A27"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:projectile_immunity": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"07A05CCD2FFE024F"
+				"01EABBC317C95D4D"
+			]
+			hide_dependency_lines: true
+			id: "364F919B91A2E2EF"
+			shape: "hexagon"
+			tasks: [{
+				id: "49537C95A36275A8"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:fire_immunity": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2A2711A24A442F3B"
+				"429CB3F060E6199C"
+				"68931E77BEA478A2"
+			]
+			hide_dependency_lines: true
+			id: "6C002386065B888C"
+			shape: "hexagon"
+			tasks: [{
+				id: "66BA97B45CA5CB77"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:environment_immunity": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["36DC02421E05E651"]
+			hide_dependency_lines: true
+			id: "50D6AC4EF0F3DDFC"
+			shape: "hexagon"
+			tasks: [{
+				id: "3D84A88374D5E5FB"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:explosion_immunity": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"354040B445266F74"
+				"4640FE4E2D3DE60A"
+				"68931E77BEA478A2"
+			]
+			hide_dependency_lines: true
+			id: "55DEDCFB44C9F72E"
+			shape: "hexagon"
+			tasks: [{
+				id: "79EFB14431E1FAD2"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:magic_immunity": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7B6ABAEC0B769D75"
+				"30FE98FEA6FF26F2"
+				"364F919B91A2E2EF"
+				"50D6AC4EF0F3DDFC"
+				"6C002386065B888C"
+				"55DEDCFB44C9F72E"
+			]
+			id: "5F26A88503E116ED"
+			shape: "hexagon"
+			tasks: [{
+				id: "393D4DE453A1236C"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:invincible": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			id: "7048A4F8D9CF70D4"
+			shape: "square"
+			tasks: [{
+				id: "79048FE45ECA280E"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "l2complements:friendly_fire_protection": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			id: "7B6ABAEC0B769D75"
+			shape: "hexagon"
+			tasks: [{
+				id: "254FA2BB22B1AE6E"
+				item: { count: 1, id: "l2complements:space_shard" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "4640FE4E2D3DE60A"
+			tasks: [{
+				id: "246019D35EFE8CF9"
+				item: { count: 1, id: "l2complements:force_field" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+	]
+}

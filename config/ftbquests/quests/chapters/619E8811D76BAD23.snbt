@@ -1,0 +1,121 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "619E8811D76BAD23"
+	group: "7437108D1F64EFF9"
+	icon: {
+		id: "create:wrench"
+	}
+	id: "619E8811D76BAD23"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28CB99069C2B6416"]
+			id: "63242C1FB281A6CA"
+			tasks: [{
+				id: "6F94F82901D9F7B9"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28CB99069C2B6416"]
+			id: "35B582322016F1BD"
+			tasks: [{
+				id: "5A80E3B1CB4D9372"
+				item: { count: 1, id: "create:brown_toolbox" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["28CB99069C2B6416"]
+			id: "0B50FFCE562614E6"
+			tasks: [{
+				id: "1EEE63459A1E9022"
+				item: { count: 1, id: "create:goggles" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "5C88216A88C8A529"
+			tasks: [{
+				id: "659CBB43502BD2E1"
+				item: { count: 1, id: "create:crafting_blueprint" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "3E617E68463DA6A9"
+			tasks: [{
+				id: "6B2101C1FDA1E907"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "28CB99069C2B6416"
+			tasks: [{
+				id: "48469EE8F26BF8EA"
+				item: { count: 1, id: "create:golden_sheet" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["291DCC19505D3807"]
+			id: "5EB0CACC57D1FEF9"
+			tasks: [{
+				id: "6E52C74A28F34F4A"
+				item: { count: 1, id: "create:schematic_table" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["291DCC19505D3807"]
+			id: "792276952A0ABCB2"
+			tasks: [{
+				id: "699A555558B23E5E"
+				item: { count: 1, id: "create:schematicannon" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["291DCC19505D3807"]
+			id: "2682D13C14C3B547"
+			tasks: [{
+				id: "4D98504B462FACA0"
+				item: { count: 1, id: "create:empty_schematic" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "create:schematic_and_quill"
+			}
+			id: "291DCC19505D3807"
+			tasks: [{
+				id: "66440F1D17637E87"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+	]
+}

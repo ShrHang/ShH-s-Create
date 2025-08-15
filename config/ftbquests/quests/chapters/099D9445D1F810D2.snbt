@@ -1,0 +1,199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "099D9445D1F810D2"
+	group: "04704A4785A6D007"
+	icon: {
+		id: "cataclysm:ignitium_helmet"
+	}
+	id: "099D9445D1F810D2"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "12258ACD86EE728A"
+			tasks: [{
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				disable_toast: true
+				id: "39A3AB478F96D040"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "4A9468152F22FFBA"
+			tasks: [{
+				advancement: "cataclysm:find_acropolis"
+				criterion: ""
+				id: "241441C640FFD461"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "0E1A84F40A848AAB"
+			tasks: [{
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "3E3D6A0FCA3A4162"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "23ACF45DD5391D2B"
+			tasks: [{
+				advancement: "cataclysm:find_sunken_city"
+				criterion: ""
+				id: "095BBCE6CF0088FB"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "1058339D89A371EC"
+			tasks: [{
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "5C5D0855F0DF5117"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "74DD71A8E65CDFC9"
+			tasks: [{
+				advancement: "cataclysm:find_cursed_pyramid"
+				criterion: ""
+				id: "59666155559F73A8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "1A1B8433127F7C24"
+			tasks: [{
+				advancement: "cataclysm:find_frosted_prison"
+				criterion: ""
+				id: "42F9AF62693F3FAC"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "47008EB08BF05324"
+			tasks: [{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "440D0173FD9FD631"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12258ACD86EE728A"]
+			id: "23EDF807F7716146"
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "279DD050FE8B63D8"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A9468152F22FFBA"]
+			id: "3D3D4871C0DB60DF"
+			tasks: [{
+				advancement: "cataclysm:kill_scylla"
+				criterion: ""
+				id: "02B4120EDC64A9B9"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0E1A84F40A848AAB"]
+			id: "248D1E0F85F5FAB3"
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				id: "783A87AD2BE4C3E9"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47008EB08BF05324"]
+			id: "5F97E7164685A3B5"
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				id: "6E2389FFE02F25F2"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23ACF45DD5391D2B"]
+			id: "78BC205358FEEF52"
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				id: "30E19F085FBD309E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1A1B8433127F7C24"]
+			id: "159BED961E62AB57"
+			tasks: [{
+				advancement: "cataclysm:kill_maledictus"
+				criterion: ""
+				id: "7C60A683316CF2D2"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1058339D89A371EC"]
+			id: "3170FF2BB7726517"
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				id: "3CF549D47B75FAA8"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74DD71A8E65CDFC9"]
+			id: "6B83D0EC9A4BCAC4"
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				id: "6D2B60571FC9B87B"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+}

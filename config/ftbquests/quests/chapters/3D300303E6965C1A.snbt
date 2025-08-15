@@ -1,0 +1,562 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3D300303E6965C1A"
+	group: "24E1E7D7A02B474F"
+	icon: {
+		id: "l2archery:void_bow"
+	}
+	id: "3D300303E6965C1A"
+	images: [
+		{
+			height: 15.0d
+			image: "minecraft:item/bow_pulling_2"
+			rotation: -45.0d
+			width: 15.0d
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			height: 15.0d
+			image: "minecraft:item/crossbow_arrow"
+			rotation: -135.0d
+			width: 15.0d
+			x: 5.5d
+			y: 1.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6E4A4DDD4EAB9847"]
+			id: "3EB98D81CC0712FF"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "3E7D95266CE27827"
+				item: { count: 1, id: "l2archery:starter_bow" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EB98D81CC0712FF"]
+			id: "159884B9E2836404"
+			tasks: [{
+				id: "378325659AD788F3"
+				item: { count: 1, id: "l2archery:iron_bow" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3EB98D81CC0712FF"]
+			id: "23F384359A5085D6"
+			tasks: [{
+				id: "1EE85CFEDE45549F"
+				item: { count: 1, id: "l2archery:master_bow" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EB98D81CC0712FF"]
+			id: "5E78F53AB88FEF43"
+			tasks: [{
+				id: "44B08D4932C35417"
+				item: { count: 1, id: "l2archery:glow_aim_bow" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E78F53AB88FEF43"]
+			id: "4D4F3253220AF54A"
+			tasks: [{
+				id: "0F6FF74CCAFBC901"
+				item: { count: 1, id: "l2archery:ender_aim_bow" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E78F53AB88FEF43"]
+			id: "23A477502EB7F10F"
+			tasks: [{
+				id: "3DC19732FD458FE1"
+				item: { count: 1, id: "l2archery:magnify_bow" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D4F3253220AF54A"]
+			id: "18DD63DE4190A2DF"
+			tasks: [{
+				id: "0C693230F6F73BAC"
+				item: { count: 1, id: "l2archery:void_bow" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["23F384359A5085D6"]
+			id: "4E05EC222BD1B2A1"
+			tasks: [{
+				id: "0D3745023E91831C"
+				item: { count: 1, id: "l2archery:flame_bow" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23F384359A5085D6"]
+			id: "22370B19C3FAFE1A"
+			tasks: [{
+				id: "3E4443EC11C56869"
+				item: { count: 1, id: "l2archery:froze_bow" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23F384359A5085D6"]
+			id: "7092A2903472F081"
+			tasks: [{
+				id: "3FC261AD44B9E26F"
+				item: { count: 1, id: "l2archery:slow_bow" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23F384359A5085D6"]
+			id: "2FE7B7770C56E1CE"
+			tasks: [{
+				id: "6947EEE9B1E13FFF"
+				item: { count: 1, id: "l2archery:storm_bow" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["159884B9E2836404"]
+			id: "71E1AA5EE6E076CD"
+			tasks: [{
+				id: "5EA5B1D65FA3436B"
+				item: { count: 1, id: "l2archery:eagle_bow" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["159884B9E2836404"]
+			id: "5C0950AC5617377E"
+			tasks: [{
+				id: "35B6FC92C9063CB5"
+				item: { count: 1, id: "l2archery:turtle_bow" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5C0950AC5617377E"]
+			id: "0EB1C9158E504462"
+			tasks: [{
+				id: "1B03F8C03DDB0878"
+				item: { count: 1, id: "l2archery:earth_bow" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0EB1C9158E504462"]
+			id: "2D0736286FBAD2A5"
+			tasks: [{
+				id: "31FA3B5B7EFF4074"
+				item: { count: 1, id: "l2archery:gaia_bow" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["22370B19C3FAFE1A"]
+			id: "339B00A20C361D25"
+			tasks: [{
+				id: "45B53BC9FE1CFDFC"
+				item: { count: 1, id: "l2archery:winter_bow" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FE7B7770C56E1CE"]
+			id: "54CB6BBDA7E125AB"
+			tasks: [{
+				id: "0BDC45A11249D9E7"
+				item: { count: 1, id: "l2archery:wind_bow" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E05EC222BD1B2A1"]
+			id: "3E3B5E8D6C4E8269"
+			tasks: [{
+				id: "63A1AEB349EE4E8C"
+				item: { count: 1, id: "l2archery:explosion_bow" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E3B5E8D6C4E8269"]
+			id: "41E35651A3D37CD9"
+			tasks: [{
+				id: "63AAFD975BD8E236"
+				item: { count: 1, id: "l2archery:sun_bow" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			id: "6E4A4DDD4EAB9847"
+			tasks: [{
+				id: "5E85C246B2ABA8CC"
+				item: { count: 1, id: "minecraft:bow" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			id: "47AAFCE1BE30D425"
+			tasks: [{
+				id: "69CF07D464F80976"
+				item: { count: 1, id: "minecraft:arrow" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47AAFCE1BE30D425"]
+			id: "7196D2993C08845B"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7567EE5C609FF15F"
+				item: { count: 1, id: "l2archery:starter_arrow" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "34F61BD6BDA2E05B"
+			tasks: [{
+				id: "3C85F79E98675F54"
+				item: { count: 1, id: "l2archery:copper_arrow" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "59118F40985FBC0D"
+			tasks: [{
+				id: "36D68543A0EB2948"
+				item: { count: 1, id: "l2archery:iron_arrow" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["59118F40985FBC0D"]
+			id: "1849160D45885EB9"
+			tasks: [{
+				id: "36A3F87CF8257193"
+				item: { count: 1, id: "l2archery:gold_arrow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "5CE06ED6BCD5EB2C"
+			tasks: [{
+				id: "1675DD4C8CCF2F0D"
+				item: { count: 1, id: "l2archery:obsidian_arrow" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "3FB1BFABCF39201F"
+			tasks: [{
+				id: "385D3D3B19FCF458"
+				item: { count: 1, id: "l2archery:blackstone_arrow" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5CE06ED6BCD5EB2C"]
+			id: "51C0703E78F20D97"
+			tasks: [{
+				id: "1202AE29A5DF376D"
+				item: { count: 1, id: "l2archery:quartz_arrow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5CE06ED6BCD5EB2C"]
+			id: "418309F434F9A7CD"
+			tasks: [{
+				id: "4875CCC608AE0499"
+				item: { count: 1, id: "l2archery:diamond_arrow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5CE06ED6BCD5EB2C"]
+			id: "72C941401278223A"
+			tasks: [{
+				id: "0B5480D8F8FEFDAB"
+				item: { count: 1, id: "l2archery:destroyer_arrow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "04D7DCD692C88F25"
+			tasks: [{
+				id: "3571701CF6700766"
+				item: { count: 1, id: "l2archery:totemic_gold_arrow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "2763A57A27EE6CBF"
+			tasks: [{
+				id: "1B00E4623A634888"
+				item: { count: 1, id: "l2archery:poseidite_arrow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "633156DC7B410777"
+			tasks: [{
+				id: "4ED2EC8BEA766F7D"
+				item: { count: 1, id: "l2archery:shulkerate_arrow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "2239AEDCF0ED0EDA"
+			tasks: [{
+				id: "4A73B4EB02F8863C"
+				item: { count: 1, id: "l2archery:sculkium_arrow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "1BA2B97428F0CB7E"
+			tasks: [{
+				id: "25639F4395491B40"
+				item: { count: 1, id: "l2archery:eternium_arrow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "4E4C8609A95FA4A7"
+			tasks: [{
+				id: "22BBE10FC83997C3"
+				item: { count: 1, id: "l2archery:tearing_arrow" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "23AF5E7D6D6E80F1"
+			tasks: [{
+				id: "30A53B233F928F77"
+				item: { count: 1, id: "l2archery:no_fall_arrow" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "64B10B12EB5EF38A"
+			tasks: [{
+				id: "59081C9199B7B3C9"
+				item: { count: 1, id: "l2archery:ender_arrow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "306F81EAD7766543"
+			tasks: [{
+				id: "7460D5700D94D7EF"
+				item: { count: 1, id: "l2archery:tnt_arrow_lv1" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11C5456C2D4E5F68"]
+			id: "44EA08F99EA6BAA7"
+			tasks: [{
+				id: "57A643C677FF819D"
+				item: { count: 1, id: "l2archery:tnt_arrow_lv3" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "65B64ACDEC2931B3"
+			tasks: [{
+				id: "7404B72991FC4780"
+				item: { count: 1, id: "l2archery:fire_arrow_lv1" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["65B64ACDEC2931B3"]
+			id: "301037DFE987BC6E"
+			tasks: [{
+				id: "1819C453DEF4CF41"
+				item: { count: 1, id: "l2archery:fire_arrow_lv2" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "2B6461AB19B52C4A"
+			tasks: [{
+				id: "30A4B4D0CC40ADC5"
+				item: { count: 1, id: "l2archery:frozen_arrow" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "7533E7C815653F5E"
+			tasks: [{
+				id: "5EDAD02CD1D65E32"
+				item: { count: 1, id: "l2archery:acid_arrow" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "38C1957A453BBE7A"
+			tasks: [{
+				id: "5D9E815ED7AC6897"
+				item: { count: 1, id: "l2archery:dispell_arrow" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7196D2993C08845B"]
+			id: "786566E50C0E0371"
+			tasks: [{
+				id: "60724554F03C47D8"
+				item: { count: 1, id: "l2archery:wither_arrow" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["306F81EAD7766543"]
+			id: "11C5456C2D4E5F68"
+			tasks: [{
+				id: "774C22744C174305"
+				item: { count: 1, id: "l2archery:tnt_arrow_lv2" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "02ED933D0A028B2D"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1B9F6B3820B8AE6F"
+				item: { count: 1, id: "l2archery:upgrade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+	]
+}

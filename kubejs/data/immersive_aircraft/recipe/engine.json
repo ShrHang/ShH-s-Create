@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": [
+      {"item":"create:iron_sheet"},
+      {"item":"createaddition:zinc_sheet"}
+    ],
+    "B": {
+      "item": "minecraft:furnace"
+    },
+    "C": {
+      "item": "minecraft:piston"
+    },
+    "D": {
+      "item": "immersive_aircraft:boiler"
+    }
+  },
+  "pattern": [
+    "AAAA",
+    "BCDA",
+    "AAAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:engine"
+  }
+}

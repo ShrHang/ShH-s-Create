@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:pillager",
+    "minecraft:evoker",
+    "minecraft:witch",
+    "minecraft:guardian",
+    "minecraft:elder_guardian",
+    "minecraft:wither",
+    "minecraft:enderman"
+  ]
+}

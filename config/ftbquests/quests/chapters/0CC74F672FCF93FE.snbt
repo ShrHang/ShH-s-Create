@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0CC74F672FCF93FE"
+	group: "04ABB4452F0A1E9A"
+	icon: {
+		components: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 5
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+		id: "irons_spellbooks:copper_spell_book"
+	}
+	id: "0CC74F672FCF93FE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0B5D4E8A38187BBD"
+			tasks: [{
+				id: "71EBB488F4912CDC"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "5354813CA687A028"
+			tasks: [{
+				id: "446B4E5D26642325"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "23A61A6633210D69"
+			tasks: [{
+				id: "07DBADDE2933EA61"
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "6AC18F92931A467E"
+			tasks: [{
+				id: "25B75051EE1A5319"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+	]
+}

@@ -1,0 +1,47 @@
+# KubeJS 生成文件
+.probe/
+.local/
+
+# Minecraft 运行时文件
+logs/
+crash-reports/
+screenshots/
+saves/
+resourcepacks/
+shaderpacks/
+usercache.json
+usernamecache.json
+
+#mod文件
+mods/
+CustomSkinLoader/
+patchouli_books/
+schematics/uploaded/
+ShH‘s Create-natives/
+spark-modernfix/tmp/
+tlm_custom_pack/
+xaero/
+XaeroWaypoints_BACKUP240807/
+command_history.txt
+patchouli_data.json
+
+# 临时文件
+*.log
+*.log.gz
+*.tmp
+*.bak
+
+#启动器文件
+PCL/
+downloads/
+servers.dat
+
+# IDE 文件
+.vscode/
+.idea/
+
+# 系统文件
+.git-rewrite
+.DS_Store
+*README.txt
+Thumbs.db

@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "48BC07C8B5074FEB"
+	group: "04704A4785A6D007"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "48BC07C8B5074FEB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "1C247CCE01C1BB0B"
+		tasks: [{
+			id: "669701B589FA35C6"
+			item: { count: 1, id: "minecraft:crafting_table" }
+			type: "item"
+		}]
+		x: -4.5d
+		y: -0.5d
+	}]
+}

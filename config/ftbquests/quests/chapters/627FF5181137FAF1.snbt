@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "627FF5181137FAF1"
+	group: "24E1E7D7A02B474F"
+	icon: {
+		id: "pandora:pandora_necklace"
+	}
+	id: "627FF5181137FAF1"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

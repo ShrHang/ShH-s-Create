@@ -1,0 +1,98 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "599CD03FA645D8B1"
+	group: "04704A4785A6D007"
+	icon: {
+		id: "minecraft:lectern"
+	}
+	id: "599CD03FA645D8B1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "37670BDF8DB8F020"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/title @p times 0t 10s 0t"
+					id: "7667DD5E89B7878A"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/title @p title \"请按G键打开任务列表\""
+					id: "01AF05F5C20BEA3C"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				icon: {
+					id: "shh:etihw"
+				}
+				id: "0D2EAB9DC0EE9372"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			id: "46AA61D3F63ADDE8"
+			tasks: [{
+				id: "3DA0D7B56F8D5981"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			id: "6448EE01DD79E42F"
+			tasks: [{
+				id: "5534BC01A2B821FE"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			id: "279C59EDF80D7AD2"
+			tasks: [{
+				id: "7059C99A2FD01A26"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			id: "70D385E9FD29CDD5"
+			tasks: [{
+				id: "13AA535FC2321FBA"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			id: "64C3BF58E57323D2"
+			tasks: [{
+				id: "757ACA05CA85791D"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			id: "1D2F07F03CE56385"
+			tasks: [{
+				id: "2556FFDDE618DE35"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+	]
+}

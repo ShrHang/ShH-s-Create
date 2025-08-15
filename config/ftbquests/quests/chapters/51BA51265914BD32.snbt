@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "51BA51265914BD32"
+	group: "7437108D1F64EFF9"
+	icon: {
+		id: "create:brass_tunnel"
+	}
+	id: "51BA51265914BD32"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0C7FAE5FB0D2C3BE"
+				"5F6A3C29FC3450BC"
+			]
+			id: "507FFB6534902FBA"
+			tasks: [{
+				id: "2092180B42DE7D38"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "0C7FAE5FB0D2C3BE"
+			tasks: [{
+				advancement: "create:burner"
+				criterion: ""
+				disable_toast: true
+				id: "61573D62A92B0EFB"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["507FFB6534902FBA"]
+			id: "7CE4FE7F4520A49B"
+			tasks: [{
+				id: "6F7FE271F9844252"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CE4FE7F4520A49B"]
+			id: "44CCF84445AFC4A2"
+			tasks: [{
+				id: "5A64656AA440EC1D"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44CCF84445AFC4A2"]
+			id: "7CBED737E7CED270"
+			tasks: [{
+				id: "0D29C4CB5CD23A85"
+				item: { count: 1, id: "create:rotation_speed_controller" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["507FFB6534902FBA"]
+			id: "29E22659228E5894"
+			tasks: [{
+				id: "685F74C4EB0A2436"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29E22659228E5894"]
+			id: "3180326A9E4A10FB"
+			tasks: [{
+				id: "1A199AC3F38E949D"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "27F3E9E03417A028"
+			tasks: [{
+				id: "307AC114C67434AA"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "470D440D698DE696"
+			tasks: [{
+				id: "20AC3D2430FF9866"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+}

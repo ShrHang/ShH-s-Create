@@ -1,0 +1,85 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7097F4A4201A50E6"
+	group: "7437108D1F64EFF9"
+	icon: {
+		id: "create:track"
+	}
+	id: "7097F4A4201A50E6"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13AA3F2CEA919A1D"]
+			id: "7ABE7350204D1673"
+			tasks: [{
+				id: "4B812CE161689A4B"
+				item: { count: 1, id: "create:controls" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"13AA3F2CEA919A1D"
+				"013277EFC1F614DA"
+			]
+			id: "31464096DE2E0E87"
+			tasks: [{
+				id: "10511990144D661A"
+				item: { count: 1, id: "create:track_station" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C336C038BD82BF8"]
+			id: "13AA3F2CEA919A1D"
+			tasks: [{
+				id: "20F6B2C2FFF4FC35"
+				item: { count: 1, id: "create:railway_casing" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C336C038BD82BF8"]
+			id: "013277EFC1F614DA"
+			tasks: [{
+				id: "71720C5D4600C2BA"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "2C336C038BD82BF8"
+			tasks: [{
+				id: "426CDA8DC02E4D4C"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7ABE7350204D1673"
+				"31464096DE2E0E87"
+			]
+			id: "47FE09DAF9AD0C06"
+			tasks: [{
+				advancement: "create:train"
+				criterion: ""
+				id: "7064A4FA66914AC6"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "   S ",
+    "S TSP",
+    "HH_EC",
+    "S TSP",
+    "   S "
+  ],
+  "key": {
+    "H": [
+      {
+        "item": "immersive_aircraft:hull"
+      }
+    ],
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "P": [
+      {
+        "item": "immersive_aircraft:propeller"
+      }
+    ],
+    "S": [
+      {
+        "item": "immersive_aircraft:sail"
+      }
+    ],
+    "C": [
+      {
+        "item": "immersive_aircraft:industrial_gears"
+      }
+    ],
+    "T": [
+      {
+        "item": "create:fluid_tank"
+      }
+    ],
+    "_": [
+      {
+        "tag": "create:seats"
+      }
+    ]
+  },
+  "result": {
+    "count": 1,
+    "id": "man_of_many_planes:economy_plane"
+  }
+}

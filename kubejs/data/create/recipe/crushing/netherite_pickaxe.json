@@ -1,0 +1,10 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    { "item": "minecraft:netherite_pickaxe" }
+  ],
+  "processing_time": 350,
+  "results": [
+    { "id": "minecraft:netherite_scrap" }
+  ]
+}
