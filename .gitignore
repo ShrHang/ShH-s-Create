@@ -1,6 +1,6 @@
 # KubeJS 生成文件
 .probe/
-.local/
+local/
 
 # Minecraft 运行时文件
 logs/
