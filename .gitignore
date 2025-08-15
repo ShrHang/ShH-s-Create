@@ -13,7 +13,7 @@ usercache.json
 usernamecache.json
 
 #mod文件
-mods/
+*Cataclysm *.jar
 CustomSkinLoader/
 patchouli_books/
 schematics/uploaded/
