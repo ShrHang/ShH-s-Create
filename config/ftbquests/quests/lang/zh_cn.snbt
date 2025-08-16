@@ -13,7 +13,6 @@
 	chapter.599CD03FA645D8B1.title: "游玩须知"
 	chapter.619E8811D76BAD23.title: "实用工具"
 	chapter.627FF5181137FAF1.title: "潘多拉之咒"
-	chapter.676633C80B312D5A.title: "实用工具"
 	chapter.6BBCFD30B324B7DE.title: "装备一览"
 	chapter.7097F4A4201A50E6.title: "来乘坐列车吧！"
 	chapter.7274D26AA4181B26.title: "农夫乐事"
@@ -64,6 +63,7 @@
 		"&a将弓合成为更高等级的弓将&6保留原有的魔晶升级效果&a。"
 	]
 	quest.02ED933D0A028B2D.quest_subtitle: "强力升级"
+	quest.0425206A21B6230C.quest_subtitle: "指路石的起点"
 	quest.04CD6CA61B04F007.quest_desc: [
 		"&e十字齿轮箱&a能在&6四个方向上&a传动。"
 		"{@pagebreak}"
@@ -100,9 +100,13 @@
 	quest.08A12E6FDC61C4E6.title: "分裂抑制"
 	quest.0A6F69B11C27C5E5.title: "细雪行者"
 	quest.0A8F420158CB6587.quest_desc: [
+		"&e鼓风机&a利用&6气流&a在一片空间中加工各种材料。"
 		""
+		"&a拥有&6多种模式&a，兼容&6多种配方&a，能有效&6解放双手&a。"
+		"{@pagebreak}"
 		"{image:kubejs:textures/ftbquests/encased_fan.png width:200 height:150 align:center}"
 	]
+	quest.0A8F420158CB6587.quest_subtitle: "只费吹灰之力"
 	quest.0ABFB74FC9F4026F.title: "&2奇迹抢夺宝珠"
 	quest.0B4961BB1B9CFB4D.title: "永恒"
 	quest.0C7FAE5FB0D2C3BE.quest_desc: [
@@ -167,6 +171,15 @@
 	quest.16E7F8EE6E7A3C99.title: "虚空之触"
 	quest.17BCF9DCB1C16EC1.quest_subtitle: "让你看见看不见的威胁。"
 	quest.17BCF9DCB1C16EC1.title: "恶意的可视化"
+	quest.1892F66E11AF3E2B.quest_desc: [
+		"&b移动式能量接口&r可以帮助我们在动态结构和方块之间传输FE。"
+		""
+		"两个移动式能量接口在相距&e1-2格&r时自动连接。就像移动式流体接口一样。一段时间没有FE传输则会自动断开连接。"
+		""
+		"通过向移动式能量接口通入&4红石信号&r，来实现中断传输。"
+	]
+	quest.1892F66E11AF3E2B.quest_subtitle: "移动式能量接口传输能量"
+	quest.1892F66E11AF3E2B.title: "让我们继续导！"
 	quest.189836E7FFEC976C.quest_subtitle: "黑龙之欲念，深不见底。"
 	quest.1900936ABB258B78.quest_desc: [
 		"&a由远古守卫者受到闪电的伤害后死亡才掉落，所以不能用引雷附魔三叉戟直接攻击远古守卫者。"
@@ -188,6 +201,8 @@
 	quest.1A3BFE17B16B041D.quest_subtitle: "不要贪杯哦。"
 	quest.1B0A8515FEE973A2.quest_subtitle: "不需要解锁就可以传送"
 	quest.1B0A8515FEE973A2.title: "共享石碑"
+	quest.1D2F07F03CE56385.quest_desc: ["因为不需要掌握所以我没写。"]
+	quest.1D2F07F03CE56385.title: "可以不掌握的知识："
 	quest.1DBFF38A134ADB85.title: "御币"
 	quest.1DFF9BB5BB6E367E.quest_desc: ["&a使用&5绝缘&a附魔对策。"]
 	quest.1DFF9BB5BB6E367E.quest_subtitle: "不对不对不对"
@@ -235,7 +250,7 @@
 	]
 	quest.28C318A414DAA913.quest_subtitle: "洗心革面"
 	quest.28CB99069C2B6416.quest_desc: [
-		"&a使用&e动力冲压机&6冲压&e金锭&a来获得。"
+		"&e机械动力&a产品，&a使用&e动力冲压机&6冲压&e金锭&a来获得。"
 		"{@pagebreak}"
 		"&a与获取&e铁板&a的方式一致。不要将它与&e黄铜板&a混淆。"
 		""
@@ -248,6 +263,13 @@
 		"&a您也可以："
 		"{ \"text\": \"点击跳转：按照物品描述获取千风精华\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A2711A24A442F3B\" } }"
 	]
+	quest.28EDBD9F6C17E5B0.quest_desc: [
+		"将&bFE&r输入&b电动马达&r，即可将FE转化为应力，与其他机械动力的结构进行交互。"
+		""
+		"电动马达可以自由调整转速，转速与电力消耗速率的关系为，&b每提升1RPM则增加1.875FE/t的电力消耗速率&r。其自身可以储存&b5kFE&r的电力。"
+	]
+	quest.28EDBD9F6C17E5B0.quest_subtitle: "电动马达"
+	quest.28EDBD9F6C17E5B0.title: "让我们进入电动时代"
 	quest.291DCC19505D3807.quest_subtitle: "没有人会拒绝预制建筑吧"
 	quest.29DC9DE71E8B6DCB.quest_subtitle: "这潜影贝吃苦力怕长大的？"
 	quest.29E5F3919F542B5C.title: "采集作业元件"
@@ -263,6 +285,10 @@
 		""
 		"&a当然，你也可以："
 		"{ \"text\": \"点击跳转：使用抢夺宝珠获取千风精华\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"28DD61278EF8AA55\" } }"
+		"{@pagebreak}"
+		"&a如果你更倾向于&e机械动力&a的手段，那么可以用&e鼓风机&a加&e分散网&a来实现。"
+		""
+		"&a将&e五个鼓风机&a朝上紧密摆放，全部安装&e分散网&a，输入&d逆时针256RPM转速&a，然后像蹦床一样使用它。保持&6不落地&a，&6多跳几次&a就能达到目标速度。"
 	]
 	quest.2A2711A24A442F3B.quest_subtitle: "把风装进瓶子里吧！"
 	quest.2C942ACE94FB1FD2.quest_desc: ["&a使用&5保险&a、&5硬化&a、&5永恒&a附魔对策。"]
@@ -300,6 +326,12 @@
 	quest.30FF51B4DE9BFB79.quest_subtitle: "百分比减伤"
 	quest.3133CB90FA04C967.title: "剑风"
 	quest.31464096DE2E0E87.quest_subtitle: "还是个列车装配站"
+	quest.3221CA24BA35A5E1.quest_desc: [
+		"&6附魔生命胡萝卜&a：提供&e3s饱和&a，&e3m夜视、急迫II和迅捷III&a。"
+		""
+		"&6附魔生命苹果&a：提供&e5s饱和&a，&e2m抗火、抗性提升IV和伤害吸收V&a。"
+	]
+	quest.3221CA24BA35A5E1.quest_subtitle: "起死回生"
 	quest.3230FF1273472908.quest_desc: [
 		"&a对策&c诸神黄昏&a。"
 		""
@@ -308,8 +340,12 @@
 	quest.3230FF1273472908.quest_subtitle: "它需要一个经验修补。"
 	quest.323628E260BA2EE8.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
 	quest.323628E260BA2EE8.quest_subtitle: "珍惜眼前的美好"
+	quest.32A67D0D4B49FAF1.quest_desc: ["通过&4红石继电器&r，我们实现电路的通断控制。当我们向其输入红石信号时，红石继电器两端方能联通。"]
+	quest.32A67D0D4B49FAF1.quest_subtitle: "电路控制"
+	quest.32A67D0D4B49FAF1.title: "让我们剪断电流"
 	quest.32B43C0B72E9AA6A.quest_subtitle: "我要我要我还要"
 	quest.3393327B6C04B7A8.title: "末影迁移"
+	quest.33D3B2D19D5B56C7.quest_subtitle: "无需解锁路径点就能传送"
 	quest.33E62BE9423ADFE5.quest_desc: [
 		"&e机械动力&a是以&6机械传动&a、&6动态结构&a、&6趣味物流&a、以及&6各种独特产品&a等等为特色的&8&m建筑装饰&r&a工业模组。"
 		""
@@ -438,10 +474,10 @@
 		"&6单次点击&a维持&d0.5s&a，&6固定产生&d256su应力&a和&d32RPM转速&a。"
 	]
 	quest.3E7F5D1A8726E2B9.quest_subtitle: "低效简单的手动动力源"
-	quest.3F602DF739238E4A.quest_subtitle: "不消耗燃料的飞机"
 	quest.3FACB517CA63ADF5.title: "生命修补"
 	quest.410D164F96E48678.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
 	quest.410D164F96E48678.quest_subtitle: "扭~曲~"
+	quest.41FFC8C3F0613F13.title: "幽匿套装"
 	quest.42A11C13B5873E38.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c榴弹III&a词条怪物获取。"]
 	quest.42C2A3AAD4DAADBE.quest_subtitle: "衣服什么的全都扒光光"
 	quest.4357B662BA244220.quest_subtitle: "抽帧抽走了无敌帧"
@@ -482,6 +518,7 @@
 	]
 	quest.477B6C3FBFD228E8.quest_subtitle: "常见的传动元件，也是多个元件的材料"
 	quest.477B6C3FBFD228E8.title: "齿轮和传动杆"
+	quest.4AF9F7E5BE97E372.title: "海神套装"
 	quest.4B81E7FEB1AD5A56.quest_subtitle: "随时随地进行传送"
 	quest.4BC2F7E20BF9F6EE.quest_subtitle: "多在野外逛逛吧"
 	quest.4BC2F7E20BF9F6EE.title: "传送石碑"
@@ -528,6 +565,7 @@
 	]
 	quest.525DDB4B52D1051A.quest_subtitle: "物流与自动化"
 	quest.525DDB4B52D1051A.title: "要解放劳动力？"
+	quest.52C0DA5CB8DFFA0A.title: "永恒套装"
 	quest.53A9570F1323BD81.quest_desc: [
 		"&a使用&5魔法免疫&a附魔或&6圣光守护之戒&a对策。"
 		""
@@ -586,6 +624,7 @@
 	]
 	quest.5A13E6C10C18D5C3.quest_subtitle: "早期可用的加工机器"
 	quest.5A13E6C10C18D5C3.title: "基础加工作业元件"
+	quest.5A6D0789E9704F94.quest_subtitle: "点对点，传送生物实体"
 	quest.5AB0D3993583910C.quest_desc: [
 		"&a使用&e缓慢&a、&e禁锢&a状态效果对策。"
 		""
@@ -626,9 +665,18 @@
 		"{image:kubejs:textures/ftbquests/crafting_blueprint-4.png width:150 height:150 align:center}"
 	]
 	quest.5C88216A88C8A529.quest_subtitle: "手动合成辅助工具"
-	quest.5CB83B207F4279BA.quest_desc: ["想要连接不同的电源、用电器，我们需要使用&b连接器&r和&b线(轴)&r来将它们连接起来。目前，模组提供了铜线（轴）、金线（轴）、琥珀金线（轴）"]
+	quest.5CB83B207F4279BA.quest_desc: [
+		"想要连接不同的电源、用电器，我们需要使用&b连接器&r和&b线(轴)&r来将它们连接起来。目前，模组提供了铜线（轴）、金线（轴）、琥珀金线（轴）、有节日灯的线轴这四种线（轴）和小型连接器、大型连接器、发光小型连接器这三种连接器。"
+		""
+		"通过&b连接器&r，我们将FE从电源中导出，或者导入用电器。连接器都有&b输入&r、&b输出&r、&b无&r三种模式，通过使用&e扳手&r来调整。连接器可以储存一定量的FE，大型连接器的容量大于小型连接器。"
+		""
+		"通过线，我们可以将各连接器串联，实现FE的传输。大型连接器之间只能使用&b金线&r和&b琥珀金线&r连接。小型连接器和发光小型连接器只能连接&e4&r条线，大型连接器可以连接&b8&r条线。"
+		""
+		"制造线和连接器，我们需要通过&e轧机&r来生产线和必需的金属棒。"
+	]
 	quest.5CB83B207F4279BA.quest_subtitle: "将电力导出的方法"
 	quest.5CB83B207F4279BA.title: "让我们开导！"
+	quest.5D98E3A860ED7735.quest_subtitle: "满级大佬总是打扮的千奇百怪"
 	quest.5DF518B27AF3EEFB.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c吸引&a词条怪物获取。"]
 	quest.5E2D39EB6D39D681.quest_subtitle: "增加背饰栏位"
 	quest.5E2D39EB6D39D681.title: "三&4色&8披&6风"
@@ -649,6 +697,7 @@
 		"&a只在&d30RPM以上&a的转速工作。"
 	]
 	quest.5F6A3C29FC3450BC.quest_subtitle: "加工无序配方，酿造，以及制造黄铜"
+	quest.63242C1FB281A6CA.quest_subtitle: "以防你受困于构件的朝向"
 	quest.63511257FA9EFF84.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c排斥&a词条怪物获取。"]
 	quest.63AB0604E9CF10DD.quest_desc: ["&6最基本&a的合金材料。使用两个&e铁粒&a和两个&e安山岩&a即可&6合成&a&e安山合金&a。"]
 	quest.63AB0604E9CF10DD.quest_subtitle: "机械动力的起源"
@@ -659,15 +708,62 @@
 	quest.6448EE01DD79E42F.quest_subtitle: "知晓这些按键分别对应着什么功能。"
 	quest.6448EE01DD79E42F.title: "需要掌握的知识：基础按键绑定"
 	quest.64C3BF58E57323D2.quest_desc: [
+		"主要写了一些在原模组基础上的改动。"
+		""
 		"&l&6总目录"
+		"1.&d游戏机制"
+		"2.&c装备数值"
+		"3.&b生存探索"
+		"4.&e机械动力"
+		"5.&a辅助功能"
+		"{@pagebreak}"
+		"游戏机制："
 		""
+		"世界高度限制变为620格。"
 		""
+		"调整了莱特兰恶意大部分词条的数值和怪物成长曲线，关闭了区块难度、距离难度、维度难度，仅保留玩家自身的难度等级。"
 		""
+		"调整了灾变boss的恶意数据包词条配置，降低了难度。"
+		""
+		"调整了莱特兰扩充材料的部分获取方式，降低了获取难度。"
+		""
+		"启用了莱特兰扩充免疫类附魔与空间碎片。"
+		"{@pagebreak}"
+		"装备数值："
+		""
+		"增强了大多数装备数值,使玩家在前期就有很强大的战斗力。"
+		""
+		"增强了铁魔法的法术数值，使其跟上恶意带来的数值膨胀。"
+		"{@pagebreak}"
+		"生存探索："
+		""
+		"加入了Tom的简易存储。"
+		""
+		"加入了沉浸式飞机和指路石，便利交通。"
+		""
+		"加入了机械动力区块加载器。"
+		""
+		"加入了农夫乐事，便于制作更多食物。"
+		"{@pagebreak}"
+		"机械动力："
+		""
+		"添加了附魔工业、CCA、实用扩展等附属模组。"
+		""
+		"物品保险库的容量从20格变为64格。"
+		""
+		"添加了矿物量产配方，允许量产钻石、下界合金、青金石、锌、铜。"
+		""
+		"添加了铁魔法与机械动力的联动配方。"
 		""
 		"{@pagebreak}"
+		"辅助功能："
+		""
+		"加入tweakeroo的neoforge移植版，默认[X+C]打开配置。"
+		""
+		"加入机械动力：赛博护目镜，无需佩戴工程师护目镜即可看到机械动力详细数据，默认[Alt+J]打开配置。"
 	]
 	quest.64C3BF58E57323D2.quest_subtitle: "以及一些改动"
-	quest.64C3BF58E57323D2.title: " 内容概览"
+	quest.64C3BF58E57323D2.title: "整合包内容概览"
 	quest.69A2A7FD953ED239.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
 	quest.69A2A7FD953ED239.quest_subtitle: "凋零骷髅的饭碗"
 	quest.69A5BFA6AD5A8F4E.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
@@ -699,6 +795,7 @@
 	quest.6B65CB16A7C09F97.title: "让我们来获取电！"
 	quest.6BE34726A5C658EE.title: "&6【核心】&r再生之戒"
 	quest.6C002386065B888C.title: "环境免疫"
+	quest.6CCB77A3B811879C.quest_subtitle: "只去不回单程票"
 	quest.6E9DD2D68EB01709.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c复印&a词条怪物获取。"]
 	quest.6F98338D5F83FA2C.quest_desc: ["&a使用&b物理伤害&a对策。"]
 	quest.6F98338D5F83FA2C.quest_subtitle: "魔免+封禁附魔"
@@ -717,6 +814,17 @@
 		"&a后期唯一可威胁到玩家的词条。若怪物复制了&6虚空之触&a附魔，则可以击穿伤害免疫附魔。"
 	]
 	quest.73A8056B636335D0.quest_subtitle: "看来是同类型的替身呢。"
+	quest.745C9AD0FF6EA5C8.quest_subtitle: "给您下药了！"
+	quest.745CEC8A62C5527C.quest_desc: [
+		"我们可以通过&b蓄电池&r储存FE，避免浪费产出的FE，以供不时之需。"
+		""
+		"每个蓄电池可以提供&b2MFE&r的容量。我们可以将蓄电池并在一起，形成&b2*2&r或&b3*3&r，且&b最高5格&r的电池，就像流体储罐那样。"
+		""
+		"使用&b连接器&r，来向蓄电池输入或者输出FE。"
+	]
+	quest.745CEC8A62C5527C.quest_subtitle: "蓄电池"
+	quest.745CEC8A62C5527C.title: "让我们把电存起来！"
+	quest.7536FBAA2A6AB4FB.title: "潜影套装"
 	quest.78FC1D37DCC2C65D.quest_desc: [
 		"&a佩戴这类饰品后&6击杀带有词条的怪物&a会获取对应的掉落物。"
 		""
@@ -737,6 +845,7 @@
 	quest.7B38EC488FFC125C.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
 	quest.7B38EC488FFC125C.quest_subtitle: "你的伤口无法愈合"
 	quest.7C14A160A1024E72.title: "炎棘"
+	quest.7C4FE9B979684280.title: "生命套装"
 	quest.7CADD1827FAFACB9.quest_desc: ["&c该词条仅在史莱姆身上出现。"]
 	quest.7CADD1827FAFACB9.quest_subtitle: "无限生长"
 	quest.7CBED737E7CED270.quest_subtitle: "齿轮变速已成过去式"
@@ -767,6 +876,7 @@
 	task.0E3AAFF3E2DB6DBD.title: "自动完成"
 	task.13AA535FC2321FBA.title: "快捷指令"
 	task.20AC3D2430FF9866.title: "被动状态"
+	task.25E33F93892AF6D9.title: "共享石碑"
 	task.26D9FB0D05921639.title: "思索"
 	task.2A66344E9DA3439E.title: "Any #waystones:sharestones"
 	task.3BF7DC55415C61E5.title: "自动完成"
@@ -777,6 +887,7 @@
 	task.5A30DC29722C269C.title: "自动完成"
 	task.66440F1D17637E87.title: "投影三件套"
 	task.69EB950B0396926A.title: "Any #minecraft:logs"
+	task.6BD7579693453498.title: "传送石碑"
 	task.7059C99A2FD01A26.title: "FTB任务书"
 	task.757ACA05CA85791D.title: "一些改动"
 	task.79CB87E352172A5D.title: "开始"

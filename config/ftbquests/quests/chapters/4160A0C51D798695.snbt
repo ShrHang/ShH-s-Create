@@ -7,7 +7,7 @@
 		id: "create_enchantment_industry:blaze_enchanter"
 	}
 	id: "4160A0C51D798695"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -50,10 +50,13 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -0.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["77A7A4E32DD76997"]
+			dependencies: [
+				"77A7A4E32DD76997"
+				"1BE0B4762DAEB494"
+			]
 			id: "0C726B729E7C5BC9"
 			tasks: [{
 				id: "52E2BF79C2D7105D"
@@ -61,7 +64,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			id: "4C9FE5FC5AD5B1D1"
@@ -70,8 +73,8 @@
 				item: { count: 1, id: "create_enchantment_industry:printer" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 5.5d
+			y: -4.0d
 		}
 		{
 			id: "266E0A7D1ECB2C6F"

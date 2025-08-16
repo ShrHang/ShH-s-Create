@@ -11,6 +11,7 @@ resourcepacks/
 shaderpacks/
 usercache.json
 usernamecache.json
+options.txt
 
 #mod文件
 config/iris.properties
@@ -37,6 +38,10 @@ patchouli_data.json
 PCL/
 downloads/
 servers.dat
+hmclversion.cfg
+log4j2.xml
+modpack.cfg
+modrinth.index.json
 
 # IDE 文件
 .vscode/

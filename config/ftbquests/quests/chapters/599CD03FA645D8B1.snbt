@@ -55,8 +55,8 @@
 				id: "5534BC01A2B821FE"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: 10.0d
+			x: 6.5d
+			y: 8.0d
 		}
 		{
 			id: "279C59EDF80D7AD2"
@@ -65,7 +65,7 @@
 				type: "checkmark"
 			}]
 			x: 7.0d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			id: "70D385E9FD29CDD5"
@@ -74,7 +74,7 @@
 				type: "checkmark"
 			}]
 			x: 10.0d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			id: "64C3BF58E57323D2"
@@ -91,8 +91,8 @@
 				id: "2556FFDDE618DE35"
 				type: "checkmark"
 			}]
-			x: 11.5d
-			y: 10.0d
+			x: 10.5d
+			y: 8.0d
 		}
 	]
 }

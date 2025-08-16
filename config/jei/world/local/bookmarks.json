@@ -1,4 +1,5 @@
 [
   {"version":2},
-  {"ingredient":{"id":"minecraft:stripped_oak_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"minecraft:stripped_oak_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_sa:steam_engine"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

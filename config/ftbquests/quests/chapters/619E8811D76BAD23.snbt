@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "619E8811D76BAD23"
-	group: "7437108D1F64EFF9"
+	group: "04704A4785A6D007"
 	icon: {
 		id: "create:wrench"
 	}
 	id: "619E8811D76BAD23"
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -45,13 +45,14 @@
 		}
 		{
 			id: "5C88216A88C8A529"
+			shape: "hexagon"
 			tasks: [{
 				id: "659CBB43502BD2E1"
 				item: { count: 1, id: "create:crafting_blueprint" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			id: "3E617E68463DA6A9"
@@ -116,6 +117,126 @@
 			}]
 			x: -4.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["0425206A21B6230C"]
+			id: "357F29F7C797BCCE"
+			tasks: [{
+				id: "4BE2D0B8E65C1B91"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["357F29F7C797BCCE"]
+			id: "33D3B2D19D5B56C7"
+			tasks: [{
+				id: "25E33F93892AF6D9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:sharestones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["357F29F7C797BCCE"]
+			id: "0FE3BB342C08AE71"
+			tasks: [{
+				id: "6BD7579693453498"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:waystones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0425206A21B6230C"]
+			id: "5A6D0789E9704F94"
+			tasks: [{
+				id: "5F1A8060457FCF70"
+				item: { count: 1, id: "waystones:warp_plate" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "0425206A21B6230C"
+			tasks: [{
+				id: "7882CF5D19673CD4"
+				item: { count: 1, id: "waystones:warp_dust" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["357F29F7C797BCCE"]
+			id: "6CCB77A3B811879C"
+			tasks: [{
+				id: "4E7ED61E1800C6EA"
+				item: { count: 1, id: "waystones:white_portstone" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "745C9AD0FF6EA5C8"
+			shape: "hexagon"
+			tasks: [{
+				id: "78CEDF8E3756D82D"
+				item: { count: 1, id: "add_potion:potion_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "5F44C3FFC4D4C56C"
+			shape: "hexagon"
+			tasks: [{
+				id: "789F552D1B9779C6"
+				item: { count: 1, id: "immersive_aircraft:biplane" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "29547282583155E8"
+			shape: "hexagon"
+			tasks: [{
+				id: "3E444B206FDC331B"
+				item: { count: 1, id: "immersive_aircraft:gyrodyne" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "5D98E3A860ED7735"
+			shape: "hexagon"
+			tasks: [{
+				id: "575E594FC476A342"
+				item: { count: 1, id: "transmog:transmogrification_table" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "12C3CCD8A7F30365"
+			shape: "hexagon"
+			tasks: [{
+				id: "621DF5D1DB762611"
+				item: { count: 1, id: "immersive_aircraft:quadrocopter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
 		}
 	]
 }
