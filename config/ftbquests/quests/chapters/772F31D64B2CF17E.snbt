@@ -7,28 +7,28 @@
 		id: "createaddition:large_connector"
 	}
 	id: "772F31D64B2CF17E"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3FAE69E2533A40A7"]
 			id: "6B65CB16A7C09F97"
 			tasks: [{
 				id: "400F81BFC42B5591"
 				item: { count: 1, id: "createaddition:alternator" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["6B65CB16A7C09F97"]
+			dependencies: [
+				"6B65CB16A7C09F97"
+				"3FAE69E2533A40A7"
+			]
+			dependency_requirement: "one_completed"
 			id: "5CB83B207F4279BA"
 			tasks: [
-				{
-					id: "1BB065C931439128"
-					item: { count: 1, id: "createaddition:rolling_mill" }
-					type: "item"
-				}
 				{
 					id: "273942834F210CF1"
 					item: { count: 1, id: "createaddition:connector" }
@@ -40,7 +40,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 2.0d
 			y: -0.5d
 		}
 		{
@@ -51,8 +51,8 @@
 				item: { count: 1, id: "createaddition:modular_accumulator" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["745CEC8A62C5527C"]
@@ -62,8 +62,8 @@
 				item: { count: 1, id: "createaddition:portable_energy_interface" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.5d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["745CEC8A62C5527C"]
@@ -73,8 +73,8 @@
 				item: { count: 1, id: "createaddition:electric_motor" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 9.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5CB83B207F4279BA"]
@@ -84,8 +84,32 @@
 				item: { count: 1, id: "createaddition:redstone_relay" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "3FAE69E2533A40A7"
+			tasks: [{
+				id: "470E99F8F7042B37"
+				item: { count: 1, id: "createaddition:rolling_mill" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"745CEC8A62C5527C"
+				"6B65CB16A7C09F97"
+			]
+			id: "5E8C258FC8DA92AD"
+			tasks: [{
+				id: "007C3AF24052BA75"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
 		}
 	]
 }

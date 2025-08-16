@@ -1,0 +1,15 @@
+{
+  "type": "createaddition:charging",
+  "energy": 4000,
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "max_charge_rate": 200,
+  "results": [
+    {
+      "id": "irons_spellbooks:lightning_bottle"
+    }
+  ]
+}

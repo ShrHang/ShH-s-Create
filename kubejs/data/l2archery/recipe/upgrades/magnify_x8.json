@@ -1,0 +1,134 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "l2archery:upgrade"
+  },
+  "loops": 1,
+  "results": [
+    {
+    "components": {
+      "l2archery:item_upgrade": "l2archery:magnify_x8"
+    },
+    "id": "l2archery:upgrade"
+  }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "l2archery:upgrade"
+        },
+        {
+          "item": "minecraft:spyglass"
+        }
+      ],
+      "results": [
+        {
+          "id": "l2archery:upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "l2archery:upgrade"
+        },
+        {
+          "item": "create:fluid_pipe"
+        }
+      ],
+      "results": [
+        {
+          "id": "l2archery:upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "l2archery:upgrade"
+        },
+        {
+          "item": "minecraft:spyglass"
+        }
+      ],
+      "results": [
+        {
+          "id": "l2archery:upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "l2archery:upgrade"
+        },
+        {
+          "item": "create:fluid_pipe"
+        }
+      ],
+      "results": [
+        {
+          "id": "l2archery:upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "l2archery:upgrade"
+        },
+        {
+          "item": "minecraft:spyglass"
+        }
+      ],
+      "results": [
+        {
+          "id": "l2archery:upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "l2archery:upgrade"
+        },
+        {
+          "item": "create:fluid_pipe"
+        }
+      ],
+      "results": [
+        {
+          "id": "l2archery:upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "tag": "l2archery:upgrade"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 1000,
+        "fluid": "create_enchantment_industry:experience"
+      }
+  ],
+  "results": [
+    {
+      "id": "l2archery:upgrade"
+    }
+  ]
+}
+  ],
+  "transitional_item": {
+    "id": "l2archery:upgrade"
+  }
+}

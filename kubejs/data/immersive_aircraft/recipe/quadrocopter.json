@@ -1,0 +1,98 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:scaffolding"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "immersive_aircraft:quadrocopter"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:scaffolding"
+        },
+        {
+          "item": "immersive_aircraft:engine"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:scaffolding"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:scaffolding"
+        },
+        {
+          "item": "immersive_aircraft:propeller"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:scaffolding"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:scaffolding"
+        },
+        {
+          "item": "immersive_aircraft:propeller"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:scaffolding"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:scaffolding"
+        },
+        {
+          "item": "immersive_aircraft:propeller"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:scaffolding"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:scaffolding"
+        },
+        {
+          "item": "immersive_aircraft:propeller"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:scaffolding"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:scaffolding"
+  }
+}

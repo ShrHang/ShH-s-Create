@@ -36,7 +36,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2C336C038BD82BF8"]
+			dependencies: ["429A439C0A6589AD"]
+			icon: {
+				id: "create:railway_casing"
+			}
 			id: "13AA3F2CEA919A1D"
 			tasks: [{
 				id: "20F6B2C2FFF4FC35"
@@ -48,6 +51,7 @@
 		}
 		{
 			dependencies: ["2C336C038BD82BF8"]
+			dependency_requirement: "one_completed"
 			id: "013277EFC1F614DA"
 			tasks: [{
 				id: "71720C5D4600C2BA"
@@ -80,6 +84,17 @@
 			}]
 			x: -1.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["2C336C038BD82BF8"]
+			id: "429A439C0A6589AD"
+			tasks: [{
+				id: "37B2791FC5039B7B"
+				item: { count: 1, id: "create:sturdy_sheet" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
 		}
 	]
 }

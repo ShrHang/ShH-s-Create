@@ -1,0 +1,98 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "immersive_aircraft:airship"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "immersive_aircraft:cargo_airship"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersive_aircraft:airship"
+        },
+        {
+          "item": "immersive_aircraft:hull"
+        }
+      ],
+      "results": [
+        {
+          "id": "immersive_aircraft:airship"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersive_aircraft:airship"
+        },
+        {
+          "item": "minecraft:chest"
+        }
+      ],
+      "results": [
+        {
+          "id": "immersive_aircraft:airship"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersive_aircraft:airship"
+        },
+        {
+          "item": "minecraft:chest"
+        }
+      ],
+      "results": [
+        {
+          "id": "immersive_aircraft:airship"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersive_aircraft:airship"
+        },
+        {
+          "item": "minecraft:chest"
+        }
+      ],
+      "results": [
+        {
+          "id": "immersive_aircraft:airship"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersive_aircraft:airship"
+        },
+        {
+          "item": "minecraft:chest"
+        }
+      ],
+      "results": [
+        {
+          "id": "immersive_aircraft:airship"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "immersive_aircraft:airship"
+  }
+}

@@ -238,5 +238,45 @@
 			x: -1.5d
 			y: 2.5d
 		}
+		{
+			id: "75CAF963C5E7053D"
+			tasks: [{
+				id: "2F1176DD75BFA7A7"
+				item: { count: 1, id: "toms_storage:storage_terminal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "26C51F5B6BB8328D"
+			tasks: [{
+				id: "0B480B274A39D24B"
+				item: { count: 1, id: "toms_storage:inventory_cable_connector" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "3DC9514ED644C108"
+			tasks: [{
+				id: "7AA9D7D3DF5B39BB"
+				item: { count: 1, id: "create:item_vault" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "0E96B3D329E162F6"
+			tasks: [{
+				id: "0BDDFBAA9C61ED3C"
+				item: { count: 1, id: "create:clipboard" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
 	]
 }

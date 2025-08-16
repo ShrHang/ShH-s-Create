@@ -1,12 +1,12 @@
 ServerEvents.recipes(event => {
+
     event.remove({output: 'immersive_aircraft:propeller'})
     event.remove({output: 'immersive_aircraft:boiler'})
     // event.remove({output: 'immersive_aircraft:hull'})
     event.remove({output: 'immersive_aircraft:sail'})
     // event.remove({output: 'immersive_aircraft:engine'})
-})
+    event.remove({output: 'immersive_aircraft:gyrodyne'})
 
-ServerEvents.recipes(event => {
     event.shaped('immersive_aircraft:propeller', [
         'AA ',
         ' B ',
@@ -31,9 +31,8 @@ ServerEvents.recipes(event => {
     //     B: ['create:iron_sheet', 'createaddition:zinc_sheet']
     // })
 
-    event.shaped('immersive_aircraft:sail', [
-        'AAB',
-        'AAB'
+    event.shaped(Item.of('immersive_aircraft:sail',4), [
+        'AB'
     ], {
         A: 'create:white_sail',
         B: 'createaddition:iron_wire'
@@ -50,4 +49,15 @@ ServerEvents.recipes(event => {
     //     B: 'immersive_aircraft:boiler',
     //     L: 'minecraft:blast_furnace'
     // })
+
+    event.shaped('immersive_aircraft:gyrodyne', [
+        ' A ',
+        ' B ',
+        'CDC'
+    ],{
+        A: 'immersive_aircraft:propeller',
+        B: 'minecraft:stick',
+        C: 'immersive_aircraft:sail',
+        D: '#minecraft:chest_boats'
+    })
 })

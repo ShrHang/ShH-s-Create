@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item":"immersive_aircraft:hull"
+    },
+    "B": {
+      "item": "immersive_aircraft:engine"
+    },
+    "C": {
+      "item": "immersive_aircraft:sail"
+    },
+    "D":{
+        "item": "immersive_aircraft:cargo_airship"
+    }
+  },
+  "pattern": [
+    "CCCCC",
+    "CBDBC",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:warship"
+  }
+}

@@ -26,13 +26,20 @@
 		}
 		{
 			id: "0C7FAE5FB0D2C3BE"
-			tasks: [{
-				advancement: "create:burner"
-				criterion: ""
-				disable_toast: true
-				id: "61573D62A92B0EFB"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "create:burner"
+					criterion: ""
+					disable_toast: true
+					id: "61573D62A92B0EFB"
+					type: "advancement"
+				}
+				{
+					id: "2144FBD3B842384E"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: -0.5d
 		}
@@ -109,6 +116,16 @@
 			}]
 			x: 0.0d
 			y: 3.5d
+		}
+		{
+			id: "3507789B457DA0B1"
+			tasks: [{
+				id: "48B815C797C3AC08"
+				item: { count: 1, id: "createaddition:straw" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
 		}
 	]
 }
