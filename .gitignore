@@ -13,8 +13,8 @@ usercache.json
 usernamecache.json
 
 #mod文件
-*/iris.properties
-*/xaerominimap_entities.json
+config/iris.properties
+config/xaerominimap_entities.json
 *Cataclysm *.jar
 CustomSkinLoader/
 patchouli_books/

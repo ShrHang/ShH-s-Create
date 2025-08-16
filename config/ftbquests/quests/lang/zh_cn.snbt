@@ -666,7 +666,8 @@
 		""
 		"{@pagebreak}"
 	]
-	quest.64C3BF58E57323D2.title: "相比于原版的一些改动"
+	quest.64C3BF58E57323D2.quest_subtitle: "以及一些改动"
+	quest.64C3BF58E57323D2.title: " 内容概览"
 	quest.69A2A7FD953ED239.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
 	quest.69A2A7FD953ED239.quest_subtitle: "凋零骷髅的饭碗"
 	quest.69A5BFA6AD5A8F4E.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
