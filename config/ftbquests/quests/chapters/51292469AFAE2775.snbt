@@ -654,8 +654,8 @@
 				item: { count: 1, id: "create:adjustable_chain_gearshift" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			disable_toast: true

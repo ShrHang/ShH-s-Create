@@ -1,3 +1,3 @@
-ServerEvents.recipes(event => {
-    event.remove({ id: /create_ultimate_factory:haunting_.*/  })
-})
+// ServerEvents.recipes(event => {
+//     event.remove({ id: /create_ultimate_factory:haunting_.*/  })
+// })

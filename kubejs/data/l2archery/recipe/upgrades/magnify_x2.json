@@ -46,6 +46,22 @@
       ]
     },
     {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "l2archery:upgrade"
+        },
+        {
+          "item": "create:fluid_pipe"
+        }
+      ],
+      "results": [
+        {
+          "id": "l2archery:upgrade"
+        }
+      ]
+    },
+    {
       "type": "create:filling",
       "ingredients": [
       {

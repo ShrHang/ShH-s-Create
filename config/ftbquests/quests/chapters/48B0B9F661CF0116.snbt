@@ -589,5 +589,32 @@
 			x: 1.0d
 			y: 0.0d
 		}
+		{
+			id: "0DA1F1EFB3EA4478"
+			tasks: [
+				{
+					id: "0FBD8916AEC872A8"
+					item: { count: 1, id: "create:white_table_cloth" }
+					type: "item"
+				}
+				{
+					id: "5696AA04669FA54A"
+					item: { count: 1, id: "create:andesite_table_cloth" }
+					type: "item"
+				}
+				{
+					id: "4A5AB120EBA1B257"
+					item: { count: 1, id: "create:brass_table_cloth" }
+					type: "item"
+				}
+				{
+					id: "323D43F0F53F385F"
+					item: { count: 1, id: "create:copper_table_cloth" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.0d
+		}
 	]
 }
