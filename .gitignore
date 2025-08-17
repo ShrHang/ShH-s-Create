@@ -52,3 +52,4 @@ modrinth.index.json
 .DS_Store
 *README.txt
 Thumbs.db
+.probe

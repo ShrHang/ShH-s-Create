@@ -17,7 +17,7 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "l2archery:upgrade"
+        "tag": "shh:incomplete_upgrade_poison"
       },
       {
         "type": "fluid_stack",
@@ -33,7 +33,7 @@
       ],
       "results": [
         {
-          "id": "l2archery:upgrade"
+          "id": "shh:incomplete_upgrade_poison"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "l2archery:upgrade"
+        "tag": "shh:incomplete_upgrade_poison"
       },
       {
         "type": "fluid_stack",
@@ -51,7 +51,7 @@
       ],
       "results": [
         {
-          "id": "l2archery:upgrade"
+          "id": "shh:incomplete_upgrade_poison"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "l2archery:upgrade"
+        "tag": "shh:incomplete_upgrade_poison"
       },
       {
         "type": "fluid_stack",
@@ -69,12 +69,12 @@
   ],
   "results": [
     {
-      "id": "l2archery:upgrade"
+      "id": "shh:incomplete_upgrade_poison"
     }
   ]
 }
   ],
   "transitional_item": {
-    "id": "l2archery:upgrade"
+    "id": "shh:incomplete_upgrade_poison"
   }
 }

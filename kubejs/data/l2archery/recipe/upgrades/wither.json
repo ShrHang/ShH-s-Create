@@ -1,30 +1,72 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "A": {
-      "item": "l2archery:upgrade"
-    },
-    "B": {
-      "item": "minecraft:dragon_breath"
-    },
-    "C": {
-      "item": "minecraft:wither_rose"
-    },
-    "D": {
-      "item": "minecraft:wither_skeleton_skull"
-    }
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "l2archery:upgrade"
   },
-  "pattern": [
-    "CDC",
-    "CAC",
-    "CBC"
-  ],
-  "result": {
+  "loops": 10,
+  "results": [
+    {
     "components": {
-      "l2archery:item_upgrade": "l2archery:wither"
+        "l2archery:item_upgrade": "l2archery:wither"
+      },
+      "id": "l2archery:upgrade"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "shh:incomplete_upgrade_wither"
+        },
+        {
+          "item": "minecraft:wither_rose"
+        }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_wither"
+        }
+      ]
     },
-    "count": 1,
-    "id": "l2archery:upgrade"
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "tag": "shh:incomplete_upgrade_wither"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 20,
+        "fluid": "create_dragons_plus:dragon_breath"
+      }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_wither"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "tag": "shh:incomplete_upgrade_wither"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 10,
+        "fluid": "create_enchantment_industry:experience"
+      }
+  ],
+  "results": [
+    {
+      "id": "shh:incomplete_upgrade_wither"
+    }
+  ]
+}
+  ],
+  "transitional_item": {
+    "id": "shh:incomplete_upgrade_wither"
   }
 }

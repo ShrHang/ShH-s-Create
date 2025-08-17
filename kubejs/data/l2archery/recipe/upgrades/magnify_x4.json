@@ -17,7 +17,23 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "l2archery:upgrade"
+          "item": "shh:incomplete_upgrade_magnify_x4"
+        },
+        {
+          "item": "minecraft:copper_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_magnify_x4"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "shh:incomplete_upgrade_magnify_x4"
         },
         {
           "item": "minecraft:spyglass"
@@ -25,7 +41,7 @@
       ],
       "results": [
         {
-          "id": "l2archery:upgrade"
+          "id": "shh:incomplete_upgrade_magnify_x4"
         }
       ]
     },
@@ -33,23 +49,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "l2archery:upgrade"
-        },
-        {
-          "item": "create:fluid_pipe"
-        }
-      ],
-      "results": [
-        {
-          "id": "l2archery:upgrade"
-        }
-      ]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        {
-          "item": "l2archery:upgrade"
+          "item": "shh:incomplete_upgrade_magnify_x4"
         },
         {
           "item": "minecraft:spyglass"
@@ -57,23 +57,7 @@
       ],
       "results": [
         {
-          "id": "l2archery:upgrade"
-        }
-      ]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        {
-          "item": "l2archery:upgrade"
-        },
-        {
-          "item": "create:fluid_pipe"
-        }
-      ],
-      "results": [
-        {
-          "id": "l2archery:upgrade"
+          "id": "shh:incomplete_upgrade_magnify_x4"
         }
       ]
     },
@@ -81,7 +65,7 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "l2archery:upgrade"
+        "tag": "shh:incomplete_upgrade_magnify_x4"
       },
       {
         "type": "fluid_stack",
@@ -91,12 +75,12 @@
   ],
   "results": [
     {
-      "id": "l2archery:upgrade"
+      "id": "shh:incomplete_upgrade_magnify_x4"
     }
   ]
 }
   ],
   "transitional_item": {
-    "id": "l2archery:upgrade"
+    "id": "shh:incomplete_upgrade_magnify_x4"
   }
 }

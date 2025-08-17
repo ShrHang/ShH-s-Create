@@ -5,6 +5,27 @@ StartupEvents.registry('item', event => {
         .texture('shh:item/etihw') // 确保纹理路径正确
         .rarity('epic')
 
+    event.create('shh:hulibugulv')
+        .tooltip('')
+        .texture('shh:item/hulibugulv')
+        .food(food => {
+            food.nutrition(6)           // ✅ 设置营养值（饥饿值）
+            food.saturation(1.2)        // ✅ 设置饱食度
+            food.alwaysEdible()         // ✅ 总是可食用
+            food.alwaysEdible(true)     // ✅ 或者明确设置为true/false
+            food.fastToEat()
+            food.effect('minecraft:health_boost', 3600, 4, 1.0)      // 3分钟，V级（+10颗心）
+            food.effect('minecraft:absorption', 2400, 3, 1.0)        // 2分钟，IV级（+8颗金心）
+            food.effect('minecraft:regeneration', 400, 2, 1.0)       // 20秒，III级再生
+            food.effect('minecraft:instant_health', 1, 4, 1.0)       // 瞬间治疗II  // ✅ 添加药水效果
+            food.removeEffect('minecraft:hunger')
+            food.usingConvertsTo('shh:item/hulibugulv')
+            food.eaten(ctx => {
+                ctx.player.tell('你吃了美味的顾虑！')
+            })
+        })
+        .rarity('epic')
+
     event.create('shh:incomplete_upgrade_advanced_infinity')
         .texture('shh:item/incomplete_upgrade_advanced_infinity')
     event.create('shh:incomplete_upgrade_anti_gravity')
@@ -66,3 +87,44 @@ StartupEvents.registry('item', event => {
     event.create('shh:incomplete_upgrade_wither')
         .texture('shh:item/incomplete_upgrade_wither')
 })
+
+
+ItemEvents.modification(event => {
+
+    event.modify('shh:hulibugulv', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.attack_damage",
+            {
+                "operation": 0,
+                "amount": 7,
+                "id": "minecraft:base_attack_damage"
+            },
+            "mainhand"
+        )
+        .withModifierAdded(
+            "minecraft:generic.attack_speed",
+            {
+                "operation": 0,
+                "amount": 0,
+                "id": "minecraft:base_attack_speed"
+            },
+            "mainhand"
+        )
+        .withModifierAdded(
+            "minecraft:player.entity_interaction_range",
+            {
+                "operation": 0,
+                "amount": 3,
+                "id": "shh_entity_interaction:mainhand"
+            },
+            "mainhand"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    })
+})
+

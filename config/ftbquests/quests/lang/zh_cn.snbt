@@ -67,9 +67,9 @@
 	quest.04CD6CA61B04F007.quest_desc: [
 		"&e十字齿轮箱&a能在&6四个方向上&a传动。"
 		"{@pagebreak}"
-		"&e十字齿轮箱&a是一种&6共平面垂直传动&a，&6反转转向&a包含在其中。"
+		"&e十字齿轮箱&a的传动类似于&e一圈大齿轮之间&a的咬合传动，但&e十字齿轮箱&6占地更小&a。"
 		""
-		"&a它的传动类似于&e一圈大齿轮之间&a的咬合传动，但&e十字齿轮箱&6占地更小&a。"
+		"&a是一种&6共平面垂直传动&a，&6反转转向&a包含在其中。"
 	]
 	quest.04CD6CA61B04F007.quest_subtitle: "传动的好手，善于转向调整。"
 	quest.058EE180EC5A2119.quest_desc: [
@@ -605,7 +605,16 @@
 	quest.525DDB4B52D1051A.quest_subtitle: "物流与自动化"
 	quest.525DDB4B52D1051A.title: "要解放劳动力？"
 	quest.52C0DA5CB8DFFA0A.title: "永恒套装"
-	quest.5363C12EB4E16ACD.quest_desc: ["&e可调节链式齿轮箱&a可利用&e红石信号&a，给与之相连的&e链式齿轮箱变速。"]
+	quest.5363C12EB4E16ACD.quest_desc: [
+		"&e可调节链式齿轮箱&a可利用&e红石信号&a，给&e链式齿轮箱&a变速。"
+		"{@pagebreak}"
+		"&a无红石信号时，相当于&e链式传动箱&a。两者可互相组成&e传动箱组&a。"
+		""
+		"&6变速&a需要先组成&e传动箱组&a，详见“&e链式齿轮箱&a”。"
+		""
+		"{ \"text\": \"点击跳转：链式齿轮箱\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"561CB1A791BF6EE4\" } }"
+		"{@pagebreak}"
+	]
 	quest.5363C12EB4E16ACD.quest_subtitle: "链式齿轮箱，但可以调转速"
 	quest.53A9570F1323BD81.quest_desc: [
 		"&a使用&5魔法免疫&a附魔或&6圣光守护之戒&a对策。"
@@ -632,13 +641,16 @@
 	quest.561CB1A791BF6EE4.quest_desc: [
 		"&a能和其他&e链式齿轮箱&a组成独特的传动系统。"
 		"{@pagebreak}"
-		"&e链式齿轮箱&a需要构成&e传动箱组&a来传动。常用于&6平行轴传动&a和&6异面垂直传动&a。"
+		"&e链式齿轮箱&a需要构成&e传动箱组&a来传动。"
 		""
-		"&6平行轴传动&a类似&e小齿轮之间&a的咬合传动&a，由&6同向并列&a的链式齿轮箱组成&e传动箱组&a。&6转向一致，但只能摆直线&a。"
+		"&a一种传动类似&e小齿轮之间&a的咬合传动&a，由&6同向并列&a的链式齿轮箱组成&e传动箱组&a。&6转向一致，但只能摆直线&a。"
 		""
+		"&a可称为&6平行轴&a传动。"
 		"{image:kubejs:textures/ftbquests/encased_chain_drive-1.png width:160 height:90 align:center}"
 		"{@pagebreak}"
-		"&6异面垂直传动&a是&e链式齿轮箱&a的特色。由&6两种朝向&a的链式齿轮箱&a形成&e传动箱组&a。可根据&6纹理&a来判断拼接的位置和朝向。"
+		"&a另一种传动是&e链式齿轮箱&a的特色。由&6两种朝向&a的链式齿轮箱&a形成&e传动箱组&a。可根据&6纹理&a来判断拼接的位置和朝向。"
+		""
+		"&a是一种&6异面垂直传动&a。"
 		"{image:kubejs:textures/ftbquests/encased_chain_drive-2.png width:160 height:90 align:center}"
 	]
 	quest.561CB1A791BF6EE4.quest_subtitle: "另一位传动的好手，提供独特的传动方法"

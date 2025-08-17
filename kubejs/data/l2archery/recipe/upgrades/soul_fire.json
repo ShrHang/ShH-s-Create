@@ -1,33 +1,80 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "A": {
-      "item": "l2archery:upgrade"
-    },
-    "B": {
-      "item": "minecraft:soul_soil"
-    },
-    "C": {
-      "item": "minecraft:blaze_rod"
-    },
-    "D": {
-      "item": "minecraft:ghast_tear"
-    },
-    "E": {
-      "item": "l2complements:soul_flame"
-    }
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "l2archery:upgrade"
   },
-  "pattern": [
-    "DED",
-    "CAC",
-    "BBB"
-  ],
-  "result": {
+  "loops": 1,
+  "results": [
+    {
     "components": {
       "l2archery:item_upgrade": "l2archery:soul_fire"
     },
-    "count": 1,
     "id": "l2archery:upgrade"
+  }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "tag": "shh:incomplete_upgrade_soul_fire"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 500,
+        "components": {
+        "create:potion_fluid_bottle_type": "regular",
+        "minecraft:potion_contents": {
+          "potion": "l2complements:soul_burning"
+          }
+        },
+        "fluid": "create:potion"
+      }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_soul_fire"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "tag": "shh:incomplete_upgrade_soul_fire"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 500,
+        "fluid": "create_dragons_plus:dragon_breath"
+      }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_soul_fire"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "tag": "shh:incomplete_upgrade_soul_fire"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 250,
+        "fluid": "create_enchantment_industry:experience"
+      }
+  ],
+  "results": [
+    {
+      "id": "shh:incomplete_upgrade_soul_fire"
+    }
+  ]
+}
+  ],
+  "transitional_item": {
+    "id": "shh:incomplete_upgrade_soul_fire"
   }
 }

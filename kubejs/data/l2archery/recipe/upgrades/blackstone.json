@@ -1,30 +1,80 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "A": {
-      "item": "l2archery:upgrade"
-    },
-    "B": {
-      "item": "minecraft:gilded_blackstone"
-    },
-    "C": {
-      "item": "minecraft:blackstone"
-    },
-    "E": {
-      "item": "l2complements:blackstone_core"
-    }
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "l2archery:upgrade"
   },
-  "pattern": [
-    "CEC",
-    "CAC",
-    "CBC"
-  ],
-  "result": {
+  "loops": 1,
+  "results": [
+    {
     "components": {
       "l2archery:item_upgrade": "l2archery:blackstone"
     },
-    "count": 1,
     "id": "l2archery:upgrade"
+  }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "tag": "shh:incomplete_upgrade_blackstone"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 500,
+        "components": {
+        "create:potion_fluid_bottle_type": "regular",
+        "minecraft:potion_contents": {
+          "potion": "l2complements:incarceration"
+          }
+        },
+        "fluid": "create:potion"
+      }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_blackstone"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "tag": "shh:incomplete_upgrade_blackstone"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 500,
+        "fluid": "create_dragons_plus:dragon_breath"
+      }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_blackstone"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "tag": "shh:incomplete_upgrade_blackstone"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 250,
+        "fluid": "create_enchantment_industry:experience"
+      }
+  ],
+  "results": [
+    {
+      "id": "shh:incomplete_upgrade_blackstone"
+    }
+  ]
+}
+  ],
+  "transitional_item": {
+    "id": "shh:incomplete_upgrade_blackstone"
   }
 }
