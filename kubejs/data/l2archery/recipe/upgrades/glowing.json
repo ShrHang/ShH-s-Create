@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "l2archery:upgrade"
   },
-  "loops": 1,
+  "loops": 4,
   "results": [
     {
     "components": {
@@ -33,7 +33,7 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "shh:incomplete_upgrade_glowing"
+        "item": "shh:incomplete_upgrade_glowing"
       },
       {
         "type": "fluid_stack",
@@ -51,7 +51,7 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "shh:incomplete_upgrade_glowing"
+        "item": "shh:incomplete_upgrade_glowing"
       },
       {
         "type": "fluid_stack",

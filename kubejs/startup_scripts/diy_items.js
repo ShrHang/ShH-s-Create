@@ -6,23 +6,20 @@ StartupEvents.registry('item', event => {
         .rarity('epic')
 
     event.create('shh:hulibugulv')
-        .tooltip('')
+        .tooltip('吃完不打胰岛素就是死路一条')
         .texture('shh:item/hulibugulv')
         .food(food => {
-            food.nutrition(6)           // ✅ 设置营养值（饥饿值）
-            food.saturation(1.2)        // ✅ 设置饱食度
+            food.nutrition(1)           // ✅ 设置营养值（饥饿值）
+            food.saturation(15)        // ✅ 设置饱食度
             food.alwaysEdible()         // ✅ 总是可食用
             food.alwaysEdible(true)     // ✅ 或者明确设置为true/false
             food.fastToEat()
-            food.effect('minecraft:health_boost', 3600, 4, 1.0)      // 3分钟，V级（+10颗心）
-            food.effect('minecraft:absorption', 2400, 3, 1.0)        // 2分钟，IV级（+8颗金心）
-            food.effect('minecraft:regeneration', 400, 2, 1.0)       // 20秒，III级再生
-            food.effect('minecraft:instant_health', 1, 4, 1.0)       // 瞬间治疗II  // ✅ 添加药水效果
+            food.effect('minecraft:health_boost', 3600, 4, 1.0)
+            food.effect('minecraft:absorption', 3600, 3, 1.0)
+            food.effect('minecraft:regeneration', 400, 2, 1.0)
+            food.effect('minecraft:instant_health', 1, 4, 1.0)
             food.removeEffect('minecraft:hunger')
-            food.usingConvertsTo('shh:item/hulibugulv')
-            food.eaten(ctx => {
-                ctx.player.tell('你吃了美味的顾虑！')
-            })
+            food.usingConvertsTo('minecraft:paper')
         })
         .rarity('epic')
 

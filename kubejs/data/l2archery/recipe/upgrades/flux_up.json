@@ -1,33 +1,68 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "C": {
-      "item": "minecraft:gold_ingot"
-    },
-    "G": {
-      "item": "minecraft:copper_ingot"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    },
-    "P": {
-      "item": "minecraft:redstone"
-    },
-    "X": {
-      "item": "l2archery:upgrade"
-    }
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "l2archery:upgrade"
   },
-  "pattern": [
-    " X ",
-    "ICI",
-    "GPG"
-  ],
-  "result": {
+  "loops": 1,
+  "results": [
+    {
     "components": {
       "l2archery:item_upgrade": "l2archery:flux_up"
     },
-    "count": 1,
     "id": "l2archery:upgrade"
+  }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "shh:incomplete_upgrade_flux_up"
+        },
+        {
+          "item": "createaddition:capacitor"
+        }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_flux_up"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "shh:incomplete_upgrade_flux_up"
+        },
+        {
+          "item": "createaddition:copper_wire"
+        }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_flux_up"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "shh:incomplete_upgrade_flux_up"
+        },
+        {
+          "item": "createaddition:connector"
+        }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_flux_up"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "shh:incomplete_upgrade_flux_up"
   }
 }

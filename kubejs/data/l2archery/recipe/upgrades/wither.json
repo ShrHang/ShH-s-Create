@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "l2archery:upgrade"
   },
-  "loops": 10,
+  "loops": 4,
   "results": [
     {
     "components": {
@@ -33,11 +33,11 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "shh:incomplete_upgrade_wither"
+        "item": "shh:incomplete_upgrade_wither"
       },
       {
         "type": "fluid_stack",
-        "amount": 20,
+        "amount": 500,
         "fluid": "create_dragons_plus:dragon_breath"
       }
       ],
@@ -51,11 +51,11 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "shh:incomplete_upgrade_wither"
+        "item": "shh:incomplete_upgrade_wither"
       },
       {
         "type": "fluid_stack",
-        "amount": 10,
+        "amount": 250,
         "fluid": "create_enchantment_industry:experience"
       }
   ],

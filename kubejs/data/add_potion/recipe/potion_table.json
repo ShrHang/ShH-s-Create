@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item":"create:spout"
+    },
+    "B": {
+      "item": "create:fluid_pipe"
+    },
+    "C": {
+      "item": "create:mechanical_pump"
+    },
+    "D": {
+      "item": "create:hand_crank"
+    },
+    "E": {
+        "item": "create:cogwheel"
+    },
+    "F" : {
+        "item": "create:depot"
+    },
+    "G": {
+        "item": "create:item_drain"
+    }
+  },
+  "pattern": [
+    "ABD",
+    " CE",
+    "FBG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "add_potion:potion_table"
+  }
+}

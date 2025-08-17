@@ -735,7 +735,7 @@
 	]
 	quest.5CB83B207F4279BA.quest_subtitle: "将电力导出的方法"
 	quest.5CB83B207F4279BA.title: "让我们开导！"
-	quest.5D98E3A860ED7735.quest_subtitle: "满级大佬总是打扮的千奇百怪"
+	quest.5D98E3A860ED7735.quest_subtitle: "满级大佬总是打扮得千奇百怪"
 	quest.5DF518B27AF3EEFB.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c吸引&a词条怪物获取。"]
 	quest.5E2D39EB6D39D681.quest_subtitle: "增加背饰栏位"
 	quest.5E2D39EB6D39D681.title: "三&4色&8披&6风"
@@ -897,6 +897,11 @@
 		"&a后期唯一可威胁到玩家的词条。若怪物复制了&6虚空之触&a附魔，则可以击穿伤害免疫附魔。"
 	]
 	quest.73A8056B636335D0.quest_subtitle: "看来是同类型的替身呢。"
+	quest.745C9AD0FF6EA5C8.quest_desc: [
+		"&a使用注入工作台，&e将药水注入食物中&a，可以在进食该食物的同时&b获得所注入的药水效果&a。"
+		""
+		"&d搭配永恒牛排或许是个不错的选择？"
+	]
 	quest.745C9AD0FF6EA5C8.quest_subtitle: "给您下药了！"
 	quest.745CEC8A62C5527C.quest_desc: [
 		"&a我们可以通过&b蓄电池&a储存FE，避免浪费产出的FE，以供不时之需。"

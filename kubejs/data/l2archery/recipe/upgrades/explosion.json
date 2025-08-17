@@ -1,35 +1,104 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "A": {
-      "item": "l2archery:upgrade"
-    },
-    "B": {
-      "item": "minecraft:nether_star"
-    },
-    "C": {
-      "item": "minecraft:creeper_head"
-    },
-    "D": {
-      "type": "l2core:enchantment",
-      "enchantment": "minecraft:infinity",
-      "minLevel": 1
-    },
-    "E": {
-      "item": "l2complements:explosion_shard"
-    }
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "l2archery:upgrade"
   },
-  "pattern": [
-    "CEC",
-    "BAB",
-    "CDC"
-  ],
-  "result": {
+  "loops": 1,
+  "results": [
+    {
     "components": {
       "l2archery:item_upgrade": "l2archery:explosion"
     },
-    "count": 1,
     "id": "l2archery:upgrade"
+  }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "shh:incomplete_upgrade_explosion"
+        },
+        {
+          "item": "minecraft:nether_star"
+        }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_explosion"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "shh:incomplete_upgrade_explosion"
+        },
+        {
+          "item": "minecraft:creeper_head"
+        }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_explosion"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "shh:incomplete_upgrade_explosion"
+        },
+        {
+          "type": "l2core:enchantment",
+          "enchantment": "minecraft:infinity",
+          "minLevel": 1
+        }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_explosion"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "shh:incomplete_upgrade_explosion"
+        },
+        {
+          "item": "l2complements:explosion_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_explosion"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "item": "shh:incomplete_upgrade_explosion"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 1000,
+        "fluid": "create_enchantment_industry:experience"
+      }
+  ],
+  "results": [
+    {
+      "id": "shh:incomplete_upgrade_explosionn"
+    }
+  ]
+}
+  ],
+  "transitional_item": {
+    "id": "shh:incomplete_upgrade_explosion"
   }
 }

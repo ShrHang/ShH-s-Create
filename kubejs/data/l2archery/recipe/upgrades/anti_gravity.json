@@ -1,30 +1,80 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "A": {
-      "item": "l2archery:upgrade"
-    },
-    "B": {
-      "item": "l2complements:captured_wind"
-    },
-    "C": {
-      "item": "minecraft:phantom_membrane"
-    },
-    "E": {
-      "item": "l2complements:captured_shulker_bullet"
-    }
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "l2archery:upgrade"
   },
-  "pattern": [
-    "CEC",
-    "CAC",
-    "CBC"
-  ],
-  "result": {
+  "loops": 4,
+  "results": [
+    {
     "components": {
       "l2archery:item_upgrade": "l2archery:anti_gravity"
     },
-    "count": 1,
     "id": "l2archery:upgrade"
+  }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "tag": "shh:incomplete_upgrade_anti_gravity"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 500,
+        "components": {
+        "create:potion_fluid_bottle_type": "regular",
+        "minecraft:potion_contents": {
+          "potion": "l2archery:sprinting_archer"
+          }
+        },
+        "fluid": "create:potion"
+      }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_anti_gravity"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "tag": "shh:incomplete_upgrade_anti_gravity"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 500,
+        "fluid": "create_dragons_plus:dragon_breath"
+      }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_anti_gravity"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+      {
+        "tag": "shh:incomplete_upgrade_anti_gravity"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 250,
+        "fluid": "create_enchantment_industry:experience"
+      }
+  ],
+    "results": [
+      {
+        "id": "shh:incomplete_upgrade_anti_gravity"
+      }
+    ]
+  }
+  ],
+  "transitional_item": {
+    "id": "shh:incomplete_upgrade_anti_gravity"
   }
 }
