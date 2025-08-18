@@ -126,6 +126,15 @@
           "free": 0,
           "min": 1,
           "trait": "l2hostility:cursed"
+        },
+        {
+          "condition": {
+            "chance": 1.0,
+            "lv": 100
+          },
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:repelling"
         }
       ]
     },

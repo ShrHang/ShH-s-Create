@@ -6,7 +6,7 @@
         "minions": [
           {
             "type": "minecraft:blaze",
-            "cooldown": 100,
+            "cooldown": 1000,
             "copyLevel": true,
             "copyTrait": false,
             "discardOnUnlink": true,
@@ -19,7 +19,7 @@
           },
           {
             "type": "cataclysm:ignited_revenant",
-            "cooldown": 400,
+            "cooldown": 4000,
             "copyLevel": true,
             "copyTrait": false,
             "discardOnUnlink": true,
@@ -32,7 +32,7 @@
           },
           {
             "type": "cataclysm:ignited_berserker",
-            "cooldown": 400,
+            "cooldown": 4000,
             "copyLevel": true,
             "copyTrait": false,
             "discardOnUnlink": true,
@@ -90,7 +90,8 @@
                 "components": {
                   "minecraft:enchantments": {
                     "levels": {
-                      "l2hostility:vanish": 1
+                      "l2hostility:vanish": 1,
+                      "minecraft:binding_curse": 1
                     }
                   }
                 },

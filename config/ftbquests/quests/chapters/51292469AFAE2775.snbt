@@ -670,5 +670,17 @@
 			x: 9.0d
 			y: 2.0d
 		}
+		{
+			disable_toast: true
+			id: "455E8000401973BE"
+			shape: "gear"
+			tasks: [{
+				id: "5D0A83624FA1E66D"
+				item: { count: 1, id: "create:copper_valve_handle" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
 	]
 }

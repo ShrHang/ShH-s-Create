@@ -9,5 +9,17 @@
 	id: "627FF5181137FAF1"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		disable_toast: true
+		id: "0CDDF381CED87CEB"
+		shape: "gear"
+		size: 2.5d
+		tasks: [{
+			id: "260EE796689D3D01"
+			item: { count: 1, id: "pandora:pandora_necklace" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.5d
+	}]
 }

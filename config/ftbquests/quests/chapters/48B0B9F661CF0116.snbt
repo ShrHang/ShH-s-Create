@@ -92,8 +92,8 @@
 				item: { count: 1, id: "create:linked_controller" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["01B0AE5A1110E12A"]
@@ -310,7 +310,7 @@
 				item: { count: 1, id: "create:mechanical_saw" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 2.5d
 		}
 		{
@@ -321,7 +321,7 @@
 				item: { count: 1, id: "create:mechanical_harvester" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 1.5d
 		}
 		{
@@ -343,7 +343,7 @@
 				item: { count: 1, id: "create:mechanical_roller" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 3.5d
 		}
 		{

@@ -1,0 +1,20 @@
+﻿{
+"type": "create:mixing",
+"ingredients": [
+{
+"item": "l2hostility:charm_of_looting_3"
+},
+{
+"item": "l2hostility:regenerate"
+}
+],
+"results": [
+{
+"id": "l2hostility:charm_of_looting_3"
+},
+{
+"count": 4,
+"id": "l2complements:totemic_gold_nugget"
+}
+]
+}

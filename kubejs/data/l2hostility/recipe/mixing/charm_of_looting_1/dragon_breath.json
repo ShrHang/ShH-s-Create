@@ -1,0 +1,20 @@
+{
+	"type": "create:mixing",
+	"ingredients": [
+	  {
+      "item": "l2hostility:charm_of_looting_1"
+	  },
+	  {
+      "item": "l2hostility:gravity"
+	  }
+	],
+	"results": [
+    {
+      "id": "l2hostility:charm_of_looting_1"
+	},
+    {
+	  "count": 4,
+      "id": "minecraft:dragon_breath"
+    }
+	]
+}

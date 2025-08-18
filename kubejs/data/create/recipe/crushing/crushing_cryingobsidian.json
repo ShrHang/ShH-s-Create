@@ -15,7 +15,7 @@
       "id": "create:powdered_obsidian"
     },
     {
-      "chance": 0.375,
+      "chance": 0.75,
       "id": "minecraft:amethyst_shard"
     }
   ],

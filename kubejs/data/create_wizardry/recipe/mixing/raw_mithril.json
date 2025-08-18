@@ -1,0 +1,33 @@
+{
+	"type": "create:mixing",
+    "heat_requirement": "superheated",
+	"ingredients": [
+	  {
+      "item": "create:ochrum"
+    },
+    {
+      "item": "create:asurine"
+    },
+    {
+      "item": "create:crimsite"
+    },
+    {
+      "item": "create:veridium"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "create_wizardry:mana"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "irons_spellbooks:timeless_slurry"
+    }
+	],
+	"results": [
+    {
+      "id": "irons_spellbooks:raw_mithril"
+    }
+	]
+}

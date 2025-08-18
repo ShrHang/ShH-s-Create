@@ -11,7 +11,7 @@
       "id": "minecraft:quartz"
     },
     {
-      "chance": 0.08,
+      "chance": 0.25,
       "id": "minecraft:lapis_lazuli"
     }
   ],

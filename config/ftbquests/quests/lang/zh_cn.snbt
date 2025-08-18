@@ -47,7 +47,7 @@
 	quest.013277EFC1F614DA.quest_subtitle: "列车所行之路"
 	quest.02ED933D0A028B2D.quest_desc: [
 		"&e空白魔晶&a可以合成&d带有不同效果的魔晶&a。"
-		"{image:kubejs:textures/ftbquests/upgrade-1.png width:150 height:110 align:center}"
+		"{image:kubejs:textures/ftbquests/upgrade-1.png width:170 height:145 align:center}"
 		""
 		"&7                                     看下一页"
 		"{@pagebreak}"
@@ -205,6 +205,7 @@
 	quest.1B0A8515FEE973A2.quest_subtitle: "不需要解锁就可以传送"
 	quest.1B0A8515FEE973A2.title: "共享石碑"
 	quest.1D2F07F03CE56385.quest_desc: ["因为不需要掌握所以我没写。"]
+	quest.1D2F07F03CE56385.quest_subtitle: "也许是鸣谢人员名单？"
 	quest.1D2F07F03CE56385.title: "可以不掌握的知识："
 	quest.1DBFF38A134ADB85.title: "御币"
 	quest.1DFF9BB5BB6E367E.quest_desc: ["&a使用&5绝缘&a附魔对策。"]
@@ -243,6 +244,8 @@
 	quest.26BE72F4A0B6196E.title: "硬化"
 	quest.26CEC88F4384CA99.quest_desc: ["&a使用&5分裂抑制&a附魔对策。"]
 	quest.26CEC88F4384CA99.quest_subtitle: "本以为抓个小贼，没想到捅了老窝！"
+	quest.279C59EDF80D7AD2.quest_desc: [""]
+	quest.279C59EDF80D7AD2.quest_subtitle: "仅供参考的游玩指引，和路径图"
 	quest.279C59EDF80D7AD2.title: "必须掌握的知识：FTB任务书"
 	quest.28C318A414DAA913.quest_desc: [
 		"&a饮用后将清空玩家的&6难度等级&a。"
@@ -280,6 +283,12 @@
 	quest.28EDBD9F6C17E5B0.title: "让我们进入电动时代！"
 	quest.291DCC19505D3807.quest_subtitle: "没有人会拒绝预制建筑吧"
 	quest.29DC9DE71E8B6DCB.quest_subtitle: "这潜影贝吃苦力怕长大的？"
+	quest.29E5F3919F542B5C.quest_desc: [
+		"&e采集作业元件&a在&6固定区域&a内&6挖掘、收集&a物品。它们是少数在&6动态结构&a上正常工作的&e元件&a。"
+		""
+		""
+		"{ \"text\": \"点击跳转：采集作业元件\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"236BBAA20DCACC6B\" } }"
+	]
 	quest.29E5F3919F542B5C.quest_subtitle: "采集作业元件"
 	quest.29E5F3919F542B5C.title: "不想自己采原料？"
 	quest.2A2711A24A442F3B.quest_desc: [
@@ -331,7 +340,11 @@
 		"{@pagebreak}"
 		"&c注意：应力输入存在转向冲突时，传动处的构件将崩解为掉落物。"
 		""
-		"&c有转速冲突而没有转向冲突时，转速高的一方会加速转速低的一方，让传动处转速相等。"
+		"&a有&c转速冲突&a而没有&c转向冲突&a时，&6转速高&a的一方会加速&6转速低&a的一方，让传动处转速相等。"
+		"{@pagebreak}"
+		"&6动力源&a被加速时&6依然提供应力&a，但不再作为传动中的&6输出端&a。"
+		""
+		"&6动力源&a不会被减速到&6基础转速&a以下，若有此倾向，&c变速元件将崩解。"
 	]
 	quest.2EE2BD3B54AEF633.quest_subtitle: "运输应力的元件"
 	quest.2EE2BD3B54AEF633.title: "基础传动元件"
@@ -491,7 +504,7 @@
 		""
 		"&b潜行右键点击&a产生&d顺时针&d应力&a。"
 		""
-		"&6单次点击&a维持&d0.5s&a，&6固定产生&d256su应力&a和&d32RPM转速&a。"
+		"&6单次点击&a维持&d0.5s&a，&6产生&d8su/RPM应力&a和&d32RPM转速&a，实际上&6固定产出&d256su应力&a。"
 	]
 	quest.3E7F5D1A8726E2B9.quest_subtitle: "低效简单的手动动力源"
 	quest.3FACB517CA63ADF5.title: "生命修补"
@@ -526,7 +539,39 @@
 	quest.445564C4C0A6A27F.quest_subtitle: "说是扩充，实际上是一切莱特兰模组的起源。"
 	quest.448FD101F7DE41CE.quest_subtitle: "杀~戮~光~环~！"
 	quest.4519D0B28AD8DFA1.quest_subtitle: "简单粗暴的数值。"
-	quest.46AA61D3F63ADDE8.quest_subtitle: "学会如何使用JEI查看物品的来源、用途，以及相关配方。"
+	quest.455E8000401973BE.quest_desc: [
+		"&e阀门手轮&a是&6手动&a的&6动力源&a，数值和&e手摇曲柄&a一致。"
+		""
+		"&c但它不能像手摇曲柄一样连续旋转，不能连续产出应力！"
+		""
+		"&a它主要用于动态结构↓"
+		""
+		"{ \"text\": \"点击跳转：阀门手轮\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"74C1FF06504E18AE\" } }"
+	]
+	quest.455E8000401973BE.quest_subtitle: "半吊子动力源"
+	quest.455E8000401973BE.title: "折磨自己？"
+	quest.46AA61D3F63ADDE8.quest_desc: [
+		"&a打开&e物品栏&a(&b默认E键&a)，界面右侧的&6一堆物品和搜索框&a就是&eJEI&a——的一部分。"
+		"{@pagebreak}"
+		"&eJEI&a主要用来&6查找未知配方&a。将&b鼠标&a指向物品后："
+		""
+		"&a对着物品&b左键点击&a或&b按下R键&a，显示&e合成它的配方&a(若有)。"
+		""
+		"&a对着物品&b右键点击&a或&b按下U键&a，显示&e用它合成的配方&a(若有)。"
+		"{@pagebreak}"
+		"&a如&b右键点击&e工作台&a，显示&6用工作台合成&a的配方，和&6工作台作为材料&a的配方。"
+		""
+		"&b左右键&a仅限&eJEI&a界面内生效，&bR/U键&a可在&e物品栏&a内生效。"
+		"{@pagebreak}"
+		"&a在配方界面，上方是&e合成配方类型&a(如&e合成&a)，左侧边框是&e工作方块&a(如&e工作台&a)。"
+		""
+		"&e每种配方种类&a都需要相应的&e工作方块&a和其他&6特定条件&a才能实现。大多都可以在&eJEI&a中查到。"
+		"{@pagebreak}"
+		"&e书签&a用来快速查看配方。可在配方界面添加，也可通过&e物品栏&a左下方按键&6快速添加&a。"
+		""
+		"&e书签&a显示在左上方，&eFTB功能&a的下方。"
+	]
+	quest.46AA61D3F63ADDE8.quest_subtitle: "查看物品的来源、用途，以及相关配方。"
 	quest.46AA61D3F63ADDE8.title: "请务必掌握的知识：使用JEI"
 	quest.470CEC5E9E905235.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
 	quest.470CEC5E9E905235.quest_subtitle: "你反手无力，正手不精，脚步松散，反应迟钝！"
@@ -608,12 +653,25 @@
 	quest.5363C12EB4E16ACD.quest_desc: [
 		"&e可调节链式齿轮箱&a可利用&e红石信号&a，给&e链式齿轮箱&a变速。"
 		"{@pagebreak}"
-		"&a无红石信号时，相当于&e链式传动箱&a。两者可互相组成&e传动箱组&a。"
+		"&a无信号时，相当于&e链式传动箱&a。两者可互相组成&e传动箱组&a。"
 		""
 		"&6变速&a需要先组成&e传动箱组&a，详见“&e链式齿轮箱&a”。"
 		""
 		"{ \"text\": \"点击跳转：链式齿轮箱\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"561CB1A791BF6EE4\" } }"
 		"{@pagebreak}"
+		"&e可调节链式传动箱&a有&e红石信号&a时，&e传动箱组&a中&6输入端&a的&d转速&a保持不变，&6输出&a则分两种情况："
+		""
+		"&6输入端&e可调节链式传动箱&a有信号：其他&e传动箱&6加速&a"
+		""
+		"&6输出端&e可调节链式传动箱&a有信号：自身&6减速&a。"
+		""
+		"&a即&e可调节链式传动箱&a在通入信号后一定较慢。"
+		"{@pagebreak}"
+		"&e红石信号强度&a决定变速的&6比率&a，即&6高速部分&a与&6低速部分&a的&d转速的比&a。"
+		""
+		"&e信号强度0&a时，不变速。&e信号强度15&a时，&6高速部分&a是&6低速部分&a的两倍转速，即&6加速两倍&a或&6减速一半&a。"
+		""
+		"&d0~15&a的&e信号强度&6线性对应&d1~2&a的&6变速比&a。"
 	]
 	quest.5363C12EB4E16ACD.quest_subtitle: "链式齿轮箱，但可以调转速"
 	quest.53A9570F1323BD81.quest_desc: [
@@ -671,7 +729,7 @@
 		"{@pagebreak}"
 		"&6作业元件&a消耗&d应力&a,&6作业速率&a随着&d转速&a的上升而上升。&d应力消耗&a也是如此。"
 		""
-		"&d转速&a的上限是&d256RPM&a。"
+		"&d转速&a的上限是&d256RPM&a。1RPM即每分钟转1圈。"
 		"{@pagebreak}"
 		"&e动力源&a、&e传动元件&a和&e作业元件&a构成一个&e应力网络&a。"
 		""
@@ -912,6 +970,13 @@
 	]
 	quest.745CEC8A62C5527C.quest_subtitle: "蓄电池"
 	quest.745CEC8A62C5527C.title: "让我们把电存起来！"
+	quest.74C1FF06504E18AE.quest_desc: [
+		""
+		"{@pagebreak}"
+		"&e阀门手轮&a也临时提供应力，类似于&e手摇曲柄&a，但&6不能连续使用&a。"
+		""
+		"&a与&e手摇曲柄&a不同的是，&e阀门手轮&a单次持续时间并不固定，而是取决于旋转角度。&e阀门手轮&a的转速是&d32RPM&a，换算即&d192°/s&a，单次持续时间可以超过&e手摇曲柄&a的&d0.5s&a。"
+	]
 	quest.7536FBAA2A6AB4FB.title: "潜影套装"
 	quest.78FC1D37DCC2C65D.quest_desc: [
 		"&a佩戴这类饰品后&6击杀带有词条的怪物&a会获取对应的掉落物。"
@@ -947,15 +1012,21 @@
 	quest.7D2F0EEA397C59A5.quest_subtitle: "吼吼，非但没有逃跑，反而还向我靠近了吗？"
 	quest.7E31F579872775F7.quest_subtitle: "区区致命伤"
 	quest.7E31F579872775F7.title: "&6【核心】&r屹立不倒之戒"
+	quest.7E9A493DA5DABB21.quest_desc: [
+		"&e石磨&a可以提取&e染料&a，转化&e石材&a为&e沙子&a。也多用来生产&e小麦粉&a。"
+		""
+		"&a其功能基本可被&6黄铜时代&a的&e粉碎轮&a代替，可以大跃进到&e粉碎轮&a而跳过&e石磨&a。"
+		"{@pagebreak}"
+	]
 	quest.7E9A493DA5DABB21.quest_subtitle: "在有粉碎轮之前"
 	quest.7EE4991628B8A64C.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
 	quest.7EE4991628B8A64C.quest_subtitle: "止心术的天敌"
 	quest.7FD21E494B9F661F.quest_desc: [
 		"&a有&e流动液体&a就能用的&6动力源&a。有&e水车&a和&e大型水车。"
-		""
-		"&a水车上有&6单一转向趋势&a的&e流动液体&a时，&e水车&a即产生&d应力&a，&d转向&a与趋势相同。"
 		"{@pagebreak}"
-		"&a具体来说，在水车&6径向边缘方格&a上，存在&6切向&a的&e流动液体&a，且两种转向的&e流动液体&a所占的&6方格数不相等&a时，&d转向&a等同于两类转向中&6占方格最多&a的一类。"
+		"&e水车&a上的&e流动液体&a有&6单一的转向趋势&a时，&e水车&a即工作，&d转向&a与趋势相同。"
+		""
+		"&a具体来说，在&e水车&6径向边缘方格&a上，存在&6切向&a的&e流动液体&a，且两种转向的&e流动液体&a所占的&6方格数不相等&a时，&d转向&a等同于两类转向中&6占方格最多&a的一类。"
 		"{image:kubejs:textures/ftbquests/water_wheel.png width:160 height:90 align:center}"
 		"{@pagebreak}"
 		"&e水车&d实占1x1x1&a，&e大型水车&d实占3x3x1&a。&6固定产生&d256su&e（小）&a或&d512su&e（大)&d应力&a，和&d8RPM&e(小）&a或&d4RPM&e（大）&d转速&a。"

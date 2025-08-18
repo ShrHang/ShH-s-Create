@@ -1,0 +1,24 @@
+﻿{
+"type": "create:mixing",
+"ingredients": [
+{
+"item": "l2hostility:charm_of_looting_2"
+},
+{
+"count": 4,
+"item": "l2hostility:protection"
+},
+{
+"item": "l2hostility:tank"
+}
+],
+"results": [
+{
+"id": "l2hostility:charm_of_looting_2"
+},
+{
+"count": 1,
+"id": "l2complements:shulkerate_ingot"
+}
+]
+}

@@ -1,0 +1,13 @@
+{
+	"type": "create:haunting",
+	"ingredients": [
+	  {
+      "item": "minecraft:fire_charge"
+	  }
+	],
+	"results": [
+    {
+      "id": "l2complements:black_fire_charge"
+    }
+	]
+}

@@ -87,7 +87,6 @@ StartupEvents.registry('item', event => {
 
 
 ItemEvents.modification(event => {
-
     event.modify('shh:hulibugulv', item => {
         var modifiers = item
         .item()
@@ -124,4 +123,3 @@ ItemEvents.modification(event => {
         item.setAttributeModifiersWithTooltip(modifiers);
     })
 })
-

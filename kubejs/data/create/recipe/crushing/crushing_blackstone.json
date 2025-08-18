@@ -13,6 +13,10 @@
     {
       "chance": 0.25,
       "id": "minecraft:blackstone"
+    },
+    {
+      "chance": 0.01,
+      "id": "l2complements:blackstone_core"
     }
   ],
   "processingTime": 350

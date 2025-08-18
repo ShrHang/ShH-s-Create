@@ -1,0 +1,26 @@
+﻿{
+"type": "create:mixing",
+"ingredients": [
+{
+"item": "l2hostility:charm_of_looting_4"
+},
+{
+"item": "l2hostility:dispell"
+},
+{
+"item": "l2hostility:dispell"
+},
+{
+"item": "l2hostility:dispell"
+}
+],
+"results": [
+{
+"id": "l2hostility:charm_of_looting_4"
+},
+{
+"count": 1,
+"id": "l2hostility:imagine_breaker"
+}
+]
+}

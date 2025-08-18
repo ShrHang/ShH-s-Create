@@ -14,8 +14,12 @@
 			dependencies: [
 				"0C7FAE5FB0D2C3BE"
 				"5F6A3C29FC3450BC"
+				"3DA7D8412EDDB308"
 			]
+			dependency_requirement: "all_started"
 			id: "507FFB6534902FBA"
+			shape: "square"
+			size: 1.5d
 			tasks: [{
 				id: "2092180B42DE7D38"
 				item: { count: 1, id: "create:brass_ingot" }
@@ -124,8 +128,8 @@
 				item: { count: 1, id: "createaddition:straw" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.0d
+			x: -4.5d
+			y: 3.5d
 		}
 	]
 }

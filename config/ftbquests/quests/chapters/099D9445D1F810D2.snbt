@@ -195,5 +195,15 @@
 			x: 2.5d
 			y: 2.5d
 		}
+		{
+			id: "43355E6AD4BBBF5C"
+			tasks: [{
+				id: "5029ABABADF3DAA4"
+				item: { count: 1, id: "cataclysm:music_disc_the_cataclysmfarer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
 	]
 }

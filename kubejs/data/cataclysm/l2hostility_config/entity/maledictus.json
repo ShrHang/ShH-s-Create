@@ -6,7 +6,7 @@
         "minions": [
           {
             "type": "cataclysm:draugr",
-            "cooldown": 250,
+            "cooldown": 2500,
             "copyLevel": true,
             "copyTrait": false,
             "discardOnUnlink": true,
@@ -19,7 +19,7 @@
           },
           {
             "type": "cataclysm:elite_draugr",
-            "cooldown": 400,
+            "cooldown": 4000,
             "copyLevel": true,
             "copyTrait": false,
             "discardOnUnlink": true,
@@ -32,7 +32,7 @@
           },
           {
             "type": "cataclysm:royal_draugr",
-            "cooldown": 700,
+            "cooldown": 7000,
             "copyLevel": true,
             "copyTrait": false,
             "discardOnUnlink": true,
@@ -45,7 +45,7 @@
           },
           {
             "type": "cataclysm:aptrgangr",
-            "cooldown": 100,
+            "cooldown": 1000,
             "copyLevel": true,
             "copyTrait": false,
             "discardOnUnlink": true,
@@ -64,7 +64,7 @@
       "difficulty": {
         "apply_chance": 1.0,
         "base": 0,
-        "min": 80,
+        "min": 100,
         "scale": 0.0,
         "suppression": 0.0,
         "trait_chance": 1.0,
@@ -81,7 +81,8 @@
                 "components": {
                   "minecraft:enchantments": {
                     "levels": {
-                      "l2hostility:vanish": 1
+                      "l2hostility:vanish": 1,
+                      "minecraft:binding_curse": 1
                     }
                   }
                 },
@@ -102,17 +103,17 @@
       "traits": [
         {
           "free": 2,
-          "min": 30,
+          "min": 3,
           "trait": "l2hostility:tank"
         },
         {
           "free": 1,
-          "min": 40,
+          "min": 1,
           "trait": "l2hostility:drain"
         },
         {
           "free": 1,
-          "min": 100,
+          "min": 1,
           "trait": "l2hostility:dispell"
         },
         {

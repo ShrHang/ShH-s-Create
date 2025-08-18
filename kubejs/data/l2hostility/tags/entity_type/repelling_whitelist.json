@@ -7,7 +7,6 @@
     "minecraft:witch",
     "minecraft:guardian",
     "minecraft:elder_guardian",
-    "minecraft:wither",
-    "minecraft:enderman"
+    "minecraft:wither"
   ]
 }
