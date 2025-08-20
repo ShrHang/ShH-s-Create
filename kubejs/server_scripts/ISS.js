@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
     event.remove({output:"irons_spellbooks:netherite_spell_book"})
     event.remove({output:"irons_spellbooks:ice_spell_book"})
     event.remove({output:"cataclysm_spellbooks:codex_of_malice_spell_book"})
+    event.remove({output:"cataclysm_spellbooks:abyss_spell_book"})
 })
 // Spellbook
 ServerEvents.recipes(event => {
@@ -101,6 +102,14 @@ ServerEvents.recipes(event => {
         "l2complements:warden_bone_shard",
         "irons_spellbooks:rotten_spell_book",
         "irons_spellbooks:eldritch_manuscript"
+    )
+
+    // 破败->拉莱耶
+    event.smithing(
+        "cataclysm_spellbooks:abyss_spell_book",
+        'cataclysm:blessed_amethyst_crab_meat',
+        "irons_spellbooks:rotten_spell_book",
+        'cataclysm:abyss_eye'
     )
 
     // 破败->寒冰

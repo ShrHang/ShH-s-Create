@@ -10,7 +10,7 @@
 		id: "touhou_little_maid:entity_placeholder"
 	}
 	id: "733710CB459E6FC3"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [{
 		id: "1DBFF38A134ADB85"
