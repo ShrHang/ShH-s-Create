@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
     // 铁箍->残破
     event.smithing(
         "irons_spellbooks:rotten_spell_book",
-        "farmersdelight:canvas",
+        'create:cardboard',
         "irons_spellbooks:iron_spell_book",
         "minecraft:moss_carpet"
     )

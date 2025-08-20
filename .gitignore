@@ -28,6 +28,8 @@ xaero/
 XaeroWaypoints_BACKUP240807/
 command_history.txt
 patchouli_data.json
+ProbeJS-7.5.1.jar.disabled
+ProbeJS-7.5.1.jar
 
 # 临时文件
 *.log
