@@ -170,6 +170,9 @@
 			dependencies: ["56A8F476C3B11610"]
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
+			icon: {
+				id: "create:hand_crank"
+			}
 			id: "3E7F5D1A8726E2B9"
 			shape: "none"
 			tasks: [
@@ -182,6 +185,9 @@
 					advancement: "create:hand_crank_000"
 					criterion: ""
 					disable_toast: true
+					icon: {
+						id: "create:builders_tea"
+					}
 					id: "4234450FC0F113CE"
 					type: "advancement"
 				}
@@ -308,6 +314,9 @@
 					advancement: "create:windmill"
 					criterion: ""
 					disable_toast: true
+					icon: {
+						id: "create:builders_tea"
+					}
 					id: "2B2F423094D855BE"
 					type: "advancement"
 				}
@@ -315,6 +324,9 @@
 					advancement: "create:windmill_maxed"
 					criterion: ""
 					disable_toast: true
+					icon: {
+						id: "create:builders_tea"
+					}
 					id: "2B3AD200B052D3A5"
 					type: "advancement"
 				}
@@ -350,6 +362,9 @@
 					advancement: "create:water_wheel"
 					criterion: ""
 					disable_toast: true
+					icon: {
+						id: "create:builders_tea"
+					}
 					id: "6601CB0FF65DE525"
 					type: "advancement"
 				}
@@ -357,6 +372,9 @@
 					advancement: "create:lava_wheel_00000"
 					criterion: ""
 					disable_toast: true
+					icon: {
+						id: "create:builders_tea"
+					}
 					id: "209578C93C42826E"
 					type: "advancement"
 				}
@@ -503,11 +521,17 @@
 		{
 			dependencies: ["2EE2BD3B54AEF633"]
 			hide_dependency_lines: true
+			icon: {
+				id: "create:cogwheel"
+			}
 			id: "2D8145CB64C58C0A"
 			shape: "none"
 			tasks: [{
 				advancement: "create:shifting_gears"
 				criterion: ""
+				icon: {
+					id: "create:builders_tea"
+				}
 				id: "47D169D440DC3308"
 				type: "advancement"
 			}]
@@ -621,26 +645,66 @@
 		{
 			dependencies: ["5A13E6C10C18D5C3"]
 			hide_dependency_lines: true
+			icon: {
+				id: "create:millstone"
+			}
 			id: "7E9A493DA5DABB21"
 			shape: "none"
-			tasks: [{
-				id: "61219528267CC54D"
-				item: { count: 1, id: "create:millstone" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "61219528267CC54D"
+					item: { count: 1, id: "create:millstone" }
+					type: "item"
+				}
+				{
+					advancement: "create:millstone"
+					criterion: ""
+					disable_toast: true
+					icon: {
+						id: "create:builders_tea"
+					}
+					id: "64FA53FC27B51539"
+					type: "advancement"
+				}
+			]
 			x: 8.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5A13E6C10C18D5C3"]
 			hide_dependency_lines: true
+			icon: {
+				id: "create:encased_fan"
+			}
 			id: "0A8F420158CB6587"
 			shape: "none"
-			tasks: [{
-				id: "6F6FF6F3C9C5684C"
-				item: { count: 1, id: "create:encased_fan" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6F6FF6F3C9C5684C"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					advancement: "create:encased_fan"
+					criterion: ""
+					disable_toast: true
+					icon: {
+						id: "create:builders_tea"
+					}
+					id: "0CD043E6563AF611"
+					type: "advancement"
+				}
+				{
+					advancement: "create:fan_processing"
+					criterion: ""
+					disable_toast: true
+					icon: {
+						id: "create:builders_tea"
+					}
+					id: "3C6DFBE7BAD7C47B"
+					type: "advancement"
+				}
+			]
 			x: 7.0d
 			y: 1.0d
 		}

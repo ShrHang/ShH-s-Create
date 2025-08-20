@@ -73,3 +73,19 @@ ItemEvents.modification(event => {
         item.setAttributeModifiersWithTooltip(modifiers);
     })
 })
+
+// 抢夺宝珠
+ItemEvents.modification(event => {
+    event.modify('l2hostility:charm_of_looting_1', item => {
+        item.maxStackSize = 8;
+    })
+    event.modify('l2hostility:charm_of_looting_2', item => {
+        item.maxStackSize = 8;
+    })
+    event.modify('l2hostility:charm_of_looting_3', item => {
+        item.maxStackSize = 8;
+    })
+    event.modify('l2hostility:charm_of_looting_4', item => {
+        item.maxStackSize = 8;
+    })
+})

@@ -1,0 +1,49 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "curseofpandora:mini_beacon"
+  },
+  "loops": 4,
+  "results": [
+    {
+    "id": "curseofpandora:mini_beacon_haste"
+  }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "curseofpandora:mini_beacon"
+        },
+        {
+          "tag": "minecraft:beacon_payment_items"
+        }
+      ],
+      "results": [
+        {
+          "id": "curseofpandora:mini_beacon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "curseofpandora:mini_beacon"
+        },
+        {
+          "item": "minecraft:golden_pickaxe"
+        }
+      ],
+      "results": [
+        {
+          "id": "curseofpandora:mini_beacon"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "curseofpandora:mini_beacon"
+  }
+}

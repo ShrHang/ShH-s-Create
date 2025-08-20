@@ -1287,9 +1287,9 @@ ItemEvents.modification(event => {
             {
                 "operation": 0,
                 "amount": 10,
-                "id": "shh_l2_explosion_damage:any"
+                "id": "shh_l2_explosion_damage:mainhand"
             },
-            "any"
+            "mainhand"
         )
         .modifiers();
         item.setAttributeModifiersWithTooltip(modifiers);

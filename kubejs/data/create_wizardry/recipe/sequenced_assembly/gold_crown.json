@@ -1,0 +1,83 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "irons_spellbooks:tarnished_helmet"
+  },
+  "loops": 18,
+  "results": [
+    {
+    "id": "irons_spellbooks:gold_crown"
+  }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "irons_spellbooks:tarnished_helmet"
+        },
+        {
+          "item": "irons_spellbooks:pyrium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "irons_spellbooks:tarnished_helmet"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "irons_spellbooks:tarnished_helmet"
+        },
+        {
+          "item": "irons_spellbooks:mana_upgrade_orb"
+        }
+      ],
+      "results": [
+        {
+          "id": "irons_spellbooks:tarnished_helmet"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "irons_spellbooks:tarnished_helmet"
+        },
+        {
+          "item": "irons_spellbooks:cooldown_upgrade_orb"
+        }
+      ],
+      "results": [
+        {
+          "id": "irons_spellbooks:tarnished_helmet"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "irons_spellbooks:tarnished_helmet"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "irons_spellbooks:timeless_slurry"
+        }
+      ],
+      "results": [
+        {
+          "id": "irons_spellbooks:tarnished_helmet"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "irons_spellbooks:tarnished_helmet"
+  }
+}

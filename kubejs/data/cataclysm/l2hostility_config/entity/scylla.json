@@ -47,11 +47,11 @@
         "spawnInterval": 80
       },
       "attackScale": 0.8,
-      "blacklist": [],
+      "blacklist": ["l2hostility:undying"],
       "difficulty": {
         "apply_chance": 1.0,
         "base": 0,
-        "min": 100,
+        "min": 80,
         "scale": 0.0,
         "suppression": 0.0,
         "trait_chance": 1.0,

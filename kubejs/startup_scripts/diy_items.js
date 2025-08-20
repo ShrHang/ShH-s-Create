@@ -96,7 +96,7 @@ ItemEvents.modification(event => {
             "minecraft:generic.attack_damage",
             {
                 "operation": 0,
-                "amount": 7,
+                "amount": 5,
                 "id": "minecraft:base_attack_damage"
             },
             "mainhand"

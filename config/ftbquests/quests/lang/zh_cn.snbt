@@ -96,6 +96,15 @@
 	quest.073962841F5707A8.quest_subtitle: "领域展开！"
 	quest.077B7A6F5DDFC2E3.quest_desc: ["&a使用&5保险&a、&5硬化&a、&5永恒&a附魔对策。"]
 	quest.077B7A6F5DDFC2E3.quest_subtitle: "满耐久特攻"
+	quest.07A05CCD2FFE024F.quest_desc: [
+		"&e魂炎弹&a一共造成&d6点&a伤害，&6无等级&e恶魂&a血量为&d10&a。"
+		"{@pagebreak}"
+		"&a无伤害增减时，使用&e原版弓&6接近满蓄&a一箭击伤&6无等级&e恶魂&a，或&6满蓄&a击伤&6低等级&e恶魂&a，再用&e魂炎弹&a点燃它即可。"
+		""
+		"&a合成&e燃魂之箭&a可避免再次使用&e魂炎弹&a。"
+		""
+		"&a利用&e恶意吸收宝珠&a确保&6无等级&e恶魂&a生成。"
+	]
 	quest.08A12E6FDC61C4E6.quest_desc: ["&a对策&c分裂&a。"]
 	quest.08A12E6FDC61C4E6.title: "分裂抑制"
 	quest.0A6F69B11C27C5E5.title: "细雪行者"
@@ -116,6 +125,12 @@
 	]
 	quest.0C7FAE5FB0D2C3BE.quest_subtitle: "黄铜时代的起点，人们掌握了更优质的加热源。"
 	quest.0C7FAE5FB0D2C3BE.title: "&6获取烈焰人燃烧室"
+	quest.0CE2992B71AA0ED2.quest_desc: [
+		"{@pagebreak}"
+		"&a可以用&e鼓风机&a把路过的&e恶魂&a吸下来。&c&m暮色恶魂体验卡&r&a。满速&e鼓风机&a的拦截高度为&d20格&a。加装&e分散网&a则最大为&d半径20格&a。"
+		""
+		"{ \"text\": \"点击跳转：鼓风机\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A8F420158CB6587\" } }"
+	]
 	quest.0D06B4E8FFCFB8FD.quest_desc: [
 		"&e安山岩&a与&e铁&a是&e机械动力&a的&6核心原料&a，用于合成&e安山合金&a。"
 		""
@@ -169,8 +184,16 @@
 	quest.13AA3F2CEA919A1D.quest_desc: [""]
 	quest.13AA3F2CEA919A1D.quest_subtitle: "其实是转向架"
 	quest.143E5A18E6E326E3.title: "冰刃"
+	quest.15041FC0BF517E03.quest_desc: ["&a可以用&e捕风瓶&a接住以获得&e瓶中潜影弹&a。"]
 	quest.15041FC0BF517E03.quest_subtitle: "我是说，有没有一种可能，这些怪物都随身携带了一个潜影贝？"
 	quest.153F4F5F54A8175F.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c神速III重装III&a词条怪物获取。"]
+	quest.16C0632E73E17B48.quest_desc: [
+		"&a将&e肉类&a或&e不死图腾&a扔入&e火焰&a等进行&6焚烧转化，&a概率刷出&a。"
+		""
+		"&a可以吃，会直接吃饱。"
+		""
+		"&c注意：因为吃得很快，拿在手上有可能意外食用。"
+	]
 	quest.16E7F8EE6E7A3C99.title: "虚空之触"
 	quest.17BCF9DCB1C16EC1.quest_subtitle: "让你看见看不见的威胁。"
 	quest.17BCF9DCB1C16EC1.title: "恶意的可视化"
@@ -202,6 +225,7 @@
 	quest.1A3791FE4CD8DCD3.quest_subtitle: "奇迹于你"
 	quest.1A3791FE4CD8DCD3.title: "&2奇迹锭"
 	quest.1A3BFE17B16B041D.quest_subtitle: "不要贪杯哦。"
+	quest.1A6A47C2970611F0.quest_desc: ["&a也可以拿&6恶意词条&a生成的&e潜影弹&a，如&e潜影&a和&e榴弹&a，&a以在末地前获得。"]
 	quest.1B0A8515FEE973A2.quest_subtitle: "不需要解锁就可以传送"
 	quest.1B0A8515FEE973A2.title: "共享石碑"
 	quest.1D2F07F03CE56385.quest_desc: ["因为不需要掌握所以我没写。"]
@@ -211,7 +235,11 @@
 	quest.1DFF9BB5BB6E367E.quest_desc: ["&a使用&5绝缘&a附魔对策。"]
 	quest.1DFF9BB5BB6E367E.quest_subtitle: "不对不对不对"
 	quest.1EA8C22A9B614614.title: "&d混沌抢夺宝珠"
-	quest.1EE1243EB3F752C8.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.1EE1243EB3F752C8.quest_desc: [
+		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
+		""
+		"&6奇异饰品&a的&e解毒容器&a也可降低影响。"
+	]
 	quest.1EE1243EB3F752C8.quest_subtitle: "让你飞起来！"
 	quest.1FB411220A26B0E2.quest_desc: [
 		"&a将&e铁锭&a扔到&e动力冲压机&a下方的&e开放储存容器&a（如&e置物台&a)上方，将&e动力冲压机&a与&6动力源&a相连，即可将&e一块铁锭&a加工为&e一块铁板&a。"
@@ -223,7 +251,11 @@
 	quest.1FB411220A26B0E2.quest_subtitle: "合成新机器的常用原料"
 	quest.1FB411220A26B0E2.title: "制造铁板"
 	quest.212936F7AD6C9177.title: "诅咒之刃"
-	quest.21B1C3B5BA524287.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.21B1C3B5BA524287.quest_desc: [
+		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
+		""
+		"&6奇异饰品&a的&e解毒容器&a也可降低影响。"
+	]
 	quest.21B1C3B5BA524287.quest_subtitle: "爱~情~好像流沙~"
 	quest.22D46E770D66A030.quest_desc: [
 		"&a前往&e地狱&a找到&e下界岩&a，将它与&e四块铁板&a合成为&e空的烈焰人燃烧室&a。"
@@ -282,6 +314,7 @@
 	quest.28EDBD9F6C17E5B0.quest_subtitle: "电动马达"
 	quest.28EDBD9F6C17E5B0.title: "让我们进入电动时代！"
 	quest.291DCC19505D3807.quest_subtitle: "没有人会拒绝预制建筑吧"
+	quest.29DC9DE71E8B6DCB.quest_desc: ["&a可以用&e捕风瓶&a接住以获得&e瓶中潜影弹&a。"]
 	quest.29DC9DE71E8B6DCB.quest_subtitle: "这潜影贝吃苦力怕长大的？"
 	quest.29E5F3919F542B5C.quest_desc: [
 		"&e采集作业元件&a在&6固定区域&a内&6挖掘、收集&a物品。它们是少数在&6动态结构&a上正常工作的&e元件&a。"
@@ -304,9 +337,11 @@
 		"&a当然，你也可以："
 		"{ \"text\": \"点击跳转：使用抢夺宝珠获取千风精华\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"28DD61278EF8AA55\" } }"
 		"{@pagebreak}"
-		"&a如果你更倾向于&e机械动力&a的手段，那么可以用&e鼓风机&a加&e分散网&a来实现。"
+		"&a如果已经发展了&e机械动力&a，则可用&e鼓风机&a加&e分散网&a来实现。"
 		""
 		"&a将&e五个鼓风机&a朝上紧密摆放，全部安装&e分散网&a，输入&d逆时针256RPM转速&a，然后像蹦床一样使用它。保持&6不落地&a，&6多跳几次&a就能达到目标速度。"
+		""
+		"&c注意：最好在四周围起一定高度的墙，否则容易被斜着弹飞。"
 	]
 	quest.2A2711A24A442F3B.quest_subtitle: "把风装进瓶子里吧！"
 	quest.2C336C038BD82BF8.quest_desc: [""]
@@ -365,7 +400,11 @@
 		"{ \"text\": \"诸神黄昏\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71CA96A3BFE47C3A\" } }"
 	]
 	quest.3230FF1273472908.quest_subtitle: "它需要一个经验修补。"
-	quest.323628E260BA2EE8.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.323628E260BA2EE8.quest_desc: [
+		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
+		""
+		"&6奇异饰品&a的&e解毒容器&a也可降低影响。"
+	]
 	quest.323628E260BA2EE8.quest_subtitle: "珍惜眼前的美好"
 	quest.32A67D0D4B49FAF1.quest_desc: [
 		"&a通过&4红石继电器&a，我们实现电路的通断控制。"
@@ -392,6 +431,8 @@
 		"&a本篇任务仅作为入门指引，以防你面对琳琅满目的方块，而感到无从下手。因此&6不需要也不建议&a读完全部任务文本。"
 		""
 		"{ \"text\": \"点击跳转：思索\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06B15B851CF8C678\" } }"
+		"{@pagebreak}"
+		"&a一些任务要求是&e进度&a，有时以&e建筑工茶饮&a作为图标。&6并不需要拿到这杯茶&a，&m拿了也行&r。"
 	]
 	quest.33E62BE9423ADFE5.quest_subtitle: "齿轮传动的工业之旅"
 	quest.33E62BE9423ADFE5.title: "&e欢迎来到机械动力"
@@ -399,6 +440,17 @@
 	quest.34812373C595A7D1.title: "绝缘"
 	quest.350F017B80A1EC55.quest_subtitle: "君临天下"
 	quest.350F017B80A1EC55.title: "&6【核心】&r傲慢诅咒"
+	quest.354040B445266F74.quest_desc: [
+		"&e鸡&a拥有&6抗性保护Ⅳ&a时可以抵抗一次&6低等级&e监守者&a的音爆攻击。&e神龟药水&a可以做到。"
+		""
+		"&a法术&e神圣守护&a的&6伤害吸收&a效果也提供有效保护。"
+		"{@pagebreak}"
+		"&a用&e恶意吸收宝珠&a确保&6无等级&e监守者&a生成。"
+		""
+		"&a可利用&e流体系统&a的&6药水喷洒&a来节约&e神龟药水&a。"
+		""
+		"&a获得后可合成&e音爆枪&a来产生常规伤害音爆&c&m(而不是数值膨胀的)&r&a。可以被&e机械手&a使用。"
+	]
 	quest.35B582322016F1BD.title: "工具箱"
 	quest.35BFB220692FFD11.quest_desc: ["&a该词条只在Boss身上出现。"]
 	quest.35BFB220692FFD11.quest_subtitle: "“你就是我的Master吗？”"
@@ -436,7 +488,11 @@
 	]
 	quest.3787F8C1BA907180.quest_subtitle: "搭建工程的辅助工具"
 	quest.3787F8C1BA907180.title: "实用工具"
-	quest.382FA06FAA6DA1B4.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.382FA06FAA6DA1B4.quest_desc: [
+		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
+		""
+		"&c奇异饰品的解毒容器无效。"
+	]
 	quest.382FA06FAA6DA1B4.quest_subtitle: "像是一脚踩进了细雪。"
 	quest.3A19D3B1A7C76533.quest_desc: [
 		"&e蒸汽引擎&a用来构建&e锅炉&a。建议到&6黄铜时代&a再来使用这个&6超强动力源&a！"
@@ -470,20 +526,20 @@
 		"{@pagebreak}"
 		"&a可通过&b空手右键&a取出工作盆里的&e全部物品&a。手持&e海绵&b右键&a则清空全部流体，不消耗海绵。"
 		""
-		"&a储存的&e液体&a不发生相互作用，如&e水&a与&e岩浆&a可以&6安全共存&a。"
-		""
 		"&c挖掉工作盆会导致液体储存全部丢失。"
 		"&c每种产品最多储存1组。"
 		"{@pagebreak}"
-		"&a当&e工作盆&a侧面无遮挡，斜下方有&6上方开口&a的&e开放容器&a时，根据容器的类型&e液体/物品&a，可在&6该侧面上&a生成&e龙头/开口&a，指向开放容器。&e龙头/开口&a只存在一个。"
-		""
 		"&e龙头/开口&a自动向目标容器输出&e流体/物品&a，不会把输入的物品输出。"
 		""
-		"&a可用的开放容器包括&e传送带&a、&e石磨&a等。"
+		"&a当&e工作盆&a侧面无遮挡，斜下方有&6上方开口&a的&e开放容器&a时，自动在&6该侧面上&a生成&e龙头/开口&a，指向容器。只存在一个，可用&e扳手&a关闭。"
+		""
+		"&a可用容器包括&e传送带&a、&e石磨&a等。"
 		"{@pagebreak}"
 		"&e工作盆&a可储存&d18格物品&a。&6输入&a、&6输出&a各有&d9格&a，每格储存&d一组物品&a。有&d4个液体槽位&a，&6输入&a、&6输出&a各有&d2个槽位&a，每个槽位储存&d1000mb液体&a。"
 		""
-		"&c龙头/开口包含一个隐藏槽位，其堵塞时会中止加工。"
+		"&c输出端堆叠已满时会中止加工。"
+		""
+		"&c龙头/开口包含一个隐藏槽位，也会造成堵塞并中止加工。"
 		"{@pagebreak}"
 		"&e工作盆&a对&e物品&a的单次输入上限为&d16个&a，仅&6吸收掉落物&a时可单次输入&d64个&a。"
 		""
@@ -511,7 +567,11 @@
 	quest.3FAE69E2533A40A7.quest_desc: ["&a通过&e轧机&a来生产线和必需的金属棒,以制作&e接线器和轴线&a。"]
 	quest.3FAE69E2533A40A7.quest_subtitle: "轧机"
 	quest.3FAE69E2533A40A7.title: "让我们开启电力之旅！"
-	quest.410D164F96E48678.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.410D164F96E48678.quest_desc: [
+		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
+		""
+		"&6奇异饰品&a的&e解毒容器&a也可降低影响，足以阻止画面扭曲。"
+	]
 	quest.410D164F96E48678.quest_subtitle: "扭~曲~"
 	quest.41FFC8C3F0613F13.title: "幽匿套装"
 	quest.429A439C0A6589AD.quest_desc: ["&a为了获得&e坚固板,&a需要将&e黑曜石&a通过&e粉碎轮&a、&e注液器&a和&e动力冲压机&a的加工，应在&e黄铜时代&a后期开始做。"]
@@ -573,7 +633,11 @@
 	]
 	quest.46AA61D3F63ADDE8.quest_subtitle: "查看物品的来源、用途，以及相关配方。"
 	quest.46AA61D3F63ADDE8.title: "请务必掌握的知识：使用JEI"
-	quest.470CEC5E9E905235.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.470CEC5E9E905235.quest_desc: [
+		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
+		""
+		"&6奇异饰品&a的&e解毒容器&a也可降低影响。"
+	]
 	quest.470CEC5E9E905235.quest_subtitle: "你反手无力，正手不精，脚步松散，反应迟钝！"
 	quest.470D440D698DE696.quest_desc: [
 		"&a不使用&e点燃的烈焰人燃烧室&a，而使用各类&e火&a、&e营火&a等&e被动热源&a时，锅炉只能进入低效的&6被动状态&a，固定产出较少应力。"
@@ -592,7 +656,7 @@
 		"{@pagebreak}"
 		"&a技巧：手持&e安山机壳&a对&e齿轮&b右键&a，可将&e齿轮&a封装为&e齿轮箱&a。"
 		""
-		"&a这可停止&6轴向传动&a，避免&c传动冲突&a损坏&e齿轮&a，且&6不消耗机壳&a。"
+		"&a这可停止&6轴向传动&a(传动杆形式的传动)，避免&c传动冲突&a损坏&e齿轮&a，且&6不消耗机壳&a。"
 	]
 	quest.477B6C3FBFD228E8.quest_subtitle: "常见的传动元件，也是多个元件的材料"
 	quest.477B6C3FBFD228E8.title: "齿轮和传动杆"
@@ -634,6 +698,13 @@
 		"{ \"text\": \"圣光守护之戒\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05CD9B7622BEB3AC\" } }"
 	]
 	quest.511F5544DF512BB1.quest_subtitle: "圣光守护之戒的好搭档"
+	quest.513F429DAB95E36D.quest_desc: [
+		"&a可利用&e侦测眼镜&a透过&6黑暗&a效果。"
+		""
+		"&a可以用&e机械手&a来杀，搭配&e坐垫&a控制效果良好。"
+		"{@pagebreak}"
+		"&e监守者&a可对&e机械手&a产生仇恨，但无法伤害它。被控制时，&e监守者&a只使用&6音爆攻击&a，可以用于生产&e共振之羽&a。"
+	]
 	quest.51AE3A73498DFF63.quest_desc: [
 		"&a使用&b魔法伤害&a对策。"
 		""
@@ -666,10 +737,12 @@
 		"&6输出端&e可调节链式传动箱&a有信号：自身&6减速&a。"
 		""
 		"&a即&e可调节链式传动箱&a在通入信号后一定较慢。"
+		""
+		"{image:kubejs:textures/ftbquests/adjustable_chain_gearshift.png width:200 height:200 align:center}"
 		"{@pagebreak}"
 		"&e红石信号强度&a决定变速的&6比率&a，即&6高速部分&a与&6低速部分&a的&d转速的比&a。"
 		""
-		"&e信号强度0&a时，不变速。&e信号强度15&a时，&6高速部分&a是&6低速部分&a的两倍转速，即&6加速两倍&a或&6减速一半&a。"
+		"&e信号强度0&a时，不变速。&e信号强度15&a时，&6高速部分&a是&6低速部分&a的&6两倍转速&a，即&6加速两倍&a或&6减速一半&a。"
 		""
 		"&d0~15&a的&e信号强度&6线性对应&d1~2&a的&6变速比&a。"
 	]
@@ -843,6 +916,7 @@
 	quest.63B601D905A574E1.quest_subtitle: "“若世人恨你们，你们知道，恨你们以先已经恨我了。”"
 	quest.63B601D905A574E1.title: "&6【核心】&r扭曲之魂"
 	quest.6446BF9EC4F89451.title: "保险"
+	quest.6448EE01DD79E42F.quest_desc: ["&a可以在物品栏界面按&b鼠标中键&a快速排列整理。"]
 	quest.6448EE01DD79E42F.quest_subtitle: "知晓这些按键分别对应着什么功能。"
 	quest.6448EE01DD79E42F.title: "需要掌握的知识：基础按键绑定"
 	quest.64C3BF58E57323D2.quest_desc: [
@@ -902,15 +976,38 @@
 	]
 	quest.64C3BF58E57323D2.quest_subtitle: "以及一些改动"
 	quest.64C3BF58E57323D2.title: "整合包内容概览"
+	quest.68931E77BEA478A2.quest_desc: [
+		"&a物品栏中存有它时，玩家在虚空中会立即死亡，且该物品消失。"
+		"{@pagebreak}"
+		"&e女仆&a不受其影响。"
+		""
+		"&a可以用各种&e磁铁&a吸取。"
+		""
+		"&a击杀可由&e机械手&a代劳。"
+	]
 	quest.68AE015633BBBCF6.title: "动态元件"
-	quest.69A2A7FD953ED239.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.69A2A7FD953ED239.quest_desc: [
+		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
+		""
+		"&6奇异饰品&a的&e解毒容器&a也可降低影响。"
+	]
 	quest.69A2A7FD953ED239.quest_subtitle: "凋零骷髅的饭碗"
-	quest.69A5BFA6AD5A8F4E.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.69A5BFA6AD5A8F4E.quest_desc: [
+		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
+		""
+		"&6奇异饰品&a的&e解毒容器&a也可降低影响。"
+	]
 	quest.69A5BFA6AD5A8F4E.quest_subtitle: "洞穴蜘蛛的饭碗"
 	quest.6A10338F82E25563.quest_desc: [
 		"&a使用&e诅咒&a状态效果对策。"
 		""
 		"&a使用&5诅咒之刃&a附魔对策。"
+		"{@pagebreak}"
+		"&6弓艺&a的&e虚空凝视&a的&6虚空伤害&a也可作为对策。"
+		""
+		"&c注意：不满蓄的虚空凝视可能射出箭矢，造成普通伤害，无法击穿不死。"
+		""
+		"&c虚空虚影伤害不行。"
 	]
 	quest.6A10338F82E25563.quest_subtitle: "什么叫不死图腾也有不死图腾？"
 	quest.6ACBD05D3E554657.quest_subtitle: "现在，它可以通过击杀对应词条的怪物掉落获取。"
@@ -991,12 +1088,20 @@
 		"{image:kubejs:textures/ftbquests/charm_of_looting_in_pandora.png width:150 height:50 align:center}"
 	]
 	quest.78FC1D37DCC2C65D.title: "&e粗糙抢夺宝珠"
-	quest.7941AF87A3F0FCAD.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.7941AF87A3F0FCAD.quest_desc: [
+		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
+		""
+		"&c奇异饰品的解毒容器无效。"
+	]
 	quest.7941AF87A3F0FCAD.quest_subtitle: "灼烧灵魂"
 	quest.7A6856E70C510D74.quest_desc: ["&a佩戴&3魔能抢夺宝珠&a击杀&c分裂&a词条怪物获取。"]
 	quest.7A8DD18DE6BA3B81.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c再生III&a词条怪物获取。"]
 	quest.7ABE7350204D1673.quest_subtitle: "操作列车的仪器"
-	quest.7B38EC488FFC125C.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]
+	quest.7B38EC488FFC125C.quest_desc: [
+		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
+		""
+		"&c奇异饰品的解毒容器无效。"
+	]
 	quest.7B38EC488FFC125C.quest_subtitle: "你的伤口无法愈合"
 	quest.7C14A160A1024E72.title: "炎棘"
 	quest.7C4FE9B979684280.title: "生命套装"
@@ -1014,9 +1119,16 @@
 	quest.7E31F579872775F7.title: "&6【核心】&r屹立不倒之戒"
 	quest.7E9A493DA5DABB21.quest_desc: [
 		"&e石磨&a可以提取&e染料&a，转化&e石材&a为&e沙子&a。也多用来生产&e小麦粉&a。"
-		""
-		"&a其功能基本可被&6黄铜时代&a的&e粉碎轮&a代替，可以大跃进到&e粉碎轮&a而跳过&e石磨&a。"
 		"{@pagebreak}"
+		"&e石磨&a只能加工专属配方&6研磨&a。"
+		""
+		"&6黄铜时代&e粉碎轮&a的&6粉碎&a包含了大部分&6研磨&a的配方，效率更高，&e石磨&a较&e粉碎轮&a的优点只有廉价、小巧和低耗。"
+		""
+		"&m&a可大跃进到&e粉碎轮&a而跳过&e石磨&a。&r"
+		"{@pagebreak}"
+		"&d应力消耗4su/RPM。"
+		""
+		"&a传动形式相当于&e(小)齿轮箱&a，可以接受&e大齿轮&a的传动。特别的是，它底下还有一个&6传动杆输出口&a。"
 	]
 	quest.7E9A493DA5DABB21.quest_subtitle: "在有粉碎轮之前"
 	quest.7EE4991628B8A64C.quest_desc: ["&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"]

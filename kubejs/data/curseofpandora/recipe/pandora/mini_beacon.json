@@ -1,0 +1,49 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "curseofpandora:plain_charm"
+  },
+  "loops": 1,
+  "results": [
+    {
+    "id": "curseofpandora:mini_beacon"
+  }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "curseofpandora:plain_charm"
+        },
+        {
+          "item": "minecraft:beacon"
+        }
+      ],
+      "results": [
+        {
+          "id": "curseofpandora:plain_charm"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "curseofpandora:plain_charm"
+        },
+        {
+          "item": "curseofpandora:mini_beacon_base"
+        }
+      ],
+      "results": [
+        {
+          "id": "curseofpandora:plain_charm"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "curseofpandora:plain_charm"
+  }
+}
