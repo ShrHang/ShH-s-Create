@@ -39,6 +39,7 @@ patchouli_data.json
 PCL/
 downloads/
 servers.dat
+servers.dat_old
 hmclversion.cfg
 log4j2.xml
 modpack.cfg
