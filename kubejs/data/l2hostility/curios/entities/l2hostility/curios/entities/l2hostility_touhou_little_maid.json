@@ -3,12 +3,6 @@
     "touhou_little_maid:maid"
   ],
   "slots": [
-    "hands",
-    "ring",
-    "bracelet",
-    "necklace",
-    "head",
-    "charm",
     "hostility_curse"
   ]
 }

@@ -277,18 +277,9 @@ ItemEvents.modification(event => {
             {
                 "operation": 0,
                 "amount": 0.15,
-                "id": "shh_swim_speed:mainhand"
+                "id": "shh_swim_speed:any"
             },
-            "mainhand"
-        )
-        .withModifierAdded(
-            "neoforge:swim_speed",
-            {
-                "operation": 0,
-                "amount": 0.15,
-                "id": "shh_swim_speed:offhand"
-            },
-            "offhand"
+            "any"
         )
         .modifiers();
         item.setAttributeModifiersWithTooltip(modifiers);
@@ -313,18 +304,9 @@ ItemEvents.modification(event => {
             {
                 "operation": 0,
                 "amount": 0.15,
-                "id": "shh_knockback_resistance:mainhand"
+                "id": "shh_knockback_resistance:any"
             },
-            "mainhand"
-        )
-        .withModifierAdded(
-            "minecraft:generic.knockback_resistance",
-            {
-                "operation": 0,
-                "amount": 0.15,
-                "id": "shh_knockback_resistance:offhand"
-            },
-            "offhand"
+            "any"
         )
         .modifiers();
         item.setAttributeModifiersWithTooltip(modifiers);

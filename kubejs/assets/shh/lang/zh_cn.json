@@ -1,5 +1,5 @@
 {
-    "item.shh.etihw": "什行",
+    "item.shh.etihw": "Etihw",
     "item.shh.hulibugulv": "全糖顾虑",
     
     "item.shh.incomplete_upgrade_advanced_infinity": "高级无限（半成品）",
@@ -31,5 +31,8 @@
     "item.shh.incomplete_upgrade_super_damage": "力量×3（半成品）",
     "item.shh.incomplete_upgrade_void": "虚空（半成品）",
     "item.shh.incomplete_upgrade_weak": "虚弱（半成品）",
-    "item.shh.incomplete_upgrade_wither": "凋零（半成品）"
+    "item.shh.incomplete_upgrade_wither": "凋零（半成品）",
+
+    "text.shh.etihw.tooltip": "感谢您游玩ShrHang的机械动力！",
+    "text.shh.hulibugulv.tooltip": "吃完不打胰岛素就是死路一条！"
 }

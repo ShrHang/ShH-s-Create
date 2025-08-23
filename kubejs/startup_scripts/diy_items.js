@@ -1,12 +1,12 @@
 StartupEvents.registry('item', event => {
     // 注册一个基础物品
     event.create('shh:etihw')
-        .tooltip('Welcome to ShH\'s create')
+        .tooltip(Text.translate('text.shh.etihw.tooltip'))
         .texture('shh:item/etihw') // 确保纹理路径正确
         .rarity('epic')
 
     event.create('shh:hulibugulv')
-        .tooltip('吃完不打胰岛素就是死路一条')
+        .tooltip(Text.translate('text.shh.hulibugulv.tooltip').color('rgba(255, 0, 0, 1)'))
         .texture('shh:item/hulibugulv')
         .food(food => {
             food.nutrition(1)           // ✅ 设置营养值（饥饿值）

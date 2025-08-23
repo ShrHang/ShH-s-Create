@@ -746,5 +746,15 @@
 			x: -5.0d
 			y: 2.0d
 		}
+		{
+			id: "0C761B34F29312F2"
+			tasks: [{
+				id: "081E2C778C4753F9"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:legendary_ink)item(irons_spellbooks:epic_ink)item(irons_spellbooks:rare_ink)item(irons_spellbooks:uncommon_ink)item(irons_spellbooks:common_ink))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
 	]
 }
