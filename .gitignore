@@ -9,8 +9,8 @@ screenshots/
 saves/
 resourcepacks/
 shaderpacks/
-ShH's Create.jar
-ShH's Create.json
+ShH's Create*.jar
+ShH's Create*.json
 usercache.json
 usernamecache.json
 
@@ -19,7 +19,6 @@ options.txt
 #mod文件
 config/iris.properties
 config/xaerominimap_entities.json
-#*Cataclysm *.jar
 CustomSkinLoader/
 patchouli_books/
 schematics/uploaded/
