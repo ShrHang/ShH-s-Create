@@ -57,3 +57,6 @@ modrinth.index.json
 *README.txt
 Thumbs.db
 .probe
+
+# Git文件
+.gitattributes
