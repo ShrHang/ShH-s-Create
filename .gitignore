@@ -59,4 +59,4 @@ Thumbs.db
 .probe
 
 # Git文件
-.gitattributes
+# .gitattributes
