@@ -5,4 +5,10 @@ ItemEvents.modifyTooltips(event => {
     event.add('create_enchantment_industry:super_experience_block',Text.gray('您可以对着【经验颗粒】(不是超越经验颗粒)思索查看详细信息'))
 
     event.add('l2archery:void_arrow', Text.of('已禁用').red())
+    
+    event.add("l2hostility:bottle_of_curse", Text.of('单次右键即饮用').gray())
+    event.add("l2hostility:bottle_of_curse", Text.of('对女仆右键使用可以提升其恶意等级').darkPurple())
+
+    event.add("l2hostility:bottle_of_sanity", Text.of('单次右键即饮用').gray())
+    event.add("l2hostility:bottle_of_sanity", Text.of('对女仆右键使用可以清空其恶意等级和词条').yellow())
 })

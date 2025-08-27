@@ -344,3 +344,34 @@
 //         'l2hostility:dispell'
 //     ])
 // })
+
+ItemEvents.entityInteracted("l2hostility:bottle_of_curse", event => {
+    let _player = event.player;
+    let _target = event.target;
+    if (_target.type == 'touhou_little_maid:maid' && _player == _target.getOwner()) {
+        event.server.runCommand(`/hostility mobs ${_target.getUuid()} level add 100`)
+        event.item.count--
+        event.cancel()
+    }
+})
+
+ItemEvents.entityInteracted("l2hostility:bottle_of_sanity", event => {
+    let _player = event.player;
+    let _target = event.target;
+    if (_target.type == 'touhou_little_maid:maid' && _player == _target.getOwner()) {
+        event.server.runCommand(`/hostility mobs ${_target.getUuid()} trait clear`)
+        event.server.runCommand(`/hostility mobs ${_target.getUuid()} level set 0`)
+        event.item.count--
+        event.cancel()
+    }
+})
+
+ItemEvents.entityInteracted("l2hostility:miracle_ingot", event => {
+    let _player = event.player;
+    let _target = event.target;
+    if (_target.type == 'touhou_little_maid:maid' && _player.isShiftKeyDown() && _player == _target.getOwner()) {
+        event.server.runCommand(`/hostility mobs ${_target.getUuid()} level rerollTraitNoSuppression`)
+        event.item.count--
+        event.cancel()
+    }
+})

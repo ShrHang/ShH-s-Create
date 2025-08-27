@@ -6,7 +6,7 @@ StartupEvents.registry('item', event => {
         .rarity('epic')
 
     event.create('shh:hulibugulv')
-        .tooltip(Text.translate('text.shh.hulibugulv.tooltip').color('rgba(255, 0, 0, 1)'))
+        .tooltip(Text.translate('text.shh.hulibugulv.tooltip'))
         .texture('shh:item/hulibugulv')
         .food(food => {
             food.nutrition(1)           // ✅ 设置营养值（饥饿值）
@@ -21,6 +21,10 @@ StartupEvents.registry('item', event => {
             food.removeEffect('minecraft:hunger')
             food.usingConvertsTo('minecraft:paper')
         })
+        .rarity('epic')
+
+    event.create('shh:maid_tool')
+        .maxStackSize(1)
         .rarity('epic')
 
     event.create('shh:incomplete_upgrade_advanced_infinity')

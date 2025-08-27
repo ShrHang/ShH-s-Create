@@ -1,0 +1,12 @@
+{
+  "entities": [
+    "touhou_little_maid:maid"
+  ],
+  "slots": [
+    "artifact_bracelet",
+    "artifact_necklace",
+    "artifact_head",
+    "artifact_belt",
+    "artifact_body"
+  ]
+}
