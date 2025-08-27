@@ -17,6 +17,7 @@ usernamecache.json
 options.txt
 
 #mod文件
+mods/
 config/iris.properties
 config/xaerominimap_entities.json
 CustomSkinLoader/
