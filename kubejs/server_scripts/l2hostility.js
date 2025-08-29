@@ -366,7 +366,7 @@ ItemEvents.entityInteracted("l2hostility:bottle_of_sanity", event => {
     }
 })
 
-ItemEvents.entityInteracted("l2hostility:miracle_ingot", event => {
+ItemEvents.entityInteracted("l2hostility:miracle_powder", event => {
     let _player = event.player;
     let _target = event.target;
     if (_target.type == 'touhou_little_maid:maid' && _player.isShiftKeyDown() && _player == _target.getOwner()) {

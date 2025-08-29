@@ -563,7 +563,7 @@
 				item: { count: 1, id: "create:fluid_pipe" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -615,7 +615,7 @@
 				item: { count: 1, id: "create:redstone_link" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: 3.5d
 		}
 		{
@@ -627,7 +627,7 @@
 				item: { count: 1, id: "create:belt_connector" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -639,8 +639,8 @@
 				item: { count: 1, id: "create:steam_engine" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5A13E6C10C18D5C3"]
@@ -667,12 +667,13 @@
 					type: "advancement"
 				}
 			]
-			x: 8.0d
+			x: 7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5A13E6C10C18D5C3"]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: {
 				id: "create:encased_fan"
 			}
@@ -705,7 +706,7 @@
 					type: "advancement"
 				}
 			]
-			x: 7.0d
+			x: 8.0d
 			y: 1.0d
 		}
 		{
@@ -744,7 +745,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 2.0d
+			y: -1.0d
 		}
 		{
 			id: "0C761B34F29312F2"
@@ -755,6 +756,18 @@
 			}]
 			x: 1.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["0A8F420158CB6587"]
+			id: "416FB0A75240450E"
+			shape: "none"
+			tasks: [{
+				id: "3939CCACCAA1C67C"
+				item: { count: 1, id: "create:nozzle" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
 		}
 	]
 }
