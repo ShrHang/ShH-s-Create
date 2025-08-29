@@ -9,14 +9,70 @@
 	id: "48BC07C8B5074FEB"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "1C247CCE01C1BB0B"
-		tasks: [{
-			id: "669701B589FA35C6"
-			item: { count: 1, id: "minecraft:crafting_table" }
-			type: "item"
-		}]
-		x: -4.5d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			id: "1C247CCE01C1BB0B"
+			tasks: [{
+				id: "669701B589FA35C6"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "6943C93DA41CE317"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				disable_toast: true
+				id: "173C5AE6FC60995F"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "4A505BACE97F033A"
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:andesite"
+					}
+					id: "4BC843F436357183"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:andesite"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:diorite"
+					}
+					id: "0D84A629DD18F623"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:diorite"
+					type: "observation"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "43E1FF084018E07C"
+			tasks: [{
+				advancement: "touhou_little_maid:base/craft_gohei"
+				criterion: ""
+				id: "7C34452745BCAEAF"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+	]
 }

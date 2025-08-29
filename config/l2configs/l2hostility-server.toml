@@ -322,7 +322,7 @@ enableStructureSpecificDatapack = true
 	reprintDamage = 0.01
 	# Default: 10
 	# Range: 0 ~ 10000
-	reprintBypass = 1
+	reprintBypass = 5
 	#Damage Bonus Factor for dispell-affected damage
 	#Example: 0.5 means +2% per level damage bonus becoming +1% per level
 	# Default: 0.5

@@ -1,34 +1,43 @@
-let $RenderGuiEvent = Java.loadClass("net.neoforged.neoforge.client.event.RenderGuiEvent");
+const ICuriosItemHandler = Java.loadClass("top.theillusivec4.curios.api.type.capability.ICuriosItemHandler")
+const EntityCapability = Java.loadClass("net.neoforged.neoforge.capabilities.EntityCapability")
+
+const curiosCap = EntityCapability.createVoid("curios:inventory",ICuriosItemHandler);
+ItemEvents.entityInteracted("shh:maid_tool", event => {
+    let _player = event.player;
+    let _target = event.target;
+    if (_target.type == 'touhou_little_maid:maid' && _player == _target.getOwner()) {
+        var _item
+        if (_player.isShiftKeyDown()) {
+            _item = Item.of("l2magic:equipment_wand");
+        } else {
+            _item = Item.of("l2magic:ai_config_wand");
+        }
+        _item.getItem().clickTarget(_item, _player, _target);
+        event.cancel();
+    }
+})
+
 PlayerEvents.chat(event => {
     const player = event.player
     const message = event.message
 
     if (message == 'ts') {
-        let item = player.offHandItem;
-        if (item.isEmpty()) {
-            player.sendSystemMessage(Component.literal("物品栏无物品").red());
-            return;
-        }
-        let curios = []
-        item.tags.forEach(tag => {
-            if (tag.toString().includes("curios")) {
-                curios.push(tag.toString().replace("curios:", ""));
+        let curio = player.getCapability(curiosCap);
+        curio.getCurios().forEach(type => {
+            let list = curio.getStacksHandler(type).get().getStacks();
+            let slots = curio.getStacksHandler(type).get().getSlots();
+            for (let i = 0; i < slots; i++) {
+                let slot = list.getStackInSlot(i);
+                if (!slot.isEmpty()) {
+                    player.sendSystemMessage(Component.literal(type + "槽 " + i + " : " + slot.getDisplayName().getString()).green());
+                    player.sendSystemMessage(Component.literal(curio.getStacksHandler(type).get().getModifiers()).gold());
+                    
+                }
             }
-        })
-        player.sendSystemMessage(Component.literal(curios.join(", ")));
-        player.sendSystemMessage(Component.literal(item.tags.toString()));
-        if (item.tags.toString().includes("curios:ring")) {
-            player.sendSystemMessage(Component.literal("对的对的对的"));
-        } else {
-            player.sendSystemMessage(Component.literal("不对不对不对"));
-        }
+        });
+        event.cancel(true);
     }
-    if (message == 'stop') {
-        event.server.runCommand(`/tick freeze`)
-    }
-    if (message == 'resume') {
-        event.server.runCommand(`/tick unfreeze`)
-    }
+
     if (player.tags.contains('chat_ban')) {
         // 玩家拥有该 tag，可以执行相关逻辑
         player.sendSystemMessage(Component.literal("您当前处于禁言状态！").red())
@@ -52,12 +61,6 @@ ItemEvents.rightClicked('shh:etihw', event => {
         Etihw = true
     }
 })
-
-const ICuriosItemHandler = Java.loadClass("top.theillusivec4.curios.api.type.capability.ICuriosItemHandler")
-const EntityCapability = Java.loadClass("net.neoforged.neoforge.capabilities.EntityCapability")
-
-const curiosCap = EntityCapability.createVoid("curios:inventory",ICuriosItemHandler);
-
 
 // ItemEvents.entityInteracted('shh:maid_curios_tool', event => {
 //     const player = event.player;
@@ -140,30 +143,3 @@ const curiosCap = EntityCapability.createVoid("curios:inventory",ICuriosItemHand
 //     event.player.sendSystemMessage(Component.literal(_entity.type))
 //     event.player.sendSystemMessage(Component.literal(_entity.getUsername()))
 // })
-
-
-
-// ItemEvents.firstRightClicked("shh:maid_curios_tool",event=>{
-//   let _entity = event.getTarget().entity
-//   let _item = event.getItem()
-//   let wend = Item.of("l2magic:equipment_wand")
-//   if ((_entity.type == "touhou_little_maid:maid")){
-//     wend.getItem().clickTarget(wend,event.entity,_entity)
-//   }
-//   event.player.sendSystemMessage(Component.literal(_entity.type))
-// })
-
-ItemEvents.entityInteracted("shh:maid_tool", event => {
-    let _player = event.player;
-    let _target = event.target;
-    if (_target.type == 'touhou_little_maid:maid' && _player == _target.getOwner()) {
-        var _item
-        if (_player.isShiftKeyDown()) {
-            _item = Item.of("l2magic:equipment_wand");
-        } else {
-            _item = Item.of("l2magic:ai_config_wand");
-        }
-        _item.getItem().clickTarget(_item, _player, _target);
-        event.cancel();
-    }
-})

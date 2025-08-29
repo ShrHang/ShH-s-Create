@@ -54,7 +54,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["01B0AE5A1110E12A"]
+			dependencies: [
+				"01B0AE5A1110E12A"
+				"450D52B71595069B"
+			]
 			id: "16D4AE42359BFD5F"
 			tasks: [{
 				id: "481AE7BC83E47D83"
@@ -62,17 +65,18 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["450D52B71595069B"]
 			id: "46B357566DCA3625"
 			tasks: [{
 				id: "1EDE033863CFC397"
 				item: { count: 1, id: "create:stock_ticker" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 5.5d
+			y: -6.5d
 		}
 		{
 			id: "01B0AE5A1110E12A"
@@ -82,7 +86,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["283F9EAA6A925DCF"]
@@ -92,8 +96,8 @@
 				item: { count: 1, id: "create:linked_controller" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["01B0AE5A1110E12A"]
@@ -104,7 +108,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -1.0d
+			y: 1.5d
 		}
 		{
 			id: "4EF5A1F08299E623"
@@ -117,16 +121,18 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["450D52B71595069B"]
 			id: "7998F531DB7A8827"
 			tasks: [{
 				id: "355957014A1EF63F"
 				item: { count: 1, id: "create:redstone_requester" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 5.5d
+			y: -5.5d
 		}
 		{
+			dependencies: ["450D52B71595069B"]
 			id: "07714EF2DB914C1E"
 			tasks: [{
 				id: "75789CD311C6E7DE"
@@ -134,17 +140,18 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
+			dependencies: ["450D52B71595069B"]
 			id: "148DDE062DBE2671"
 			tasks: [{
 				id: "69CF7A5D56C4C83E"
 				item: { count: 1, id: "create:package_frogport" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.0d
+			x: 2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["58B909F699F1219A"]
@@ -210,18 +217,19 @@
 				item: { count: 1, id: "create:display_link" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
+			disable_toast: true
 			id: "3BB28F8055523AA7"
 			tasks: [{
 				id: "3A7567D409B27126"
 				item: { count: 1, id: "create:chain_conveyor" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.0d
+			x: 1.5d
+			y: -6.5d
 		}
 		{
 			id: "4F901D3C865E15CF"
@@ -230,7 +238,7 @@
 				item: { count: 1, id: "create:stockpile_switch" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
@@ -240,7 +248,7 @@
 				item: { count: 1, id: "create:content_observer" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -409,7 +417,7 @@
 				item: { count: 1, id: "create:pulse_repeater" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -419,8 +427,8 @@
 				item: { count: 1, id: "create:pulse_timer" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			id: "34A9B88B8526CD56"
@@ -430,9 +438,10 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["450D52B71595069B"]
 			id: "5CFC8C0225F6F7DF"
 			tasks: [{
 				id: "48561423016E6EE2"
@@ -440,7 +449,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["68AE015633BBBCF6"]
@@ -473,7 +482,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			id: "0A135576EC849DC4"
@@ -513,8 +522,8 @@
 				item: { count: 1, id: "create:redstone_contact" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
 			id: "44D42456295106AF"
@@ -523,8 +532,8 @@
 				item: { count: 1, id: "create:analog_lever" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			disable_toast: true
@@ -590,6 +599,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["450D52B71595069B"]
 			id: "0DA1F1EFB3EA4478"
 			tasks: [
 				{
@@ -613,8 +623,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -3.0d
+			x: 5.5d
+			y: -4.5d
 		}
 	]
 }

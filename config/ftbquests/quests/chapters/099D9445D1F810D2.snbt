@@ -109,7 +109,7 @@
 				type: "advancement"
 			}]
 			x: -5.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4A9468152F22FFBA"]
@@ -120,7 +120,7 @@
 				id: "02B4120EDC64A9B9"
 				type: "advancement"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -2.5d
 		}
 		{
@@ -132,7 +132,7 @@
 				id: "783A87AD2BE4C3E9"
 				type: "advancement"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -145,7 +145,7 @@
 				type: "advancement"
 			}]
 			x: 2.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["23ACF45DD5391D2B"]
@@ -156,7 +156,7 @@
 				id: "30E19F085FBD309E"
 				type: "advancement"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 5.5d
 		}
 		{
@@ -168,7 +168,7 @@
 				id: "7C60A683316CF2D2"
 				type: "advancement"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 5.5d
 		}
 		{
@@ -181,7 +181,7 @@
 				type: "advancement"
 			}]
 			x: -5.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["74DD71A8E65CDFC9"]
@@ -193,9 +193,19 @@
 				type: "advancement"
 			}]
 			x: 2.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
+			dependencies: [
+				"6B83D0EC9A4BCAC4"
+				"5F97E7164685A3B5"
+				"78BC205358FEEF52"
+				"248D1E0F85F5FAB3"
+				"3D3D4871C0DB60DF"
+				"159BED961E62AB57"
+				"23EDF807F7716146"
+				"3170FF2BB7726517"
+			]
 			id: "43355E6AD4BBBF5C"
 			tasks: [{
 				id: "5029ABABADF3DAA4"
@@ -203,6 +213,105 @@
 				type: "item"
 			}]
 			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "79C940C67D51E7F3"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/enter_catacombs"
+				criterion: ""
+				id: "531AE2A18603616B"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79C940C67D51E7F3"]
+			id: "44218C6C106692C8"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					components: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "gametechbcs_spellbooks:call_forth_the_dead_king"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+					id: "irons_spellbooks:scroll"
+				}
+				id: "25F764B2F847D85C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2762D02CD01ED826"
+				"54D4BC1624B3D89E"
+			]
+			id: "665FC288849DF1BA"
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				icon: {
+					id: "irons_spellbooks:decrepit_key"
+				}
+				id: "4D371E74341BCB00"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			id: "2762D02CD01ED826"
+			tasks: [{
+				id: "11AED777F4DBE12B"
+				item: { count: 1, id: "irons_spellbooks:cinderous_soulcaller" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			id: "7CE656B5117D4871"
+			tasks: [{
+				id: "53187AE75DC31843"
+				item: { count: 1, id: "irons_spellbooks:gold_crown" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44218C6C106692C8"]
+			id: "4EDCC7CBA9CBF05A"
+			tasks: [{
+				entity: "gametechbcs_spellbooks:hard_dead_king"
+				id: "36F88B7B5B3FEBC8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "54D4BC1624B3D89E"
+			tasks: [{
+				id: "19CA7A09A2BB7FE7"
+				item: { count: 1, id: "irons_spellbooks:pyrium_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
 			y: 1.5d
 		}
 	]

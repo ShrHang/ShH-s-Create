@@ -26,7 +26,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["758BC8937785B21D"]
@@ -153,7 +153,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3CF72528C316F4AB"]
@@ -164,7 +164,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3CF72528C316F4AB"]
@@ -175,7 +175,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["160C276B98F7C6C6"]
@@ -186,7 +186,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["160C276B98F7C6C6"]
@@ -197,7 +197,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["160C276B98F7C6C6"]
@@ -208,7 +208,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["519E1ECABB389165"]
@@ -219,7 +219,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["20EB4B57A96FA78D"]
@@ -230,7 +230,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["646FBEB2AAA2FA66"]
@@ -241,7 +241,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["646FBEB2AAA2FA66"]
@@ -252,7 +252,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["646FBEB2AAA2FA66"]
@@ -263,7 +263,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["646FBEB2AAA2FA66"]
@@ -274,7 +274,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["45BE65C81659CADD"]
@@ -285,7 +285,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			id: "6AB904638C1A02BD"
@@ -295,7 +295,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			id: "4033EE1DF4034D11"
@@ -305,7 +305,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			id: "52950114BB2BDFFA"
@@ -315,7 +315,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			id: "7B7A3717DDD004CD"
@@ -325,7 +325,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["160C276B98F7C6C6"]
@@ -336,7 +336,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["758BC8937785B21D"]
@@ -348,6 +348,238 @@
 			}]
 			x: -9.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["758BC8937785B21D"]
+			id: "3582FFA1F1C556F2"
+			tasks: [{
+				id: "02ED624D84736206"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:common_ink)item(irons_spellbooks:uncommon_ink)item(irons_spellbooks:rare_ink)item(irons_spellbooks:epic_ink)item(irons_spellbooks:legendary_ink))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			id: "6C362CAB7CE6A776"
+			tasks: [{
+				id: "35D2EA5FD98C526C"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			id: "3575B066BE152105"
+			tasks: [{
+				id: "1EBBCB78392299F9"
+				item: { count: 1, id: "irons_spellbooks:frozen_bone" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			id: "3DC1241F79304534"
+			tasks: [{
+				id: "028F0F33012BC54B"
+				item: { count: 1, id: "minecraft:poisonous_potato" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			id: "756E20BA48C58223"
+			tasks: [{
+				id: "06A1DCDE09FDD0F7"
+				item: { count: 1, id: "irons_spellbooks:lightning_bottle" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			id: "477B440A111CE9CF"
+			tasks: [{
+				id: "3FC59A54D90F8345"
+				item: { count: 1, id: "irons_spellbooks:blood_vial" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			id: "02C16E241AA4DD35"
+			tasks: [{
+				id: "67C7D2C171CFE541"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			id: "54C2193D055BD22F"
+			tasks: [{
+				id: "571D940E620FD97B"
+				item: { count: 1, id: "irons_spellbooks:divine_pearl" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			id: "009B098CB8954E9E"
+			tasks: [{
+				id: "51576D4B01ED86D7"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			id: "183BDAC49F14D33F"
+			tasks: [{
+				id: "5937EF27F06953DC"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C362CAB7CE6A776"]
+			id: "7774A6D0B9C4D805"
+			tasks: [{
+				id: "14F6866B11FC3268"
+				item: { count: 1, id: "irons_spellbooks:fire_rune" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3575B066BE152105"]
+			id: "5226C911E9CB997C"
+			tasks: [{
+				id: "0284239C5D3EB560"
+				item: { count: 1, id: "irons_spellbooks:ice_rune" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3DC1241F79304534"]
+			id: "0AC3C05A4F4EFC03"
+			tasks: [{
+				id: "5DEBEFEEB838BE7C"
+				item: { count: 1, id: "irons_spellbooks:nature_rune" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["756E20BA48C58223"]
+			id: "68A376781E238778"
+			tasks: [{
+				id: "14CA0E00811E9FCC"
+				item: { count: 1, id: "irons_spellbooks:lightning_rune" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02C16E241AA4DD35"]
+			id: "0710AE86BAA5E0C2"
+			tasks: [{
+				id: "3AB05EF0146D3331"
+				item: { count: 1, id: "irons_spellbooks:ender_rune" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["183BDAC49F14D33F"]
+			id: "26CF9FAEB4D0E458"
+			tasks: [{
+				id: "14FB14C623D3534E"
+				item: { count: 1, id: "irons_spellbooks:eldritch_manuscript" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["009B098CB8954E9E"]
+			id: "69F97FCE0A770618"
+			tasks: [{
+				id: "14353EFF38CB6666"
+				item: { count: 1, id: "irons_spellbooks:evocation_rune" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54C2193D055BD22F"]
+			id: "29CC6BAC23EEA5A9"
+			tasks: [{
+				id: "631BB3C5F9DE5F70"
+				item: { count: 1, id: "irons_spellbooks:holy_rune" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["477B440A111CE9CF"]
+			id: "4CCBED6E1E4D9C38"
+			tasks: [{
+				id: "4173E806CB495B6F"
+				item: { count: 1, id: "irons_spellbooks:blood_rune" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["758BC8937785B21D"]
+			id: "14442F663B45C541"
+			tasks: [{
+				id: "0ADBDE22C03583EE"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(irons_spellbooks:staff)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "7BFB5FC9098750F8"
+			tasks: [{
+				id: "2B1E5ADF83BDA81D"
+				item: { count: 1, id: "cataclysm:crystallized_coral_fragments" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7BFB5FC9098750F8"]
+			id: "3AB6189B3EB28BB5"
+			tasks: [{
+				id: "7E25569246269543"
+				item: { count: 1, id: "cataclysm_spellbooks:abyssal_rune" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
 		}
 	]
 }

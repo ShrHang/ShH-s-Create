@@ -2,11 +2,11 @@
   "list": [
     {
       "attackScale": 1.0,
-      "blacklist": ["l2hostility:killer_aura","l2hostility:ragnarok","l2hostility:grenade"],
+      "blacklist": ["l2hostility:killer_aura","l2hostility:ragnarok","l2hostility:grenade","l2hostility:shulker","l2hostility:reprint"],
       "difficulty": {
         "apply_chance": 1.0,
         "base": 0,
-        "min": 0,
+        "min": 10,
         "scale": 0.0,
         "suppression": 0.0,
         "trait_chance": 1.0,
