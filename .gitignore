@@ -32,6 +32,7 @@ command_history.txt
 patchouli_data.json
 ProbeJS-7.5.1.jar.disabled
 ProbeJS-7.5.1.jar
+config/chunky/tasks/
 
 # 临时文件
 *.log
@@ -48,6 +49,7 @@ hmclversion.cfg
 log4j2.xml
 modpack.cfg
 modrinth.index.json
+debug/
 
 # IDE 文件
 .vscode/
