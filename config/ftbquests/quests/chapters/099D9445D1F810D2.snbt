@@ -255,10 +255,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"2762D02CD01ED826"
-				"54D4BC1624B3D89E"
-			]
+			dependencies: ["2762D02CD01ED826"]
 			id: "665FC288849DF1BA"
 			tasks: [{
 				entity: "irons_spellbooks:fire_boss"
@@ -305,10 +302,10 @@
 			y: 1.5d
 		}
 		{
-			id: "54D4BC1624B3D89E"
+			id: "32349AC1C4887ED1"
 			tasks: [{
-				id: "19CA7A09A2BB7FE7"
-				item: { count: 1, id: "irons_spellbooks:pyrium_ingot" }
+				id: "2869727F9B96BC95"
+				item: { count: 1, id: "darkdoppelganger:shadow_orb" }
 				type: "item"
 			}]
 			x: 6.0d

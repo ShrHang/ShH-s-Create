@@ -13,7 +13,7 @@
 	chapter.599CD03FA645D8B1.title: "游玩须知"
 	chapter.619E8811D76BAD23.title: "实用工具"
 	chapter.627FF5181137FAF1.title: "潘多拉之咒"
-	chapter.6BBCFD30B324B7DE.title: "装备一览"
+	chapter.6BBCFD30B324B7DE.title: "装备推荐"
 	chapter.7097F4A4201A50E6.title: "来乘坐列车吧！"
 	chapter.733710CB459E6FC3.title: "恶意·女仆"
 	chapter.772F31D64B2CF17E.title: "电……电力？"
@@ -122,6 +122,7 @@
 		"&c只有&d虚空伤害&c可以击穿该免疫。"
 	]
 	quest.073962841F5707A8.quest_subtitle: "领域展开！"
+	quest.0751DE5C8FC925B8.title: "法杖"
 	quest.077B7A6F5DDFC2E3.quest_desc: ["&a使用&5保险&a、&5硬化&a、&5永恒&a附魔对策。"]
 	quest.077B7A6F5DDFC2E3.quest_subtitle: "满耐久特攻"
 	quest.07A05CCD2FFE024F.quest_desc: [
@@ -237,6 +238,7 @@
 		"&a想要使用它，您需要&6副手持有恶意探测器，并将侦测眼镜佩戴在饰品栏。"
 	]
 	quest.0FD80C44EB48FBDC.quest_subtitle: "恶意净空"
+	quest.10FB99A4C7C763FF.title: "法师套装"
 	quest.12174CFBAEEBADA7.quest_desc: [
 		"&a使用&6侦测眼镜&a对策。"
 		""
@@ -262,15 +264,6 @@
 	quest.13AA3F2CEA919A1D.quest_desc: [""]
 	quest.13AA3F2CEA919A1D.quest_subtitle: "其实是转向架"
 	quest.143E5A18E6E326E3.title: "冰刃"
-	quest.14442F663B45C541.quest_desc: [
-		"&8&o作为一名魔法师，按键施法也终究有些不够优雅，而比起剑斧枪戟，您总得拥有一件更符合身份的武器。"
-		""
-		"&a手持法杖时，您可以优雅地&6按下右键施放当前选中的法术&a，而不是按下键盘上的什么特殊按键。"
-		""
-		"&a同时，&d法杖带来的的属性加成&a也更加利好一名魔法师。"
-	]
-	quest.14442F663B45C541.quest_subtitle: "快捷施法的工具。"
-	quest.14442F663B45C541.title: "法杖"
 	quest.15041FC0BF517E03.quest_desc: ["&a可以用&e捕风瓶&a接住以获得&e瓶中潜影弹&a。"]
 	quest.15041FC0BF517E03.quest_subtitle: "我是说，有没有一种可能，这些怪物都随身携带了一个潜影贝？"
 	quest.151EFA638111B43F.quest_subtitle: "你也许会用到"
@@ -611,6 +604,8 @@
 		""
 		"&a也可以通过&6机械动力的方法&a来进行量产。"
 		""
+		"&a可以在&3卷轴撰写台&a上撰写魔法卷轴。"
+		""
 		"&b品质越好越能制造出高等级的法术卷轴。"
 		""
 		"&a你也可以在&3奥术铁砧&a上使用墨水给卷轴升级。"
@@ -758,6 +753,8 @@
 	quest.3FAE69E2533A40A7.quest_desc: ["&a通过&e轧机&a来生产线和必需的金属棒,以制作&e接线器和轴线&a。"]
 	quest.3FAE69E2533A40A7.quest_subtitle: "轧机"
 	quest.3FAE69E2533A40A7.title: "让我们开启电力之旅！"
+	quest.40C24F458ED9FEC3.quest_desc: ["找到铁魔法的法术卷轴，准备开始你的魔法师之旅。"]
+	quest.40C24F458ED9FEC3.title: "找到法术卷轴"
 	quest.410D164F96E48678.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
@@ -782,7 +779,6 @@
 		"&a若实体为&6掉落物&a,上式加速度v还会再额外除以4，即掉落物加速更慢。"
 	]
 	quest.416FB0A75240450E.quest_subtitle: "强劲的推拉装置"
-	quest.41FFC8C3F0613F13.title: "幽匿套装"
 	quest.429A439C0A6589AD.quest_desc: ["&a为了获得&e坚固板,&a需要将&e黑曜石&a通过&e粉碎轮&a、&e注液器&a和&e动力冲压机&a的加工，应在&e黄铜时代&a后期开始做。"]
 	quest.429A439C0A6589AD.quest_subtitle: "合成列车机壳和高端装备的材料"
 	quest.429CB3F060E6199C.quest_desc: [
@@ -950,7 +946,6 @@
 	quest.496137EF1E7622DD.title: "锁链传动轮：传动用途"
 	quest.4A505BACE97F033A.quest_desc: [""]
 	quest.4A505BACE97F033A.title: "找到安山岩或闪长岩"
-	quest.4AF9F7E5BE97E372.title: "海神套装"
 	quest.4B81E7FEB1AD5A56.quest_subtitle: "随时随地进行传送"
 	quest.4BC2F7E20BF9F6EE.quest_subtitle: "多在野外逛逛吧"
 	quest.4BC2F7E20BF9F6EE.title: "传送石碑"
@@ -1019,7 +1014,6 @@
 	]
 	quest.525DDB4B52D1051A.quest_subtitle: "物流与自动化"
 	quest.525DDB4B52D1051A.title: "要解放劳动力？"
-	quest.52C0DA5CB8DFFA0A.title: "永恒套装"
 	quest.5354813CA687A028.quest_desc: [
 		"&a您可以使用法术抄写台，将收集得来的卷轴装入法术书中。"
 		"{image:kubejs:textures/ftbquests/inscription_table-1.png width:200 height:100 align:center}"
@@ -1033,6 +1027,7 @@
 		"&6因此，您无需顾虑太多，请随心所欲地搭配法术吧。"
 	]
 	quest.5354813CA687A028.quest_subtitle: "理所当然地，将卷轴抄录下来，就能一直使用了。"
+	quest.5354813CA687A028.title: "【3】法术抄写台"
 	quest.5363C12EB4E16ACD.quest_desc: [
 		"&e可调节链式齿轮箱&a可利用&e红石信号&a，给&e链式齿轮箱&a变速。"
 		"{@pagebreak}"
@@ -1131,7 +1126,7 @@
 		"{ \"text\": \"如果您不知道如何获得法术书，请点击这里\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0B5D4E8A38187BBD\" } }"
 	]
 	quest.56B2AB818F0E08EF.quest_subtitle: "法术卷轴的容器"
-	quest.56B2AB818F0E08EF.title: "法术书"
+	quest.56B2AB818F0E08EF.title: "【2】法术书"
 	quest.56BCED2FDD1D0F87.quest_subtitle: "我即天命"
 	quest.56BCED2FDD1D0F87.title: "&6【核心】&r宝石手套"
 	quest.58B909F699F1219A.title: "基础物流元件"
@@ -1263,6 +1258,7 @@
 	quest.5F6A3C29FC3450BC.quest_subtitle: "加工无序配方，酿造，以及制造黄铜"
 	quest.605777A4931AD9B8.quest_desc: ["前往下界，找到烈焰人。"]
 	quest.605777A4931AD9B8.title: "找到烈焰人"
+	quest.631969B2A8E1153D.quest_subtitle: "开启弓艺之旅"
 	quest.631969B2A8E1153D.title: "找到竹子"
 	quest.63242C1FB281A6CA.quest_subtitle: "用来调整机械动力的构件"
 	quest.63511257FA9EFF84.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c排斥&a词条怪物获取。"]
@@ -1390,18 +1386,20 @@
 		"&a您可以&b使用墨水来升级法术卷轴&a。"
 		"{image:kubejs:textures/ftbquests/arcane_anvil-3.png width:190 height:100 align:center}"
 		"&a每次升级&b只能升一级&a，并且只能使用&e当前等级对应品质&a的墨水，（如&7普通3&6->&7普通4&a需要&7普通墨水&a）"
-		""
+		"{ \"text\": \"墨水\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3582FFA1F1C556F2\" } }"
 		"&a若下一次升级将&b升到更高一级品质&a，则需要用&e对应品质的墨水&a。（如&7普通4&6->&2卓越5&a需要&2卓越墨水&a）"
 		"{image:kubejs:textures/ftbquests/arcane_anvil-4.png width:180 height:90 align:center}"
 		"{@pagebreak}"
 		"&a功能三：&e强化"
 		""
-		"&a您可以使用&e升级法术球&a给护甲、武器强化，至多&c强化20次&a。"
+		"&a您可以使用&e升级法术球&a给&c护甲、武器、法杖、法术书&a强化，至多&c强化20次&a。"
 		"{image:kubejs:textures/ftbquests/arcane_anvil-5.png width:200 height:100 align:center}"
 		""
 		"&a强化后的装备将获得&e对应升级法术的属性效果&a。"
 		""
 		"&b装备的法术强化是铁魔法后期重要的数值来源。"
+		""
+		"{ \"text\": \"法术升级球\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5A53D8AA737480DC\" } }"
 	]
 	quest.6AC18F92931A467E.quest_subtitle: "给您的武器装备注入魔法。"
 	quest.6ACBD05D3E554657.quest_subtitle: "现在，它可以通过击杀对应词条的怪物掉落获取。"
@@ -1512,7 +1510,6 @@
 	quest.745CEC8A62C5527C.title: "让我们把电存起来！"
 	quest.74C1FF06504E18AE.quest_desc: [""]
 	quest.74C1FF06504E18AE.title: "铜阀门手轮：动态结构用途"
-	quest.7536FBAA2A6AB4FB.title: "潜影套装"
 	quest.756E20BA48C58223.quest_desc: [
 		"&a推荐法术："
 		""
@@ -1532,6 +1529,7 @@
 		"&a想要不消耗卷轴来释放法术，还请您查阅接下来的任务。"
 	]
 	quest.758BC8937785B21D.quest_subtitle: "您得以释放法术的根本"
+	quest.758BC8937785B21D.title: "【1】法术卷轴"
 	quest.760DAB12D9136D7D.title: "掠夺恶意词条"
 	quest.78FC1D37DCC2C65D.quest_desc: [
 		"&a佩戴这类饰品后&6击杀带有词条的怪物&a会获取对应的掉落物。"
@@ -1546,6 +1544,7 @@
 		"{image:kubejs:textures/ftbquests/charm_of_looting_in_pandora.png width:150 height:50 align:center}"
 	]
 	quest.78FC1D37DCC2C65D.title: "&e粗糙抢夺宝珠"
+	quest.79341945CFD3DF29.quest_desc: [""]
 	quest.7941AF87A3F0FCAD.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
@@ -1563,7 +1562,6 @@
 	quest.7B38EC488FFC125C.quest_subtitle: "你的伤口无法愈合"
 	quest.7BFB5FC9098750F8.quest_subtitle: "&1深渊&r法术流派"
 	quest.7C14A160A1024E72.title: "炎棘"
-	quest.7C4FE9B979684280.title: "生命套装"
 	quest.7CADD1827FAFACB9.quest_desc: ["&c该词条仅在史莱姆身上出现。"]
 	quest.7CADD1827FAFACB9.quest_subtitle: "无限生长"
 	quest.7CBED737E7CED270.quest_subtitle: "齿轮变速已成过去式"
@@ -1620,28 +1618,33 @@
 	task.07C4FA6F03C658D6.title: "自动完成"
 	task.0ADBDE22C03583EE.title: "无魔杖，不巫师"
 	task.0D2EAB9DC0EE9372.title: "Hello World"
+	task.0D84A629DD18F623.title: "找到闪长岩"
 	task.0E3AAFF3E2DB6DBD.title: "自动完成"
 	task.0FC6C3CD1483B920.title: "法术卷轴"
 	task.1184BFCF679D1586.title: "墨水"
 	task.13AA535FC2321FBA.title: "快捷指令"
+	task.19845004BBBFFFD4.title: "获得一把法杖"
 	task.20AC3D2430FF9866.title: "被动状态"
 	task.25B5B30BCC398C28.title: "观察：烈焰人"
 	task.25D0AA8BEA16BED3.title: "制作一个女仆背包，并给女仆背上吧！"
 	task.25E33F93892AF6D9.title: "共享石碑"
 	task.26D9FB0D05921639.title: "思索"
 	task.2A66344E9DA3439E.title: "Any #waystones:sharestones"
-	task.2BE127AC0B228999.title: "Any #l2hostility:trait_item"
+	task.2BE127AC0B228999.title: "恶意词条"
+	task.307A9D3C988294BE.title: "获得一把法杖"
 	task.3465CB1983D36F19.title: "自动完成"
-	task.360EFA96B9F7A1CE.title: "Any #curios:spellbook"
+	task.360EFA96B9F7A1CE.title: "法术书"
+	task.3BBE53A1DF866205.title: "拥有一根法杖"
 	task.3BF7DC55415C61E5.title: "自动完成"
 	task.3DA0D7B56F8D5981.title: "JEI"
 	task.426CDA8DC02E4D4C.title: "列车！"
+	task.4BC843F436357183.title: "找到安山岩"
 	task.4F0404DAE6529C9C.title: "合成一个御币"
 	task.4F75C1395D9B08D6.title: "自动完成"
 	task.5534BC01A2B821FE.title: "按键绑定"
 	task.5A30DC29722C269C.title: "自动完成"
 	task.66440F1D17637E87.title: "投影三件套"
-	task.68A00BFCF8B9C654.title: "成为一位法师"
+	task.68B7FB7CBC898883.title: "获得任意一件法师护甲"
 	task.69EB950B0396926A.title: "Any #minecraft:logs"
 	task.6BD7579693453498.title: "传送石碑"
 	task.7059C99A2FD01A26.title: "FTB任务书"

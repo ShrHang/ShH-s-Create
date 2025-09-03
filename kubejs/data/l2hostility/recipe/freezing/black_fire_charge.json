@@ -1,13 +1,13 @@
 {
-	"type": "create:haunting",
+	"type": "create_dragons_plus:freezing",
 	"ingredients": [
 	  {
       "item": "minecraft:fire_charge"
 	  }
 	],
 	"results": [
-    {
-      "id": "l2complements:black_fire_charge"
-    }
+		{
+		"id": "l2complements:black_fire_charge"
+		}
 	]
 }

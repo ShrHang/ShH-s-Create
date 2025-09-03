@@ -27,14 +27,6 @@
 		{
 			height: 0.5d
 			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
-			rotation: 30.0d
-			width: 0.7d
-			x: 3.767857142857139d
-			y: -4.464285714285715d
-		}
-		{
-			height: 0.5d
-			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.5d
@@ -104,6 +96,38 @@
 			x: 9.392857142857125d
 			y: -7.595238095238095d
 		}
+		{
+			height: 0.5d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.315476190476211d
+			y: -3.94047619047619d
+		}
+		{
+			height: 0.5d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -11.0d
+		}
+		{
+			height: 0.5d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
+			rotation: -45.0d
+			width: 0.7d
+			x: -2.3035714285714377d
+			y: -11.785714285714278d
+		}
+		{
+			height: 0.5d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
+			rotation: -135.0d
+			width: 1.0d
+			x: -0.6607142857142989d
+			y: -11.785714285714285d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -126,8 +150,8 @@
 				type: "stat"
 				value: 1
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: -4.470238095238059d
+			y: -2.011904761904745d
 		}
 		{
 			dependencies: ["1C247CCE01C1BB0B"]
@@ -174,7 +198,7 @@
 					type: "observation"
 				}
 			]
-			x: -4.0d
+			x: -4.5d
 			y: -5.0d
 		}
 		{
@@ -226,7 +250,7 @@
 				item: { count: 1, id: "minecraft:bamboo" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 1.0d
 		}
 		{
@@ -241,8 +265,8 @@
 				to_observe: "minecraft:blaze"
 				type: "observation"
 			}]
-			x: 3.0535714285714235d
-			y: -4.892857142857146d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			id: "52D21D2B65319793"
@@ -264,8 +288,8 @@
 				item: { count: 1, id: "l2archery:starter_bow" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.0d
+			x: -4.4702380952380665d
+			y: 4.988095238095248d
 		}
 		{
 			id: "2997673E4F0D958B"
@@ -276,8 +300,8 @@
 				item: { count: 1, id: "l2archery:void_bow" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 8.0d
+			x: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1C247CCE01C1BB0B"]
@@ -302,8 +326,8 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: -4.017857142857146d
-			y: -7.1785714285714235d
+			x: -4.499999999999993d
+			y: -6.940476190476176d
 		}
 		{
 			dependencies: [
@@ -455,8 +479,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(l2hostility:trait_item)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 13.60714285714284d
-			y: -4.0238095238095255d
+			x: 13.505952380952372d
+			y: -3.9928571428571473d
 		}
 		{
 			dependencies: [
@@ -568,22 +592,21 @@
 				id: "26429FA761786A85"
 				type: "advancement"
 			}]
-			x: -4.0d
-			y: -9.5d
+			x: -4.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6CC8F30337EBF7B8"]
 			id: "4D2A30831E5ED996"
-			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				advancement: "create:mechanical_press"
 				criterion: ""
 				id: "5AD6BE8032A1691D"
 				type: "advancement"
 			}]
-			x: -1.517857142857146d
-			y: -9.535714285714285d
+			x: -3.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4D2A30831E5ED996"]
@@ -593,8 +616,8 @@
 				item: { count: 1, id: "create:iron_sheet" }
 				type: "item"
 			}]
-			x: -1.517857142857153d
-			y: -7.1785714285714235d
+			x: -2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["7AF99D67321A0BBE"]
@@ -604,7 +627,7 @@
 				item: { count: 1, id: "create:empty_blaze_burner" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -5.0d
 		}
 		{
@@ -613,18 +636,21 @@
 				"605777A4931AD9B8"
 			]
 			id: "280F2D5B0348030F"
-			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "196F6DBFF8A13276"
 				item: { count: 1, id: "create:blaze_burner" }
 				type: "item"
 			}]
-			x: 1.1964285714285623d
-			y: -4.892857142857146d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["280F2D5B0348030F"]
+			dependencies: [
+				"356A89B346A04DD9"
+				"280F2D5B0348030F"
+				"3CC7CA2E671DB467"
+			]
 			id: "4F3E5B168E0DB71B"
 			shape: "rsquare"
 			size: 2.0d
@@ -633,8 +659,193 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 1.1964285714285623d
-			y: -7.1785714285714235d
+			x: 2.0297619047619264d
+			y: -7.011904761904759d
+		}
+		{
+			dependencies: ["313C982F60BF7FBF"]
+			id: "356A89B346A04DD9"
+			size: 1.0d
+			tasks: [{
+				id: "11876F4133CB6E7E"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7AF99D67321A0BBE"]
+			id: "313C982F60BF7FBF"
+			tasks: [{
+				id: "595CF76861DEB3C4"
+				item: { count: 1, id: "create:whisk" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			id: "3CC7CA2E671DB467"
+			tasks: [{
+				id: "61FC99ECD34A0823"
+				item: { count: 1, id: "create:basin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "79341945CFD3DF29"
+			size: 1.0d
+			tasks: [{
+				id: "5EFA10A3515BBBED"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"79341945CFD3DF29"
+				"4D2A30831E5ED996"
+			]
+			id: "3C71247881F4E894"
+			tasks: [{
+				id: "7935646839B747BE"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 6, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:iron_spell_book" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			id: "2503F1336420E184"
+			tasks: [{
+				id: "107E21E24447A0DA"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:rotten_spell_book" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3C71247881F4E894"]
+			id: "3EF9673011AEDC1A"
+			tasks: [{
+				id: "2175691377E31EE4"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:gold_spell_book" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1D5CD2D9BF4A5898"]
+			id: "71DE250CBEA17477"
+			tasks: [{
+				id: "61BC387AB37819D8"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4F3E5B168E0DB71B"]
+			id: "1D5CD2D9BF4A5898"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "200F1BA102238739"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"7DBD2286EF7A09D1"
+				"3EF9673011AEDC1A"
+			]
+			id: "4845027E93413F99"
+			tasks: [{
+				id: "2519EEF22D7A3516"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:diamond_spell_book" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["71DE250CBEA17477"]
+			id: "58E7FFFDF8083FE3"
+			tasks: [{
+				id: "05D648650FD0EEA4"
+				item: { count: 1, id: "createaddition:diamond_grit" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["58E7FFFDF8083FE3"]
+			hide_dependent_lines: true
+			id: "7DBD2286EF7A09D1"
+			tasks: [{
+				id: "45D9449092C05FC1"
+				item: { count: 1, id: "createaddition:diamond_grit_sandpaper" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["356A89B346A04DD9"]
+			id: "13739C64A97F5414"
+			tasks: [{
+				id: "797ABEC1E425F5F4"
+				item: { count: 1, id: "create:pulp" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			id: "40C24F458ED9FEC3"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "46D641235F1BBD3F"
+				item: { count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["13739C64A97F5414"]
+			id: "113B490E8E8E3F41"
+			tasks: [{
+				id: "059D91A8E7E579D4"
+				item: { count: 1, id: "create:cardboard" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2503F1336420E184"]
+			id: "52F40BBCDD1902CC"
+			tasks: [{
+				id: "73C31307B62F68A1"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:druidic_spell_book" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -14.0d
 		}
 	]
 }

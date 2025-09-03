@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5EFB23B25B3E806C"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "0CC74F672FCF93FE"
@@ -19,95 +20,67 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["56B2AB818F0E08EF"]
 			id: "0B5D4E8A38187BBD"
+			shape: "circle"
 			tasks: [{
 				id: "71EBB488F4912CDC"
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 7.0d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["758BC8937785B21D"]
+			dependencies: ["5EFB23B25B3E806C"]
 			id: "5354813CA687A028"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "446B4E5D26642325"
 				item: { count: 1, id: "irons_spellbooks:inscription_table" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 2.5d
+			x: -5.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["758BC8937785B21D"]
+			dependencies: ["5EFB23B25B3E806C"]
 			id: "23A61A6633210D69"
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "07DBADDE2933EA61"
 				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: 0.0d
+			x: -7.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["758BC8937785B21D"]
+			dependencies: ["5EFB23B25B3E806C"]
+			hide_dependent_lines: true
 			id: "6AC18F92931A467E"
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "25B75051EE1A5319"
 				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			icon: {
 				components: {
 					"irons_spellbooks:spell_container": {
-						data: [
-							{
-								id: "irons_spellbooks:echoing_strikes"
-								index: 0
-								level: 4
-							}
-							{
-								id: "irons_spellbooks:frostwave"
-								index: 1
-								level: 14
-							}
-							{
-								id: "irons_spellbooks:angel_wing"
-								index: 2
-								level: 7
-							}
-							{
-								id: "irons_spellbooks:blaze_storm"
-								index: 3
-								level: 17
-							}
-							{
-								id: "irons_spellbooks:lightning_bolt"
-								index: 4
-								level: 1
-							}
-							{
-								id: "irons_spellbooks:earthquake"
-								index: 5
-								level: 4
-							}
-							{
-								id: "irons_spellbooks:gluttony"
-								index: 6
-								level: 20
-							}
-							{
-								id: "irons_spellbooks:blood_step"
-								index: 7
-								level: 4
-							}
-						]
-						maxSpells: 8
+						data: [{
+							id: "irons_spellbooks:fortify"
+							index: 0
+							level: 15
+						}]
+						maxSpells: 1
 						mustEquip: 1b
 						spellWheel: 1b
 					}
@@ -115,34 +88,42 @@
 				id: "irons_spellbooks:wimpy_spell_book"
 			}
 			id: "5EFB23B25B3E806C"
+			shape: "rsquare"
+			size: 2.5d
 			tasks: [{
-				id: "68A00BFCF8B9C654"
-				type: "checkmark"
+				id: "2DD818EF1F44BB11"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
 			}]
 			x: -7.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5EFB23B25B3E806C"]
 			id: "758BC8937785B21D"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "0FC6C3CD1483B920"
 				item: { count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["758BC8937785B21D"]
+			dependencies: ["5EFB23B25B3E806C"]
+			hide_dependent_lines: true
 			id: "56B2AB818F0E08EF"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "360EFA96B9F7A1CE"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:spellbook)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 2.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0B5D4E8A38187BBD"]
@@ -152,8 +133,8 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 6, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:iron_spell_book" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.0d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3CF72528C316F4AB"]
@@ -163,8 +144,8 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:rotten_spell_book" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3CF72528C316F4AB"]
@@ -174,8 +155,8 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:gold_spell_book" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["160C276B98F7C6C6"]
@@ -185,8 +166,8 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:ice_spell_book" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["160C276B98F7C6C6"]
@@ -196,8 +177,8 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_spell_book" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["160C276B98F7C6C6"]
@@ -207,8 +188,8 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:druidic_spell_book" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.0d
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["519E1ECABB389165"]
@@ -218,8 +199,8 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:diamond_spell_book" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 8.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["20EB4B57A96FA78D"]
@@ -230,7 +211,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["646FBEB2AAA2FA66"]
@@ -241,7 +222,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["646FBEB2AAA2FA66"]
@@ -252,7 +233,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 10.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["646FBEB2AAA2FA66"]
@@ -263,7 +244,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["646FBEB2AAA2FA66"]
@@ -274,7 +255,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["45BE65C81659CADD"]
@@ -284,48 +265,53 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_spell_book" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 10.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["56B2AB818F0E08EF"]
 			id: "6AB904638C1A02BD"
 			tasks: [{
 				id: "468992AAB27C4E1E"
 				item: { components: { "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:fang_strike", index: 0, level: 6, locked: 1b }, { id: "irons_spellbooks:fang_ward", index: 1, level: 4, locked: 1b }, { id: "irons_spellbooks:summon_vex", index: 2, level: 4, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:evoker_spell_book" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.5d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
+			dependencies: ["56B2AB818F0E08EF"]
 			id: "4033EE1DF4034D11"
+			shape: "circle"
 			tasks: [{
 				id: "0E81B8BF3409B021"
 				item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "irons_spellbooks:raise_dead": 2 } }, "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:blood_slash", index: 0, level: 5, locked: 1b }, { id: "irons_spellbooks:blood_step", index: 1, level: 5, locked: 1b }, { id: "irons_spellbooks:ray_of_siphoning", index: 2, level: 5, locked: 1b }, { id: "irons_spellbooks:blaze_storm", index: 3, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:necronomicon_spell_book" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.5d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["56B2AB818F0E08EF"]
 			id: "52950114BB2BDFFA"
 			tasks: [{
 				id: "342A74D702F201D8"
 				item: { components: { "irons_spellbooks:spell_container": { data: [ { id: "cataclysm_spellbooks:monolith_crash", index: 0, level: 5, locked: 1b }, { id: "cataclysm_spellbooks:desert_winds", index: 1, level: 3, locked: 1b }, { id: "cataclysm_spellbooks:sandstorm", index: 2, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:desert_spell_book" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 7.5d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["56B2AB818F0E08EF"]
 			id: "7B7A3717DDD004CD"
 			tasks: [{
 				id: "30E21B13C328805F"
 				item: { components: { "irons_spellbooks:spell_container": { data: [ { id: "gametechbcs_spellbooks:nullflare", index: 0, level: 5, locked: 1b }, { id: "gametechbcs_spellbooks:aerial_collapse", index: 1, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "gametechbcs_spellbooks:gtbcs_magical_repository" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 8.5d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["160C276B98F7C6C6"]
@@ -335,689 +321,1120 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyss_spell_book" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.0d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["758BC8937785B21D"]
+			dependencies: ["3582FFA1F1C556F2"]
 			id: "7271539A5864C6EA"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "3B00D3C7CF241859"
 				item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: 2.0d
+			x: -12.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["758BC8937785B21D"]
+			dependencies: ["5EFB23B25B3E806C"]
 			id: "3582FFA1F1C556F2"
+			size: 1.5d
 			tasks: [{
 				id: "02ED624D84736206"
 				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:common_ink)item(irons_spellbooks:uncommon_ink)item(irons_spellbooks:rare_ink)item(irons_spellbooks:epic_ink)item(irons_spellbooks:legendary_ink))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -9.5d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["23A61A6633210D69"]
 			id: "6C362CAB7CE6A776"
+			shape: "diamond"
 			tasks: [{
 				id: "35D2EA5FD98C526C"
 				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: -6.0d
+			x: -8.5d
+			y: -7.5d
 		}
 		{
+			dependencies: ["23A61A6633210D69"]
 			id: "3575B066BE152105"
+			shape: "diamond"
 			tasks: [{
 				id: "1EBBCB78392299F9"
 				item: { count: 1, id: "irons_spellbooks:frozen_bone" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: -4.5d
+			x: -6.5d
+			y: -7.5d
 		}
 		{
+			dependencies: ["23A61A6633210D69"]
 			id: "3DC1241F79304534"
+			shape: "diamond"
 			tasks: [{
 				id: "028F0F33012BC54B"
 				item: { count: 1, id: "minecraft:poisonous_potato" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: -3.0d
+			x: -7.0d
+			y: -8.5d
 		}
 		{
+			dependencies: ["23A61A6633210D69"]
 			id: "756E20BA48C58223"
+			shape: "diamond"
 			tasks: [{
 				id: "06A1DCDE09FDD0F7"
 				item: { count: 1, id: "irons_spellbooks:lightning_bottle" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: -1.5d
+			x: -5.5d
+			y: -7.5d
 		}
 		{
+			dependencies: ["23A61A6633210D69"]
 			id: "477B440A111CE9CF"
+			shape: "diamond"
 			tasks: [{
 				id: "3FC59A54D90F8345"
 				item: { count: 1, id: "irons_spellbooks:blood_vial" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: 1.5d
+			x: -9.5d
+			y: -6.5d
 		}
 		{
+			dependencies: ["23A61A6633210D69"]
 			id: "02C16E241AA4DD35"
+			shape: "diamond"
 			tasks: [{
 				id: "67C7D2C171CFE541"
 				item: { count: 1, id: "minecraft:ender_pearl" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: 0.0d
+			x: -9.5d
+			y: -7.5d
 		}
 		{
+			dependencies: ["23A61A6633210D69"]
 			id: "54C2193D055BD22F"
+			shape: "diamond"
 			tasks: [{
 				id: "571D940E620FD97B"
 				item: { count: 1, id: "irons_spellbooks:divine_pearl" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: 3.0d
+			x: -5.5d
+			y: -6.5d
 		}
 		{
+			dependencies: ["23A61A6633210D69"]
 			id: "009B098CB8954E9E"
+			shape: "diamond"
 			tasks: [{
 				id: "51576D4B01ED86D7"
 				item: { count: 1, id: "minecraft:emerald" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: 4.5d
+			x: -8.0d
+			y: -8.5d
 		}
 		{
+			dependencies: ["23A61A6633210D69"]
 			id: "183BDAC49F14D33F"
+			shape: "diamond"
 			tasks: [{
 				id: "5937EF27F06953DC"
 				item: { count: 1, id: "minecraft:echo_shard" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: 6.0d
+			x: -10.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["183BDAC49F14D33F"]
 			id: "26CF9FAEB4D0E458"
+			shape: "gear"
 			tasks: [{
 				id: "14FB14C623D3534E"
 				item: { count: 1, id: "irons_spellbooks:eldritch_manuscript" }
 				type: "item"
 			}]
-			x: -13.5d
-			y: 6.0d
+			x: -12.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["758BC8937785B21D"]
-			id: "14442F663B45C541"
-			tasks: [{
-				id: "0ADBDE22C03583EE"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(irons_spellbooks:staff)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -2.0d
-		}
-		{
+			dependencies: ["23A61A6633210D69"]
 			id: "7BFB5FC9098750F8"
+			shape: "diamond"
 			tasks: [{
 				id: "2B1E5ADF83BDA81D"
 				item: { count: 1, id: "cataclysm:crystallized_coral_fragments" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 6.0d
+			x: -4.5d
+			y: -6.0d
 		}
 		{
-			id: "43DEC5A68C90AF2D"
-			tasks: [
-				{
-					id: "73FCA5D53BD71DC4"
-					item: { count: 1, id: "irons_spellbooks:wizard_helmet" }
-					type: "item"
-				}
-				{
-					id: "4A2495FDC6A33F66"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:wizard_chestplate" }
-					type: "item"
-				}
-				{
-					id: "22EA50B6B3384B07"
-					item: { count: 1, id: "irons_spellbooks:wizard_leggings" }
-					type: "item"
-				}
-				{
-					id: "53AA9013EA3D006A"
-					item: { count: 1, id: "irons_spellbooks:wizard_boots" }
-					type: "item"
-				}
+			dependencies: [
+				"28D0E8E0C045C9B8"
+				"6AC18F92931A467E"
 			]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
 			id: "5A53D8AA737480DC"
+			shape: "diamond"
 			tasks: [{
 				id: "24E3460EA9583D77"
 				item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["43DEC5A68C90AF2D"]
-			id: "0165F1EBFBAFAE49"
-			tasks: [
-				{
-					id: "5DA4495CEBE3B26F"
-					item: { count: 1, id: "irons_spellbooks:netherite_mage_helmet" }
-					type: "item"
-				}
-				{
-					id: "3CEEB6E2A9C812B9"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_mage_chestplate" }
-					type: "item"
-				}
-				{
-					id: "5C2E37A7134BE7B9"
-					item: { count: 1, id: "irons_spellbooks:netherite_mage_leggings" }
-					type: "item"
-				}
-				{
-					id: "7FBC7320D5567BD8"
-					item: { count: 1, id: "irons_spellbooks:netherite_mage_boots" }
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0165F1EBFBAFAE49"]
-			id: "05FE6A69B3FDB37B"
-			tasks: [
-				{
-					id: "06BF8A043D817F85"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_helmet" }
-					type: "item"
-				}
-				{
-					id: "3C79B285A38E3DE5"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_chestplate" }
-					type: "item"
-				}
-				{
-					id: "6EADDCF383E1C792"
-					item: { count: 1, id: "cataclysm_spellbooks:ignis_leggings" }
-					type: "item"
-				}
-				{
-					id: "3A6B714585220F8F"
-					item: { count: 1, id: "cataclysm_spellbooks:ignis_boots" }
-					type: "item"
-				}
-			]
-			x: 3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["0165F1EBFBAFAE49"]
-			id: "640805F6013A3C6D"
-			tasks: [
-				{
-					id: "6FC70C11EAABCD77"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:cursium_mage_circlet" }
-					type: "item"
-				}
-				{
-					id: "6ED7736E77658DF4"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:cursium_mage_chestplate" }
-					type: "item"
-				}
-				{
-					id: "2A93400650EC7CFA"
-					item: { count: 1, id: "cataclysm_spellbooks:cursium_mage_skirt" }
-					type: "item"
-				}
-				{
-					id: "6AF142FA5ED3F31A"
-					item: { count: 1, id: "cataclysm_spellbooks:cursium_mage_boots" }
-					type: "item"
-				}
-			]
-			x: 3.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0165F1EBFBAFAE49"]
-			id: "30485ED6270997FA"
-			tasks: [
-				{
-					id: "093E7DEA2B97F413"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_helmet" }
-					type: "item"
-				}
-				{
-					id: "0F3F8C75CE63978A"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_chestplate" }
-					type: "item"
-				}
-				{
-					id: "063AC30272B23A8F"
-					item: { count: 1, id: "cataclysm_spellbooks:abyssal_warlock_leggings" }
-					type: "item"
-				}
-				{
-					id: "3E55E4E1D0A43A34"
-					item: { count: 1, id: "cataclysm_spellbooks:abyssal_warlock_boots" }
-					type: "item"
-				}
-			]
-			x: 3.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["43DEC5A68C90AF2D"]
-			id: "1AD1CB2C3B4EE5E3"
-			tasks: [
-				{
-					id: "2F8F3B30FF6A275B"
-					item: { count: 1, id: "irons_spellbooks:pyromancer_helmet" }
-					type: "item"
-				}
-				{
-					id: "1BB0E2E7D93366ED"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:pyromancer_chestplate" }
-					type: "item"
-				}
-				{
-					id: "36A68DD4E04C20CC"
-					item: { count: 1, id: "irons_spellbooks:pyromancer_leggings" }
-					type: "item"
-				}
-				{
-					id: "03CB2195EFDE8D20"
-					item: { count: 1, id: "irons_spellbooks:pyromancer_boots" }
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["43DEC5A68C90AF2D"]
-			id: "195E8CD4177806E0"
-			tasks: [
-				{
-					id: "4594CCF2EFEEAD23"
-					item: { count: 1, id: "irons_spellbooks:cryomancer_helmet" }
-					type: "item"
-				}
-				{
-					id: "5247FF4D84509B28"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cryomancer_chestplate" }
-					type: "item"
-				}
-				{
-					id: "4411D9AA8A4357D7"
-					item: { count: 1, id: "irons_spellbooks:cryomancer_leggings" }
-					type: "item"
-				}
-				{
-					id: "68448F4215795ADC"
-					item: { count: 1, id: "irons_spellbooks:cryomancer_boots" }
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["43DEC5A68C90AF2D"]
-			id: "5C0C9ECDD72B0267"
-			tasks: [
-				{
-					id: "172A495B11B0F844"
-					item: { count: 1, id: "irons_spellbooks:electromancer_helmet" }
-					type: "item"
-				}
-				{
-					id: "6E415607A50D0279"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:electromancer_chestplate" }
-					type: "item"
-				}
-				{
-					id: "3A7500BCE019EB96"
-					item: { count: 1, id: "irons_spellbooks:electromancer_leggings" }
-					type: "item"
-				}
-				{
-					id: "045973F38403A75E"
-					item: { count: 1, id: "irons_spellbooks:electromancer_boots" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["43DEC5A68C90AF2D"]
-			id: "69B620D2A64D01C4"
-			tasks: [
-				{
-					id: "390ACA985C306DBE"
-					item: { count: 1, id: "irons_spellbooks:plagued_helmet" }
-					type: "item"
-				}
-				{
-					id: "7B67D150F0A0EBCD"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:plagued_chestplate" }
-					type: "item"
-				}
-				{
-					id: "0C32DF862DE4A9E3"
-					item: { count: 1, id: "irons_spellbooks:plagued_leggings" }
-					type: "item"
-				}
-				{
-					id: "63CA09980996074E"
-					item: { count: 1, id: "irons_spellbooks:plagued_boots" }
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["43DEC5A68C90AF2D"]
-			id: "32D6E0864DA15495"
-			tasks: [
-				{
-					id: "4A0EAF8CB518193A"
-					item: { count: 1, id: "irons_spellbooks:cultist_helmet" }
-					type: "item"
-				}
-				{
-					id: "082319344F70BED7"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cultist_chestplate" }
-					type: "item"
-				}
-				{
-					id: "024F7093A6B4ADBC"
-					item: { count: 1, id: "irons_spellbooks:cultist_leggings" }
-					type: "item"
-				}
-				{
-					id: "04209D21D93BF612"
-					item: { count: 1, id: "irons_spellbooks:cultist_boots" }
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["43DEC5A68C90AF2D"]
-			id: "01ECFA3314016904"
-			tasks: [
-				{
-					id: "5B0830AAB6DC7FD5"
-					item: { count: 1, id: "irons_spellbooks:priest_helmet" }
-					type: "item"
-				}
-				{
-					id: "51B228962FC30F4D"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:priest_chestplate" }
-					type: "item"
-				}
-				{
-					id: "39D945704996CBA8"
-					item: { count: 1, id: "irons_spellbooks:priest_leggings" }
-					type: "item"
-				}
-				{
-					id: "34BADAA9CEF6FADB"
-					item: { count: 1, id: "irons_spellbooks:priest_boots" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["43DEC5A68C90AF2D"]
-			id: "4F33B766231E4543"
-			tasks: [
-				{
-					id: "2C0AE4B72EE05394"
-					item: { count: 1, id: "irons_spellbooks:shadowwalker_helmet" }
-					type: "item"
-				}
-				{
-					id: "4F4C04E3E9E92CD8"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:shadowwalker_chestplate" }
-					type: "item"
-				}
-				{
-					id: "6118CAAEEAE0BDEF"
-					item: { count: 1, id: "irons_spellbooks:shadowwalker_leggings" }
-					type: "item"
-				}
-				{
-					id: "33D6D6514B97795B"
-					item: { count: 1, id: "irons_spellbooks:shadowwalker_boots" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["43DEC5A68C90AF2D"]
-			id: "470057575B329DA3"
-			tasks: [
-				{
-					id: "787DF636ADE65636"
-					item: { count: 1, id: "irons_spellbooks:archevoker_helmet" }
-					type: "item"
-				}
-				{
-					id: "0F123D1FE9A81EFC"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:archevoker_chestplate" }
-					type: "item"
-				}
-				{
-					id: "5BC8F97B824465D9"
-					item: { count: 1, id: "irons_spellbooks:archevoker_leggings" }
-					type: "item"
-				}
-				{
-					id: "0C4B82E2B1A8C7D2"
-					item: { count: 1, id: "irons_spellbooks:archevoker_boots" }
-					type: "item"
-				}
-			]
-			x: 1.5d
+			x: -6.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["01ECFA3314016904"]
-			id: "464E5CF6C7DDD083"
-			tasks: [{
-				id: "6C96CDE08102048C"
-				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:paladin_chestplate" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["470057575B329DA3"]
-			id: "3488F217C59D6517"
-			tasks: [{
-				id: "0D0A4AEAC0D610AD"
-				item: { count: 1, id: "irons_spellbooks:speed_boots" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["14442F663B45C541"]
-			id: "7737324F2E14170F"
-			tasks: [{
-				id: "564B6FECD219F757"
-				item: { count: 1, id: "irons_spellbooks:artificer_cane" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["14442F663B45C541"]
-			id: "389457AD8919639B"
-			tasks: [{
-				id: "31709B95A57ACBA6"
-				item: { count: 1, id: "irons_spellbooks:graybeard_staff" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["14442F663B45C541"]
-			id: "79E533B899C36ADE"
-			tasks: [{
-				id: "2C12CC3A2BB92506"
-				item: { count: 1, id: "irons_spellbooks:lightning_rod" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["14442F663B45C541"]
-			id: "00D340B407386AD7"
-			tasks: [{
-				id: "22AD26474D5ACA97"
-				item: { count: 1, id: "irons_spellbooks:ice_staff" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["7737324F2E14170F"]
-			id: "334039D4A766A51D"
-			tasks: [{
-				id: "5403CC5398F6DF5F"
-				item: { count: 1, id: "cataclysm_spellbooks:void_staff" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["14442F663B45C541"]
-			id: "6EC7F58302F6AF7C"
-			tasks: [{
-				id: "7FA9FF81BE3C0922"
-				item: { count: 1, id: "cataclysm_spellbooks:coral_staff" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["14442F663B45C541"]
-			id: "7495E9F030BA131F"
-			tasks: [{
-				id: "5489C9EC6223F4D3"
-				item: { count: 1, id: "cataclysm_spellbooks:bloom_stone_staff" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["14442F663B45C541"]
-			id: "0BB1817A459779DA"
-			tasks: [{
-				id: "0C2B98BC9B557CDF"
-				item: { count: 1, id: "irons_spellbooks:pyrium_staff" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["14442F663B45C541"]
-			id: "1EB75CACD480684F"
-			tasks: [{
-				id: "4E97E12F2AFD09CC"
-				item: { count: 1, id: "irons_spellbooks:blood_staff" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["00D340B407386AD7"]
-			id: "0D39EFF8B14B15C7"
-			tasks: [{
-				id: "23BE42F5C9DC1EA9"
-				item: { count: 1, id: "cataclysm_spellbooks:spirit_sunderer" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["00D340B407386AD7"]
-			id: "0B113DE958736D79"
-			tasks: [{
-				id: "781DCD0F0A211510"
-				item: { count: 1, id: "cataclysm_spellbooks:soul_brazier" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["14442F663B45C541"]
-			id: "0BA431D03B4F6947"
-			tasks: [{
-				id: "637BE106623A5143"
-				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:raise_hell", index: 0, level: 4, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:hellfire_forge" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -5.5d
-		}
-		{
+			dependencies: ["6AC18F92931A467E"]
 			id: "772768502028F1C1"
+			shape: "diamond"
 			tasks: [{
 				id: "2AF26F7F7CD43F1C"
 				item: { count: 1, id: "irons_spellbooks:blank_rune" }
 				type: "item"
 			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5EFB23B25B3E806C"]
+			hide_dependency_lines: true
+			id: "28D0E8E0C045C9B8"
+			shape: "hexagon"
+			tasks: [{
+				id: "119ABE5C6DDE20AE"
+				item: { count: 1, id: "irons_spellbooks:mithril_scrap" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EFB23B25B3E806C"]
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"irons_spellbooks:clothing_variant": "hat"
+				}
+				id: "irons_spellbooks:wizard_helmet"
+			}
+			id: "10FB99A4C7C763FF"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2474A62D92FAA7B0"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(irons_spellbooks)mod(cataclysm_spellbooks)mod(gametechbcs_spellbooks))or(item_tag(c:armors)item_tag(minecraft:enchantable/armor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5EFB23B25B3E806C"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:portal"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:hither_thither_wand"
+			}
+			id: "0751DE5C8FC925B8"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "3BBE53A1DF866205"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:staff)item(cataclysm_spellbooks:hellfire_forge))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10FB99A4C7C763FF"]
+			id: "1FC36BFC395EB7CC"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "79F4B7E219CA58D2"
+					item: { count: 1, id: "irons_spellbooks:wizard_helmet" }
+					type: "item"
+				}
+				{
+					id: "243158F051FE3520"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:wizard_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2C8E4DF9B4FCA13D"
+					item: { count: 1, id: "irons_spellbooks:wizard_leggings" }
+					type: "item"
+				}
+				{
+					id: "7AC97BEB1B404D74"
+					item: { count: 1, id: "irons_spellbooks:wizard_boots" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10FB99A4C7C763FF"]
+			id: "0178D8C3B6FC680E"
+			shape: "hexagon"
+			tasks: [{
+				id: "0EF547A1E2B5EFD8"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:tarnished_helmet" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10FB99A4C7C763FF"]
+			id: "4F1F84486959237F"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4E741ED15949A85E"
+					item: { count: 1, id: "irons_spellbooks:pumpkin_helmet" }
+					type: "item"
+				}
+				{
+					id: "008EB234B3528245"
+					item: { count: 1, id: "irons_spellbooks:pumpkin_chestplate" }
+					type: "item"
+				}
+				{
+					id: "09F86483496CA510"
+					item: { count: 1, id: "irons_spellbooks:pumpkin_leggings" }
+					type: "item"
+				}
+				{
+					id: "31E722003393B603"
+					item: { count: 1, id: "irons_spellbooks:pumpkin_boots" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10FB99A4C7C763FF"]
+			id: "104ECC8EAADA9624"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6B1BCB07A2075481"
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_helmet" }
+					type: "item"
+				}
+				{
+					id: "458BB06557BEDD6E"
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6667F0F9F2FC8E7D"
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_leggings" }
+					type: "item"
+				}
+				{
+					id: "52CD93F60B473EEB"
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_boots" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1FC36BFC395EB7CC"]
+			id: "70783589C92F34BF"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "74F8F89FB51C6A77"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_helmet" }
+					type: "item"
+				}
+				{
+					id: "1925160DD7CE7E29"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_mage_chestplate" }
+					type: "item"
+				}
+				{
+					id: "127AAFAAEBE312B4"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_leggings" }
+					type: "item"
+				}
+				{
+					id: "2F52F8DE0CD7C758"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_boots" }
+					type: "item"
+				}
+			]
+			x: -17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FC36BFC395EB7CC"]
+			id: "73583AAF84BCB791"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "54DF0508C8F01A7B"
+					item: { count: 1, id: "irons_spellbooks:archevoker_helmet" }
+					type: "item"
+				}
+				{
+					id: "1F257E21E68119C9"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:archevoker_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2B8C3FBD89052B92"
+					item: { count: 1, id: "irons_spellbooks:archevoker_leggings" }
+					type: "item"
+				}
+				{
+					id: "401085AE2D0A35E1"
+					item: { count: 1, id: "irons_spellbooks:archevoker_boots" }
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1FC36BFC395EB7CC"]
+			id: "1F9A69BE47FDAD18"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "685E7E6984B6F4F8"
+					item: { count: 1, id: "irons_spellbooks:priest_helmet" }
+					type: "item"
+				}
+				{
+					id: "084C433757BED081"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:priest_chestplate" }
+					type: "item"
+				}
+				{
+					id: "138B50B4ACCF0DF0"
+					item: { count: 1, id: "irons_spellbooks:priest_leggings" }
+					type: "item"
+				}
+				{
+					id: "4F31A2065B241836"
+					item: { count: 1, id: "irons_spellbooks:priest_boots" }
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FC36BFC395EB7CC"]
+			id: "307B7138C0CB68B8"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5D91A2C533C7E2A6"
+					item: { count: 1, id: "irons_spellbooks:pyromancer_helmet" }
+					type: "item"
+				}
+				{
+					id: "2557BA6127F215A9"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:pyromancer_chestplate" }
+					type: "item"
+				}
+				{
+					id: "71EFFA5EC5B07773"
+					item: { count: 1, id: "irons_spellbooks:pyromancer_leggings" }
+					type: "item"
+				}
+				{
+					id: "2C3B66EA84218A47"
+					item: { count: 1, id: "irons_spellbooks:pyromancer_boots" }
+					type: "item"
+				}
+			]
+			x: -17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1FC36BFC395EB7CC"]
+			id: "6053138824349122"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "48325C815793AD3A"
+					item: { count: 1, id: "irons_spellbooks:plagued_helmet" }
+					type: "item"
+				}
+				{
+					id: "5B43D03D941D7E54"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:plagued_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7B7AAE82632AC0F3"
+					item: { count: 1, id: "irons_spellbooks:plagued_leggings" }
+					type: "item"
+				}
+				{
+					id: "77F2EABEDC4CDD2F"
+					item: { count: 1, id: "irons_spellbooks:plagued_boots" }
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1FC36BFC395EB7CC"]
+			id: "4A8CE729D5FA55C6"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5F7368FEF1777F63"
+					item: { count: 1, id: "irons_spellbooks:electromancer_helmet" }
+					type: "item"
+				}
+				{
+					id: "6066DC820D9EAED5"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:electromancer_chestplate" }
+					type: "item"
+				}
+				{
+					id: "1BF2AC1CD35055B0"
+					item: { count: 1, id: "irons_spellbooks:electromancer_leggings" }
+					type: "item"
+				}
+				{
+					id: "25597355BAECEA47"
+					item: { count: 1, id: "irons_spellbooks:electromancer_boots" }
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FC36BFC395EB7CC"]
+			id: "608753B0F57435E7"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "55B2A8FC6050838C"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_helmet" }
+					type: "item"
+				}
+				{
+					id: "39E1E98988ECD11F"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:shadowwalker_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6D0034C74F6D96D9"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_leggings" }
+					type: "item"
+				}
+				{
+					id: "6A0B0F8E4B4CF547"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_boots" }
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FC36BFC395EB7CC"]
+			id: "04D0B88B0A8505AA"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "426E08366DFBE42B"
+					item: { count: 1, id: "irons_spellbooks:cultist_helmet" }
+					type: "item"
+				}
+				{
+					id: "5955E3868A727079"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cultist_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7B90BBFBF727ADFA"
+					item: { count: 1, id: "irons_spellbooks:cultist_leggings" }
+					type: "item"
+				}
+				{
+					id: "22EC24792D0F960A"
+					item: { count: 1, id: "irons_spellbooks:cultist_boots" }
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1FC36BFC395EB7CC"]
+			id: "4BB4A6C619B5D72A"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "513784AAD646CCF9"
+					item: { count: 1, id: "irons_spellbooks:cryomancer_helmet" }
+					type: "item"
+				}
+				{
+					id: "5AF876BDB7F1D955"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cryomancer_chestplate" }
+					type: "item"
+				}
+				{
+					id: "33687AE564275E4F"
+					item: { count: 1, id: "irons_spellbooks:cryomancer_leggings" }
+					type: "item"
+				}
+				{
+					id: "48633A0DFE48877F"
+					item: { count: 1, id: "irons_spellbooks:cryomancer_boots" }
+					type: "item"
+				}
+			]
+			x: -17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70783589C92F34BF"]
+			id: "799FA72F896F3F45"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "586C46A3B435FCF3"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_helmet" }
+					type: "item"
+				}
+				{
+					id: "37186C9079917CF6"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2B5E4FD1DF899AC2"
+					item: { count: 1, id: "cataclysm_spellbooks:ignis_leggings" }
+					type: "item"
+				}
+				{
+					id: "10A9D732711837AD"
+					item: { count: 1, id: "cataclysm_spellbooks:ignis_boots" }
+					type: "item"
+				}
+			]
+			x: -19.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70783589C92F34BF"]
+			id: "5E14A5BED2F9E415"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "57687B0E8594DD09"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_helmet" }
+					type: "item"
+				}
+				{
+					id: "18DB6755B314EE27"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_chestplate" }
+					type: "item"
+				}
+				{
+					id: "69ACD17B7E270CA8"
+					item: { count: 1, id: "cataclysm_spellbooks:abyssal_warlock_leggings" }
+					type: "item"
+				}
+				{
+					id: "41AF3AC1773477B2"
+					item: { count: 1, id: "cataclysm_spellbooks:abyssal_warlock_boots" }
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70783589C92F34BF"]
+			id: "204195980B298254"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "16FBD83408D875E6"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:cursium_mage_circlet" }
+					type: "item"
+				}
+				{
+					id: "52E3DEE6ED42B9D2"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:cursium_mage_chestplate" }
+					type: "item"
+				}
+				{
+					id: "662DC408122A7EA6"
+					item: { count: 1, id: "cataclysm_spellbooks:cursium_mage_skirt" }
+					type: "item"
+				}
+				{
+					id: "343C58D585F0C83B"
+					item: { count: 1, id: "cataclysm_spellbooks:cursium_mage_boots" }
+					type: "item"
+				}
+			]
+			x: -19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73583AAF84BCB791"]
+			id: "6BDD2BA1496DD951"
+			shape: "hexagon"
+			tasks: [{
+				id: "09447FFFCE2B1BEC"
+				item: { count: 1, id: "irons_spellbooks:speed_boots" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F9A69BE47FDAD18"]
+			id: "14AB29499F294A06"
+			shape: "hexagon"
+			tasks: [{
+				id: "21D22AE9A6BE46EB"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:paladin_chestplate" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0751DE5C8FC925B8"]
+			id: "11C6434A577F6BDE"
+			shape: "square"
+			tasks: [{
+				id: "08509B27B1DED2C8"
+				item: { count: 1, id: "irons_spellbooks:graybeard_staff" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0751DE5C8FC925B8"]
+			hide_dependent_lines: true
+			id: "390F6F12E3FBF1B8"
+			shape: "square"
+			tasks: [{
+				id: "7D4EFEB5D8A4363C"
+				item: { count: 1, id: "irons_spellbooks:artificer_cane" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0751DE5C8FC925B8"]
+			hide_dependent_lines: true
+			id: "1499201CD8A4CB9C"
+			shape: "square"
+			tasks: [{
+				id: "08F00B4C7D27A823"
+				item: { count: 1, id: "irons_spellbooks:ice_staff" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0751DE5C8FC925B8"]
+			id: "778C722204A07C02"
+			shape: "square"
+			tasks: [{
+				id: "2667E460F8326C8A"
+				item: { count: 1, id: "irons_spellbooks:lightning_rod" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0751DE5C8FC925B8"]
+			id: "1E67F46EFCECDCFE"
+			shape: "square"
+			tasks: [{
+				id: "46EF702F17FFC24F"
+				item: { count: 1, id: "cataclysm_spellbooks:bloom_stone_staff" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0751DE5C8FC925B8"]
+			id: "27F9D92AD8A1A115"
+			shape: "square"
+			tasks: [{
+				id: "1F39B022F7DEC84A"
+				item: { count: 1, id: "cataclysm_spellbooks:coral_staff" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0751DE5C8FC925B8"]
+			id: "47DE9404CE38E748"
+			shape: "square"
+			tasks: [{
+				id: "51DEE68A731DB46D"
+				item: { count: 1, id: "irons_spellbooks:blood_staff" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"390F6F12E3FBF1B8"
+				"0751DE5C8FC925B8"
+			]
+			id: "224CFBAAB1E14923"
+			shape: "square"
+			tasks: [{
+				id: "5CD8AABA25D56D4A"
+				item: { count: 1, id: "cataclysm_spellbooks:void_staff" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1499201CD8A4CB9C"
+				"0751DE5C8FC925B8"
+			]
+			id: "06E83E4F5118E7AE"
+			shape: "square"
+			tasks: [{
+				id: "6C8AFA42310E0EA2"
+				item: { count: 1, id: "cataclysm_spellbooks:spirit_sunderer" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1499201CD8A4CB9C"
+				"0751DE5C8FC925B8"
+			]
+			id: "310A53AAFBA83663"
+			shape: "square"
+			tasks: [{
+				id: "5145538DB258CD85"
+				item: { count: 1, id: "cataclysm_spellbooks:soul_brazier" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0751DE5C8FC925B8"]
+			id: "38E8F62C569F6A31"
+			shape: "square"
+			tasks: [{
+				id: "3AB37370C54FB09A"
+				item: { count: 1, id: "irons_spellbooks:pyrium_staff" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0751DE5C8FC925B8"]
+			id: "661D48161B16E01D"
+			shape: "square"
+			tasks: [{
+				id: "1755458F133EDA28"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:raise_hell", index: 0, level: 4, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:hellfire_forge" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28D0E8E0C045C9B8"]
+			id: "57F6C4179811E160"
+			shape: "hexagon"
+			tasks: [{
+				id: "69D358E6D040C8BB"
+				item: { count: 1, id: "irons_spellbooks:affinity_ring" }
+				type: "item"
+			}]
 			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28D0E8E0C045C9B8"]
+			id: "15DCFA4D8C6A7176"
+			shape: "hexagon"
+			tasks: [{
+				id: "0DC77F865C6CFA4D"
+				item: { count: 1, id: "irons_spellbooks:cooldown_ring" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["772768502028F1C1"]
+			id: "3AA625553453768B"
+			shape: "diamond"
+			tasks: [{
+				id: "5B7A0AA3629A4A67"
+				item: { count: 1, id: "irons_spellbooks:fire_rune" }
+				type: "item"
+			}]
+			x: -8.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["772768502028F1C1"]
+			id: "6B5E5E3505116381"
+			shape: "diamond"
+			tasks: [{
+				id: "4378FA4B55DCA019"
+				item: { count: 1, id: "irons_spellbooks:ice_rune" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["772768502028F1C1"]
+			id: "35BD48F4A065EDB6"
+			shape: "diamond"
+			tasks: [{
+				id: "5400E1AD64DF606F"
+				item: { count: 1, id: "irons_spellbooks:evocation_rune" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["772768502028F1C1"]
+			id: "083187758FB78146"
+			shape: "diamond"
+			tasks: [{
+				id: "4877C83DC74A3B01"
+				item: { count: 1, id: "irons_spellbooks:nature_rune" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["772768502028F1C1"]
+			id: "7B6C4066BA3A1CB5"
+			shape: "diamond"
+			tasks: [{
+				id: "1B2265989E3DDF31"
+				item: { count: 1, id: "irons_spellbooks:ender_rune" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["772768502028F1C1"]
+			id: "3029F5A94F8360BA"
+			shape: "diamond"
+			tasks: [{
+				id: "789DF1FBC50853D1"
+				item: { count: 1, id: "irons_spellbooks:blood_rune" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["772768502028F1C1"]
+			id: "5B66DFDF1F1E8E8A"
+			shape: "diamond"
+			tasks: [{
+				id: "0CDFDBB23AB4492A"
+				item: { count: 1, id: "irons_spellbooks:lightning_rune" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["772768502028F1C1"]
+			id: "787FC9E98CDD6DE7"
+			shape: "diamond"
+			tasks: [{
+				id: "5255739DF25B3BB5"
+				item: { count: 1, id: "irons_spellbooks:holy_rune" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["772768502028F1C1"]
+			id: "1229B1523D246E7A"
+			shape: "diamond"
+			tasks: [{
+				id: "175D32830341A779"
+				item: { count: 1, id: "cataclysm_spellbooks:abyssal_rune" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["772768502028F1C1"]
+			id: "05C8F032E3A9BAFC"
+			shape: "diamond"
+			tasks: [{
+				id: "40557D1567DE61A1"
+				item: { count: 1, id: "irons_spellbooks:arcane_rune" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["772768502028F1C1"]
+			id: "2F57025447645B2C"
+			shape: "diamond"
+			tasks: [{
+				id: "35FE5624BC340BDC"
+				item: { count: 1, id: "irons_spellbooks:cooldown_rune" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["772768502028F1C1"]
+			id: "7EEAB1F265036376"
+			shape: "diamond"
+			tasks: [{
+				id: "59674EFB78B576FF"
+				item: { count: 1, id: "irons_spellbooks:protection_rune" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["28D0E8E0C045C9B8"]
+			id: "24FB13326F6BA175"
+			shape: "hexagon"
+			tasks: [{
+				id: "67B337A258B91ABF"
+				item: { count: 1, id: "irons_spellbooks:weapon_parts" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24FB13326F6BA175"]
+			id: "74271BD615E3B28C"
+			shape: "hexagon"
+			tasks: [{
+				id: "694716BFCC210FFF"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:echoing_strikes", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:amethyst_rapier" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24FB13326F6BA175"]
+			id: "26D80D5D3F3E22D3"
+			shape: "octagon"
+			tasks: [{
+				id: "0D7B28F11E77CEE2"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:counterspell", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:spellbreaker" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24FB13326F6BA175"]
+			id: "417E8ED872EFE571"
+			shape: "hexagon"
+			tasks: [{
+				id: "38B06751D2331332"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:frostbite", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:boreal_blade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24FB13326F6BA175"]
+			id: "19C68C2987F116D8"
+			shape: "hexagon"
+			tasks: [{
+				id: "236B86E1AF34B23D"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:volt_strike", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:twilight_gale" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10FB99A4C7C763FF"]
+			id: "6362568E15E69F8E"
+			shape: "hexagon"
+			tasks: [{
+				id: "167CA999BE4AD362"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:infernal_sorcerer_chestplate" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
 		}
 	]
 }

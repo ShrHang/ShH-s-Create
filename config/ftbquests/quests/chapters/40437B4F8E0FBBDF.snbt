@@ -281,146 +281,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0E41D3E620DD7B7B"]
-			id: "7C4FE9B979684280"
-			tasks: [
-				{
-					id: "210744F3F7C3FD35"
-					item: { count: 1, id: "l2complements:totemic_gold_helmet" }
-					type: "item"
-				}
-				{
-					id: "0F1F5886CBFFA950"
-					item: { count: 1, id: "l2complements:totemic_gold_chestplate" }
-					type: "item"
-				}
-				{
-					id: "4584FF972A726E45"
-					item: { count: 1, id: "l2complements:totemic_gold_leggings" }
-					type: "item"
-				}
-				{
-					id: "0EE86D420C743B51"
-					item: { count: 1, id: "l2complements:totemic_gold_boots" }
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["7A50194C27D6472B"]
-			id: "4AF9F7E5BE97E372"
-			tasks: [
-				{
-					id: "0CF0246094B24186"
-					item: { count: 1, id: "l2complements:poseidite_helmet" }
-					type: "item"
-				}
-				{
-					id: "5F30282D7464C8D7"
-					item: { count: 1, id: "l2complements:poseidite_chestplate" }
-					type: "item"
-				}
-				{
-					id: "066D875FFC840888"
-					item: { count: 1, id: "l2complements:poseidite_leggings" }
-					type: "item"
-				}
-				{
-					id: "00F0836DB584B429"
-					item: { count: 1, id: "l2complements:poseidite_boots" }
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["6CD223F1D620B7A2"]
-			id: "7536FBAA2A6AB4FB"
-			tasks: [
-				{
-					id: "1B45942B902297FC"
-					item: { count: 1, id: "l2complements:shulkerate_helmet" }
-					type: "item"
-				}
-				{
-					id: "3DE2B977A82339A4"
-					item: { count: 1, id: "l2complements:shulkerate_chestplate" }
-					type: "item"
-				}
-				{
-					id: "6B7B0FD8C6CF686E"
-					item: { count: 1, id: "l2complements:shulkerate_leggings" }
-					type: "item"
-				}
-				{
-					id: "1CE867398F14C0ED"
-					item: { count: 1, id: "l2complements:shulkerate_boots" }
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5BA70E60F0245D1C"]
-			id: "52C0DA5CB8DFFA0A"
-			tasks: [
-				{
-					id: "7F90FC3D8C9E8A04"
-					item: { count: 1, id: "l2complements:eternium_helmet" }
-					type: "item"
-				}
-				{
-					id: "442B771EE443355E"
-					item: { count: 1, id: "l2complements:eternium_chestplate" }
-					type: "item"
-				}
-				{
-					id: "107320FA24291F58"
-					item: { count: 1, id: "l2complements:eternium_leggings" }
-					type: "item"
-				}
-				{
-					id: "0A543E6A2F71E8F9"
-					item: { count: 1, id: "l2complements:eternium_boots" }
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["72C9BCE11B9BCEB9"]
-			id: "41FFC8C3F0613F13"
-			tasks: [
-				{
-					id: "108C9EF9204C02BA"
-					item: { count: 1, id: "l2complements:sculkium_helmet" }
-					type: "item"
-				}
-				{
-					id: "11D17B2A064B808F"
-					item: { count: 1, id: "l2complements:sculkium_chestplate" }
-					type: "item"
-				}
-				{
-					id: "7E31EB7287B7C6D0"
-					item: { count: 1, id: "l2complements:sculkium_leggings" }
-					type: "item"
-				}
-				{
-					id: "542C6651C7C5BF77"
-					item: { count: 1, id: "l2complements:sculkium_boots" }
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["5BA70E60F0245D1C"]
 			id: "385C75490D2E5ECA"
 			tasks: [{
@@ -886,6 +746,146 @@
 			}]
 			x: -5.5d
 			y: -8.0d
+		}
+		{
+			dependencies: ["0E41D3E620DD7B7B"]
+			id: "03A2FD82F98A646D"
+			tasks: [
+				{
+					id: "09229537461B3279"
+					item: { count: 1, id: "l2complements:totemic_gold_helmet" }
+					type: "item"
+				}
+				{
+					id: "47B6BF0881BD1B55"
+					item: { count: 1, id: "l2complements:totemic_gold_chestplate" }
+					type: "item"
+				}
+				{
+					id: "734EB8EA1E26EEB3"
+					item: { count: 1, id: "l2complements:totemic_gold_leggings" }
+					type: "item"
+				}
+				{
+					id: "1231CC38638D098D"
+					item: { count: 1, id: "l2complements:totemic_gold_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7A50194C27D6472B"]
+			id: "119DAF6873F63884"
+			tasks: [
+				{
+					id: "6A1F07611899372E"
+					item: { count: 1, id: "l2complements:poseidite_helmet" }
+					type: "item"
+				}
+				{
+					id: "59F64F0E1457B6BA"
+					item: { count: 1, id: "l2complements:poseidite_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3CBC6430986C3AB0"
+					item: { count: 1, id: "l2complements:poseidite_leggings" }
+					type: "item"
+				}
+				{
+					id: "108BFFE259D6CCA6"
+					item: { count: 1, id: "l2complements:poseidite_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6CD223F1D620B7A2"]
+			id: "0FF569700A54E978"
+			tasks: [
+				{
+					id: "4151575123D67505"
+					item: { count: 1, id: "l2complements:shulkerate_helmet" }
+					type: "item"
+				}
+				{
+					id: "1F5E01316773F6FD"
+					item: { count: 1, id: "l2complements:shulkerate_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4D7339DFC70E9972"
+					item: { count: 1, id: "l2complements:shulkerate_leggings" }
+					type: "item"
+				}
+				{
+					id: "65ECAECB1888DF35"
+					item: { count: 1, id: "l2complements:shulkerate_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5BA70E60F0245D1C"]
+			id: "34EC1020645A2283"
+			tasks: [
+				{
+					id: "122264EC4908B847"
+					item: { count: 1, id: "l2complements:eternium_helmet" }
+					type: "item"
+				}
+				{
+					id: "294EE8771BE05BE6"
+					item: { count: 1, id: "l2complements:eternium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "11E1422C765E19BB"
+					item: { count: 1, id: "l2complements:eternium_leggings" }
+					type: "item"
+				}
+				{
+					id: "37A3642BAC31F3BA"
+					item: { count: 1, id: "l2complements:eternium_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72C9BCE11B9BCEB9"]
+			id: "24CCA7315706BAD6"
+			tasks: [
+				{
+					id: "3A60A9E55EB62860"
+					item: { count: 1, id: "l2complements:sculkium_helmet" }
+					type: "item"
+				}
+				{
+					id: "38C60831742A70DC"
+					item: { count: 1, id: "l2complements:sculkium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "446C4BD2678CC3A6"
+					item: { count: 1, id: "l2complements:sculkium_leggings" }
+					type: "item"
+				}
+				{
+					id: "76BC59F86C60DBD1"
+					item: { count: 1, id: "l2complements:sculkium_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.0d
 		}
 	]
 }
