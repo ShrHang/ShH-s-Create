@@ -2,18 +2,18 @@
 	#Stick durability
 	# Default: 59
 	# Range: > 1
-	durability = 59
+	durability = 512
 	# Default: 5000
 	# Range: > 1
-	batteryStorage = 5000
+	batteryStorage = 1024
 	#Battery power storage
 	# Default: 10
 	# Range: > 1
-	batteryUsage = 10
+	batteryUsage = 1
 	#Battery power usage per block
 	# Default: 3
 	# Range: > 1
-	limit = 3
+	limit = 64
 	#Max placement distance with angel upgrade (0 to disable angel upgrade)
 	# Default: 1
 	# Range: > 0
@@ -29,18 +29,18 @@
 	#Stick durability
 	# Default: 131
 	# Range: > 1
-	durability = 131
+	durability = 1024
 	# Default: 10000
 	# Range: > 1
-	batteryStorage = 10000
+	batteryStorage = 2048
 	#Battery power storage
 	# Default: 10
 	# Range: > 1
-	batteryUsage = 10
+	batteryUsage = 1
 	#Battery power usage per block
 	# Default: 9
 	# Range: > 1
-	limit = 9
+	limit = 128
 	#Max placement distance with angel upgrade (0 to disable angel upgrade)
 	# Default: 2
 	# Range: > 0
@@ -56,18 +56,18 @@
 	#Stick durability
 	# Default: 250
 	# Range: > 1
-	durability = 250
+	durability = 2048
 	# Default: 25000
 	# Range: > 1
-	batteryStorage = 25000
+	batteryStorage = 4096
 	#Battery power storage
 	# Default: 10
 	# Range: > 1
-	batteryUsage = 10
+	batteryUsage = 1
 	#Battery power usage per block
 	# Default: 27
 	# Range: > 1
-	limit = 27
+	limit = 256
 	#Max placement distance with angel upgrade (0 to disable angel upgrade)
 	# Default: 4
 	# Range: > 0
@@ -83,18 +83,18 @@
 	#Stick durability
 	# Default: 1561
 	# Range: > 1
-	durability = 1561
+	durability = 4096
 	# Default: 100000
 	# Range: > 1
-	batteryStorage = 100000
+	batteryStorage = 8192
 	#Battery power storage
 	# Default: 10
 	# Range: > 1
-	batteryUsage = 10
+	batteryUsage = 1
 	#Battery power usage per block
 	# Default: 128
 	# Range: > 1
-	limit = 128
+	limit = 512
 	#Max placement distance with angel upgrade (0 to disable angel upgrade)
 	# Default: 8
 	# Range: > 0
@@ -110,14 +110,14 @@
 	#Stick durability
 	# Default: 2031
 	# Range: > 1
-	durability = 2031
+	durability = 8192
 	# Default: 200000
 	# Range: > 1
-	batteryStorage = 200000
+	batteryStorage = 16384
 	#Battery power storage
 	# Default: 10
 	# Range: > 1
-	batteryUsage = 10
+	batteryUsage = 1
 	#Battery power usage per block
 	# Default: 1024
 	# Range: > 1
@@ -137,11 +137,11 @@
 	#Maximum placement range (0: unlimited). Affects all sticks and is meant for lag prevention, not game balancing.
 	# Default: 100
 	# Range: > 0
-	MaxRange = 100
+	MaxRange = 128
 	#Number of operations that can be undone
 	# Default: 3
 	# Range: > 0
-	UndoHistory = 3
+	UndoHistory = 5
 	#Place blocks below you while falling > 10 blocks with angel upgrade (Can be used to save you from drops/the void)
 	AngelFalling = false
 	#Blocks to treat equally when in Similar mode. Enter block IDs separated by ;

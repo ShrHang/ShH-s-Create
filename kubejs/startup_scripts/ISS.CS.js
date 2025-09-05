@@ -10,7 +10,7 @@ ItemEvents.modification(event => {
             "minecraft:generic.attack_damage",
             {
                 "operation": 0,
-                "amount": 5,
+                "amount": 7,
                 "id": "shh_attack_damage:mainhand"
             },
             "mainhand"
@@ -28,7 +28,7 @@ ItemEvents.modification(event => {
             "minecraft:generic.attack_damage",
             {
                 "operation": 0,
-                "amount": 5,
+                "amount": 7,
                 "id": "shh_attack_damage:mainhand"
             },
             "mainhand"
@@ -46,7 +46,7 @@ ItemEvents.modification(event => {
             "minecraft:generic.attack_damage",
             {
                 "operation": 0,
-                "amount": 5,
+                "amount": 7,
                 "id": "shh_attack_damage:mainhand"
             },
             "mainhand"
@@ -64,7 +64,7 @@ ItemEvents.modification(event => {
             "minecraft:generic.attack_damage",
             {
                 "operation": 0,
-                "amount": 5,
+                "amount": 7,
                 "id": "shh_attack_damage:mainhand"
             },
             "mainhand"
@@ -82,7 +82,7 @@ ItemEvents.modification(event => {
             "minecraft:generic.attack_damage",
             {
                 "operation": 0,
-                "amount": 5,
+                "amount": 7,
                 "id": "shh_attack_damage:mainhand"
             },
             "mainhand"
@@ -100,7 +100,7 @@ ItemEvents.modification(event => {
             "minecraft:generic.attack_damage",
             {
                 "operation": 0,
-                "amount": 5,
+                "amount": 7,
                 "id": "shh_attack_damage:mainhand"
             },
             "mainhand"

@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "254BB498583A6B5B"
+	group: "2E8C4C8E8DD43C94"
+	icon: {
+		id: "kaleidoscope_cookery:iron_kitchen_knife"
+	}
+	id: "254BB498583A6B5B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "63B0CE15E29577BB"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "29EF9CF47F1AACF1"
+			table_id: 3680183494035165661L
+			type: "all_table"
+		}]
+		tasks: [{
+			id: "297B01687858F2CC"
+			item: { count: 1, id: "kaleidoscope_cookery:iron_kitchen_knife" }
+			type: "item"
+		}]
+		x: -0.5d
+		y: 0.0d
+	}]
+}

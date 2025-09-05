@@ -1,0 +1,11 @@
+{
+	id: "3312A363AE38D1DD"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "4042CD4E82B4913F", item: { count: 1, id: "kaleidoscope_cookery:tomato_seed" } }
+		{ id: "20B63436D3FF1343", item: { count: 1, id: "kaleidoscope_cookery:chili_seed" } }
+		{ id: "31F99B702B8EA034", item: { count: 1, id: "kaleidoscope_cookery:lettuce_seed" } }
+		{ id: "7547FD635473561F", item: { count: 1, id: "kaleidoscope_cookery:wild_rice" } }
+	]
+}

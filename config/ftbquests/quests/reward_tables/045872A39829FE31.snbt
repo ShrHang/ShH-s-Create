@@ -1,0 +1,12 @@
+{
+	id: "045872A39829FE31"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "045D70F677753932", item: { count: 1, id: "constructionstick:template_angel" } }
+		{ id: "7CAE0292D6BC1D22", item: { count: 1, id: "constructionstick:template_destruction" } }
+		{ id: "4A199517414E51AD", item: { count: 1, id: "constructionstick:template_replacement" } }
+		{ id: "33A004C0CA7592EB", item: { count: 1, id: "constructionstick:template_unbreakable" } }
+		{ id: "3322E9630927A969", item: { count: 1, id: "constructionstick:template_battery" } }
+	]
+}

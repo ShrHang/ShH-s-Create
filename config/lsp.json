@@ -1,6 +1,6 @@
 {
   "enablePreference": true,
-  "gameMode": "SURVIVAL",
+  "gameMode": "CREATIVE",
   "allowCheat": true,
   "defaultPort": 25565,
   "onlineMode": false,

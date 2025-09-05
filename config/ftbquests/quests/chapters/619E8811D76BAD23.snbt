@@ -282,10 +282,26 @@
 			id: "0CE2992B71AA0ED2"
 			tasks: [{
 				id: "7A50147885C9C85D"
-				item: { count: 1, id: "create_power_loader:empty_andesite_chunk_loader" }
+				item: { components: { "ftbfiltersystem:filter": "mod(create_power_loader)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -5.5d
+			y: 3.0d
+		}
+		{
+			id: "766AF5EB4F9ABB60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C27DA1EABA0B0BB"
+				table_id: 313126221060374065L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "39FE39624B3FE4B3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
 			y: 3.0d
 		}
 	]

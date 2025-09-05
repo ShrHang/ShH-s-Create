@@ -1,5 +1,4 @@
 {
-	autofocus_id: "37670BDF8DB8F020"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "599CD03FA645D8B1"
@@ -12,31 +11,37 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: false
+			disable_recipe_mod: true
 			id: "37670BDF8DB8F020"
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/title @p times 0t 10s 0t"
-					id: "7667DD5E89B7878A"
+					command: "/clear @p shh:etihw"
+					disable_reward_screen_blur: true
+					id: "0645FEC5B23C37B1"
+					ignore_reward_blocking: true
+					permission_level: 3
+					silent: true
+					team_reward: false
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/title @p title \"请按G键打开任务列表\""
-					id: "01AF05F5C20BEA3C"
-					type: "command"
+					id: "3AF5B896744E7C2C"
+					item: {
+						count: 1
+						id: "ftbquests:book"
+					}
+					type: "item"
 				}
 			]
 			shape: "rsquare"
-			size: 1.0d
+			size: 2.0d
 			tasks: [{
-				icon: {
-					id: "shh:etihw"
-				}
-				id: "0D2EAB9DC0EE9372"
-				stat: "minecraft:play_time"
-				type: "stat"
-				value: 1
+				id: "68AD8F85087C8AFF"
+				item: { count: 1, id: "shh:etihw" }
+				type: "item"
 			}]
 			x: 8.5d
 			y: 8.0d

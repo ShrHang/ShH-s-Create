@@ -113,12 +113,13 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["27F3E9E03417A028"]
 			id: "470D440D698DE696"
 			tasks: [{
 				id: "20AC3D2430FF9866"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 3.5d
 		}
 		{

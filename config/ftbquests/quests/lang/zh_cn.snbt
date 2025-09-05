@@ -2,6 +2,7 @@
 	chapter.099D9445D1F810D2.title: "Boss挑战"
 	chapter.0CC74F672FCF93FE.title: "世间最远的捷径"
 	chapter.1148DF0D158A4899.title: "恶意"
+	chapter.254BB498583A6B5B.title: "烹饪"
 	chapter.3D300303E6965C1A.title: "弓艺"
 	chapter.40437B4F8E0FBBDF.title: "扩充"
 	chapter.4160A0C51D798695.title: "流体工业"
@@ -15,7 +16,7 @@
 	chapter.627FF5181137FAF1.title: "潘多拉之咒"
 	chapter.6BBCFD30B324B7DE.title: "装备推荐"
 	chapter.7097F4A4201A50E6.title: "来乘坐列车吧！"
-	chapter.733710CB459E6FC3.title: "恶意·女仆"
+	chapter.733710CB459E6FC3.title: "女仆"
 	chapter.772F31D64B2CF17E.title: "电……电力？"
 	chapter_group.04704A4785A6D007.title: "开始"
 	chapter_group.04ABB4452F0A1E9A.title: "Iron的魔法书"
@@ -122,6 +123,12 @@
 		"&c只有&d虚空伤害&c可以击穿该免疫。"
 	]
 	quest.073962841F5707A8.quest_subtitle: "领域展开！"
+	quest.0751DE5C8FC925B8.quest_desc: [
+		"&a手持法杖时，您可以右键直接释放已选中的法术。"
+		""
+		"&b法杖提供了更利好法师的属性的同时，也保留了不错的近战能力。"
+	]
+	quest.0751DE5C8FC925B8.quest_subtitle: "法师的武器"
 	quest.0751DE5C8FC925B8.title: "法杖"
 	quest.077B7A6F5DDFC2E3.quest_desc: ["&a使用&5保险&a、&5硬化&a、&5永恒&a附魔对策。"]
 	quest.077B7A6F5DDFC2E3.quest_subtitle: "满耐久特攻"
@@ -210,17 +217,16 @@
 		""
 		"{ \"text\": \"点击跳转：鼓风机\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A8F420158CB6587\" } }"
 	]
+	quest.0CE2992B71AA0ED2.title: "区块加载器"
 	quest.0D06B4E8FFCFB8FD.quest_desc: [
-		"&e安山岩&a与&e铁&a是&e机械动力&a的&6核心原料&a，用于合成&e安山合金&a。"
-		""
-		"&a在&6早期&a，需要通过&e安山合金&a合成&6基础元件&a，称为&6安山时代&a。"
+		"&e安山岩&a、&e铁&a和&e锌&a都是&e机械动力&a的&6核心原料&a，可用于合成&e安山合金&a。其中，&e安山岩&a不可或缺。"
 		"{@pagebreak}"
 		"&a技巧：&b按住[~]键&a，使用&6连锁挖掘&a。"
 		""
-		"&a若还发现&e锌&a和&e铜&a，最好也&6挖回来&a。&6黄铜时代&a需要用到。"
+		"&e铜&a也需要挖回来&a。&6黄铜时代&a需要用到。"
 	]
 	quest.0D06B4E8FFCFB8FD.quest_subtitle: "合成安山合金前的准备"
-	quest.0D06B4E8FFCFB8FD.title: "获取安山岩和铁粒"
+	quest.0D06B4E8FFCFB8FD.title: "获取安山岩"
 	quest.0D36198BAF9A875B.title: "经验流体与附魔工业"
 	quest.0FCB5207A394C397.quest_desc: [
 		"&a基于&e铜&a的&e流体元件&a可用于&6获取、储存和运输流体&a。"
@@ -238,6 +244,8 @@
 		"&a想要使用它，您需要&6副手持有恶意探测器，并将侦测眼镜佩戴在饰品栏。"
 	]
 	quest.0FD80C44EB48FBDC.quest_subtitle: "恶意净空"
+	quest.10FB99A4C7C763FF.quest_desc: ["&a提供&b大量法力上限&a，同时也提供更多利好法师的属性。"]
+	quest.10FB99A4C7C763FF.quest_subtitle: "法师的护甲"
 	quest.10FB99A4C7C763FF.title: "法师套装"
 	quest.12174CFBAEEBADA7.quest_desc: [
 		"&a使用&6侦测眼镜&a对策。"
@@ -287,9 +295,15 @@
 	quest.17BCF9DCB1C16EC1.quest_subtitle: "让你看见看不见的威胁。"
 	quest.17BCF9DCB1C16EC1.title: "恶意的可视化"
 	quest.183BDAC49F14D33F.quest_desc: [
+		"&a与其它流派不一样的是，&3邪术&a需要您掌握&3相关的知识&a，才能撰写并施展。"
+		""
+		"&a您可以在古城的箱子里找到&3远古知识碎片&a，通过它合成&3邪术手稿&a并从中学习相关知识。"
+		"{@pagebreak}"
 		"&a推荐法术："
 		""
 		"&3深渊庇护"
+		""
+		"&3音爆攻击"
 	]
 	quest.183BDAC49F14D33F.quest_subtitle: "&3邪术&r流派代表物"
 	quest.1892F66E11AF3E2B.quest_desc: [
@@ -332,6 +346,11 @@
 	quest.1B0A8515FEE973A2.title: "共享石碑"
 	quest.1C247CCE01C1BB0B.quest_desc: ["四处看看，收集物资。"]
 	quest.1C247CCE01C1BB0B.title: "起点"
+	quest.1C53C749361A3AA4.quest_desc: [
+		"合成列车机壳，准备搭建列车网络。"
+		""
+		"这是最高阶的物流系统，也是对你生产力的最终考验。而且，它永无止境。"
+	]
 	quest.1D2F07F03CE56385.quest_desc: ["因为不需要掌握所以我没写。"]
 	quest.1D2F07F03CE56385.quest_subtitle: "也许是鸣谢人员名单？"
 	quest.1D2F07F03CE56385.title: "可以不掌握的知识："
@@ -402,6 +421,8 @@
 		"&c分裂出来的实体不掉落任何东西。"
 	]
 	quest.26CEC88F4384CA99.quest_subtitle: "本以为抓个小贼，没想到捅了老窝！"
+	quest.26CF9FAEB4D0E458.quest_desc: ["&a右键使用即可&e选择您要学习的邪术&a，学习一门邪术会&c消耗一张手稿&a。"]
+	quest.26CF9FAEB4D0E458.quest_subtitle: "记载了远古的知识，能让您理解邪术。"
 	quest.279C59EDF80D7AD2.quest_desc: [""]
 	quest.279C59EDF80D7AD2.quest_subtitle: "仅供参考的游玩指引，和路径图"
 	quest.279C59EDF80D7AD2.title: "必须掌握的知识：FTB任务书"
@@ -422,6 +443,14 @@
 		"{ \"text\": \"点击跳转：制造铁板\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FB411220A26B0E2\" } }"
 	]
 	quest.28CB99069C2B6416.quest_subtitle: "高级工具的关键材料"
+	quest.28D0E8E0C045C9B8.quest_desc: [
+		"&a秘银矿在主世界&eY≤38&a处生成，推荐挖掘高度为主世界Y=&e-50&a~&e-46&a处。"
+		""
+		"&a需要使用&d下界合金镐或更高挖掘等级的镐&a来开采，挖掘后掉落1块粗秘银&6（受时运影响）&a。"
+		""
+		"&7秘银矿不会生成在裸露的岩石表面。"
+	]
+	quest.28D0E8E0C045C9B8.quest_subtitle: "及其稀有的魔法矿物"
 	quest.28DD61278EF8AA55.quest_desc: [
 		"&a佩戴&d混沌抢夺宝珠&a击杀&5100级以上&c神速III&a词条怪物获取。"
 		""
@@ -440,7 +469,6 @@
 	quest.28EDBD9F6C17E5B0.quest_subtitle: "电动马达"
 	quest.28EDBD9F6C17E5B0.title: "让我们进入电动时代！"
 	quest.291DCC19505D3807.quest_subtitle: "没有人会拒绝预制建筑吧"
-	quest.2997673E4F0D958B.title: "获得最好用的弓之一"
 	quest.29DC9DE71E8B6DCB.quest_desc: ["&a可以用&e捕风瓶&a接住以获得&e瓶中潜影弹&a。"]
 	quest.29DC9DE71E8B6DCB.quest_subtitle: "这潜影贝吃苦力怕长大的？"
 	quest.29E5F3919F542B5C.quest_desc: [
@@ -523,6 +551,8 @@
 		""
 		"&6三级及以上&e恶意信标&a可对区域重复施加禁锢。"
 	]
+	quest.30E4C1086E25E9B8.quest_subtitle: "准备召唤女仆"
+	quest.30E4C1086E25E9B8.title: "合成御币"
 	quest.30FE98FEA6FF26F2.title: "弹射物免疫"
 	quest.30FF51B4DE9BFB79.quest_desc: ["&a一些伤害可以击穿&6抗性保护&a，包括&6破咒遗骨&a、&d虚空伤害&a、&6真实伤害&a(&5虚空之触附魔&a)等。"]
 	quest.30FF51B4DE9BFB79.quest_subtitle: "百分比减伤"
@@ -600,11 +630,15 @@
 	]
 	quest.3575B066BE152105.quest_subtitle: "&b冰霜&r流派代表物"
 	quest.3582FFA1F1C556F2.quest_desc: [
+		"&6来源："
+		""
 		"&a可以通过&e杀死怪物&a、&e开启宝箱&e来获取&a。"
 		""
 		"&a也可以通过&6机械动力的方法&a来进行量产。"
 		""
-		"&a可以在&3卷轴撰写台&a上撰写魔法卷轴。"
+		"&6用途："
+		""
+		"&a可以用来在&3卷轴撰写台&a上撰写魔法卷轴。"
 		""
 		"&b品质越好越能制造出高等级的法术卷轴。"
 		""
@@ -666,6 +700,7 @@
 		"&c奇异饰品的解毒容器无效。"
 	]
 	quest.382FA06FAA6DA1B4.quest_subtitle: "像是一脚踩进了细雪。"
+	quest.392DC7FA0F58FD3B.title: "飞机！"
 	quest.3A19D3B1A7C76533.quest_desc: [
 		"&e蒸汽引擎&a用来构建&e锅炉&a。建议到&6黄铜时代&a再来使用这个&6超强动力源&a！"
 		""
@@ -811,9 +846,6 @@
 		"&a无信号时，&6恢复转向&a，相当于一个&e传动杆箱&a。"
 	]
 	quest.43D22963AB7E5295.quest_subtitle: "搭配红石来控制转向"
-	quest.43E1FF084018E07C.quest_desc: ["拿到两种御币之一，准备召唤你的女仆伙伴。"]
-	quest.43E1FF084018E07C.quest_subtitle: "合成御币"
-	quest.43E1FF084018E07C.title: "召唤女仆"
 	quest.4420075730625D44.quest_desc: [
 		"&a一般搭配傲慢诅咒，应对因&6额外难度&a而等级更高的怪物。"
 		""
@@ -841,6 +873,7 @@
 		"&c和诸神黄昏搭配时近战威胁显著上升。"
 	]
 	quest.448FD101F7DE41CE.quest_subtitle: "杀~戮~光~环~！"
+	quest.44B65A038A221311.title: "机电动力"
 	quest.4519D0B28AD8DFA1.quest_desc: ["&b魔法伤害&a可以击穿护甲。"]
 	quest.4519D0B28AD8DFA1.quest_subtitle: "简单粗暴的数值。"
 	quest.455E8000401973BE.quest_desc: [
@@ -877,6 +910,9 @@
 	]
 	quest.46AA61D3F63ADDE8.quest_desc: [
 		"&a打开&e物品栏&a(&b默认E键&a)，界面右侧的&6一堆物品和搜索框&a就是&eJEI&a——的一部分。"
+		"{image:kubejs:textures/ftbquests/start-jei.png width:200 height:115 align:center}"
+		""
+		"&a你可以使用它来搜索物品的&e相关信息&a、&e来源&a和&e用途&a。"
 		"{@pagebreak}"
 		"&eJEI&a主要用来&6查找未知配方&a。将&b鼠标&a指向物品后："
 		""
@@ -931,6 +967,7 @@
 	]
 	quest.477B6C3FBFD228E8.quest_subtitle: "常见的传动元件，也是多个元件的材料"
 	quest.477B6C3FBFD228E8.title: "齿轮和传动杆"
+	quest.485AC47FAB455ABB.quest_subtitle: "造价昂贵的魔法材料，用于合成更加强大的装备。"
 	quest.48E641ED6D2DCB23.quest_desc: ["生存并杀戮怪物以提升恶意等级，直到遇见并解决第一个词条怪物。"]
 	quest.48E641ED6D2DCB23.title: "难度上升"
 	quest.496137EF1E7622DD.quest_desc: [
@@ -965,8 +1002,10 @@
 	]
 	quest.4F04D8CCD3277063.quest_subtitle: "暂存物品的小容量开放容器"
 	quest.4FCCF74457D8144F.quest_desc: [
-		"&a利用&e潘多拉之咒&a的&e七个诅咒&a来叠加&6现实指数&a。放入&e潘多拉项链&a或&e潘多拉手环&a后装备即可。"
+		"&a利用&e潘多拉之咒&a的&e七个诅咒&a来叠加&6现实指数&a。将诅咒放入&e潘多拉项链&a或&e潘多拉手环&a后装备即可。"
 		"{@pagebreak}"
+		"&e黄铜&a和&e锌&a的盔甲套装，以及&e安山&a、&e黄铜&a的&e喷气背包&a与&e外骨骼盔甲&a都提供少量现实指数。"
+		""
 		"&a后期可以使用&e破境剑符&a。"
 		""
 		"&d虚空凝视&a可以击穿。"
@@ -1073,9 +1112,11 @@
 	quest.54C2193D055BD22F.quest_desc: [
 		"&a推荐法术："
 		""
-		"&e神圣守护"
+		"&e天使之翼&a:前期就能使用的鞘翅。"
 		""
-		"&e曳光弹"
+		"&e神圣守护&a："
+		""
+		"&e曳光弹&a：大幅提高法术命中率，优化手感。"
 	]
 	quest.54C2193D055BD22F.quest_subtitle: "&e神圣&r流派代表物"
 	quest.554E80B94490907E.quest_desc: [
@@ -1145,6 +1186,7 @@
 	]
 	quest.5A13E6C10C18D5C3.quest_subtitle: "早期可用的加工机器"
 	quest.5A13E6C10C18D5C3.title: "基础加工作业元件"
+	quest.5A53D8AA737480DC.quest_subtitle: "可以与符文合成对应效果的升级法术球，用于强化装备。"
 	quest.5A6D0789E9704F94.quest_subtitle: "点对点，传送生物实体"
 	quest.5AB0D3993583910C.quest_desc: [
 		"&a使用&e缓慢&a、&e禁锢&a状态效果对策。"
@@ -1243,7 +1285,7 @@
 	quest.5F6A3C29FC3450BC.quest_desc: [
 		"&e动力搅拌器&a同样是&6不可或缺的&a加工元件。在获得&e烈焰人燃烧室&a后，需要用它合成&e黄铜&a。"
 		"{@pagebreak}"
-		"&e动力搅拌器&a加工三种配方。"
+		"&e动力搅拌器&a加工三种配方，都需要&e工作盆&a。"
 		""
 		"&6自动搅拌&a兼容所有&6无序配方&a，&6自动酿造&a兼容所有&6酿造配方&a。"
 		""
@@ -1258,73 +1300,92 @@
 	quest.5F6A3C29FC3450BC.quest_subtitle: "加工无序配方，酿造，以及制造黄铜"
 	quest.605777A4931AD9B8.quest_desc: ["前往下界，找到烈焰人。"]
 	quest.605777A4931AD9B8.title: "找到烈焰人"
+	quest.62DEE95CA9F0DA9F.title: "紫水晶产线"
 	quest.631969B2A8E1153D.quest_subtitle: "开启弓艺之旅"
 	quest.631969B2A8E1153D.title: "找到竹子"
 	quest.63242C1FB281A6CA.quest_subtitle: "用来调整机械动力的构件"
 	quest.63511257FA9EFF84.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c排斥&a词条怪物获取。"]
-	quest.63AB0604E9CF10DD.quest_desc: ["&6最基本&a的合金材料。使用两个&e铁粒&a和两个&e安山岩&a即可&6合成&a&e安山合金&a。"]
+	quest.63AB0604E9CF10DD.quest_desc: [
+		"&a最基本的合金材料。使用两个&e铁粒或锌粒&a和两个&e安山岩&a即可合成&e安山合金&a。"
+		""
+		"&a早期只能使用&e安山合金&a合成基础元件，称为&6安山时代&a。"
+	]
 	quest.63AB0604E9CF10DD.quest_subtitle: "机械动力的起源"
 	quest.63B601D905A574E1.quest_desc: ["&6莱特兰·恶意的最终饰品，那些作用在你身上的恶意词条都不再起效，转而施加于那些对你怀揣恶意的人身上。"]
 	quest.63B601D905A574E1.quest_subtitle: "“若世人恨你们，你们知道，恨你们以先已经恨我了。”"
 	quest.63B601D905A574E1.title: "&6【核心】&r扭曲之魂"
 	quest.6446BF9EC4F89451.title: "保险"
-	quest.6448EE01DD79E42F.quest_desc: ["&a可以在物品栏界面按&b鼠标中键&a快速排列整理。"]
+	quest.6448EE01DD79E42F.quest_desc: [
+		"&e基础功能："
+		""
+		"&6[G]&a打开任务书"
+		""
+		"&6[B]&a打开精妙背包"
+		""
+		"&6[中键]&a整理物品"
+		""
+		"&6[~]&a连锁挖掘"
+		""
+		"&6[F4]&a灵魂出窍"
+		""
+		"&6[I]&a打开光影列表"
+		""
+		"&6[Ctrl]&a脱离载具/离开扫帚"
+		"{@pagebreak}"
+		"&e地图相关："
+		""
+		"&6[M]&a打开世界地图"
+		""
+		"&6[U]&a打开路径点列表"
+		""
+		"&6[N]&a新建路径点"
+		"{@pagebreak}"
+		"&e法术相关:"
+		""
+		"&6[V]&a释放法术"
+		""
+		"&6[R]&a打开法术轮盘"
+		"{@pagebreak}"
+	]
 	quest.6448EE01DD79E42F.quest_subtitle: "知晓这些按键分别对应着什么功能。"
 	quest.6448EE01DD79E42F.title: "需要掌握的知识：基础按键绑定"
 	quest.64C3BF58E57323D2.quest_desc: [
-		"主要写了一些在原模组基础上的改动。"
-		""
 		"&l&6总目录"
-		"1.&d游戏机制"
-		"2.&c装备数值"
-		"3.&b生存探索"
-		"4.&e机械动力"
-		"5.&a辅助功能"
+		""
+		"1.&e机械动力"
+		"2.&c莱特兰系列"
+		"3.&d铁魔法"
+		"4.&b女仆"
 		"{@pagebreak}"
-		"游戏机制："
+		"&e机械动力&r："
 		""
-		"调整了莱特兰恶意大部分词条的数值和怪物成长曲线，关闭了区块难度、距离难度、维度难度，仅保留玩家自身的难度等级。"
+		"由于没有添加&6Tom&r以外的存储模组，因此将&3物品保险库&r的单格容量从&e20格&r变为&e64格&r。"
 		""
-		"调整了灾变boss的恶意数据包词条配置，降低了难度。"
-		""
-		"调整了莱特兰扩充材料的部分获取方式，降低了获取难度。"
-		""
-		"启用了莱特兰扩充免疫类附魔与空间碎片。"
+		"无限流体的要求降为&e4096&r。"
 		"{@pagebreak}"
-		"装备数值："
+		"&c莱特兰系列："
 		""
-		"增强了大多数装备数值,使玩家在前期就有很强大的战斗力。"
+		"启用了扩充的&5免疫类附魔&r与&9空间碎片&r。"
 		""
-		"增强了铁魔法的法术数值，使其跟上恶意带来的数值膨胀。"
+		"关闭了恶意的&c区块难度&r、&c距离难度&r、&c维度难度&r。"
+		""
+		"削弱了莱特兰恶意大部分词条的数值和怪物成长曲线。"
+		""
+		"降低了部分扩充材料的获取难度。"
 		"{@pagebreak}"
-		"生存探索："
+		"&d铁魔法："
 		""
-		"加入了Tom的简易存储。"
+		"升级法术球上限变为&e20&r。"
 		""
-		"加入了沉浸式飞机和指路石，便利交通。"
-		""
-		"加入了机械动力区块加载器。"
-		""
-		"加入了农夫乐事，便于制作更多食物。"
+		"增强了法术的&d基础数值&r。"
 		"{@pagebreak}"
-		"机械动力："
+		"&b女仆："
 		""
-		"添加了附魔工业、CCA、实用扩展等附属模组。"
+		"女仆&e兼容恶意的等级与词条&r。"
 		""
-		"物品保险库的容量从20格变为64格。"
-		""
-		"添加了矿物量产配方，允许量产钻石、下界合金、青金石、锌、铜。"
-		""
-		"添加了铁魔法与机械动力的联动配方。"
-		""
-		"{@pagebreak}"
-		"辅助功能："
-		""
-		"加入tweakeroo的neoforge移植版，默认[X+C]打开配置。"
-		""
-		"加入机械动力：赛博护目镜，无需佩戴工程师护目镜即可看到机械动力详细数据，默认[Alt+J]打开配置。"
+		"配置了女仆饰品栏，&b允许装备玩家饰品&r。"
 	]
-	quest.64C3BF58E57323D2.quest_subtitle: "以及一些改动"
+	quest.64C3BF58E57323D2.quest_subtitle: "主要写了一些在原模组基础上的改动，方便熟悉这些模组的人大致了解修改内容。"
 	quest.64C3BF58E57323D2.title: "整合包内容概览"
 	quest.66CCDDDD28402210.quest_desc: ["合成魔能抢夺宝珠，狩猎莱特兰·扩充提供的核心原料。"]
 	quest.66CCDDDD28402210.title: "成为更精明的猎人"
@@ -1465,13 +1526,18 @@
 		"{@pagebreak}"
 		"&e十字项链&a可以减缓。&6无敌帧延长&a在其被封印后也生效，能保护玩家到&e解咒口袋&a完成解咒。"
 		""
-		"&a伤害频率接近饱和时，至少要两个&e解咒口袋&a，以免&e十字项链&a没续上。"
+		"&a伤害频率接近饱和时，至少要两个&e解咒口袋&a，确保&e十字项链&a的持续。"
 		""
 		"&c此法不能应对杀戮光环施加的诸神黄昏。"
 		"{@pagebreak}"
 		"&e解咒口袋&a、&e破咒遗骨&a等不会被封印，增加饰品栏位的饰品也不会。"
 	]
 	quest.71CA96A3BFE47C3A.quest_subtitle: "众神死亡的荒原"
+	quest.71DE250CBEA17477.quest_desc: [
+		"合成粉碎轮，准备搭建高效资源量产线。"
+		""
+		"它也是本包加工类机器的最后一块拼图，以后的重心便是物流与自动化。"
+	]
 	quest.7271539A5864C6EA.quest_subtitle: "回收多余的卷轴，合成墨水和更高级的药剂。"
 	quest.73A8056B636335D0.quest_desc: [
 		"&a后期唯一可威胁到玩家的词条。若怪物复制了&6虚空之触&a附魔，则可以击穿伤害免疫附魔。"
@@ -1531,6 +1597,28 @@
 	quest.758BC8937785B21D.quest_subtitle: "您得以释放法术的根本"
 	quest.758BC8937785B21D.title: "【1】法术卷轴"
 	quest.760DAB12D9136D7D.title: "掠夺恶意词条"
+	quest.761B0B12BB221826.quest_desc: [""]
+	quest.761B0B12BB221826.title: "基础矿物产线"
+	quest.766AF5EB4F9ABB60.quest_desc: [
+		"&a右键使用可以批量放置方块。"
+		""
+		"&a按住&eShift键&a使用可以撤销上一步操作。"
+		""
+		"&a可以使用强化模板在锻造台上升级。"
+		""
+		"&e默认Y键可以打开手杖的配置界面。"
+	]
+	quest.766AF5EB4F9ABB60.quest_subtitle: "建筑师的好帮手"
+	quest.766AF5EB4F9ABB60.title: "建筑棒"
+	quest.772768502028F1C1.quest_desc: [
+		"&a可以与各个流派的代表物合成对应的符文。"
+		""
+		"&a这些符文可以用来合成流派对应的&6装备、武器和升级法术球&a。"
+		""
+		"&a除此之外，还能合成&d奥术&a、&d冷却缩减&a和&d法术抗性&a符文。"
+		"&7这三个符文没有对应的流派，因此只能用来合成法术升级球。"
+	]
+	quest.772768502028F1C1.quest_subtitle: "承载元素的良好材料。"
 	quest.78FC1D37DCC2C65D.quest_desc: [
 		"&a佩戴这类饰品后&6击杀带有词条的怪物&a会获取对应的掉落物。"
 		""
@@ -1614,10 +1702,12 @@
 	quest.7FD21E494B9F661F.quest_subtitle: "廉价的庞大动力源"
 	quest.7FD21E494B9F661F.title: "水车"
 	quest.7FF49353D22BDE89.title: "拥有一只女仆吧！"
+	reward.29EF9CF47F1AACF1.title: "种子"
+	reward_table.045872A39829FE31.title: "模板"
+	reward_table.3312A363AE38D1DD.title: "森罗种子"
 	task.02ED624D84736206.title: "墨水"
 	task.07C4FA6F03C658D6.title: "自动完成"
 	task.0ADBDE22C03583EE.title: "无魔杖，不巫师"
-	task.0D2EAB9DC0EE9372.title: "Hello World"
 	task.0D84A629DD18F623.title: "找到闪长岩"
 	task.0E3AAFF3E2DB6DBD.title: "自动完成"
 	task.0FC6C3CD1483B920.title: "法术卷轴"
@@ -1625,15 +1715,18 @@
 	task.13AA535FC2321FBA.title: "快捷指令"
 	task.19845004BBBFFFD4.title: "获得一把法杖"
 	task.20AC3D2430FF9866.title: "被动状态"
+	task.2474A62D92FAA7B0.title: "获得任意一件法师装备"
 	task.25B5B30BCC398C28.title: "观察：烈焰人"
 	task.25D0AA8BEA16BED3.title: "制作一个女仆背包，并给女仆背上吧！"
 	task.25E33F93892AF6D9.title: "共享石碑"
 	task.26D9FB0D05921639.title: "思索"
 	task.2A66344E9DA3439E.title: "Any #waystones:sharestones"
 	task.2BE127AC0B228999.title: "恶意词条"
+	task.2DD818EF1F44BB11.title: "拿到一个和魔法相关的物品"
 	task.307A9D3C988294BE.title: "获得一把法杖"
 	task.3465CB1983D36F19.title: "自动完成"
 	task.360EFA96B9F7A1CE.title: "法术书"
+	task.39FE39624B3FE4B3.title: "获得一个建筑棒"
 	task.3BBE53A1DF866205.title: "拥有一根法杖"
 	task.3BF7DC55415C61E5.title: "自动完成"
 	task.3DA0D7B56F8D5981.title: "JEI"
@@ -1641,6 +1734,7 @@
 	task.4BC843F436357183.title: "找到安山岩"
 	task.4F0404DAE6529C9C.title: "合成一个御币"
 	task.4F75C1395D9B08D6.title: "自动完成"
+	task.536E2ED6D206DA91.title: "魔法材料"
 	task.5534BC01A2B821FE.title: "按键绑定"
 	task.5A30DC29722C269C.title: "自动完成"
 	task.66440F1D17637E87.title: "投影三件套"
@@ -1650,6 +1744,7 @@
 	task.7059C99A2FD01A26.title: "FTB任务书"
 	task.757ACA05CA85791D.title: "一些改动"
 	task.79CB87E352172A5D.title: "开始"
+	task.7A50147885C9C85D.title: "制作一个区块加载器"
 	task.7C0F8D619ED894EB.title: "Any #waystones:waystones"
 	task.7F9783A8F36C9FF0.title: "自动完成"
 }
