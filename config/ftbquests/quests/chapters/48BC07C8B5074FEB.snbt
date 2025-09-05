@@ -166,9 +166,6 @@
 	quests: [
 		{
 			disable_toast: true
-			icon: {
-				id: "shh:etihw"
-			}
 			id: "1C247CCE01C1BB0B"
 			rewards: [{
 				auto: "no_toast"

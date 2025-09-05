@@ -110,8 +110,8 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.0
-		CooldownInSeconds = 20.0
+		SpellPowerMultiplier = 4.0
+		CooldownInSeconds = 10.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:firebolt"]
@@ -618,7 +618,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.5
+		SpellPowerMultiplier = 2.0
 		CooldownInSeconds = 1.0
 		AllowCrafting = true
 
@@ -685,7 +685,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.6
+		SpellPowerMultiplier = 2.0
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -696,7 +696,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.6
+		SpellPowerMultiplier = 2.0
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
@@ -729,7 +729,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.6
+		SpellPowerMultiplier = 2.0
 		CooldownInSeconds = 1.0
 		AllowCrafting = true
 
@@ -1488,7 +1488,7 @@
 	[Spells."cataclysm_spellbooks:tidal_grab"]
 		Enabled = true
 		School = "cataclysm_spellbooks:abyssal"
-		MaxLevel = 20
+		MaxLevel = 8
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
@@ -1525,7 +1525,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
+		SpellPowerMultiplier = 2.0
 		CooldownInSeconds = 450.0
 		AllowCrafting = true
 
@@ -1680,7 +1680,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
+		SpellPowerMultiplier = 4.0
 		CooldownInSeconds = 22.0
 		AllowCrafting = true
 

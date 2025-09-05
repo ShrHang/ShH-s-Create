@@ -162,8 +162,8 @@
     "spell.cataclysm_spellbooks.cursed_rush": "诅咒冲锋",
     "spell.cataclysm_spellbooks.cursed_rush.guide": "朝着你所看的方向冲锋，在你原来的位置和新的目的地召唤幻影长柄武器。任何被你路径中的实体都会受到伤害",
 
-    "spell.cataclysm_spellbooks.conjure_thralls": "召唤: 不死者随从",
-    "spell.cataclysm_spellbooks.conjure_thralls.guide": "召唤一群不死者德劳古尔来与你并肩作战",
+    "spell.cataclysm_spellbooks.conjure_thralls": "召唤: 魂尸军队",
+    "spell.cataclysm_spellbooks.conjure_thralls.guide": "召唤一群魂尸来与你并肩作战",
 
     "spell.cataclysm_spellbooks.tectonic_tremble": "构造震颤",
     "spell.cataclysm_spellbooks.tectonic_tremble.guide": "震动大地，点燃附近的实体并将其击退",
@@ -172,7 +172,7 @@
     "spell.cataclysm_spellbooks.conjure_amethyst_crab.guide": "召唤神秘的紫水晶巨蟹来与你并肩作战",
 
 
-    "ui.cataclysm_spellbooks.void_beam": "召唤一个类似于深渊法师的深渊光束",
+    "ui.cataclysm_spellbooks.void_beam": "召唤一个类似于渊灵术士的深渊光束",
     "ui.cataclysm_spellbooks.void_rune": "在目标位置召唤一个虚空符文",
     "ui.cataclysm_spellbooks.dimensional_rift_spell.lifespan": "召唤一个持续 %d 秒的维度裂缝",
     "ui.cataclysm_spellbooks.gnawer_count": "%d 召唤",
