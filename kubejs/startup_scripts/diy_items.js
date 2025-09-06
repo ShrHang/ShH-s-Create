@@ -23,6 +23,13 @@ StartupEvents.registry('item', event => {
         })
         .rarity('epic')
 
+    event.create('shh:chimings_sword', "sword")
+        .maxStackSize(1)
+        .maxDamage(1024)
+        .rarity('epic')
+        .tooltip(Text.translate('text.shh.chimings_sword.tooltip'))
+        .texture('shh:item/chimings_sword')
+
     event.create('shh:maid_tool')
         .maxStackSize(1)
         .rarity('epic')

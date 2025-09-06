@@ -1,6 +1,13 @@
 {
     "item.shh.etihw": "Etihw",
+    "text.shh.etihw.tooltip": "感谢您游玩ShrHang的机械动力！",
+
     "item.shh.hulibugulv": "全糖顾虑",
+    "text.shh.hulibugulv.tooltip": "吃完不打胰岛素就是死路一条！",
+
+    "item.shh.chimings_sword": "砺剑子剑",
+    "text.shh.chimings_sword.tooltip": "也许很锋利？",
+
     "item.shh.maid_tool": "女仆手杖",
     
     "item.shh.incomplete_upgrade_advanced_infinity": "高级无限（半成品）",
@@ -32,8 +39,5 @@
     "item.shh.incomplete_upgrade_super_damage": "力量×3（半成品）",
     "item.shh.incomplete_upgrade_void": "虚空（半成品）",
     "item.shh.incomplete_upgrade_weak": "虚弱（半成品）",
-    "item.shh.incomplete_upgrade_wither": "凋零（半成品）",
-
-    "text.shh.etihw.tooltip": "感谢您游玩ShrHang的机械动力！",
-    "text.shh.hulibugulv.tooltip": "吃完不打胰岛素就是死路一条！"
+    "item.shh.incomplete_upgrade_wither": "凋零（半成品）"
 }
