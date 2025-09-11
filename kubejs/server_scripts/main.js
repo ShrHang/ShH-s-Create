@@ -62,6 +62,12 @@ ItemEvents.rightClicked('shh:etihw', event => {
     }
 })
 
+// ServerEvents.recipes(event=>{
+//     event.shapeless(Item.of('create:andesite_alloy', 64), [
+//         'ftbquests:book'
+//     ]);
+// })
+
 // ItemEvents.entityInteracted('shh:maid_curios_tool', event => {
 //     const player = event.player;
 //     const target = event.target;
