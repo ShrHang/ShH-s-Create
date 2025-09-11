@@ -1,5 +1,6 @@
 {
   "options": {
+    "validateOperationResults": true,
     "classPolicies": {
       "com.github.tartaricacid.touhoulittlemaid.inventory.container.backpack.BigBackpackContainer": {
         "className": "com.github.tartaricacid.touhoulittlemaid.inventory.container.backpack.BigBackpackContainer",
