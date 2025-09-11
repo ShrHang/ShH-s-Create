@@ -12,6 +12,7 @@
 	quests: [
 		{
 			can_repeat: false
+			dependencies: ["1C247CCE01C1BB0B"]
 			disable_recipe_mod: true
 			id: "37670BDF8DB8F020"
 			rewards: [

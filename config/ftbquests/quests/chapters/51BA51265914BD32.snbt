@@ -1,4 +1,5 @@
 {
+	autofocus_id: "507FFB6534902FBA"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "51BA51265914BD32"
@@ -48,14 +49,17 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["507FFB6534902FBA"]
+			dependencies: [
+				"2F986DEEFC4055C5"
+				"5AA2C528EEFD3F6C"
+			]
 			id: "7CE4FE7F4520A49B"
 			tasks: [{
 				id: "6F7FE271F9844252"
 				item: { count: 1, id: "create:deployer" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -66,7 +70,7 @@
 				item: { count: 1, id: "create:precision_mechanism" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
@@ -77,18 +81,21 @@
 				item: { count: 1, id: "create:rotation_speed_controller" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["507FFB6534902FBA"]
+			dependencies: [
+				"5AA2C528EEFD3F6C"
+				"15ACB4ABA100A5C6"
+			]
 			id: "29E22659228E5894"
 			tasks: [{
 				id: "685F74C4EB0A2436"
 				item: { count: 1, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -99,7 +106,7 @@
 				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
@@ -131,6 +138,84 @@
 			}]
 			x: -4.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["6E1D4D2BDEF2A63C"]
+			id: "5AA2C528EEFD3F6C"
+			tasks: [{
+				id: "66BF24B8902140E4"
+				item: { count: 1, id: "create:electron_tube" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"147C64EA165F6C8F"
+				"0887BE6D7CF822DB"
+			]
+			id: "6E1D4D2BDEF2A63C"
+			tasks: [{
+				id: "1204193B41F30607"
+				item: { count: 1, id: "create:polished_rose_quartz" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "0887BE6D7CF822DB"
+			tasks: [{
+				id: "4D974DC6EEB6DEAC"
+				item: { count: 1, id: "create:rose_quartz" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "147C64EA165F6C8F"
+			tasks: [{
+				id: "4E62C496B5D3EFB1"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:sandpaper)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["485B745B1C221307"]
+			id: "2F986DEEFC4055C5"
+			tasks: [{
+				id: "3C11FB667497721D"
+				item: { count: 1, id: "create:brass_hand" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["507FFB6534902FBA"]
+			id: "15ACB4ABA100A5C6"
+			tasks: [{
+				id: "01E6FBEC6A70787F"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["507FFB6534902FBA"]
+			id: "485B745B1C221307"
+			tasks: [{
+				id: "1B21C38630D43C4E"
+				item: { count: 1, id: "create:brass_sheet" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
 		}
 	]
 }
