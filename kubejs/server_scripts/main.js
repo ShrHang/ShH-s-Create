@@ -1,5 +1,7 @@
 const ICuriosItemHandler = Java.loadClass("top.theillusivec4.curios.api.type.capability.ICuriosItemHandler")
 const EntityCapability = Java.loadClass("net.neoforged.neoforge.capabilities.EntityCapability")
+const IEntitiesData = Java.loadClass("top.theillusivec4.curios.api.type.data.IEntitiesData")
+const ICurioStacksHandler = Java.loadClass("top.theillusivec4.curios.api.type.inventory.ICurioStacksHandler")
 
 const curiosCap = EntityCapability.createVoid("curios:inventory",ICuriosItemHandler);
 ItemEvents.entityInteracted("shh:maid_tool", event => {
@@ -22,19 +24,20 @@ PlayerEvents.chat(event => {
     const message = event.message
 
     if (message == 'ts') {
-        let curio = player.getCapability(curiosCap);
-        curio.getCurios().forEach(type => {
-            let list = curio.getStacksHandler(type).get().getStacks();
-            let slots = curio.getStacksHandler(type).get().getSlots();
-            for (let i = 0; i < slots; i++) {
-                let slot = list.getStackInSlot(i);
-                if (!slot.isEmpty()) {
-                    player.sendSystemMessage(Component.literal(type + "槽 " + i + " : " + slot.getDisplayName().getString()).green());
-                    player.sendSystemMessage(Component.literal(curio.getStacksHandler(type).get().getModifiers()).gold());
+        // let curio = player.getCapability(curiosCap);
+        // curio.getCurios().forEach(type => {
+        //     let list = curio.getStacksHandler(type).get().getStacks();
+        //     let slots = curio.getStacksHandler(type).get().getSlots();
+        //     for (let i = 0; i < slots; i++) {
+        //         let slot = list.getStackInSlot(i);
+        //         if (!slot.isEmpty()) {
+        //             player.sendSystemMessage(Component.literal(type + "槽 " + i + " : " + slot.getDisplayName().getString()).green());
+        //             player.sendSystemMessage(Component.literal(curio.getStacksHandler(type).get().getModifiers()).gold());
                     
-                }
-            }
-        });
+        //         }
+        //     }
+        // });
+        player.sendSystemMessage(Component.literal(player.type));
         event.cancel(true);
     }
 
@@ -43,6 +46,27 @@ PlayerEvents.chat(event => {
         player.sendSystemMessage(Component.literal("您当前处于禁言状态！").red())
         event.cancel(true)
     }
+})
+ItemEvents.entityInteracted('minecraft:stick', event => {
+    let _entity = event.target
+    event.player.sendSystemMessage(Component.literal(_entity.type));
+    event.player.sendSystemMessage(Component.literal(_entity.uuid));
+    let curio = _entity.getCapability(curiosCap);
+    let Slot = "ring";
+    let list = curio.getStacksHandler(Slot).get().getStacks();
+    let slots = curio.getStacksHandler(Slot).get().getSlots()
+    event.player.sendSystemMessage(Component.literal("Curios槽位数量：" + slots).gold());
+    for (let i = 0; i < slots; i++) {
+        let slot = list.getStackInSlot(i);
+        if (slot.isEmpty()) {
+            event.player.sendSystemMessage(Component.literal(Slot + "槽 " + i + " : " + "Null").gray());
+        } else {
+            event.player.sendSystemMessage(Component.literal(Slot + "槽 " + i + " : " + slot.getDisplayName().getString()).green());
+        }
+    }
+    // list.grow(1);
+    event.player.sendSystemMessage(Component.literal("Curios槽位数量：" + slots).gold());
+    event.cancel();
 })
 
 var Etihw = false

@@ -50,10 +50,6 @@
       },
       "net.minecraft.world.entity.player.Inventory": {
         "className": "net.minecraft.world.entity.player.Inventory",
-        "buttonOffset": {
-          "x": -4,
-          "y": 0
-        },
         "sortPolicy": "KEYBIND_BUTTON",
         "stackFillPolicy": "KEYBIND_BUTTON",
         "matchTransferPolicy": "NONE",
@@ -62,10 +58,6 @@
       },
       "net.minecraft.world.inventory.ChestMenu": {
         "className": "net.minecraft.world.inventory.ChestMenu",
-        "buttonOffset": {
-          "x": -4,
-          "y": 0
-        },
         "sortPolicy": "KEYBIND_BUTTON",
         "stackFillPolicy": "KEYBIND_BUTTON",
         "matchTransferPolicy": "NONE",
