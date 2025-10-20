@@ -4,6 +4,8 @@
     "useServerAcceleration": true,
     "useClientFallback": false,
     "optimizeCreativeSorting": true,
+    "autoOpDelayPlayer": 2,
+    "autoOpDelayContainer": 2,
     "hotbarScope": "HOTBAR",
     "extraSlotScope": "EXTRA",
     "bundlesUseLeftClick": false,
@@ -46,6 +48,7 @@
         "stackFillPolicy": "NONE",
         "matchTransferPolicy": "NONE",
         "transferPolicy": "NONE",
+        "autoOpOther": false,
         "ignoredSlots": []
       },
       "net.minecraft.world.entity.player.Inventory": {
@@ -54,6 +57,7 @@
         "stackFillPolicy": "KEYBIND_BUTTON",
         "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
         "ignoredSlots": []
       },
       "net.minecraft.world.inventory.ChestMenu": {
@@ -62,6 +66,7 @@
         "stackFillPolicy": "KEYBIND_BUTTON",
         "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
         "ignoredSlots": []
       },
       "net.minecraft.world.inventory.HopperMenu": {
@@ -74,6 +79,7 @@
         "stackFillPolicy": "KEYBIND",
         "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
         "ignoredSlots": []
       },
       "net.minecraft.world.inventory.HorseInventoryMenu": {
@@ -86,6 +92,7 @@
         "stackFillPolicy": "KEYBIND_BUTTON",
         "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
         "ignoredSlots": []
       },
       "net.minecraft.world.inventory.PlayerEnderChestContainer": {
@@ -98,6 +105,7 @@
         "stackFillPolicy": "KEYBIND_BUTTON",
         "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
         "ignoredSlots": []
       },
       "net.minecraft.world.inventory.ShulkerBoxMenu": {
@@ -110,6 +118,7 @@
         "stackFillPolicy": "KEYBIND_BUTTON",
         "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
         "ignoredSlots": []
       },
       "net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity": {
@@ -122,6 +131,7 @@
         "stackFillPolicy": "KEYBIND_BUTTON",
         "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
         "ignoredSlots": []
       }
     }

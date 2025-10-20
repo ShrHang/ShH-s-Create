@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    { 
+        "tag": "c:material/netherite"
+    }
+  ],
+  "processing_time": 350,
+  "results": [
+    { 
+        "id": "minecraft:netherite_scrap" 
+    }
+  ]
+}

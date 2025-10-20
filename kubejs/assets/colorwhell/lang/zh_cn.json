@@ -1,0 +1,29 @@
+{
+    "colorwheel.fallback_mode": "应急兼容模式",
+    "colorwheel.fallback_mode.enable": "启用应急兼容模式",
+
+    "colorwheel.alert.ask_disable": "禁用此警报",
+
+    "colorwheel.alert.incompatible_pack": "不支持 %1$s 光影包。",
+    "colorwheel.alert.incompatible_pack.patch_available": "你应该在光影列表中选择 %1$s ",
+    "colorwheel.alert.incompatible_pack.ask_fallback_mode": "你可以请求ColorWheel支持光影包开发者。你也可以启用 %1$s 以获得完全自动化的支持。但这样必然会出现图形问题，且不提供额外支持。",
+    "colorwheel.alert.incompatible_pack.disable": "禁用不兼容光影包警报",
+
+    "colorwheel.alert.broken_pack": "当前光影包包含损坏的着色器，预计会有图形问题",
+    "colorwheel.alert.broken_pack.disable": "禁用损坏光影包警报",
+
+    "command.colorwheel.alert_incompatible_pack.get.on": "不兼容光影包警报：启用",
+    "command.colorwheel.alert_incompatible_pack.get.off": "不兼容光影包警报：禁用",
+    "command.colorwheel.alert_incompatible_pack.set.on": "不兼容光影包警报：已启用",
+    "command.colorwheel.alert_incompatible_pack.set.off": "不兼容光影包警报：已禁用",
+
+    "command.colorwheel.alert_broken_pack.get.on": "损坏的光影包警报：启用",
+    "command.colorwheel.alert_broken_pack.get.off": "损坏的光影包警报：禁用",
+    "command.colorwheel.alert_broken_pack.set.on": "损坏的光影包警报：已启用",
+    "command.colorwheel.alert_broken_pack.set.off": "损坏的光影包警报：已禁用",
+
+    "command.colorwheel.fallback_mode.get.on": "应急兼容模式：启用。",
+    "command.colorwheel.fallback_mode.get.off": "应急兼容模式：禁用。",
+    "command.colorwheel.fallback_mode.set.on": "应急兼容模式：已启用，风险自负！",
+    "command.colorwheel.fallback_mode.set.off": "应急兼容模式：已禁用。"
+}

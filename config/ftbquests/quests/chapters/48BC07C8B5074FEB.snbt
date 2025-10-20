@@ -1141,7 +1141,7 @@
 			]
 			id: "30E4C1086E25E9B8"
 			tasks: [{
-				id: "5305E9A6C8997C2D"
+				id: "1C4F6EF0DF4D5A18"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(touhou_little_maid:gohei_enchantable)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]

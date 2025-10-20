@@ -205,7 +205,7 @@
 			id: "374AA1608EFA98C6"
 			tasks: [{
 				id: "58301E796A1E0C05"
-				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:codex_of_malice_spell_book" }
+				item: { components: { "azurelib:az_id": [I; 1518220630, 683821936, -2119155173, -1637573577 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:codex_of_malice_spell_book" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -693,7 +693,7 @@
 					type: "item"
 				}
 			]
-			x: -17.5d
+			x: -17.0d
 			y: -2.0d
 		}
 		{
@@ -722,7 +722,7 @@
 					type: "item"
 				}
 			]
-			x: -16.5d
+			x: -16.0d
 			y: -4.0d
 		}
 		{
@@ -751,7 +751,7 @@
 					type: "item"
 				}
 			]
-			x: -16.5d
+			x: -16.0d
 			y: 0.0d
 		}
 		{
@@ -780,7 +780,7 @@
 					type: "item"
 				}
 			]
-			x: -17.0d
+			x: -16.5d
 			y: -3.0d
 		}
 		{
@@ -809,7 +809,7 @@
 					type: "item"
 				}
 			]
-			x: -14.5d
+			x: -14.0d
 			y: -5.0d
 		}
 		{
@@ -838,7 +838,7 @@
 					type: "item"
 				}
 			]
-			x: -14.5d
+			x: -14.0d
 			y: 1.0d
 		}
 		{
@@ -867,7 +867,7 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
+			x: -15.0d
 			y: 0.5d
 		}
 		{
@@ -896,7 +896,7 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
+			x: -15.0d
 			y: -4.5d
 		}
 		{
@@ -925,7 +925,7 @@
 					type: "item"
 				}
 			]
-			x: -17.0d
+			x: -16.5d
 			y: -1.0d
 		}
 		{
@@ -935,26 +935,26 @@
 			tasks: [
 				{
 					id: "586C46A3B435FCF3"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_helmet" }
+					item: { components: { "azurelib:az_id": [I; 428213124, -1716566841, -1105864416, -967956861 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_helmet" }
 					type: "item"
 				}
 				{
 					id: "37186C9079917CF6"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_chestplate" }
+					item: { components: { "azurelib:az_id": [I; -1276625780, -1462155259, -1473858455, -584937452 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_chestplate" }
 					type: "item"
 				}
 				{
 					id: "2B5E4FD1DF899AC2"
-					item: { count: 1, id: "cataclysm_spellbooks:ignis_leggings" }
+					item: { components: { "azurelib:az_id": [I; -699044026, 407913017, -1384806656, -542727279 ] }, count: 1, id: "cataclysm_spellbooks:ignis_leggings" }
 					type: "item"
 				}
 				{
 					id: "10A9D732711837AD"
-					item: { count: 1, id: "cataclysm_spellbooks:ignis_boots" }
+					item: { components: { "azurelib:az_id": [I; -1599595795, 1682589111, -1486205566, -1514477586 ] }, count: 1, id: "cataclysm_spellbooks:ignis_boots" }
 					type: "item"
 				}
 			]
-			x: -19.0d
+			x: -18.5d
 			y: -3.5d
 		}
 		{
@@ -964,26 +964,26 @@
 			tasks: [
 				{
 					id: "57687B0E8594DD09"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_helmet" }
+					item: { components: { "azurelib:az_id": [I; 1173144337, 59459907, -1141923758, -1650854524 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_helmet" }
 					type: "item"
 				}
 				{
 					id: "18DB6755B314EE27"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_chestplate" }
+					item: { components: { "azurelib:az_id": [I; 1205903888, 219499633, -1182418612, -1717028186 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_chestplate" }
 					type: "item"
 				}
 				{
 					id: "69ACD17B7E270CA8"
-					item: { count: 1, id: "cataclysm_spellbooks:abyssal_warlock_leggings" }
+					item: { components: { "azurelib:az_id": [I; 1555524055, -1696247968, -1836157687, -1799589409 ] }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_leggings" }
 					type: "item"
 				}
 				{
 					id: "41AF3AC1773477B2"
-					item: { count: 1, id: "cataclysm_spellbooks:abyssal_warlock_boots" }
+					item: { components: { "azurelib:az_id": [I; 1621973329, -1508425283, -1139953587, -874657875 ] }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_boots" }
 					type: "item"
 				}
 			]
-			x: -19.5d
+			x: -19.0d
 			y: -2.0d
 		}
 		{
@@ -993,26 +993,26 @@
 			tasks: [
 				{
 					id: "16FBD83408D875E6"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:cursium_mage_circlet" }
+					item: { components: { "azurelib:az_id": [I; 1874287255, -242728727, -1428890610, -1996152682 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:cursium_mage_circlet" }
 					type: "item"
 				}
 				{
 					id: "52E3DEE6ED42B9D2"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:cursium_mage_chestplate" }
+					item: { components: { "azurelib:az_id": [I; 382723713, 307971343, -2111020753, -2000630073 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:cursium_mage_chestplate" }
 					type: "item"
 				}
 				{
 					id: "662DC408122A7EA6"
-					item: { count: 1, id: "cataclysm_spellbooks:cursium_mage_skirt" }
+					item: { components: { "azurelib:az_id": [I; -1898137197, 997411122, -1320721052, 192562530 ] }, count: 1, id: "cataclysm_spellbooks:cursium_mage_skirt" }
 					type: "item"
 				}
 				{
 					id: "343C58D585F0C83B"
-					item: { count: 1, id: "cataclysm_spellbooks:cursium_mage_boots" }
+					item: { components: { "azurelib:az_id": [I; 960881928, 811290185, -1308099520, -1577494120 ] }, count: 1, id: "cataclysm_spellbooks:cursium_mage_boots" }
 					type: "item"
 				}
 			]
-			x: -19.0d
+			x: -18.5d
 			y: -0.5d
 		}
 		{
@@ -1024,7 +1024,7 @@
 				item: { count: 1, id: "irons_spellbooks:speed_boots" }
 				type: "item"
 			}]
-			x: -17.5d
+			x: -17.0d
 			y: -5.0d
 		}
 		{
@@ -1036,7 +1036,7 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:paladin_chestplate" }
 				type: "item"
 			}]
-			x: -17.5d
+			x: -17.0d
 			y: 1.0d
 		}
 		{
@@ -1149,7 +1149,7 @@
 			shape: "square"
 			tasks: [{
 				id: "6C8AFA42310E0EA2"
-				item: { count: 1, id: "cataclysm_spellbooks:spirit_sunderer" }
+				item: { components: { "azurelib:az_id": [I; 1383359394, -1262531864, -1598492213, 1218822551 ] }, count: 1, id: "cataclysm_spellbooks:spirit_sunderer" }
 				type: "item"
 			}]
 			x: -12.0d
@@ -1453,7 +1453,7 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:infernal_sorcerer_chestplate" }
 				type: "item"
 			}]
-			x: -18.0d
+			x: -17.5d
 			y: -4.0d
 		}
 		{

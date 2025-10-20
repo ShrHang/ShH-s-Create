@@ -1,6 +1,6 @@
 {
 	chapter.099D9445D1F810D2.title: "Boss挑战"
-	chapter.0CC74F672FCF93FE.title: "世间最远的捷径"
+	chapter.0CC74F672FCF93FE.title: "最远的捷径"
 	chapter.1148DF0D158A4899.title: "恶意"
 	chapter.254BB498583A6B5B.title: "烹饪"
 	chapter.3D300303E6965C1A.title: "弓艺"
@@ -136,7 +136,7 @@
 	quest.073962841F5707A8.quest_desc: [
 		"&a该词条只在Boss身上出现。"
 		""
-		"&c只有&d虚空伤害&c可以击穿该免疫。"
+		"&c只有&b虚空伤害&c可以击穿该免疫。"
 	]
 	quest.073962841F5707A8.quest_subtitle: "领域展开！"
 	quest.0751DE5C8FC925B8.quest_desc: [
@@ -204,9 +204,9 @@
 	quest.0B5D4E8A38187BBD.quest_desc: [
 		"&a最基础的法术书，在此基础上可以升级成更高级的法术书"
 		""
-		"&8整合包修改了法术书的合成配方，但是并未禁用法术书作为战利品的掉落。"
+		"&e整合包修改了法术书的合成配方，但是并未禁用法术书作为战利品的掉落。"
 		""
-		"&8如果您是一位老练的魔法师，您应该知道如何获取它们。"
+		"&e如果您是一位老练的魔法师，您应该知道如何获取它们。"
 	]
 	quest.0B5D4E8A38187BBD.quest_subtitle: "也许会是您的第一本法术书"
 	quest.0C7FAE5FB0D2C3BE.quest_desc: [
@@ -287,7 +287,7 @@
 		""
 		"{ \"text\": \"点击跳转：侦测眼镜\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17BCF9DCB1C16EC1\" } }"
 	]
-	quest.12174CFBAEEBADA7.quest_subtitle: "&m看不见我看不见我看不见我看不见我看不见我"
+	quest.12174CFBAEEBADA7.quest_subtitle: "&m&8看不见我看不见我看不见我看不见我看不见我"
 	quest.126141DE9CB118AD.quest_desc: [
 		"&a做一台&e动力冲压机&a。这是&6最早可做，日后也很有用&a的&e加工作业元件&a。"
 		"{@pagebreak}"
@@ -306,6 +306,14 @@
 		"&a传动形式&a相当于&e传动杆箱&a，可以连成一条线。"
 	]
 	quest.126141DE9CB118AD.quest_subtitle: "最基础也最常用的加工机器"
+	quest.131378356A4C1C03.quest_desc: [
+		"&a佩戴后玩家将被视为处在&b水中\\\\雨中&a。"
+		""
+		"&6因此玩家将能够触发处于&b水中\\\\雨中&6时才能触发的效果。"
+		""
+		"&a包括：附魔&5激流&a，状态效果&e潮涌核心&a、&e深渊掠食者&a，以及&6海神系列套装&a的额外效果。"
+	]
+	quest.131378356A4C1C03.quest_subtitle: "烧不起来。"
 	quest.13AA3F2CEA919A1D.quest_desc: [""]
 	quest.13AA3F2CEA919A1D.quest_subtitle: "其实是转向架"
 	quest.143E5A18E6E326E3.title: "冰刃"
@@ -378,6 +386,12 @@
 	quest.19378BC2B1111EEA.title: "获得龙息"
 	quest.1A3791FE4CD8DCD3.quest_subtitle: "奇迹于你"
 	quest.1A3791FE4CD8DCD3.title: "&2奇迹锭"
+	quest.1A3BFE17B16B041D.quest_desc: [
+		"&a不同于原版的&c食物和饮品&a，该物品&c没有进食速度&a。"
+		""
+		"&a无需长按，只需单次右键就能饮用。"
+		"&e（小心长按导致一次性喝光好几瓶哦）"
+	]
 	quest.1A3BFE17B16B041D.quest_subtitle: "不要贪杯哦。"
 	quest.1A6A47C2970611F0.quest_desc: ["&a也可以拿&6恶意词条&a生成的&e潜影弹&a，如&e潜影&a和&e榴弹&a，&a以在末地前获得。"]
 	quest.1B0A8515FEE973A2.quest_subtitle: "不需要解锁就可以传送"
@@ -403,7 +417,7 @@
 	quest.1EE1243EB3F752C8.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
-		"&a奇异饰品的&e解毒容器&a也可降低影响。"
+		"&a奇异饰品的&6解毒容器&a也可降低影响。"
 	]
 	quest.1EE1243EB3F752C8.quest_subtitle: "让你飞起来！"
 	quest.1FB411220A26B0E2.quest_desc: [
@@ -612,7 +626,11 @@
 	quest.30E4C1086E25E9B8.quest_subtitle: "准备召唤女仆"
 	quest.30E4C1086E25E9B8.title: "合成御币"
 	quest.30FE98FEA6FF26F2.title: "弹射物免疫"
-	quest.30FF51B4DE9BFB79.quest_desc: ["&a一些伤害可以击穿&6抗性保护&a，包括&6破咒遗骨&a、&d虚空伤害&a、&6真实伤害&a(&5虚空之触附魔&a)等。"]
+	quest.30FF51B4DE9BFB79.quest_desc: [
+		"&a使用可以击穿&6抗性提升&a的攻击手段。"
+		""
+		"&a包括&6破咒遗骨&a、&d虚空伤害&a、&6真实伤害&a(&5虚空之触附魔&a)等。"
+	]
 	quest.30FF51B4DE9BFB79.quest_subtitle: "百分比减伤"
 	quest.3133CB90FA04C967.title: "剑风"
 	quest.31464096DE2E0E87.quest_subtitle: "还是个列车装配站"
@@ -635,7 +653,7 @@
 	quest.323628E260BA2EE8.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
-		"&a奇异饰品的&e解毒容器&a也可降低影响。"
+		"&a奇异饰品的&6解毒容器&a也可降低影响。"
 	]
 	quest.323628E260BA2EE8.quest_subtitle: "珍惜眼前的美好"
 	quest.32A67D0D4B49FAF1.quest_desc: [
@@ -691,7 +709,7 @@
 		""
 		"&b召唤北极熊&a：召唤出来的北极熊人称小高达。"
 		""
-		"&b冰霜射线&a：瞬发单体高伤法术。"
+		"&b冰霜射线&a：瞬发单体法术。"
 		""
 		"&b雪球术&a：大范围冰冻控制。"
 		""
@@ -723,7 +741,7 @@
 	]
 	quest.35B582322016F1BD.quest_subtitle: "能当潜影盒用"
 	quest.35B582322016F1BD.title: "工具箱"
-	quest.35BFB220692FFD11.quest_desc: ["&a该词条只在Boss身上出现。"]
+	quest.35BFB220692FFD11.quest_desc: ["&c该词条只在Boss身上出现。"]
 	quest.35BFB220692FFD11.quest_subtitle: "“你就是我的Master吗？”"
 	quest.3633695070B06A45.quest_desc: [
 		"&e离合器&a能利用&e红石信号&a开关传动。"
@@ -766,7 +784,7 @@
 	quest.382FA06FAA6DA1B4.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
-		"&c奇异饰品的解毒容器无效。"
+		"&c奇异饰品的&6解毒容器&c无效。"
 	]
 	quest.382FA06FAA6DA1B4.quest_subtitle: "像是一脚踩进了细雪。"
 	quest.392DC7FA0F58FD3B.title: "飞机！"
@@ -863,12 +881,13 @@
 	quest.3FAE69E2533A40A7.quest_desc: ["&a通过&e轧机&a来生产线和必需的金属棒,以制作&e接线器和轴线&a。"]
 	quest.3FAE69E2533A40A7.quest_subtitle: "轧机"
 	quest.3FAE69E2533A40A7.title: "让我们开启电力之旅！"
+	quest.4033EE1DF4034D11.quest_subtitle: "击杀死者之王掉落"
 	quest.40C24F458ED9FEC3.quest_desc: ["找到铁魔法的法术卷轴，准备开始你的魔法师之旅。"]
 	quest.40C24F458ED9FEC3.title: "找到法术卷轴"
 	quest.410D164F96E48678.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
-		"&a奇异饰品的&e解毒容器&a也可降低影响。实际上足以阻止画面扭曲。"
+		"&a奇异饰品的&6解毒容器&a也可降低影响。实际上足以阻止画面扭曲。"
 	]
 	quest.410D164F96E48678.quest_subtitle: "扭~曲~"
 	quest.416FB0A75240450E.quest_desc: [
@@ -926,7 +945,7 @@
 		""
 		"&a也可在需要保持自身低等级时，清理遗留的高等级怪。"
 		"{@pagebreak}"
-		"&a娱乐性质的，&a可在高等级怪出现后，利用&e神圣之光&a或&e恶意净化药水&a让等级清零，&m&c恃 弱 凌 强&r"
+		"&a娱乐性质的，&a可在高等级怪出现后，利用&e神圣之光&a或&e恶意净化药水&a让等级清零。&m&8恃 弱 凌 强"
 		""
 		"&c注意：等级清零不可逆，最好存一些瓶装恶意。通常，维持等级发挥傲慢诅咒实际更好。"
 	]
@@ -941,11 +960,11 @@
 	]
 	quest.445564C4C0A6A27F.quest_subtitle: "说是扩充，实际上是莱特兰系列的通用前置。"
 	quest.448FD101F7DE41CE.quest_desc: [
-		"&c其伤害受高怪物等级的伤害增强影响。"
+		"&a其伤害受&c高怪物等级的伤害增强影响&a,且该伤害可触发&c身上其它词条&a的效果。"
 		""
-		"&c魔法免疫，乃至无敌帧，都无法阻止杀戮光环施加效果。"
+		"&5魔法免疫&a，乃至&5无敌帧&a，都无法阻止&c杀戮光环&a施加效果。"
 		""
-		"&c和诸神黄昏搭配时近战威胁显著上升。"
+		"&a和&c诸神黄昏&a搭配时近战威胁显著上升。"
 	]
 	quest.448FD101F7DE41CE.quest_subtitle: "杀~戮~光~环~！"
 	quest.44B65A038A221311.title: "机电动力"
@@ -1022,7 +1041,7 @@
 	quest.470CEC5E9E905235.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
-		"&a奇异饰品的&e解毒容器&a也可降低影响。"
+		"&a奇异饰品的&6解毒容器&a也可降低影响。"
 	]
 	quest.470CEC5E9E905235.quest_subtitle: "你反手无力，正手不精，脚步松散，反应迟钝！"
 	quest.470D440D698DE696.quest_desc: [
@@ -1037,7 +1056,9 @@
 	quest.470D440D698DE696.quest_subtitle: "断档级低效的锅炉状态"
 	quest.477B440A111CE9CF.quest_desc: [
 		"&a该流派对亡灵生物具有50%的减伤。"
-		"{@pagebreak}"
+		""
+		"=============================="
+		""
 		"&a推荐法术："
 		""
 		"&4止心术&a：唯四真神，锁血。"
@@ -1145,6 +1166,7 @@
 	]
 	quest.525DDB4B52D1051A.quest_subtitle: "物流与自动化"
 	quest.525DDB4B52D1051A.title: "要解放劳动力？"
+	quest.52950114BB2BDFFA.quest_subtitle: "击杀远古遗魂掉落"
 	quest.5354813CA687A028.quest_desc: [
 		"&a您可以使用法术抄写台，将收集得来的卷轴装入法术书中。"
 		"{image:kubejs:textures/ftbquests/inscription_table-1.png width:200 height:100 align:center}"
@@ -1198,12 +1220,14 @@
 		""
 		"&a使用&5冰刃&a、&5炎刃&a、&5撕裂之刃&a、&5虚空之触&a附魔对策。"
 		""
-		"&a一些可击穿&6抗性保护&a的伤害也能击穿此防护，包括&6破咒遗骨&a、&d虚空伤害&a、&6真实伤害&a等。"
+		"&a一些可击穿&6抗性保护&a的伤害也能击穿此防护，包括&6破咒遗骨&a、&b虚空伤害&a、&b真实伤害&a等。"
 	]
 	quest.53BAB5CC16AC95C0.quest_subtitle: "久而久之，不正常也变得正常。"
 	quest.54C2193D055BD22F.quest_desc: [
 		"&a该流派法术对亡灵生物具有50%的增伤。"
-		"{@pagebreak}"
+		""
+		"=================================="
+		""
 		"&a推荐法术："
 		""
 		"&e急迫&a：唯四真神，大幅加快吟唱速度和魔力恢复，同时提供攻速、移速、挖掘速度加成。"
@@ -1225,6 +1249,7 @@
 		"&6手持&e安山机壳&a右键&e齿轮&a、&e传动杆&a、&e传送带&a，可&6封装&a为&e齿轮箱&a或&e传动杆箱&a，作为装饰、避免碰撞。&e齿轮箱&a还具有独特的&6传动&a变化。"
 	]
 	quest.554E80B94490907E.quest_subtitle: "合成作业元件与传动元件的关键材料"
+	quest.55B1EE12FB0F9449.quest_desc: ["&a快速获取瓶装恶意的手段。"]
 	quest.55B1EE12FB0F9449.quest_subtitle: "量大管饱的恶意。"
 	quest.55DEDCFB44C9F72E.title: "魔法免疫"
 	quest.561CB1A791BF6EE4.quest_desc: [
@@ -1513,13 +1538,13 @@
 	quest.69A2A7FD953ED239.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
-		"&a奇异饰品的&e解毒容器&a也可降低影响。"
+		"&a奇异饰品的&6解毒容器&a也可降低影响。"
 	]
 	quest.69A2A7FD953ED239.quest_subtitle: "凋零骷髅的饭碗"
 	quest.69A5BFA6AD5A8F4E.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
-		"&a奇异饰品的&e解毒容器&a也可降低影响。"
+		"&a奇异饰品的&6解毒容器&a也可降低影响。"
 	]
 	quest.69A5BFA6AD5A8F4E.quest_subtitle: "洞穴蜘蛛的饭碗"
 	quest.6A10338F82E25563.quest_desc: [
@@ -1536,6 +1561,7 @@
 		"&a潘多拉之咒的&3罪业&a的剑气爆炸可范围施加&e诅咒&a。"
 	]
 	quest.6A10338F82E25563.quest_subtitle: "什么叫不死图腾也有不死图腾？"
+	quest.6AB904638C1A02BD.quest_subtitle: "击杀唤魔者掉落"
 	quest.6AC18F92931A467E.quest_desc: [
 		"&a奥术铁砧具有三个功能：&d注魔&a、&b升级&a、&e强化&a。"
 		"{@pagebreak}"
@@ -1706,7 +1732,7 @@
 	quest.70D385E9FD29CDD5.quest_subtitle: "包含传送、设置家园等无需作弊也能使用的指令。"
 	quest.70D385E9FD29CDD5.title: "建议掌握的知识：快捷指令"
 	quest.71CA96A3BFE47C3A.quest_desc: [
-		"&a被命中且受伤时&a，装备(包括主副手)将被封印为特殊物品。该物品需拿在手上“吃”来手动解咒。"
+		"&a被命中且受伤时&a，装备(包括主副手)将被封印为特殊物品。该物品需拿在手上“&6进食&a”来手动解咒。"
 		""
 		"&a使用&6解咒口袋&a对策，&c其自动解咒需要时间。&a可通过装备数个来解决。"
 		""
@@ -1744,7 +1770,7 @@
 		""
 		"&e色欲诅咒&a可让其掉落复制了附魔的装备，但拥有&c毁灭&a的那把武器不行。"
 		"{@pagebreak}"
-		"&c女仆不可拥有复印。&m因为超模被禁了&r"
+		"&c女仆不可拥有复印。&8&m因为太超模被禁了&r"
 	]
 	quest.73A8056B636335D0.quest_subtitle: "看来是同类型的替身呢。"
 	quest.745C9AD0FF6EA5C8.quest_desc: [
@@ -1826,7 +1852,7 @@
 	quest.7941AF87A3F0FCAD.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
-		"&c奇异饰品的解毒容器无效。"
+		"&c奇异饰品的&6解毒容器&c无效。"
 	]
 	quest.7941AF87A3F0FCAD.quest_subtitle: "灼烧灵魂"
 	quest.7A6856E70C510D74.quest_desc: ["&a佩戴&3魔能抢夺宝珠&a击杀&c分裂&a词条怪物获取。"]
@@ -1835,7 +1861,7 @@
 	quest.7B38EC488FFC125C.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
-		"&c奇异饰品的解毒容器无效。"
+		"&c奇异饰品的&6解毒容器&c无效。"
 	]
 	quest.7B38EC488FFC125C.quest_subtitle: "你的伤口无法愈合"
 	quest.7BFB5FC9098750F8.quest_desc: [
@@ -1901,7 +1927,7 @@
 	]
 	quest.7FD21E494B9F661F.quest_subtitle: "廉价的庞大动力源"
 	quest.7FD21E494B9F661F.title: "水车"
-	quest.7FF49353D22BDE89.title: "拥有一只女仆吧！"
+	quest.7FF49353D22BDE89.title: "养一只女仆吧！"
 	quest.7FF68D0544CBA9A3.title: "特殊戒指"
 	reward.29EF9CF47F1AACF1.title: "种子"
 	reward_table.045872A39829FE31.title: "模板"
@@ -1915,6 +1941,7 @@
 	task.1184BFCF679D1586.title: "墨水"
 	task.13AA535FC2321FBA.title: "快捷指令"
 	task.19845004BBBFFFD4.title: "获得一把法杖"
+	task.1C4F6EF0DF4D5A18.title: "获得任意御币"
 	task.20AC3D2430FF9866.title: "被动状态"
 	task.2474A62D92FAA7B0.title: "获得任意一件法师装备"
 	task.25B5B30BCC398C28.title: "观察：烈焰人"
