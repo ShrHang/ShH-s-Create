@@ -11,10 +11,6 @@
       "id": "minecraft:wither_skeleton_skull"
     },
     {
-      "chance": 0.25,
-      "id": "minecraft:blackstone"
-    },
-    {
       "chance": 0.01,
       "id": "l2complements:blackstone_core"
     }

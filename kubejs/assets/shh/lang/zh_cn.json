@@ -3,7 +3,7 @@
     "text.shh.etihw.tooltip": "感谢您游玩ShrHang的机械动力！",
 
     "item.shh.hulibugulv": "全糖顾虑",
-    "text.shh.hulibugulv.tooltip": "吃完不打胰岛素就是死路一条！",
+    "text.shh.hulibugulv.tooltip": "吃完不打胰岛素就是死路一条。",
 
     "item.shh.chimings_sword": "砺剑子剑",
     "text.shh.chimings_sword.tooltip": "流淌着冰与火的力量。",
@@ -39,5 +39,22 @@
     "item.shh.incomplete_upgrade_super_damage": "力量×3（半成品）",
     "item.shh.incomplete_upgrade_void": "虚空（半成品）",
     "item.shh.incomplete_upgrade_weak": "虚弱（半成品）",
-    "item.shh.incomplete_upgrade_wither": "凋零（半成品）"
+    "item.shh.incomplete_upgrade_wither": "凋零（半成品）",
+
+    "text.shh.create_enchantment_industry.super_experience_block.tooltip_1": "经验块在避雷针下方遭受雷击后转化。",
+    "text.shh.create_enchantment_industry.super_experience_block.tooltip_2": "您可以对着【经验颗粒】(不是超越经验颗粒)思索查看详细信息",
+
+    "text.shh.l2archery.void_arrow.tooltip_ban": "已禁用",
+
+    "text.shh.l2hostility.bottle_of_curse.tooltip": "单次右键即饮用",
+    "text.shh.l2hostility.bottle_of_curse.tooltip_maid": "对女仆右键使用可以提升其恶意等级",
+    
+    "text.shh.l2hostility.bottle_of_sanity.tooltip": "单次右键即饮用",
+    "text.shh.l2hostility.bottle_of_sanity.tooltip_maid": "对女仆右键使用可以清空其恶意等级和词条",
+
+    "text.shh.l2hostility.miracle_block.tooltip_maid": "对女仆右键使用可以根据其当前等级刷新词条",
+
+    "text.shh.maid_tool.tooltip": "按住[Shift]显示详情",
+    "text.shh.maid_tool.tooltip_right_click": "·右键女仆移除/恢复女仆的AI",
+    "text.shh.maid_tool.tooltip_shift_right_click": "·Shift+右键女仆打开女仆的Curios饰品栏"
 }

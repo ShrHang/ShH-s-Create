@@ -1,7 +1,57 @@
 {
     "item.shh.etihw": "Etihw",
-    "item.shh.hulibugulv": "hulibugulv - Full Sugar",
-    "item.shh.maid_tool": "Maid Tool",
     "text.shh.etihw.tooltip": "§aThank you for playing ShH's Create!",
-    "text.shh.hulibugulv.tooltip": "§cEating it without insulin is a dead end!"
+
+    "item.shh.hulibugulv": "hulibugulv - Full Sugar",
+    "text.shh.hulibugulv.tooltip": "§cEating it without insulin is a dead end!",
+
+    "item.shh.maid_tool": "Maid Tool",
+
+    "item.shh.incomplete_upgrade_advanced_infinity": "Incomplete Advanced Infinity",
+    "item.shh.incomplete_upgrade_anti_gravity": "Incomplete Anti-Gravity",
+    "item.shh.incomplete_upgrade_blackstone": "Incomplete Blackstone",
+    "item.shh.incomplete_upgrade_cleanse": "Incomplete Cleanse",
+    "item.shh.incomplete_upgrade_corrosion": "Incomplete Corrosion",
+    "item.shh.incomplete_upgrade_curse": "Incomplete Curse",
+    "item.shh.incomplete_upgrade_damage": "Incomplete Damage ×2",
+    "item.shh.incomplete_upgrade_double_charge": "Incomplete Double Charge",
+    "item.shh.incomplete_upgrade_explosion": "Incomplete Explosion",
+    "item.shh.incomplete_upgrade_explosion_breaker": "Incomplete Explosion Breaker",
+    "item.shh.incomplete_upgrade_flux_up": "Incomplete Flux Up",
+    "item.shh.incomplete_upgrade_frozen": "Incomplete Frozen",
+    "item.shh.incomplete_upgrade_glow": "Incomplete Glow",
+    "item.shh.incomplete_upgrade_glowing": "Incomplete Glowing",
+    "item.shh.incomplete_upgrade_harm": "Incomplete Harm",
+    "item.shh.incomplete_upgrade_heal": "Incomplete Heal",
+    "item.shh.incomplete_upgrade_levitate": "Incomplete Levitate",
+    "item.shh.incomplete_upgrade_levitation": "Incomplete Levitation",
+    "item.shh.incomplete_upgrade_magnify_x2": "Incomplete Magnify ×2",
+    "item.shh.incomplete_upgrade_magnify_x4": "Incomplete Magnify ×4",
+    "item.shh.incomplete_upgrade_magnify_x8": "Incomplete Magnify ×8",
+    "item.shh.incomplete_upgrade_poison": "Incomplete Poison",
+    "item.shh.incomplete_upgrade_punch": "Incomplete Punch",
+    "item.shh.incomplete_upgrade_railgun": "Incomplete Railgun",
+    "item.shh.incomplete_upgrade_slowness": "Incomplete Slowness",
+    "item.shh.incomplete_upgrade_soul_fire": "Incomplete Soul Fire",
+    "item.shh.incomplete_upgrade_super_damage": "Incomplete Damage ×3",
+    "item.shh.incomplete_upgrade_void": "Incomplete Void",
+    "item.shh.incomplete_upgrade_weak": "Incomplete Weak",
+    "item.shh.incomplete_upgrade_wither": "Incomplete Wither",
+
+    "text.shh.create_enchantment_industry.super_experience_block.tooltip_1": "It is transformed from the experience block that is struck by lightning under the lightning rod.",
+    "text.shh.create_enchantment_industry.super_experience_block.tooltip_2": "You can ponder about the \"Experience Particles\" (not the Super Experience Particles) to view detailed information.",
+
+    "text.shh.l2archery.void_arrow.tooltip_ban": "Disabled",
+
+    "text.shh.l2hostility.bottle_of_curse.tooltip": "Single right-click to drink",
+    "text.shh.l2hostility.bottle_of_curse.tooltip_maid": "Right-clicking on the maid can increase her hostility level",
+
+    "text.shh.l2hostility.bottle_of_sanity.tooltip": "Single right-click to drink",
+    "text.shh.l2hostility.bottle_of_sanity.tooltip_maid": "Right-clicking on the maid can clear her hostility level and entries",
+
+    "text.shh.l2hostility.miracle_block.tooltip_maid": "Right-clicking on the maid can refresh her entries based on her current level.",
+
+    "text.shh.maid_tool.tooltip": "Hold [Shift] to view details",
+    "text.shh.maid_tool.tooltip_right_click": "- Right-clicking on the maid can remove/restore her AI",
+    "text.shh.maid_tool.tooltip_shift_right_click": "- Shift + Right-clicking on the maid can open her Curios slot"
 }

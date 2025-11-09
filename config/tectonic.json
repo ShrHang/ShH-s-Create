@@ -9,11 +9,11 @@
   },
   "caves": {
     "carvers_enabled": true,
-    "cheese_additive": 0.27,
+    "cheese_additive": 0.25,
     "cheese_enabled": true,
     "depth_cutoff_size": 0.1,
     "depth_cutoff_start": 0.1,
-    "noodle_additive": -0.075,
+    "noodle_additive": -0.05,
     "noodle_enabled": true,
     "spaghetti_enabled": true
   },
@@ -34,7 +34,7 @@
   },
   "global_terrain": {
     "lava_tunnels": true,
-    "max_y": 320,
+    "max_y": 256,
     "min_y": -64,
     "ultrasmooth": false,
     "vertical_scale": 1.125

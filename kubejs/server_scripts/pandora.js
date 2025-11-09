@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    if (!Platform.isLoaded('pandora')) { return; }
     event.remove({ id: 'pandora:pandora_bracelet' })
     event.shaped('pandora:pandora_bracelet', [
         'BAB',
@@ -34,102 +35,30 @@ ServerEvents.recipes(event => {
         result: {
             components: {
                 'pandora:backpack_content': [
-                { item: { count: 1, id: 'curseofpandora:curse_of_inertia' }, slot: 0 },
-                { item: { count: 1, id: 'curseofpandora:curse_of_proximity' }, slot: 1 },
-                { item: { count: 1, id: 'curseofpandora:curse_of_flesh' }, slot: 2 },
-                { item: { count: 1, id: 'curseofpandora:curse_of_metabolism' }, slot: 3 },
-                { item: { count: 1, id: 'curseofpandora:curse_of_tension' }, slot: 4 },
-                { item: { count: 1, id: 'curseofpandora:curse_of_prudence' }, slot: 5 },
-                { item: { count: 1, id: 'curseofpandora:curse_of_spell' }, slot: 6 }
+                    { item: { count: 1, id: 'curseofpandora:curse_of_inertia' }, slot: 0 },
+                    { item: { count: 1, id: 'curseofpandora:curse_of_proximity' }, slot: 1 },
+                    { item: { count: 1, id: 'curseofpandora:curse_of_flesh' }, slot: 2 },
+                    { item: { count: 1, id: 'curseofpandora:curse_of_metabolism' }, slot: 3 },
+                    { item: { count: 1, id: 'curseofpandora:curse_of_tension' }, slot: 4 },
+                    { item: { count: 1, id: 'curseofpandora:curse_of_prudence' }, slot: 5 },
+                    { item: { count: 1, id: 'curseofpandora:curse_of_spell' }, slot: 6 }
                 ]
             },
             count: 1,
             id: 'pandora:pandora_necklace'
         }
     })
-
+    // 微缩信标基座
     event.custom({
-        "type": "create:compacting",
-        "ingredients": [
-            {"item": "minecraft:iron_block"},
-            {"item": "minecraft:iron_block"},
-            {"item": "minecraft:iron_block"},
-            {"item": "minecraft:iron_block"}
+        type: "create:compacting",
+        ingredients: [
+            { tag: "c:beacon_base_blocks" },
+            { tag: "c:beacon_base_blocks" },
+            { tag: "c:beacon_base_blocks" },
+            { tag: "c:beacon_base_blocks" }
         ],
-        "results": [
-            { "chance": 0.0972, "id": "curseofpandora:mini_beacon_base" }
-        ]
-    })
-    event.custom({
-        "type": "create:compacting",
-        "ingredients": [
-            {"item": "minecraft:gold_block"},
-            {"item": "minecraft:gold_block"},
-            {"item": "minecraft:gold_block"},
-            {"item": "minecraft:gold_block"}
-        ],
-        "results": [
-            { "chance": 0.0972, "id": "curseofpandora:mini_beacon_base" }
-        ]
-    })
-    event.custom({
-        "type": "create:compacting",
-        "ingredients": [
-            {"item": "minecraft:diamond_block"},
-            {"item": "minecraft:diamond_block"},
-            {"item": "minecraft:diamond_block"},
-            {"item": "minecraft:diamond_block"}
-        ],
-        "results": [
-            { "chance": 0.0972, "id": "curseofpandora:mini_beacon_base" }
-        ]
-    })
-    event.custom({
-        "type": "create:compacting",
-        "ingredients": [
-            { "item": "minecraft:netherite_block" },
-            { "item": "minecraft:netherite_block" },
-            { "item": "minecraft:netherite_block" },
-            { "item": "minecraft:netherite_block" }
-        ],
-        "results": [
-            { "chance": 0.0972, "id": "curseofpandora:mini_beacon_base" }
-        ]
-    })
-    event.custom({
-        "type": "create:compacting",
-        "ingredients": [
-            { "item": "minecraft:emerald_block" },
-            { "item": "minecraft:emerald_block" },
-            { "item": "minecraft:emerald_block" },
-            { "item": "minecraft:emerald_block" }
-        ],
-        "results": [
-            { "chance": 0.0972, "id": "curseofpandora:mini_beacon_base" }
-        ]
-    })
-    event.custom({
-        "type": "create:compacting",
-        "ingredients": [
-            { "item": "create:brass_block" },
-            { "item": "create:brass_block" },
-            { "item": "create:brass_block" },
-            { "item": "create:brass_block" }
-        ],
-        "results": [
-            { "chance": 0.0972, "id": "curseofpandora:mini_beacon_base" }
-        ]
-    })
-    event.custom({
-        "type": "create:compacting",
-        "ingredients": [
-            { "item": "create:zinc_block" },
-            { "item": "create:zinc_block" },
-            { "item": "create:zinc_block" },
-            { "item": "create:zinc_block" }
-        ],
-        "results": [
-            { "chance": 0.0972, "id": "curseofpandora:mini_beacon_base" }
+        results: [
+            { chance: 0.0972, id: "curseofpandora:mini_beacon_base" }
         ]
     })
 })

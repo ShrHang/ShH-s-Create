@@ -11,9 +11,9 @@ attributeLinePerPage = 15
 #ALL: Show all attributes in attribute type, similar to Apothic Attributes
 #ALL_EXCEPT_UNCHANGED: Show all, but hide attributes that are unchanged
 #Allowed Values: COMMON, ALL, ALL_EXCEPT_UNCHANGED
-attributeSettings = "ALL"
+attributeSettings = "ALL_EXCEPT_UNCHANGED"
 #List of tabs to hide
 #Example: "attribute" for attribute tab
 #Example: "curios" for curios tab
 #Example: "pandora" for pandora tab
-hiddenTabs = []
+hiddenTabs = ["curios", "set_effects"]
