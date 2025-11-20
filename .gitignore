@@ -22,7 +22,7 @@ config/iris.properties
 config/xaerominimap_entities.json
 CustomSkinLoader/
 patchouli_books/
-schematics/uploaded/
+schematics/
 ShH's Create-natives/
 spark-modernfix/tmp/
 tlm_custom_pack/
