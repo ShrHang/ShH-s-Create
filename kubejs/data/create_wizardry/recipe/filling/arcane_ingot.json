@@ -5,7 +5,7 @@
       "tag": "irons_spellbooks:arcane_ingot_base"
     },
     {
-      "type": "fluid_stack",
+      "type": "neoforge:single",
       "amount": 1000,
       "fluid": "create_wizardry:mana"
     }

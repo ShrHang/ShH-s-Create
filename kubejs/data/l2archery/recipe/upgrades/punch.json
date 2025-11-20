@@ -54,7 +54,7 @@
         "item": "shh:incomplete_upgrade_punch"
       },
       {
-        "type": "fluid_stack",
+        "type": "neoforge:single",
         "amount": 250,
         "fluid": "create_enchantment_industry:experience"
       }

@@ -49,7 +49,7 @@
           "item": "shh:incomplete_upgrade_railgun"
         },
         {
-          "type": "fluid_stack",
+          "type": "neoforge:single",
           "amount": 1000,
           "fluid": "create_wizardry:lightning"
         }
@@ -67,7 +67,7 @@
           "item": "shh:incomplete_upgrade_railgun"
         },
         {
-          "type": "fluid_stack",
+          "type": "neoforge:single",
           "amount": 1000,
           "fluid": "create_enchantment_industry:experience"
         }

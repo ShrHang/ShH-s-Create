@@ -167,10 +167,3 @@ ServerEvents.recipes(event => {
         }
     }
 })
-
-ItemEvents.rightClicked('irons_spellbooks:chained_book', event => {
-    let randInt = Math.floor(Math.random() * 20) + 1
-    event.server.runCommandSilent(`execute as ${event.player.username} run createSpellBook ${randInt} randomize`) // 静默执行，不显示输出
-    event.item.count -= 1
-    event.cancel()
-})

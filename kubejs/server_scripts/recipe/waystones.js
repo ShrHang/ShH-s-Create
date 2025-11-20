@@ -1,6 +1,4 @@
 ServerEvents.recipes(event => {
-    if (Platform.isLoaded('waystones')) { return; }
-
     // Warp Stone
     event.remove({ output: 'waystones:warp_stone' })
     event.shaped('waystones:warp_stone', [
@@ -10,14 +8,6 @@ ServerEvents.recipes(event => {
     ], {
         A: 'waystones:warp_dust',
         B: 'minecraft:diamond'
-    })
-    event.shaped('waystones:warp_stone', [
-        ' A ',
-        'ABA',
-        ' A '
-    ], {
-        A: 'waystones:warp_dust',
-        B: 'waystones:warp_stone'
     })
     // Share Stone
     {

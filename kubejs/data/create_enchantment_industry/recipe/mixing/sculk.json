@@ -6,7 +6,7 @@
         "item": "minecraft:sculk_catalyst"
       },
       {
-        "type": "fluid_stack",
+        "type": "neoforge:single",
         "amount": 200,
         "fluid": "create_enchantment_industry:experience"
       }

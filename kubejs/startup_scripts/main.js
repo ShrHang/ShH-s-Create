@@ -17,3 +17,20 @@
 //         item.setAttributeModifiersWithTooltip(modifiers);
 //     });
 // })
+
+ItemEvents.modelProperties(event => {});
+
+// ItemEvents.modification(event => {
+//     event.modify('shh:etihw', item => {
+//         item.attachCuriosCapability(CuriosJSCapabilityBuilder.create().addAttribute(
+//             "minecraft:generic.attack_damage",
+//             "shh_attack_damage:curios_curio",
+//             12.0,
+//             "add_value"
+//         ))
+//     });
+// });
+
+ItemEvents.toolTierRegistry(event => {});
+
+// StartupEvents.registry('item', event => {});

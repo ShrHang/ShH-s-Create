@@ -15,12 +15,12 @@
       "item": "create:veridium"
     },
     {
-      "type": "fluid_stack",
+      "type": "neoforge:single",
       "amount": 250,
       "fluid": "create_wizardry:mana"
     },
     {
-      "type": "fluid_stack",
+      "type": "neoforge:single",
       "amount": 250,
       "fluid": "irons_spellbooks:timeless_slurry"
     }

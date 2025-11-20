@@ -813,3 +813,11 @@ ItemEvents.modification(event => {
         item.setAttributeModifiersWithTooltip(modifiers);
     })
 })
+
+// 其它
+ItemEvents.modification(event => {
+    // 结晶渗透法杖
+    event.modify('l2complements:diffusion_wand', item => {
+        item.setUnbreakable();
+    });
+});

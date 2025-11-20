@@ -111,6 +111,7 @@
 		"&a是一种&6共平面垂直传动&a，&6反转转向&a包含在其中。"
 	]
 	quest.04CD6CA61B04F007.quest_subtitle: "传动的好手，善于转向调整。"
+	quest.04D0B88B0A8505AA.title: "猩红教徒套装"
 	quest.058EE180EC5A2119.quest_desc: [
 		"&a使用&e诅咒&a状态效果对策。"
 		""
@@ -260,6 +261,7 @@
 		"&a想要使用它，您需要&6副手持有恶意探测器，并将侦测眼镜佩戴在饰品栏。"
 	]
 	quest.0FD80C44EB48FBDC.quest_subtitle: "恶意净空"
+	quest.104ECC8EAADA9624.title: "流浪法师套装"
 	quest.10FB99A4C7C763FF.quest_desc: ["&a提供&b大量法力上限&a，同时也提供更多利好法师的属性。"]
 	quest.10FB99A4C7C763FF.quest_subtitle: "法师的护甲"
 	quest.10FB99A4C7C763FF.title: "法师套装"
@@ -420,6 +422,7 @@
 		"&a奇异饰品的&6解毒容器&a也可降低影响。"
 	]
 	quest.1EE1243EB3F752C8.quest_subtitle: "让你飞起来！"
+	quest.1F9A69BE47FDAD18.title: "牧师套装"
 	quest.1FB411220A26B0E2.quest_desc: [
 		"&a将&e铁锭&a扔到&e动力冲压机&a下方的&e开放储存容器&a（如&e置物台&a)上方，将&e动力冲压机&a与&6动力源&a相连，即可将&e一块铁锭&a加工为&e一块铁板&a。"
 		""
@@ -429,6 +432,8 @@
 	]
 	quest.1FB411220A26B0E2.quest_subtitle: "合成新机器的常用原料"
 	quest.1FB411220A26B0E2.title: "制造铁板"
+	quest.1FC36BFC395EB7CC.title: "巫师套装"
+	quest.204195980B298254.title: "咒魂法师套装"
 	quest.212936F7AD6C9177.title: "诅咒之刃"
 	quest.21B1C3B5BA524287.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
@@ -623,6 +628,7 @@
 		""
 		"&6三级及以上&e恶意信标&a可对区域重复施加禁锢。"
 	]
+	quest.307B7138C0CB68B8.title: "炽焰术士套装"
 	quest.30E4C1086E25E9B8.quest_subtitle: "准备召唤女仆"
 	quest.30E4C1086E25E9B8.title: "合成御币"
 	quest.30FE98FEA6FF26F2.title: "弹射物免疫"
@@ -1096,7 +1102,9 @@
 	quest.496137EF1E7622DD.title: "锁链传动轮：传动用途"
 	quest.4A505BACE97F033A.quest_desc: [""]
 	quest.4A505BACE97F033A.title: "找到安山岩或闪长岩"
+	quest.4A8CE729D5FA55C6.title: "雷霆术士套装"
 	quest.4B81E7FEB1AD5A56.quest_subtitle: "随时随地进行传送"
+	quest.4BB4A6C619B5D72A.title: "冰霜术士套装"
 	quest.4BC2F7E20BF9F6EE.quest_subtitle: "多在野外逛逛吧"
 	quest.4BC2F7E20BF9F6EE.title: "传送石碑"
 	quest.4CCD86ADF1674738.quest_desc: ["&6抗火&a效果就能抵抗。"]
@@ -1114,6 +1122,7 @@
 		"&c注意：已放有物品的置物台不接收右键点击和加工产出以外的物品输入，即使这些物品可以堆叠。"
 	]
 	quest.4F04D8CCD3277063.quest_subtitle: "暂存物品的小容量开放容器"
+	quest.4F1F84486959237F.title: "惊悚南瓜套装"
 	quest.4FCCF74457D8144F.quest_desc: [
 		"&a利用&e潘多拉之咒&a的&e七个诅咒&a来叠加&6现实指数&a。将诅咒放入&e潘多拉项链&a或&e潘多拉手环&a后装备即可。"
 		"{@pagebreak}"
@@ -1370,6 +1379,7 @@
 	quest.5CB83B207F4279BA.title: "让我们开导！"
 	quest.5D98E3A860ED7735.quest_subtitle: "满级大佬总是打扮得千奇百怪"
 	quest.5DF518B27AF3EEFB.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c吸引&a词条怪物获取。"]
+	quest.5E14A5BED2F9E415.title: "深渊术士套装"
 	quest.5E2D39EB6D39D681.quest_desc: ["&c并不能叠加。"]
 	quest.5E2D39EB6D39D681.quest_subtitle: "增加背饰栏位"
 	quest.5E2D39EB6D39D681.title: "三&4色&8披&6风"
@@ -1426,8 +1436,10 @@
 		"&a传动形式相当于&e(小)齿轮箱&a，可以接受&e大齿轮&a的传动。"
 	]
 	quest.5F6A3C29FC3450BC.quest_subtitle: "加工无序配方，酿造，以及制造黄铜"
+	quest.6053138824349122.title: "瘟疫术士套装"
 	quest.605777A4931AD9B8.quest_desc: ["前往下界，找到烈焰人。"]
 	quest.605777A4931AD9B8.title: "找到烈焰人"
+	quest.608753B0F57435E7.title: "暗影行者套装"
 	quest.62DEE95CA9F0DA9F.title: "紫水晶产线"
 	quest.631969B2A8E1153D.quest_subtitle: "开启弓艺之旅"
 	quest.631969B2A8E1153D.title: "找到竹子"
@@ -1655,6 +1667,7 @@
 	]
 	quest.6F98338D5F83FA2C.quest_subtitle: "魔免+封禁附魔"
 	quest.7048A4F8D9CF70D4.title: "召唤者保护"
+	quest.70783589C92F34BF.title: "下界合金战法套装"
 	quest.70D385E9FD29CDD5.quest_desc: [
 		"&2目录："
 		""
@@ -1753,6 +1766,7 @@
 		"它也是本包加工类机器的最后一块拼图，以后的重心便是物流与自动化。"
 	]
 	quest.7271539A5864C6EA.quest_subtitle: "回收多余的卷轴，合成墨水和更高级的药剂。"
+	quest.73583AAF84BCB791.title: "高位唤魔者套装"
 	quest.73A8056B636335D0.quest_desc: [
 		"&a后期唯一可威胁到玩家的词条。若怪物复制了&6虚空之触&a附魔，则可以击穿伤害免疫附魔。"
 		""
@@ -1855,6 +1869,7 @@
 		"&c奇异饰品的&6解毒容器&c无效。"
 	]
 	quest.7941AF87A3F0FCAD.quest_subtitle: "灼烧灵魂"
+	quest.799FA72F896F3F45.title: "腾炎法师套装"
 	quest.7A6856E70C510D74.quest_desc: ["&a佩戴&3魔能抢夺宝珠&a击杀&c分裂&a词条怪物获取。"]
 	quest.7A8DD18DE6BA3B81.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c再生III&a词条怪物获取。"]
 	quest.7ABE7350204D1673.quest_subtitle: "操作列车的仪器"
@@ -1942,6 +1957,7 @@
 	task.13AA535FC2321FBA.title: "快捷指令"
 	task.19845004BBBFFFD4.title: "获得一把法杖"
 	task.1C4F6EF0DF4D5A18.title: "获得任意御币"
+	task.1DCB9A53EA8E34C5.title: "药剂"
 	task.20AC3D2430FF9866.title: "被动状态"
 	task.2474A62D92FAA7B0.title: "获得任意一件法师装备"
 	task.25B5B30BCC398C28.title: "观察：烈焰人"

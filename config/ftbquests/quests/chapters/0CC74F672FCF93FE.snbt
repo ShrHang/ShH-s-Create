@@ -1585,5 +1585,17 @@
 			x: -3.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["7271539A5864C6EA"]
+			id: "35A25C8FC2284AC1"
+			shape: "diamond"
+			tasks: [{
+				id: "1DCB9A53EA8E34C5"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:oakskin_elixir)item(irons_spellbooks:greater_oakskin_elixir)item(irons_spellbooks:invisibility_elixir)item(irons_spellbooks:greater_invisibility_elixir)item(irons_spellbooks:evasion_elixir)item(irons_spellbooks:greater_evasion_elixir))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.5d
+		}
 	]
 }

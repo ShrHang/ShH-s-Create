@@ -65,7 +65,7 @@
           "item": "irons_spellbooks:tarnished_helmet"
         },
         {
-          "type": "fluid_stack",
+          "type": "neoforge:single",
           "amount": 250,
           "fluid": "irons_spellbooks:timeless_slurry"
         }

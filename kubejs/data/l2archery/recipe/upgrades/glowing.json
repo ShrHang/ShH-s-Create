@@ -36,7 +36,7 @@
         "item": "shh:incomplete_upgrade_glowing"
       },
       {
-        "type": "fluid_stack",
+        "type": "neoforge:single",
         "amount": 500,
         "fluid": "create_dragons_plus:dragon_breath"
       }
@@ -54,7 +54,7 @@
         "item": "shh:incomplete_upgrade_glowing"
       },
       {
-        "type": "fluid_stack",
+        "type": "neoforge:single",
         "amount": 250,
         "fluid": "create_enchantment_industry:experience"
       }

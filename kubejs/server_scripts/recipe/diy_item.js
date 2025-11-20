@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
                 { item: "create:wheat_flour" },
                 { item: "create:cinder_flour" },
                 {
-                    type: "fluid_stack",
+                    type: "neoforge:single",
                     amount: 1000,
                     fluid: "minecraft:milk"
                 },

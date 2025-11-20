@@ -52,7 +52,7 @@
         "item": "shh:incomplete_upgrade_magnify_x2"
       },
       {
-        "type": "fluid_stack",
+        "type": "neoforge:single",
         "amount": 1000,
         "fluid": "create_enchantment_industry:experience"
       }

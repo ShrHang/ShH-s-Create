@@ -8,6 +8,7 @@
         ],
         "rootDir": ".",
         "typeRoots": [
+            "./.probe/server/probe-types",
             "../../.probe/server/probe-types"
         ],
         "baseUrl": "../../.probe/server/probe-types",

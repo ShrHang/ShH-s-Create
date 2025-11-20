@@ -86,7 +86,7 @@
         "item": "shh:incomplete_upgrade_explosion"
       },
       {
-        "type": "fluid_stack",
+        "type": "neoforge:single",
         "amount": 1000,
         "fluid": "create_enchantment_industry:experience"
       }

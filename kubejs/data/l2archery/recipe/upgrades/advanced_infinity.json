@@ -38,7 +38,7 @@
         "tag": "shh:incomplete_upgrade_advanced_infinity"
       },
       {
-        "type": "fluid_stack",
+        "type": "neoforge:single",
         "amount": 20,
         "fluid": "create_dragons_plus:dragon_breath"
       }
@@ -56,7 +56,7 @@
         "tag": "shh:incomplete_upgrade_advanced_infinity"
       },
       {
-        "type": "fluid_stack",
+        "type": "neoforge:single",
         "amount": 10,
         "fluid": "create_enchantment_industry:experience"
       }

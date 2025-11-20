@@ -1,8 +1,13 @@
 StartupEvents.registry('item', event => {
-    // 注册一个基础物品
     event.create('shh:etihw')
         .tooltip(Text.translate('text.shh.etihw.tooltip'))
-        .texture('shh:item/etihw') // 确保纹理路径正确
+        .texture('shh:item/etihw')
+        .attachCuriosCapability(CuriosJSCapabilityBuilder.create().addAttribute(
+            "minecraft:generic.attack_damage",
+            "shh_attack_damage:curios_curio",
+            8.23,
+            "add_value"
+        ))
         .rarity('epic')
 
     event.create('shh:hulibugulv')
@@ -12,7 +17,6 @@ StartupEvents.registry('item', event => {
             food.nutrition(1)           // ✅ 设置营养值（饥饿值）
             food.saturation(15)        // ✅ 设置饱食度
             food.alwaysEdible()         // ✅ 总是可食用
-            food.alwaysEdible(true)     // ✅ 或者明确设置为true/false
             food.fastToEat()
             food.effect('minecraft:health_boost', 3600, 4, 1.0)
             food.effect('minecraft:absorption', 3600, 3, 1.0)
@@ -21,7 +25,9 @@ StartupEvents.registry('item', event => {
             food.removeEffect('minecraft:hunger')
             food.usingConvertsTo('minecraft:paper')
         })
+        .maxStackSize(16)
         .rarity('epic')
+
 
     event.create('shh:chimings_sword', "sword")
         .maxStackSize(1)
@@ -99,38 +105,26 @@ StartupEvents.registry('item', event => {
 
 ItemEvents.modification(event => {
     event.modify('shh:hulibugulv', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.attack_damage",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "minecraft:base_attack_damage"
-            },
-            "mainhand"
-        )
-        .withModifierAdded(
-            "minecraft:generic.attack_speed",
-            {
-                "operation": 0,
-                "amount": 0,
-                "id": "minecraft:base_attack_speed"
-            },
-            "mainhand"
-        )
-        .withModifierAdded(
-            "minecraft:player.entity_interaction_range",
-            {
-                "operation": 0,
-                "amount": 3,
-                "id": "shh_entity_interaction:mainhand"
-            },
-            "mainhand"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
+        item.setAttributeModifiersWithTooltip(
+            item
+                .item()
+                .defaultAttributeModifiers
+                .withModifierAdded(
+                    "minecraft:generic.attack_damage",
+                    {
+                        "operation": 0,
+                        "amount": 5,
+                        "id": "minecraft:base_attack_damage"
+                    },
+                    "mainhand"
+                ).modifiers()
+        );
     })
+})
+
+StartupEvents.registry('creative_mode_tab', event => {
+    event.create('shh:shh_stuffs')
+        .content(() => ['shh:etihw', 'shh:hulibugulv', 'shh:chimings_sword', 'shh:maid_tool'])
+        .translationKey('itemGroup.shh.shh_stuffs')
+        .icon(() => 'shh:etihw')
 })
