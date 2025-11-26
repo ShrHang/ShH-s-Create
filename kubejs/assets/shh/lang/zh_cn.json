@@ -43,7 +43,7 @@
     "text.shh.create_enchantment_industry.super_experience_block.tooltip_1": "§b经验块在避雷针下方遭受雷击后转化。",
     "text.shh.create_enchantment_industry.super_experience_block.tooltip_2": "§3您可以对着§e经验颗粒§3思索查看详细信息",
 
-    "text.shh.l2archery.void_arrow.tooltip_ban": "§4已禁用",
+    "text.shh.common.tooltip.ban": "§4已禁用",
 
     "text.shh.l2hostility.bottle_of_curse.tooltip": "§5单次右键即饮用",
     "text.shh.l2hostility.bottle_of_curse.tooltip_maid": "§5对女仆右键使用可以提升其恶意等级",

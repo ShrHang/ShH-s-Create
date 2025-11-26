@@ -6,30 +6,30 @@
   "loops": 4,
   "results": [
     {
-    "components": {
-      "l2archery:item_upgrade": "l2archery:weak"
-    },
-    "id": "l2archery:upgrade"
-  }
+      "components": {
+        "l2archery:item_upgrade": "l2archery:weak"
+      },
+      "id": "l2archery:upgrade"
+    }
   ],
   "sequence": [
     {
       "type": "create:filling",
       "ingredients": [
-      {
-        "tag": "shh:incomplete_upgrade_weak"
-      },
-      {
-        "type": "neoforge:single",
-        "amount": 500,
-        "components": {
-        "create:potion_fluid_bottle_type": "regular",
-        "minecraft:potion_contents": {
-          "potion": "minecraft:weakness"
-          }
+        {
+          "item": "shh:incomplete_upgrade_weak"
         },
-        "fluid": "create:potion"
-      }
+        {
+          "type": "neoforge:single",
+          "amount": 500,
+          "components": {
+            "create:potion_fluid_bottle_type": "regular",
+            "minecraft:potion_contents": {
+              "potion": "minecraft:weakness"
+            }
+          },
+          "fluid": "create:potion"
+        }
       ],
       "results": [
         {
@@ -40,14 +40,14 @@
     {
       "type": "create:filling",
       "ingredients": [
-      {
-        "tag": "shh:incomplete_upgrade_weak"
-      },
-      {
-        "type": "neoforge:single",
-        "amount": 500,
-        "fluid": "create_dragons_plus:dragon_breath"
-      }
+        {
+          "item": "shh:incomplete_upgrade_weak"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 500,
+          "fluid": "create_dragons_plus:dragon_breath"
+        }
       ],
       "results": [
         {
@@ -58,21 +58,21 @@
     {
       "type": "create:filling",
       "ingredients": [
-      {
-        "tag": "shh:incomplete_upgrade_weak"
-      },
-      {
-        "type": "neoforge:single",
-        "amount": 250,
-        "fluid": "create_enchantment_industry:experience"
-      }
-  ],
-  "results": [
-    {
-      "id": "shh:incomplete_upgrade_weak"
+        {
+          "item": "shh:incomplete_upgrade_weak"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "create_enchantment_industry:experience"
+        }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_weak"
+        }
+      ]
     }
-  ]
-}
   ],
   "transitional_item": {
     "id": "shh:incomplete_upgrade_weak"

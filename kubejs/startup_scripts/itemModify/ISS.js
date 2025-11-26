@@ -1,5 +1,5 @@
-if (Platform.isLoaded('irons_spellbooks')) {
-    ItemEvents.modification(event => {
+ItemEvents.modification(event => {
+    if (Platform.isLoaded('irons_spellbooks')) {
         // 法杖
         {
             // 猩红神杖
@@ -111,7 +111,6 @@ if (Platform.isLoaded('irons_spellbooks')) {
                 item.setAttributeModifiersWithTooltip(modifiers);
             });
         }
-
         // 近战武器
         {
             // 狩魔人之剑
@@ -295,7 +294,6 @@ if (Platform.isLoaded('irons_spellbooks')) {
                 item.setAttributeModifiersWithTooltip(modifiers);
             });
         }
-
         // 流浪法师套装
         {
             // 流浪法师兜帽
@@ -519,114 +517,116 @@ if (Platform.isLoaded('irons_spellbooks')) {
             })
         }
         // 术士套装
-        // 术士兜帽
-        event.modify('irons_spellbooks:wizard_helmet', item => {
-            var modifiers = item
-                .item()
-                .getDefaultInstance()
-                .getAttributeModifiers()
-                .withModifierAdded(
-                    "minecraft:generic.armor",
-                    {
-                        "operation": 0,
-                        "amount": 3,
-                        "id": "shh_armor:head"
-                    },
-                    "head"
-                )
-                .withModifierAdded(
-                    "irons_spellbooks:max_mana",
-                    {
-                        "operation": 0,
-                        "amount": 75,
-                        "id": "shh_max_mana:head"
-                    },
-                    "head"
-                )
-                .modifiers();
-            item.setAttributeModifiersWithTooltip(modifiers);
-        })
-        // 术士法袍
-        event.modify('irons_spellbooks:wizard_chestplate', item => {
-            var modifiers = item
-                .item()
-                .getDefaultInstance()
-                .getAttributeModifiers()
-                .withModifierAdded(
-                    "minecraft:generic.armor",
-                    {
-                        "operation": 0,
-                        "amount": 3,
-                        "id": "shh_armor:chest"
-                    },
-                    "chest"
-                )
-                .withModifierAdded(
-                    "irons_spellbooks:max_mana",
-                    {
-                        "operation": 0,
-                        "amount": 75,
-                        "id": "shh_max_mana:chest"
-                    },
-                    "chest"
-                )
-                .modifiers();
-            item.setAttributeModifiersWithTooltip(modifiers);
-        })
-        // 术士裤子
-        event.modify('irons_spellbooks:wizard_leggings', item => {
-            var modifiers = item
-                .item()
-                .getDefaultInstance()
-                .getAttributeModifiers()
-                .withModifierAdded(
-                    "minecraft:generic.armor",
-                    {
-                        "operation": 0,
-                        "amount": 3,
-                        "id": "shh_armor:legs"
-                    },
-                    "legs"
-                )
-                .withModifierAdded(
-                    "irons_spellbooks:max_mana",
-                    {
-                        "operation": 0,
-                        "amount": 75,
-                        "id": "shh_max_mana:legs"
-                    },
-                    "legs"
-                )
-                .modifiers();
-            item.setAttributeModifiersWithTooltip(modifiers);
-        })
-        // 术士靴子
-        event.modify('irons_spellbooks:wizard_boots', item => {
-            var modifiers = item
-                .item()
-                .getDefaultInstance()
-                .getAttributeModifiers()
-                .withModifierAdded(
-                    "minecraft:generic.armor",
-                    {
-                        "operation": 0,
-                        "amount": 3,
-                        "id": "shh_armor:feet"
-                    },
-                    "feet"
-                )
-                .withModifierAdded(
-                    "irons_spellbooks:max_mana",
-                    {
-                        "operation": 0,
-                        "amount": 75,
-                        "id": "shh_max_mana:feet"
-                    },
-                    "feet"
-                )
-                .modifiers();
-            item.setAttributeModifiersWithTooltip(modifiers);
-        })
+        {
+            // 术士兜帽
+            event.modify('irons_spellbooks:wizard_helmet', item => {
+                var modifiers = item
+                    .item()
+                    .getDefaultInstance()
+                    .getAttributeModifiers()
+                    .withModifierAdded(
+                        "minecraft:generic.armor",
+                        {
+                            "operation": 0,
+                            "amount": 3,
+                            "id": "shh_armor:head"
+                        },
+                        "head"
+                    )
+                    .withModifierAdded(
+                        "irons_spellbooks:max_mana",
+                        {
+                            "operation": 0,
+                            "amount": 75,
+                            "id": "shh_max_mana:head"
+                        },
+                        "head"
+                    )
+                    .modifiers();
+                item.setAttributeModifiersWithTooltip(modifiers);
+            })
+            // 术士法袍
+            event.modify('irons_spellbooks:wizard_chestplate', item => {
+                var modifiers = item
+                    .item()
+                    .getDefaultInstance()
+                    .getAttributeModifiers()
+                    .withModifierAdded(
+                        "minecraft:generic.armor",
+                        {
+                            "operation": 0,
+                            "amount": 3,
+                            "id": "shh_armor:chest"
+                        },
+                        "chest"
+                    )
+                    .withModifierAdded(
+                        "irons_spellbooks:max_mana",
+                        {
+                            "operation": 0,
+                            "amount": 75,
+                            "id": "shh_max_mana:chest"
+                        },
+                        "chest"
+                    )
+                    .modifiers();
+                item.setAttributeModifiersWithTooltip(modifiers);
+            })
+            // 术士裤子
+            event.modify('irons_spellbooks:wizard_leggings', item => {
+                var modifiers = item
+                    .item()
+                    .getDefaultInstance()
+                    .getAttributeModifiers()
+                    .withModifierAdded(
+                        "minecraft:generic.armor",
+                        {
+                            "operation": 0,
+                            "amount": 3,
+                            "id": "shh_armor:legs"
+                        },
+                        "legs"
+                    )
+                    .withModifierAdded(
+                        "irons_spellbooks:max_mana",
+                        {
+                            "operation": 0,
+                            "amount": 75,
+                            "id": "shh_max_mana:legs"
+                        },
+                        "legs"
+                    )
+                    .modifiers();
+                item.setAttributeModifiersWithTooltip(modifiers);
+            })
+            // 术士靴子
+            event.modify('irons_spellbooks:wizard_boots', item => {
+                var modifiers = item
+                    .item()
+                    .getDefaultInstance()
+                    .getAttributeModifiers()
+                    .withModifierAdded(
+                        "minecraft:generic.armor",
+                        {
+                            "operation": 0,
+                            "amount": 3,
+                            "id": "shh_armor:feet"
+                        },
+                        "feet"
+                    )
+                    .withModifierAdded(
+                        "irons_spellbooks:max_mana",
+                        {
+                            "operation": 0,
+                            "amount": 75,
+                            "id": "shh_max_mana:feet"
+                        },
+                        "feet"
+                    )
+                    .modifiers();
+                item.setAttributeModifiersWithTooltip(modifiers);
+            })
+        }
         // 高位唤魔者套装
         // 高位唤魔者法帽
         event.modify('irons_spellbooks:archevoker_helmet', item => {
@@ -1744,5 +1744,5 @@ if (Platform.isLoaded('irons_spellbooks')) {
                 item.setAttributeModifiersWithTooltip(modifiers);
             })
         }
-    })
-}
+    }
+})

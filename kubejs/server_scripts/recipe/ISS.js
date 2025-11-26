@@ -14,8 +14,10 @@ ServerEvents.recipes(event => {
         event.remove({ output: "irons_spellbooks:druidic_spell_book" })
         event.remove({ output: "irons_spellbooks:netherite_spell_book" })
         event.remove({ output: "irons_spellbooks:ice_spell_book" })
-        event.remove({ output: "cataclysm_spellbooks:codex_of_malice_spell_book" })
-        event.remove({ output: "cataclysm_spellbooks:abyss_spell_book" })
+        if (Platform.isLoaded('cataclysm_spellbooks')) {
+            event.remove({ output: "cataclysm_spellbooks:codex_of_malice_spell_book" })
+            event.remove({ output: "cataclysm_spellbooks:abyss_spell_book" })
+        }
     }
     // Spellbook Upgrading Recipes
     {
@@ -100,20 +102,23 @@ ServerEvents.recipes(event => {
         )
 
         // 破败->远古
-        event.smithing(
-            "irons_spellbooks:netherite_spell_book",
-            "l2complements:warden_bone_shard",
-            "irons_spellbooks:rotten_spell_book",
-            "irons_spellbooks:eldritch_manuscript"
-        )
-
+        if (Platform.isLoaded('cataclysm_spellbooks')) {
+            event.smithing(
+                "irons_spellbooks:netherite_spell_book",
+                "l2complements:warden_bone_shard",
+                "irons_spellbooks:rotten_spell_book",
+                "irons_spellbooks:eldritch_manuscript"
+            )
+        }
         // 破败->拉莱耶
-        event.smithing(
-            "cataclysm_spellbooks:abyss_spell_book",
-            'cataclysm:blessed_amethyst_crab_meat',
-            "irons_spellbooks:rotten_spell_book",
-            'cataclysm:abyss_eye'
-        )
+        if (Platform.isLoaded('cataclysm_spellbooks')) {
+            event.smithing(
+                "cataclysm_spellbooks:abyss_spell_book",
+                'cataclysm:blessed_amethyst_crab_meat',
+                "irons_spellbooks:rotten_spell_book",
+                'cataclysm:abyss_eye'
+            )
+        }
 
         // 破败->寒冰
         event.smithing(
@@ -124,12 +129,14 @@ ServerEvents.recipes(event => {
         )
 
         // 寒冰->咒魂
-        event.smithing(
-            "cataclysm_spellbooks:codex_of_malice_spell_book",
-            "cataclysm:cursium_upgrade_smithing_template",
-            "irons_spellbooks:ice_spell_book",
-            "cataclysm:cursium_ingot"
-        )
+        if (Platform.isLoaded('cataclysm_spellbooks')) {
+            event.smithing(
+                "cataclysm_spellbooks:codex_of_malice_spell_book",
+                "cataclysm:cursium_upgrade_smithing_template",
+                "irons_spellbooks:ice_spell_book",
+                "cataclysm:cursium_ingot"
+            )
+        }
     }
     // Items Recipe
     {

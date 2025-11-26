@@ -17,7 +17,7 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "shh:incomplete_upgrade_cleanse"
+        "item": "shh:incomplete_upgrade_cleanse"
       },
       {
         "type": "neoforge:single",
@@ -41,7 +41,7 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "shh:incomplete_upgrade_cleanse"
+        "item": "shh:incomplete_upgrade_cleanse"
       },
       {
         "type": "neoforge:single",
@@ -59,7 +59,7 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "shh:incomplete_upgrade_cleanse"
+        "item": "shh:incomplete_upgrade_cleanse"
       },
       {
         "type": "neoforge:single",

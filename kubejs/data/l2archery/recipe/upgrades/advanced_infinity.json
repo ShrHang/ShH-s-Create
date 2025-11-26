@@ -35,7 +35,7 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "shh:incomplete_upgrade_advanced_infinity"
+        "item": "shh:incomplete_upgrade_advanced_infinity"
       },
       {
         "type": "neoforge:single",
@@ -53,7 +53,7 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "shh:incomplete_upgrade_advanced_infinity"
+        "item": "shh:incomplete_upgrade_advanced_infinity"
       },
       {
         "type": "neoforge:single",

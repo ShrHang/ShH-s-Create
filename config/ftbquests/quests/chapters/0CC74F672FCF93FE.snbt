@@ -203,9 +203,11 @@
 		{
 			dependencies: ["20EB4B57A96FA78D"]
 			id: "374AA1608EFA98C6"
+			invisible: true
+			optional: true
 			tasks: [{
 				id: "58301E796A1E0C05"
-				item: { components: { "azurelib:az_id": [I; 1518220630, 683821936, -2119155173, -1637573577 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:codex_of_malice_spell_book" }
+				item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:codex_of_malice_spell_book" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -258,9 +260,11 @@
 		{
 			dependencies: ["45BE65C81659CADD"]
 			id: "36E85F3F4C5507B0"
+			invisible: true
+			optional: true
 			tasks: [{
 				id: "5371540CBDE55AC4"
-				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_spell_book" }
+				item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:ignis_spell_book" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -292,13 +296,15 @@
 		{
 			dependencies: ["56B2AB818F0E08EF"]
 			id: "52950114BB2BDFFA"
+			invisible: true
+			optional: true
 			tasks: [{
 				id: "342A74D702F201D8"
-				item: { components: { "irons_spellbooks:spell_container": { data: [ { id: "cataclysm_spellbooks:monolith_crash", index: 0, level: 5, locked: 1b }, { id: "cataclysm_spellbooks:desert_winds", index: 1, level: 3, locked: 1b }, { id: "cataclysm_spellbooks:sandstorm", index: 2, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:desert_spell_book" }
+				item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:desert_spell_book" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.0d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["56B2AB818F0E08EF"]
@@ -308,15 +314,17 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ { id: "gametechbcs_spellbooks:nullflare", index: 0, level: 5, locked: 1b }, { id: "gametechbcs_spellbooks:aerial_collapse", index: 1, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "gametechbcs_spellbooks:gtbcs_magical_repository" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["160C276B98F7C6C6"]
 			id: "0434451DD3692DBE"
+			invisible: true
+			optional: true
 			tasks: [{
 				id: "787E94A236FE9D97"
-				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyss_spell_book" }
+				item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:abyss_spell_book" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -333,12 +341,11 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5EFB23B25B3E806C"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			hide_dependency_lines: false
 			id: "3582FFA1F1C556F2"
 			shape: "diamond"
 			size: 1.0d
@@ -473,15 +480,27 @@
 		}
 		{
 			dependencies: ["23A61A6633210D69"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			hide_lock_icon: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "7BFB5FC9098750F8"
+			invisible: true
+			optional: true
 			shape: "diamond"
 			tasks: [{
+				consume_items: true
+				disable_toast: true
 				id: "2B1E5ADF83BDA81D"
 				item: { count: 1, id: "cataclysm:crystallized_coral_fragments" }
+				optional_task: true
 				type: "item"
 			}]
-			x: -10.5d
-			y: -6.0d
+			x: -9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6AC18F92931A467E"]
@@ -492,20 +511,21 @@
 				item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: -4.5d
+			x: -10.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6F25DC0C2AF8DEC2"]
 			id: "772768502028F1C1"
 			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "2AF26F7F7CD43F1C"
 				item: { count: 1, id: "irons_spellbooks:blank_rune" }
 				type: "item"
 			}]
 			x: -7.5d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6F25DC0C2AF8DEC2"]
@@ -931,26 +951,28 @@
 		{
 			dependencies: ["70783589C92F34BF"]
 			id: "799FA72F896F3F45"
+			invisible: true
+			optional: true
 			shape: "hexagon"
 			tasks: [
 				{
 					id: "586C46A3B435FCF3"
-					item: { components: { "azurelib:az_id": [I; 428213124, -1716566841, -1105864416, -967956861 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_helmet" }
+					item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:ignis_helmet" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "37186C9079917CF6"
-					item: { components: { "azurelib:az_id": [I; -1276625780, -1462155259, -1473858455, -584937452 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_chestplate" }
+					item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:ignis_chestplate" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "2B5E4FD1DF899AC2"
-					item: { components: { "azurelib:az_id": [I; -699044026, 407913017, -1384806656, -542727279 ] }, count: 1, id: "cataclysm_spellbooks:ignis_leggings" }
+					item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:ignis_leggings" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "10A9D732711837AD"
-					item: { components: { "azurelib:az_id": [I; -1599595795, 1682589111, -1486205566, -1514477586 ] }, count: 1, id: "cataclysm_spellbooks:ignis_boots" }
+					item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:ignis_boots" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -960,26 +982,28 @@
 		{
 			dependencies: ["70783589C92F34BF"]
 			id: "5E14A5BED2F9E415"
+			invisible: true
+			optional: true
 			shape: "hexagon"
 			tasks: [
 				{
 					id: "57687B0E8594DD09"
-					item: { components: { "azurelib:az_id": [I; 1173144337, 59459907, -1141923758, -1650854524 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_helmet" }
+					item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:abyssal_warlock_helmet" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "18DB6755B314EE27"
-					item: { components: { "azurelib:az_id": [I; 1205903888, 219499633, -1182418612, -1717028186 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_chestplate" }
+					item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:abyssal_warlock_chestplate" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "69ACD17B7E270CA8"
-					item: { components: { "azurelib:az_id": [I; 1555524055, -1696247968, -1836157687, -1799589409 ] }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_leggings" }
+					item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:abyssal_warlock_leggings" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "41AF3AC1773477B2"
-					item: { components: { "azurelib:az_id": [I; 1621973329, -1508425283, -1139953587, -874657875 ] }, count: 1, id: "cataclysm_spellbooks:abyssal_warlock_boots" }
+					item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:abyssal_warlock_boots" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -989,26 +1013,28 @@
 		{
 			dependencies: ["70783589C92F34BF"]
 			id: "204195980B298254"
+			invisible: true
+			optional: true
 			shape: "hexagon"
 			tasks: [
 				{
 					id: "16FBD83408D875E6"
-					item: { components: { "azurelib:az_id": [I; 1874287255, -242728727, -1428890610, -1996152682 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:cursium_mage_circlet" }
+					item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:cursium_mage_circlet" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "52E3DEE6ED42B9D2"
-					item: { components: { "azurelib:az_id": [I; 382723713, 307971343, -2111020753, -2000630073 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:cursium_mage_chestplate" }
+					item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:cursium_mage_chestplate" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "662DC408122A7EA6"
-					item: { components: { "azurelib:az_id": [I; -1898137197, 997411122, -1320721052, 192562530 ] }, count: 1, id: "cataclysm_spellbooks:cursium_mage_skirt" }
+					item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:cursium_mage_skirt" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "343C58D585F0C83B"
-					item: { components: { "azurelib:az_id": [I; 960881928, 811290185, -1308099520, -1577494120 ] }, count: 1, id: "cataclysm_spellbooks:cursium_mage_boots" }
+					item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:cursium_mage_boots" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -1092,10 +1118,12 @@
 		{
 			dependencies: ["0751DE5C8FC925B8"]
 			id: "1E67F46EFCECDCFE"
+			invisible: true
+			optional: true
 			shape: "square"
 			tasks: [{
 				id: "46EF702F17FFC24F"
-				item: { count: 1, id: "cataclysm_spellbooks:bloom_stone_staff" }
+				item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:bloom_stone_staff" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -10.0d
@@ -1104,10 +1132,12 @@
 		{
 			dependencies: ["0751DE5C8FC925B8"]
 			id: "27F9D92AD8A1A115"
+			invisible: true
+			optional: true
 			shape: "square"
 			tasks: [{
 				id: "1F39B022F7DEC84A"
-				item: { count: 1, id: "cataclysm_spellbooks:coral_staff" }
+				item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:coral_staff" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -9.0d
@@ -1131,10 +1161,12 @@
 				"0751DE5C8FC925B8"
 			]
 			id: "224CFBAAB1E14923"
+			invisible: true
+			optional: true
 			shape: "square"
 			tasks: [{
 				id: "5CD8AABA25D56D4A"
-				item: { count: 1, id: "cataclysm_spellbooks:void_staff" }
+				item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:void_staff" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -12.0d
@@ -1146,10 +1178,12 @@
 				"0751DE5C8FC925B8"
 			]
 			id: "06E83E4F5118E7AE"
+			invisible: true
+			optional: true
 			shape: "square"
 			tasks: [{
 				id: "6C8AFA42310E0EA2"
-				item: { components: { "azurelib:az_id": [I; 1383359394, -1262531864, -1598492213, 1218822551 ] }, count: 1, id: "cataclysm_spellbooks:spirit_sunderer" }
+				item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:spirit_sunderer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -12.0d
@@ -1161,10 +1195,12 @@
 				"0751DE5C8FC925B8"
 			]
 			id: "310A53AAFBA83663"
+			invisible: true
+			optional: true
 			shape: "square"
 			tasks: [{
 				id: "5145538DB258CD85"
-				item: { count: 1, id: "cataclysm_spellbooks:soul_brazier" }
+				item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:soul_brazier" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -11.0d
@@ -1185,10 +1221,12 @@
 		{
 			dependencies: ["0751DE5C8FC925B8"]
 			id: "661D48161B16E01D"
+			invisible: true
+			optional: true
 			shape: "square"
 			tasks: [{
 				id: "1755458F133EDA28"
-				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:raise_hell", index: 0, level: 4, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:hellfire_forge" }
+				item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:hellfire_forge" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -12.0d
@@ -1273,7 +1311,7 @@
 				item: { count: 1, id: "irons_spellbooks:evocation_rune" }
 				type: "item"
 			}]
-			x: -9.0d
+			x: -8.5d
 			y: 5.5d
 		}
 		{
@@ -1285,7 +1323,7 @@
 				item: { count: 1, id: "irons_spellbooks:nature_rune" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 5.5d
 		}
 		{
@@ -1297,7 +1335,7 @@
 				item: { count: 1, id: "irons_spellbooks:ender_rune" }
 				type: "item"
 			}]
-			x: -9.0d
+			x: -8.5d
 			y: 4.5d
 		}
 		{
@@ -1309,7 +1347,7 @@
 				item: { count: 1, id: "irons_spellbooks:blood_rune" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -9.0d
 			y: 5.0d
 		}
 		{
@@ -1321,7 +1359,7 @@
 				item: { count: 1, id: "irons_spellbooks:lightning_rune" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 5.0d
 		}
 		{
@@ -1333,16 +1371,19 @@
 				item: { count: 1, id: "irons_spellbooks:holy_rune" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["772768502028F1C1"]
 			id: "1229B1523D246E7A"
+			ignore_reward_blocking: true
+			invisible: true
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "175D32830341A779"
-				item: { count: 1, id: "cataclysm_spellbooks:abyssal_rune" }
+				item: { components: { "ftbquests:missing_item": "cataclysm_spellbooks:abyssal_rune" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -1358,7 +1399,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["772768502028F1C1"]
@@ -1370,7 +1411,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["772768502028F1C1"]
@@ -1382,7 +1423,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["28D0E8E0C045C9B8"]
@@ -1594,8 +1635,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:oakskin_elixir)item(irons_spellbooks:greater_oakskin_elixir)item(irons_spellbooks:invisibility_elixir)item(irons_spellbooks:greater_invisibility_elixir)item(irons_spellbooks:evasion_elixir)item(irons_spellbooks:greater_evasion_elixir))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -12.5d
-			y: -4.5d
+			x: -10.5d
+			y: -5.5d
 		}
 	]
 }

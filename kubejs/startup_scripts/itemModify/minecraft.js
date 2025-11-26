@@ -1,7 +1,39 @@
+ItemEvents.modification(event => {
+// 盾牌
+    // 盾牌
+    event.modify('minecraft:shield', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 6,
+                "id": "shh_armor:any"
+            },
+            "any"
+        )
+        .withModifierAdded(
+            "minecraft:generic.knockback_resistance",
+            {
+                "operation": 0,
+                "amount": 0.1,
+                "id": "shh_nockback_resistance:any"
+            },
+            "any"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+})
+
+
 // 剑
 ItemEvents.modification(event => {
-    // 生命剑
-    event.modify('l2complements:totemic_gold_sword', item => {
+    // 木剑
+    event.modify('minecraft:wooden_sword', item => {
         var modifiers = item
         .item()
         .getDefaultInstance()
@@ -17,9 +49,9 @@ ItemEvents.modification(event => {
         )
         .modifiers();
         item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 海神剑
-    event.modify('l2complements:poseidite_sword', item => {
+    });
+    // 石剑
+    event.modify('minecraft:stone_sword', item => {
         var modifiers = item
         .item()
         .getDefaultInstance()
@@ -28,16 +60,16 @@ ItemEvents.modification(event => {
             "minecraft:generic.attack_damage",
             {
                 "operation": 0,
-                "amount": 7,
+                "amount": 6,
                 "id": "shh_attack_damage:mainhand"
             },
             "mainhand"
         )
         .modifiers();
         item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 潜影剑
-    event.modify('l2complements:shulkerate_sword', item => {
+    });
+    // 金剑
+    event.modify('minecraft:golden_sword', item => {
         var modifiers = item
         .item()
         .getDefaultInstance()
@@ -46,16 +78,16 @@ ItemEvents.modification(event => {
             "minecraft:generic.attack_damage",
             {
                 "operation": 0,
-                "amount": 7,
+                "amount": 6,
                 "id": "shh_attack_damage:mainhand"
             },
             "mainhand"
         )
         .modifiers();
         item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 幽匿剑
-    event.modify('l2complements:sculkium_sword', item => {
+    });
+    // 铁剑
+    event.modify('minecraft:iron_sword', item => {
         var modifiers = item
         .item()
         .getDefaultInstance()
@@ -64,16 +96,16 @@ ItemEvents.modification(event => {
             "minecraft:generic.attack_damage",
             {
                 "operation": 0,
-                "amount": 8,
+                "amount": 6,
                 "id": "shh_attack_damage:mainhand"
             },
             "mainhand"
         )
         .modifiers();
         item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 永恒剑
-    event.modify('l2complements:eternium_sword', item => {
+    });
+    // 钻石剑
+    event.modify('minecraft:diamond_sword', item => {
         var modifiers = item
         .item()
         .getDefaultInstance()
@@ -82,20 +114,38 @@ ItemEvents.modification(event => {
             "minecraft:generic.attack_damage",
             {
                 "operation": 0,
-                "amount": 8,
+                "amount": 6,
                 "id": "shh_attack_damage:mainhand"
             },
             "mainhand"
         )
         .modifiers();
         item.setAttributeModifiersWithTooltip(modifiers);
-    })
+    });
+    // 下界合金剑
+    event.modify('minecraft:netherite_sword', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.attack_damage",
+            {
+                "operation": 0,
+                "amount": 6,
+                "id": "shh_attack_damage:mainhand"
+            },
+            "mainhand"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    
 })
-
 // 斧
 ItemEvents.modification(event => {
-    // 生命斧
-    event.modify('l2complements:totemic_gold_axe', item => {
+    // 木斧
+    event.modify('minecraft:wooden_axe', item => {
         var modifiers = item
         .item()
         .getDefaultInstance()
@@ -111,713 +161,818 @@ ItemEvents.modification(event => {
         )
         .modifiers();
         item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 海神斧
-    event.modify('l2complements:poseidite_axe', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.attack_damage",
-            {
-                "operation": 0,
-                "amount": 7,
-                "id": "shh_attack_damage:mainhand"
-            },
-            "mainhand"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 潜影斧
-    event.modify('l2complements:shulkerate_axe', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.attack_damage",
-            {
-                "operation": 0,
-                "amount": 7,
-                "id": "shh_attack_damage:mainhand"
-            },
-            "mainhand"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 幽匿斧
-    event.modify('l2complements:sculkium_axe', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.attack_damage",
-            {
-                "operation": 0,
-                "amount": 8,
-                "id": "shh_attack_damage:mainhand"
-            },
-            "mainhand"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 永恒斧
-    event.modify('l2complements:eternium_axe', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.attack_damage",
-            {
-                "operation": 0,
-                "amount": 8,
-                "id": "shh_attack_damage:mainhand"
-            },
-            "mainhand"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-})
-
-// 生命套装
-ItemEvents.modification(event => {
-    // 生命头盔
-    event.modify('l2complements:totemic_gold_helmet', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 4,
-                "id": "shh_armor:head"
-            },
-            "head"
-        )
-        .withModifierAdded(
-            "minecraft:generic.max_health",
-            {
-                "operation": 0,
-                "amount": 10,
-                "id": "shh_health:head"
-            },
-            "head"
-        )
-        .withModifierAdded(
-            "l2damagetracker:damage_absorption",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "shh_damage_absorption:head"
-            },
-            "head"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 生命胸甲
-    event.modify('l2complements:totemic_gold_chestplate', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 4,
-                "id": "shh_armor:chest"
-            },
-            "chest"
-        )
-        .withModifierAdded(
-            "minecraft:generic.max_health",
-            {
-                "operation": 0,
-                "amount": 10,
-                "id": "shh_health:chest"
-            },
-            "chest"
-        )
-        .withModifierAdded(
-            "l2damagetracker:damage_absorption",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "shh_damage_absorption:chest"
-            },
-            "chest"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 生命护腿
-    event.modify('l2complements:totemic_gold_leggings', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 4,
-                "id": "shh_armor:legs"
-            },
-            "legs"
-        )
-        .withModifierAdded(
-            "minecraft:generic.max_health",
-            {
-                "operation": 0,
-                "amount": 10,
-                "id": "shh_health:legs"
-            },
-            "legs"
-        )
-        .withModifierAdded(
-            "l2damagetracker:damage_absorption",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "shh_damage_absorption:legs"
-            },
-            "legs"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 生命靴子
-    event.modify('l2complements:totemic_gold_boots', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 4,
-                "id": "shh_armor:feet"
-            },
-            "feet"
-        )
-        .withModifierAdded(
-            "minecraft:generic.max_health",
-            {
-                "operation": 0,
-                "amount": 10,
-                "id": "shh_health:feet"
-            },
-            "feet"
-        )
-        .withModifierAdded(
-            "l2damagetracker:damage_absorption",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "shh_damage_absorption:feet"
-            },
-            "feet"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-})
-// 海神套装
-ItemEvents.modification(event => {
-    // 海神头盔
-    event.modify('l2complements:poseidite_helmet', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 4,
-                "id": "shh_armor:head"
-            },
-            "head"
-        )
-        .withModifierAdded(
-            "l2damagetracker:bow_strength",
-            {
-                "operation": 0,
-                "amount": 0.1,
-                "id": "shh_bow_strength:head"
-            },
-            "head"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 海神胸甲
-    event.modify('l2complements:poseidite_chestplate', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 4,
-                "id": "shh_armor:chest"
-            },
-            "chest"
-        )
-        .withModifierAdded(
-            "l2damagetracker:bow_strength",
-            {
-                "operation": 0,
-                "amount": 0.1,
-                "id": "shh_bow_strength:chest"
-            },
-            "chest"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 海神护腿
-    event.modify('l2complements:poseidite_leggings', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 4,
-                "id": "shh_armor:legs"
-            },
-            "legs"
-        )
-        .withModifierAdded(
-            "l2damagetracker:bow_strength",
-            {
-                "operation": 0,
-                "amount": 0.1,
-                "id": "shh_bow_strength:legs"
-            },
-            "legs"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 海神靴子
-    event.modify('l2complements:poseidite_boots', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 4,
-                "id": "shh_armor:feet"
-            },
-            "feet"
-        )
-        .withModifierAdded(
-            "l2damagetracker:bow_strength",
-            {
-                "operation": 0,
-                "amount": 0.1,
-                "id": "shh_bow_strength:feet"
-            },
-            "feet"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-})
-// 潜影套装
-ItemEvents.modification(event => {
-    // 潜影头盔
-    event.modify('l2complements:shulkerate_helmet', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 4,
-                "id": "shh_armor:head"
-            },
-            "head"
-        )
-        .withModifierAdded(
-            "l2damagetracker:damage_reduction",
-            {
-                "operation": 0,
-                "amount": -0.08,
-                "id": "shh_damage_reduction:head"
-            },
-            "head"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 潜影胸甲
-    event.modify('l2complements:shulkerate_chestplate', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 4,
-                "id": "shh_armor:chest"
-            },
-            "chest"
-        )
-        .withModifierAdded(
-            "l2damagetracker:damage_reduction",
-            {
-                "operation": 0,
-                "amount": -0.08,
-                "id": "shh_damage_reduction:chest"
-            },
-            "chest"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 潜影护腿
-    event.modify('l2complements:shulkerate_leggings', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 4,
-                "id": "shh_armor:legs"
-            },
-            "legs"
-        )
-        .withModifierAdded(
-            "l2damagetracker:damage_reduction",
-            {
-                "operation": 0,
-                "amount": -0.08,
-                "id": "shh_damage_reduction:legs"
-            },
-            "legs"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 潜影靴子
-    event.modify('l2complements:shulkerate_boots', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 4,
-                "id": "shh_armor:feet"
-            },
-            "feet"
-        )
-        .withModifierAdded(
-            "l2damagetracker:damage_reduction",
-            {
-                "operation": 0,
-                "amount": -0.08,
-                "id": "shh_damage_reduction:feet"
-            },
-            "feet"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-})
-// 幽匿套装
-ItemEvents.modification(event => {
-    // 幽匿头盔
-    event.modify('l2complements:sculkium_helmet', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "shh_armor:head"
-            },
-            "head"
-        )
-        .withModifierAdded(
-            "irons_spellbooks:eldritch_spell_power",
-            {
-                "operation": 0,
-                "amount": 0.08,
-                "id": "shh_spell_power:head"
-            },
-            "head"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 幽匿胸甲
-    event.modify('l2complements:sculkium_chestplate', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "shh_armor:chest"
-            },
-            "chest"
-        )
-        .withModifierAdded(
-            "irons_spellbooks:eldritch_spell_power",
-            {
-                "operation": 0,
-                "amount": 0.08,
-                "id": "shh_spell_power:chest"
-            },
-            "chest"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 幽匿护腿
-    event.modify('l2complements:sculkium_leggings', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "shh_armor:legs"
-            },
-            "legs"
-        )
-        .withModifierAdded(
-            "irons_spellbooks:eldritch_spell_power",
-            {
-                "operation": 0,
-                "amount": 0.08,
-                "id": "shh_spell_power:legs"
-            },
-            "legs"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 幽匿靴子
-    event.modify('l2complements:sculkium_boots', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "shh_armor:feet"
-            },
-            "feet"
-        )
-        .withModifierAdded(
-            "irons_spellbooks:eldritch_spell_power",
-            {
-                "operation": 0,
-                "amount": 0.08,
-                "id": "shh_spell_power:feet"
-            },
-            "feet"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-})
-// 永恒套装
-ItemEvents.modification(event => {
-    // 永恒头盔
-    event.modify('l2complements:eternium_helmet', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "shh_armor:head"
-            },
-            "head"
-        )
-        .withModifierAdded(
-            "minecraft:generic.movement_speed",
-            {
-                "operation": 1,
-                "amount": 0.5,
-                "id": "shh_speed:head"
-            },
-            "head"
-        )
-        .withModifierAdded(
-            "artifacts:generic.sprinting_step_height",
-            {
-                "operation": 0,
-                "amount": 0.5,
-                "id": "shh_sprinting_step_height:head"
-            },
-            "head"   
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 永恒胸甲
-    event.modify('l2complements:eternium_chestplate', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "shh_armor:chest"
-            },
-            "chest"
-        )
-        .withModifierAdded(
-            "minecraft:generic.movement_speed",
-            {
-                "operation": 1,
-                "amount": 0.5,
-                "id": "shh_speed:chest"
-            },
-            "chest"
-        )
-        .withModifierAdded(
-            "artifacts:generic.sprinting_step_height",
-            {
-                "operation": 0,
-                "amount": 0.5,
-                "id": "shh_sprinting_step_height:chest"
-            },
-            "chest"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 永恒护腿
-    event.modify('l2complements:eternium_leggings', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "shh_armor:legs"
-            },
-            "legs"
-        )
-        .withModifierAdded(
-            "minecraft:generic.movement_speed",
-            {
-                "operation": 1,
-                "amount": 0.5,
-                "id": "shh_speed:legs"
-            },
-            "legs"
-        )
-        .withModifierAdded(
-            "artifacts:generic.sprinting_step_height",
-            {
-                "operation": 0,
-                "amount": 0.5,
-                "id": "shh_sprinting_step_height:legs"
-            },
-            "legs"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-    // 永恒靴子
-    event.modify('l2complements:eternium_boots', item => {
-        var modifiers = item
-        .item()
-        .getDefaultInstance()
-        .getAttributeModifiers()
-        .withModifierAdded(
-            "minecraft:generic.armor",
-            {
-                "operation": 0,
-                "amount": 5,
-                "id": "shh_armor:feet"
-            },
-            "feet"
-        )
-        .withModifierAdded(
-            "minecraft:generic.movement_speed",
-            {
-                "operation": 1,
-                "amount": 0.5,
-                "id": "shh_speed:feet"
-            },
-            "feet"
-        )
-        .withModifierAdded(
-            "artifacts:generic.sprinting_step_height",
-            {
-                "operation": 0,
-                "amount": 0.5,
-                "id": "shh_sprinting_step_height:feet"
-            },
-            "feet"
-        )
-        .modifiers();
-        item.setAttributeModifiersWithTooltip(modifiers);
-    })
-})
-
-// 其它
-ItemEvents.modification(event => {
-    // 结晶渗透法杖
-    event.modify('l2complements:diffusion_wand', item => {
-        item.setUnbreakable();
     });
-});
+    // 石斧
+    event.modify('minecraft:stone_axe', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.attack_damage",
+            {
+                "operation": 0,
+                "amount": 6,
+                "id": "shh_attack_damage:mainhand"
+            },
+            "mainhand"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 金斧
+    event.modify('minecraft:golden_axe', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.attack_damage",
+            {
+                "operation": 0,
+                "amount": 6,
+                "id": "shh_attack_damage:mainhand"
+            },
+            "mainhand"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 铁斧
+    event.modify('minecraft:iron_axe', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.attack_damage",
+            {
+                "operation": 0,
+                "amount": 6,
+                "id": "shh_attack_damage:mainhand"
+            },
+            "mainhand"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 钻石斧
+    event.modify('minecraft:diamond_axe', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.attack_damage",
+            {
+                "operation": 0,
+                "amount": 6,
+                "id": "shh_attack_damage:mainhand"
+            },
+            "mainhand"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 下界合金斧
+    event.modify('minecraft:netherite_axe', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.attack_damage",
+            {
+                "operation": 0,
+                "amount": 6,
+                "id": "shh_attack_damage:mainhand"
+            },
+            "mainhand"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+})
+
+
+// 三叉戟&重锤
+ItemEvents.modification(event => {
+    // 三叉戟
+    event.modify('minecraft:trident', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.attack_damage",
+            {
+                "operation": 0,
+                "amount": 6,
+                "id": "shh_attack_damage:mainhand"
+            },
+            "mainhand"
+        )
+        .withModifierAdded(
+            "neoforge:swim_speed",
+            {
+                "operation": 0,
+                "amount": 0.15,
+                "id": "shh_swim_speed:any"
+            },
+            "any"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 重锤
+    event.modify('minecraft:mace', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.attack_damage",
+            {
+                "operation": 0,
+                "amount": 7,
+                "id": "shh_attack_damage:mainhand"
+            },
+            "mainhand"
+        )
+        .withModifierAdded(
+            "minecraft:generic.knockback_resistance",
+            {
+                "operation": 0,
+                "amount": 0.15,
+                "id": "shh_knockback_resistance:any"
+            },
+            "any"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+})
+
+
+// 皮革套装
+ItemEvents.modification(event => {
+    // 皮革帽
+    event.modify('minecraft:leather_helmet', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:head"
+            },
+            "head"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 皮革胸甲
+    event.modify('minecraft:leather_chestplate', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:chest"
+            },
+            "chest"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 皮革护腿
+    event.modify('minecraft:leather_leggings', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:legs"
+            },
+            "legs"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 皮革靴子
+    event.modify('minecraft:leather_boots', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:feet"
+            },
+            "feet"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+})
+// 锁链套装
+ItemEvents.modification(event => {
+    // 锁链帽
+    event.modify('minecraft:chainmail_helmet', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:head"
+            },
+            "head"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 锁链胸甲
+    event.modify('minecraft:chainmail_chestplate', item => { 
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:chest"
+            },
+            "chest"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 锁链护腿
+    event.modify('minecraft:chainmail_leggings', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:legs"
+            },
+            "legs"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 锁链靴子
+    event.modify('minecraft:chainmail_boots', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:feet"
+            },
+            "feet"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+})
+// 铁套装
+ItemEvents.modification(event => {
+    // 铁头盔
+    event.modify('minecraft:iron_helmet', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:head"
+            },
+            "head"
+        )
+        .withModifierAdded(
+            "minecraft:generic.armor_toughness",
+            {
+                "operation": 0,
+                "amount": 2,
+                "id": "shh_armor_toughness:head"
+            },
+            "head"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 铁胸甲
+    event.modify('minecraft:iron_chestplate', item => { 
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:chest"
+            },
+            "chest"
+        )
+        .withModifierAdded(
+            "minecraft:generic.armor_toughness",
+            {
+                "operation": 0,
+                "amount": 2,
+                "id": "shh_armor_toughness:chest"
+            },
+            "chest"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 铁护腿
+    event.modify('minecraft:iron_leggings', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:legs"
+            },
+            "legs"
+        )
+        .withModifierAdded(
+            "minecraft:generic.armor_toughness",
+            {
+                "operation": 0,
+                "amount": 2,
+                "id": "shh_armor_toughness:legs"
+            },
+            "legs"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 铁靴子
+    event.modify('minecraft:iron_boots', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:feet"
+            },
+            "feet"
+        )
+        .withModifierAdded(
+            "minecraft:generic.armor_toughness",
+            {
+                "operation": 0,
+                "amount": 2,
+                "id": "shh_armor_toughness:feet"
+            },
+            "feet"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+})
+// 金套装
+ItemEvents.modification(event => {
+    // 金头盔
+    event.modify('minecraft:golden_helmet', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:head"
+            },
+            "head"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 金胸甲
+    event.modify('minecraft:golden_chestplate', item => { 
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:chest"
+            },
+            "chest"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 金护腿
+    event.modify('minecraft:golden_leggings', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:legs"
+            },
+            "legs"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 金靴子
+    event.modify('minecraft:golden_boots', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 4,
+                "id": "shh_armor:feet"
+            },
+            "feet"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+})
+// 钻石套装
+ItemEvents.modification(event => {
+    // 钻石头盔
+    event.modify('minecraft:diamond_helmet', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 5,
+                "id": "shh_armor:head"
+            },
+            "head"
+        )
+        .withModifierAdded(
+            "minecraft:generic.armor_toughness",
+            {
+                "operation": 0,
+                "amount": 1,
+                "id": "shh_armor_toughness:head"
+            },
+            "head"
+        )
+        .withModifierAdded(
+            "l2damagetracker:damage_reduction",
+            {
+                "operation": 0,
+                "amount": -0.03,
+                "id": "shh_l2_damage_reduction:head"
+            },
+            "head"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 钻石胸甲
+    event.modify('minecraft:diamond_chestplate', item => { 
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 5,
+                "id": "shh_armor:chest"
+            },
+            "chest"
+        )
+        .withModifierAdded(
+            "minecraft:generic.armor_toughness",
+            {
+                "operation": 0,
+                "amount": 5,
+                "id": "shh_armor_toughness:chest"
+            },
+            "chest"
+        )
+        .withModifierAdded(
+            "l2damagetracker:damage_reduction",
+            {
+                "operation": 0,
+                "amount": -0.03,
+                "id": "shh_l2_damage_reduction:chest"
+            },
+            "chest"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 钻石护腿
+    event.modify('minecraft:diamond_leggings', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 5,
+                "id": "shh_armor:legs"
+            },
+            "legs"
+        )
+        .withModifierAdded(
+            "minecraft:generic.armor_toughness",
+            {
+                "operation": 0,
+                "amount": 1,
+                "id": "shh_armor_toughness:legs"
+            },
+            "legs"
+        )
+        .withModifierAdded(
+            "l2damagetracker:damage_reduction",
+            {
+                "operation": 0,
+                "amount": -0.03,
+                "id": "shh_l2_damage_reduction:legs"
+            },
+            "legs"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 钻石靴子
+    event.modify('minecraft:diamond_boots', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 5,
+                "id": "shh_armor:feet"
+            },
+            "feet"
+        )
+        .withModifierAdded(
+            "minecraft:generic.armor_toughness",
+            {
+                "operation": 0,
+                "amount": 1,
+                "id": "shh_armor_toughness:feet"
+            },
+            "feet"
+        )
+        .withModifierAdded(
+            "l2damagetracker:damage_reduction",
+            {
+                "operation": 0,
+                "amount": -0.03,
+                "id": "shh_l2_damage_reduction:feet"
+            },
+            "feet"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+})
+// 下界合金套装
+ItemEvents.modification(event => {
+    // 下界合金头盔
+    event.modify('minecraft:netherite_helmet', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 5,
+                "id": "shh_armor:head"
+            },
+            "head"
+        )
+        .withModifierAdded(
+            "minecraft:generic.armor_toughness",
+            {
+                "operation": 0,
+                "amount": 1,
+                "id": "shh_armor_toughness:head"
+            },
+            "head"
+        )
+        .withModifierAdded(
+            "l2damagetracker:damage_reduction",
+            {
+                "operation": 0,
+                "amount": -0.05,
+                "id": "shh_l2_damage_reduction:head"
+            },
+            "head"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 下界合金胸甲
+    event.modify('minecraft:netherite_chestplate', item => { 
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 5,
+                "id": "shh_armor:chest"
+            },
+            "chest"
+        )
+        .withModifierAdded(
+            "minecraft:generic.armor_toughness",
+            {
+                "operation": 0,
+                "amount": 5,
+                "id": "shh_armor_toughness:chest"
+            },
+            "chest"
+        )
+        .withModifierAdded(
+            "l2damagetracker:damage_reduction",
+            {
+                "operation": 0,
+                "amount": -0.05,
+                "id": "shh_l2_damage_reduction:chest"
+            },
+            "chest"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 下界合金护腿
+    event.modify('minecraft:netherite_leggings', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 5,
+                "id": "shh_armor:legs"
+            },
+            "legs"
+        )
+        .withModifierAdded(
+            "minecraft:generic.armor_toughness",
+            {
+                "operation": 0,
+                "amount": 1,
+                "id": "shh_armor_toughness:legs"
+            },
+            "legs"
+        )
+        .withModifierAdded(
+            "l2damagetracker:damage_reduction",
+            {
+                "operation": 0,
+                "amount": -0.05,
+                "id": "shh_l2_damage_reduction:legs"
+            },
+            "legs"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+    // 下界合金靴子
+    event.modify('minecraft:netherite_boots', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 5,
+                "id": "shh_armor:feet"
+            },
+            "feet"
+        )
+        .withModifierAdded(
+            "minecraft:generic.armor_toughness",
+            {
+                "operation": 0,
+                "amount": 1,
+                "id": "shh_armor_toughness:feet"
+            },
+            "feet"
+        )
+        .withModifierAdded(
+            "l2damagetracker:damage_reduction",
+            {
+                "operation": 0,
+                "amount": -0.05,
+                "id": "shh_l2_damage_reduction:feet"
+            },
+            "feet"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+})
+
+
+// 海龟壳
+ItemEvents.modification(event => {
+    // 海龟壳
+    event.modify('minecraft:turtle_helmet', item => {
+        var modifiers = item
+        .item()
+        .getDefaultInstance()
+        .getAttributeModifiers()
+        .withModifierAdded(
+            "minecraft:generic.armor",
+            {
+                "operation": 0,
+                "amount": 3,
+                "id": "shh_armor:head"
+            },
+            "head"
+        )
+        .withModifierAdded(
+            "neoforge:swim_speed",
+            {
+                "operation": 0,
+                "amount": 0.15,
+                "id": "shh_swim_speed:head"
+            },
+            "head"
+        )
+        .modifiers();
+        item.setAttributeModifiersWithTooltip(modifiers);
+    });
+})

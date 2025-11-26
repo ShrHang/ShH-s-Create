@@ -1,5 +1,6 @@
 {
-    "probejs.modHash": -6912809530460869820,
+    "probejs.modHash": 6870236240901718,
     "probejs.registryHash": 9008321493227120240,
-    "probejs.enableDecompiler": false
+    "probejs.enableDecompiler": false,
+    "probejs.enabled": true
 }

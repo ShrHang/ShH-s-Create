@@ -65,7 +65,7 @@
       "type": "create:filling",
       "ingredients": [
       {
-        "tag": "shh:incomplete_upgrade_magnify_x4"
+        "item": "shh:incomplete_upgrade_magnify_x4"
       },
       {
         "type": "neoforge:single",

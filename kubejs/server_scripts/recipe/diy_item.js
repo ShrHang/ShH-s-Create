@@ -1,6 +1,4 @@
 ServerEvents.recipes(event => {
-    if (!Platform.isLoaded('shh')) { return; }
-
     // shh:maid_tool
     event.shaped('shh:maid_tool', [
         '  A',
@@ -10,9 +8,8 @@ ServerEvents.recipes(event => {
         A: 'l2complements:heirophant_green',
         B: 'create_sa:zinc_handle'
     })
-
     // shh:hulibugulv
-    event.custom(
+    /*event.custom(
         {
             type: "create:mixing",
             ingredients: [
@@ -36,5 +33,21 @@ ServerEvents.recipes(event => {
             ],
             results: [{ id: "shh:hulibugulv" }]
         }
-    )
+    )*/
+    event.recipes.create.mixing('shh:hulibugulv',[
+        "minecraft:egg",
+        "create:wheat_flour",
+        "create:cinder_flour",
+        Fluid.of("minecraft:milk", 1000),
+        "minecraft:sugar",
+        "minecraft:sugar",
+        "minecraft:sugar",
+        "minecraft:sugar",
+        "minecraft:sugar",
+        "minecraft:sugar",
+        "minecraft:sugar",
+        "minecraft:sugar",
+        "minecraft:sugar"
+    ]
+    ).superheated()
 })

@@ -33,4 +33,10 @@ ItemEvents.modelProperties(event => {});
 
 ItemEvents.toolTierRegistry(event => {});
 
-// StartupEvents.registry('item', event => {});
+// CreateEvents.spoutHandler(event => {
+//     event.add("shh:add_potion_effects", "create:depot", (block, fliud, simulate) =>{
+//         if (fliud.is("create:potion")) {
+//             if (block.getEntityData().getCompound()) {}
+//         }
+//     })
+// });

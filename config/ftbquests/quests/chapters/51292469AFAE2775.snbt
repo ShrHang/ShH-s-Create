@@ -77,6 +77,15 @@
 				id: "minecraft:andesite"
 			}
 			id: "0D06B4E8FFCFB8FD"
+			rewards: [{
+				count: 2
+				id: "7152F43A7098C919"
+				item: {
+					count: 1
+					id: "minecraft:iron_nugget"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 2L
@@ -90,6 +99,15 @@
 		{
 			dependencies: ["0D06B4E8FFCFB8FD"]
 			id: "63AB0604E9CF10DD"
+			rewards: [{
+				count: 128
+				id: "32E2AE75FAC9854C"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [

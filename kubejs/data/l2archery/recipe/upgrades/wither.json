@@ -6,7 +6,7 @@
   "loops": 4,
   "results": [
     {
-    "components": {
+      "components": {
         "l2archery:item_upgrade": "l2archery:wither"
       },
       "id": "l2archery:upgrade"
@@ -32,14 +32,14 @@
     {
       "type": "create:filling",
       "ingredients": [
-      {
-        "item": "shh:incomplete_upgrade_wither"
-      },
-      {
-        "type": "neoforge:single",
-        "amount": 500,
-        "fluid": "create_dragons_plus:dragon_breath"
-      }
+        {
+          "item": "shh:incomplete_upgrade_wither"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 500,
+          "fluid": "create_dragons_plus:dragon_breath"
+        }
       ],
       "results": [
         {
@@ -50,21 +50,21 @@
     {
       "type": "create:filling",
       "ingredients": [
-      {
-        "item": "shh:incomplete_upgrade_wither"
-      },
-      {
-        "type": "neoforge:single",
-        "amount": 250,
-        "fluid": "create_enchantment_industry:experience"
-      }
-  ],
-  "results": [
-    {
-      "id": "shh:incomplete_upgrade_wither"
+        {
+          "item": "shh:incomplete_upgrade_wither"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "create_enchantment_industry:experience"
+        }
+      ],
+      "results": [
+        {
+          "id": "shh:incomplete_upgrade_wither"
+        }
+      ]
     }
-  ]
-}
   ],
   "transitional_item": {
     "id": "shh:incomplete_upgrade_wither"

@@ -1,119 +1,9 @@
-/*
-const DepotBE = Java.loadClass('com.simibubi.create.content.logistics.depot.DepotBlockEntity');
-const SpoutBE = Java.loadClass('com.simibubi.create.content.fluids.spout.SpoutBlockEntity');
-const BlockPos = Java.loadClass('net.minecraft.core.BlockPos');
-const Direction = Java.loadClass('net.minecraft.core.Direction');
-const trackedSpouts = new Map();
-function posKey(level, pos) { return level.dimension().location().toString() + `|${pos.getX()},${pos.getY()},${pos.getZ()}`; }
-function isTargetStack(stack) { return stack && !stack.empty && stack.id === 'mymod:empty_capsule'; }
-function appendComponentsPreservingAll(original) {
-    const out = original.copy();
-    if (typeof out.withComponents === 'function') {
-        out.withComponents(comp => {
-            const prev = comp.get('minecraft:custom_data') || {};
-            prev.MyFlag = 1;
-            prev.Timestamp = Date.now();
-            comp.set('minecraft:custom_data', prev);
-        });
-        return out;
-    }
-    const nbt = out.nbt || {};
-    nbt.CustomData = nbt.CustomData || {};
-    nbt.CustomData.MyFlag = 1;
-    nbt.CustomData.Timestamp = Date.now();
-    out.nbt = nbt;
-
-    return out;
-}
-function tryDrainSpoutFluid(spoutBE, milliBuckets) {
-    try {
-        // 尝试通过常见能力访问（KubeJS 可能提供简化方法，如 be.getFluidHandler()）
-        const IFluidHandler = Java.loadClass('net.neoforged.neoforge.fluids.capability.IFluidHandler');
-        // 某些环境可以：spoutBE.getCapability(IFluidHandlerClass)；若不可用可注释掉
-        const handler = spoutBE['getCapability'] ? spoutBE.getCapability(IFluidHandler.class) : null;
-        if (handler && handler.present) {
-            const drained = handler.orElse(null).drain(milliBuckets,
-            Java.loadClass('net.neoforged.neoforge.fluids.capability.IFluidHandler$FluidAction').EXECUTE);
-            return drained && !drained.isEmpty();
-        }
-    } catch (err) {
-        // 能力通道不可用就跳过，不阻塞主流程
-    }
-    return false;
-}
-BlockEvents.placed(event => {
-    if (event.block.id !== 'create:spout') return;
-    const k = posKey(event.level, event.block.pos);
-    trackedSpouts.set(k, { dim: event.level.dimension(), x: event.block.x, y: event.block.y, z: event.block.z, lastMark: -1, lastOpGameTime: 0 });
-});
-BlockEvents.broken(event => {
-    if (event.block.id !== 'create:spout') return;
-    const k = posKey(event.level, event.block.pos);
-    trackedSpouts.delete(k);
-});
-ServerEvents.tick(event => {
-    if ((event.server.getOverworld().gameTime % 5) !== 0) return;
-
-    for (const [k, rec] of trackedSpouts) {
-        const level = event.server.getLevel(rec.dim);
-        if (!level) continue;
-        const pos = BlockPos.containing(rec.x, rec.y, rec.z);
-        const be = level.getBlockEntity(pos);
-        if (!(be instanceof SpoutBE)) continue;
-
-        // 下方方块（Spout 正下方 1 格）
-        const below = pos.relative(Direction.DOWN);
-        const depotBE = level.getBlockEntity(below);
-        if (!(depotBE instanceof DepotBE)) {
-            // 不是 Depot，跳过
-            rec.lastMark = -1;
-            continue;
-        }
-
-        // Depot 顶面物品
-        // DepotBlockEntity 对外 API 版本不同，这里用兼容方式探测：
-        // 1) 若有 getHeldItem() / getHeldItemStack() 就用它；
-        // 2) 否则尝试读取物品能力槽位 0；
-        let stack = null;
-        if (typeof depotBE.getHeldItem === 'function') stack = depotBE.getHeldItem();
-        else if (typeof depotBE.getHeldItemStack === 'function') stack = depotBE.getHeldItemStack();
-        else if (typeof depotBE.getItem === 'function') stack = depotBE.getItem(0);
-        if (!stack || stack.empty) { rec.lastMark = -1; continue; }
-
-        if (!isTargetStack(stack)) { rec.lastMark = -1; continue; }
-
-        // 读取 Spout 进度
-        const FILLING_TIME = SpoutBE.FILLING_TIME; // static
-        const progress = be.processingTicks | 0;   // 当前进度（tick）
-        // 以“从 FILLING_TIME-1 → 0 的回落”为“完成瞬间”信号，避免多次触发
-        const nearlyDone = progress >= (FILLING_TIME - 1);
-        const gameTime = level.gameTime;
-
-        if (nearlyDone && rec.lastMark < (FILLING_TIME - 1)) {
-            // 即将完成：在本 tick 做一次“自定义注入”操作
-            const out = appendComponentsPreservingAll(stack);
-
-            // 回写到 Depot 顶面
-            if (typeof depotBE.setHeldItem === 'function') depotBE.setHeldItem(out);
-            else if (typeof depotBE.setItem === 'function') depotBE.setItem(0, out);
-
-            // （可选）消耗流体（例：消耗 250 mB）
-            // tryDrainSpoutFluid(be, 250);
-
-            rec.lastOpGameTime = gameTime;
-        }
-
-        rec.lastMark = progress;
-    }
-});
-*/
-
 if (Platform.isLoaded('create')) {
     ServerEvents.recipes(event => {
 
         // Compacting Recipes
         {
-            event.custom({
+            /*event.custom({
                 type: "create:compacting",
                 ingredients: [
                     { item: "minecraft:cobblestone" },
@@ -124,8 +14,13 @@ if (Platform.isLoaded('create')) {
                     }
                 ],
                 results: [{ id: "minecraft:deepslate" }]
-            })
-            event.custom({
+            })*/
+            event.recipes.create.compacting("minecraft:deepslate", [
+                "minecraft:cobblestone",
+                Fluid.of("minecraft:lava", 250)
+            ])
+
+            /*event.custom({
                 type: "create:compacting",
                 ingredients: [
                     { item: "minecraft:cobblestone" },
@@ -136,7 +31,12 @@ if (Platform.isLoaded('create')) {
                     }
                 ],
                 results: [{ id: "minecraft:tuff" }]
-            })
+            })*/
+            event.recipes.create.compacting("minecraft:tuff", [
+                "minecraft:cobblestone",
+                Fluid.of("minecraft:water", 250)
+            ])
+
             event.custom({
                 type: "create:compacting",
                 ingredients: [
@@ -155,6 +55,8 @@ if (Platform.isLoaded('create')) {
                 ],
                 results: [{ id: "minecraft:calcite" }]
             })
+            // kubejs\data\create\recipe\compacting\calcite.json
+
             event.custom({
                 type: "create:compacting",
                 heat_requirement: "heated",
@@ -183,6 +85,8 @@ if (Platform.isLoaded('create')) {
                 ],
                 results: [{ id: "minecraft:diamond" }]
             })
+            // kubejs\data\create\recipe\compacting\diamond.json
+
             event.custom({
                 type: "create:compacting",
                 ingredients: [
@@ -199,6 +103,8 @@ if (Platform.isLoaded('create')) {
                 ],
                 results: [{ id: "create:asurine" }]
             })
+            // kubejs\data\create\recipe\compacting\asurine.json
+
             event.custom({
                 type: "create:compacting",
                 ingredients: [
@@ -215,6 +121,8 @@ if (Platform.isLoaded('create')) {
                 ],
                 results: [{ id: "create:crimsite" }]
             })
+            // kubejs\data\create\recipe\compacting\crimsite.json
+
             event.custom({
                 type: "create:compacting",
                 ingredients: [
@@ -231,6 +139,8 @@ if (Platform.isLoaded('create')) {
                 ],
                 results: [{ id: "create:ochrum" }]
             })
+            // kubejs\data\create\recipe\compacting\ochrum.json
+
             event.custom({
                 type: "create:compacting",
                 ingredients: [
@@ -247,16 +157,24 @@ if (Platform.isLoaded('create')) {
                 ],
                 results: [{ id: "create:veridium" }]
             })
+            // kubejs\data\create\recipe\compacting\veridium.json
         }
         // Crushing Recipes
         {
+            /*event.custom({
+                type: "create:crushing",
+                ingredients: [{ tag: "c:material/netherite" }],
+                processing_time: 750,
+                results: [{ id: "minecraft:netherite_scrap" }]
+            })*/
             event.custom({
                 type: "create:crushing",
                 ingredients: [{ tag: "c:material/netherite" }],
                 processing_time: 750,
                 results: [{ id: "minecraft:netherite_scrap" }]
             })
-            event.custom({
+
+            /*event.custom({
                 type: "create:crushing",
                 ingredients: [{ item: "minecraft:crying_obsidian" }],
                 processingTime: 500,
@@ -265,8 +183,15 @@ if (Platform.isLoaded('create')) {
                     { chance: 0.75, id: "minecraft:obsidian" },
                     { chance: 0.5, id: "minecraft:amethyst_shard" }
                 ]
-            })
-            event.custom({
+            })*/
+            event.recipes.create.crushing([
+                    'create:powdered_obsidian',
+                    CreateItem.of('minecraft:obsidian', 0.75),
+                    CreateItem.of('minecraft:amethyst_shard', 0.5)
+                ], 
+                'minecraft:crying_obsidian'
+            ).processingTime(500)
+            /*event.custom({
                 type: "create:crushing",
                 ingredients: [{ item: "create:limestone" }],
                 processingTime: 250,
@@ -274,8 +199,14 @@ if (Platform.isLoaded('create')) {
                     { chance: 0.15, id: "minecraft:quartz", count: 2 },
                     { chance: 0.35, id: "minecraft:lapis_lazuli" }
                 ]
-            })
-            event.custom({
+            })*/
+            event.recipes.create.crushing([
+                    CreateItem.of(Item.of('minecraft:quartz', 2), 0.15),
+                    CreateItem.of('minecraft:lapis_lazuli', 0.35)
+                ], 
+                'create:limestone'
+            ).processingTime(250)
+            /*event.custom({
                 "type": "create:crushing",
                 "ingredients": [
                     {
@@ -293,8 +224,15 @@ if (Platform.isLoaded('create')) {
                     }
                 ],
                 "processingTime": 350
-            })
-            event.custom({
+            })*/
+            event.recipes.create.crushing([
+                CreateItem.of('minecraft:wither_skeleton_skull', 0.01),
+                CreateItem.of('l2complements:blackstone_core', 0.01)
+            ],
+            'minecraft:blackstone'
+            ).processingTime(350)
+
+            /*event.custom({
                 "type": "create:crushing",
                 "ingredients": [
                     {
@@ -316,8 +254,16 @@ if (Platform.isLoaded('create')) {
                     }
                 ],
                 "processingTime": 350
-            })
-            event.custom({
+            })*/
+            event.recipes.create.crushing([
+                CreateItem.of('create:cinder_flour', 1.0),
+                CreateItem.of('create:cinder_flour', 0.5),
+                CreateItem.of('minecraft:netherite_scrap', 0.005)
+            ],
+            'minecraft:netherrack'
+            ).processingTime(350)
+
+            /*event.custom({
                 "type": "create:crushing",
                 "ingredients": [
                     {
@@ -335,8 +281,15 @@ if (Platform.isLoaded('create')) {
                     }
                 ],
                 "processingTime": 125
-            })
-            event.custom({
+            })*/
+            event.recipes.create.crushing([
+                CreateItem.of('minecraft:blaze_powder', 0.125),
+                CreateItem.of('minecraft:blaze_rod', 0.02)
+            ],
+            'create:scoria'
+            ).processingTime(125)
+
+            /*event.custom({
                 "type": "create:crushing",
                 "ingredients": [
                     {
@@ -350,11 +303,16 @@ if (Platform.isLoaded('create')) {
                     }
                 ],
                 "processingTime": 125
-            })
+            })*/
+            event.recipes.create.crushing([
+                CreateItem.of('minecraft:glowstone_dust', 0.125)
+            ],
+            'minecraft:soul_sand'
+            ).processingTime(125)
         }
         // Testing Filling Recipes
         {
-            event.custom({
+            /*event.custom({
                 type: "create:filling",
                 ingredients: [
                     {
@@ -388,7 +346,7 @@ if (Platform.isLoaded('create')) {
                         id: "minecraft:apple"
                     }
                 ]
-            })
+            })*/
         }
     })
 
