@@ -3,14 +3,14 @@ ItemEvents.modification(event => {
         // 盾牌
         // 黑钢圆盾
         event.modify('cataclysm:black_steel_targe', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 9, id: 'shh_armor:any' },
                 { attribute: 'minecraft:generic.knockback_resistance', operation: 0, amount: 0.16, id: 'shh_nockback_resistance:any' }
             ]);
         });
         // 蔚蓝海石盾
         event.modify('cataclysm:azure_sea_shield', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'neoforge:swim_speed', operation: 0, amount: 0.12, id: 'shh_swim_speed:any', slot: 'any' },
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 6, id: 'shh_armor:any', slot: 'any' },
                 { attribute: 'minecraft:generic.knockback_resistance', operation: 0, amount: 0.08, id: 'shh_nockback_resistance:any', slot: 'any' },
@@ -21,7 +21,7 @@ ItemEvents.modification(event => {
         });
         // 火焰壁垒
         event.modify('cataclysm:bulwark_of_the_flame', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'l2damagetracker:fire_damage', operation: 0, amount: 0.2, id: 'shh_fire_damage:any', slot: 'any', condition: Platform.isLoaded("l2damagetracker") },
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 12, id: 'shh_armor:any', slot: 'any' },
                 { attribute: 'minecraft:generic.knockback_resistance', operation: 0, amount: 0.2, id: 'shh_nockback_resistance:any', slot: 'any' },
@@ -31,7 +31,7 @@ ItemEvents.modification(event => {
 
         // 花岩肩甲
         event.modify('cataclysm:bloom_stone_pauldrons', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 10, id: 'shh_armor:chest', slot: 'chest' },
                 { attribute: 'minecraft:generic.knockback_resistance', operation: 0, amount: 0.05, id: 'shh_nockback_resistance:chest', slot: 'chest' },
                 { attribute: 'irons_spellbooks:nature_spell_power', operation: 0, amount: 0.08, id: 'shh_nature_spell_power:chest', slot: 'chest', condition: Platform.isLoaded("irons_spellbooks") },
@@ -45,7 +45,7 @@ ItemEvents.modification(event => {
 
         // 恶兽头盔
         event.modify('cataclysm:monstrous_helm', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 9, id: 'shh_armor:head', slot: 'head' },
                 { attribute: 'minecraft:generic.max_health', operation: 0, amount: 20, id: 'shh_max_health:head', slot: 'head' },
                 { attribute: 'minecraft:generic.max_health', operation: 1, amount: 0.2, id: 'shh_max_health_1:head', slot: 'head' },
@@ -57,7 +57,7 @@ ItemEvents.modification(event => {
         // 骨蜥盔甲
         // 骨蜥头盔
         event.modify('cataclysm:bone_reptile_helmet', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'irons_spellbooks:spell_power', operation: 0, amount: 0.05, id: 'shh_spell_power:head', slot: 'head', condition: Platform.isLoaded('irons_spellbooks') },
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 8, id: 'shh_armor:head', slot: 'head' },
                 { attribute: 'irons_spellbooks:holy_spell_power', operation: 0, amount: 0.05, id: 'shh_holy_spell_power:head', slot: 'head', condition: Platform.isLoaded('irons_spellbooks') },
@@ -68,7 +68,7 @@ ItemEvents.modification(event => {
         });
         // 骨蜥胸甲
         event.modify('cataclysm:bone_reptile_chestplate', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'irons_spellbooks:spell_power', operation: 0, amount: 0.05, id: 'shh_spell_power:chest', slot: 'chest', condition: Platform.isLoaded('irons_spellbooks') },
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 8, id: 'shh_armor:chest', slot: 'chest' },
                 { attribute: 'irons_spellbooks:holy_spell_power', operation: 0, amount: 0.05, id: 'shh_holy_spell_power:chest', slot: 'chest', condition: Platform.isLoaded('irons_spellbooks') },
@@ -81,7 +81,7 @@ ItemEvents.modification(event => {
         // 腾炎盔甲
         //腾炎头盔
         event.modify('cataclysm:ignitium_helmet', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 6, id: 'shh_armor:head', slot: 'head' },
                 { attribute: 'irons_spellbooks:fire_spell_power', operation: 0, amount: 0.05, id: 'shh_fire_spell_power:head', slot: 'head', condition: Platform.isLoaded('irons_spellbooks') },
                 { attribute: 'irons_spellbooks:fire_magic_resist', operation: 0, amount: 0.15, id: 'shh_fire_magic_resist:head', slot: 'head', condition: Platform.isLoaded('irons_spellbooks') },
@@ -90,7 +90,7 @@ ItemEvents.modification(event => {
         });
         //腾炎胸甲
         event.modify(['cataclysm:ignitium_chestplate', 'cataclysm:ignitium_elytra_chestplate'], item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 6, id: 'shh_armor:chest', slot: 'chest' },
                 { attribute: 'irons_spellbooks:fire_spell_power', operation: 0, amount: 0.05, id: 'shh_fire_spell_power:chest', slot: 'chest', condition: Platform.isLoaded('irons_spellbooks') },
                 { attribute: 'irons_spellbooks:fire_magic_resist', operation: 0, amount: 0.15, id: 'shh_fire_magic_resist:chest', slot: 'chest', condition: Platform.isLoaded('irons_spellbooks') },
@@ -99,7 +99,7 @@ ItemEvents.modification(event => {
         });
         //腾炎护腿
         event.modify('cataclysm:ignitium_leggings', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 6, id: 'shh_armor:legs', slot: 'legs' },
                 { attribute: 'irons_spellbooks:fire_spell_power', operation: 0, amount: 0.05, id: 'shh_fire_spell_power:legs', slot: 'legs', condition: Platform.isLoaded('irons_spellbooks') },
                 { attribute: 'irons_spellbooks:fire_magic_resist', operation: 0, amount: 0.15, id: 'shh_fire_magic_resist:legs', slot: 'legs', condition: Platform.isLoaded('irons_spellbooks') },
@@ -108,7 +108,7 @@ ItemEvents.modification(event => {
         });
         //腾炎靴子
         event.modify('cataclysm:ignitium_boots', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 6, id: 'shh_armor:feet', slot: 'feet' },
                 { attribute: 'irons_spellbooks:fire_spell_power', operation: 0, amount: 0.05, id: 'shh_fire_spell_power:feet', slot: 'feet', condition: Platform.isLoaded('irons_spellbooks') },
                 { attribute: 'irons_spellbooks:fire_magic_resist', operation: 0, amount: 0.15, id: 'shh_fire_magic_resist:feet', slot: 'feet', condition: Platform.isLoaded('irons_spellbooks') },
@@ -120,13 +120,13 @@ ItemEvents.modification(event => {
 
         // 黑钢斧
         event.modify('cataclysm:black_steel_axe', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 6, id: 'shh_attack_damage:mainhand', slot: 'mainhand' }
             ]);
         });
         // 黑钢剑
         event.modify('cataclysm:black_steel_sword', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 6, id: 'shh_attack_damage:mainhand', slot: 'mainhand' }
             ]);
         });
@@ -134,27 +134,27 @@ ItemEvents.modification(event => {
         // 渊灵武器
         // 仪式匕首
         event.modify('cataclysm:athame', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 5, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'minecraft:generic.movement_speed', operation: 0, amount: 0.1, id: 'shh_attack_speed:any', slot: 'any' }
             ]);
         });
         // 珊瑚长矛
         event.modify('cataclysm:coral_spear', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 6, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'minecraft:player.entity_interaction_range', operation: 0, amount: 0.5, id: 'shh_entity_interaction_range:mainhand', slot: 'mainhand' }
             ]);
         });
         // 珊瑚钺
         event.modify('cataclysm:coral_bardiche', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 6, id: 'shh_attack_damage:mainhand', slot: 'mainhand' }
             ]);
         });
         // 潮汐利爪
         event.modify('cataclysm:tidal_claws', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 7, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'neoforge:swim_speed', operation: 0, amount: 0.1, id: 'shh_swim_speed:any', slot: 'any' },
                 { attribute: 'cataclysm_spellbooks:abyssal_spell_power', operation: 0, amount: 0.1, id: 'shh_abyssal_spell_power:any', slot: 'any', condition: Platform.isLoaded('cataclysm_spellbooks') }
@@ -164,13 +164,13 @@ ItemEvents.modification(event => {
         // 沙漠武器
         // 镰形剑
         event.modify('cataclysm:khopesh', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 6, id: 'shh_attack_damage:mainhand', slot: 'mainhand' }
             ]);
         });
         // 远古之矛
         event.modify('cataclysm:ancient_spear', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 6, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'minecraft:generic.attack_speed', operation: 0, amount: 0.4, id: 'shh_attack_speed:mainhand', slot: 'mainhand' }
             ]);
@@ -180,7 +180,7 @@ ItemEvents.modification(event => {
 
         // 绞肉锯
         event.modify('cataclysm:meat_shredder', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 7, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'l2damagetracker:crit_rate', operation: 0, amount: 0.1, id: 'shh_l2_crit_rate:any', slot: 'any', condition: Platform.isLoaded('l2damagetracker') },
                 { attribute: 'l2damagetracker:crit_damage', operation: 0, amount: 0.15, id: 'shh_l2_crit_damage:any', slot: 'any', condition: Platform.isLoaded('l2damagetracker') }
@@ -190,14 +190,14 @@ ItemEvents.modification(event => {
         // 恶兽武器
         // 炼狱锻锤
         event.modify('cataclysm:infernal_forge', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 7, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'minecraft:generic.knockback_resistance', operation: 0, amount: 0.15, id: 'shh_nockback_resistance:mainhand', slot: 'mainhand' }
             ]);
         });
         // 虚空锻锤
         event.modify('cataclysm:void_forge', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 8, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'minecraft:generic.knockback_resistance', operation: 0, amount: 0.15, id: 'shh_nockback_resistance:mainhand', slot: 'mainhand' }
             ]);
@@ -206,7 +206,7 @@ ItemEvents.modification(event => {
         // 护手
         // 守卫者护手
         event.modify('cataclysm:gauntlet_of_guard', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 7, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'minecraft:generic.attack_speed', operation: 0, amount: 0.6, id: 'shh_attack_speed:mainhand', slot: 'mainhand' },
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 7, id: 'shh_armor:any', slot: 'any' },
@@ -215,7 +215,7 @@ ItemEvents.modification(event => {
         });
         // 堡垒护手
         event.modify('cataclysm:gauntlet_of_bulwark', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 8, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'minecraft:generic.attack_speed', operation: 0, amount: 0.6, id: 'shh_attack_speed:mainhand', slot: 'mainhand' },
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 7, id: 'shh_armor:any', slot: 'any' },
@@ -225,7 +225,7 @@ ItemEvents.modification(event => {
         });
         // 漩涡护手
         event.modify('cataclysm:gauntlet_of_maelstrom', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 8, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'minecraft:generic.attack_speed', operation: 0, amount: 0.6, id: 'shh_attack_speed:mainhand', slot: 'mainhand' },
                 { attribute: 'minecraft:generic.armor', operation: 0, amount: 7, id: 'shh_armor:any', slot: 'any' },
@@ -236,14 +236,14 @@ ItemEvents.modification(event => {
         // 咒魂武器
         // 断魂战戟
         event.modify('cataclysm:soul_render', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 7, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'irons_spellbooks:ice_spell_power', operation: 1, amount: 0.05, id: 'shh_ice_spell_power:mainhand', slot: 'mainhand', condition: Platform.isLoaded('irons_spellbooks') }
             ]);
         });
         // 歼灭战锤
         event.modify('cataclysm:the_annihilator', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 6.5, id: 'shh_attack_damage:mainhand', slot: 'mainhand' }
             ]);
         });
@@ -251,14 +251,14 @@ ItemEvents.modification(event => {
         // 腾炎武器
         // 献祭者
         event.modify('cataclysm:the_immolator', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 7.5, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'l2damagetracker:explosion_damage', operation: 0, amount: 10, id: 'shh_l2_explosion_damage:any', slot: 'any', condition: Platform.isLoaded('l2damagetracker') }
             ]);
         });
         // 炎葬
         event.modify('cataclysm:the_incinerator', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 8, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'irons_spellbooks:fire_spell_power', operation: 1, amount: 0.05, id: 'shh_fire_spell_power:any', slot: 'any', condition: Platform.isLoaded('irons_spellbooks') },
                 { attribute: 'l2damagetracker:explosion_damage', operation: 0, amount: 10, id: 'shh_l2_explosion_damage:mainhand', slot: 'mainhand', condition: Platform.isLoaded('l2damagetracker') }
@@ -268,7 +268,7 @@ ItemEvents.modification(event => {
         // 风暴武器
         // 神怒长槊
         event.modify('cataclysm:astrape', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 7.5, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
                 { attribute: 'irons_spellbooks:lightning_spell_power', operation: 1, amount: 0.05, id: 'shh_lightning_spell_power:any', slot: 'any', condition: Platform.isLoaded('irons_spellbooks') },
                 { attribute: 'l2damagetracker:lightning_damage', operation: 0, amount: 0.2, id: 'shh_l2_lightning_damage:any', slot: 'any', condition: Platform.isLoaded('l2damagetracker') }
@@ -276,8 +276,9 @@ ItemEvents.modification(event => {
         });
         // 霆浪锚戟
         event.modify('cataclysm:ceraunus', item => {
-            addAttModifier(item, [
+            addAttModifiers(item, [
                 { attribute: 'minecraft:generic.attack_damage', operation: 0, amount: 8, id: 'shh_attack_damage:mainhand', slot: 'mainhand' },
+                    { attribute: "minecraft:generic.attack_speed", operation: 0, amount: 0.4, id: "shh_attack_speed:mainhand", slot: "mainhand" },
                 { attribute: 'irons_spellbooks:lightning_spell_power', operation: 1, amount: 0.15, id: 'shh_lightning_spell_power:mainhand', slot: 'mainhand', condition: Platform.isLoaded('irons_spellbooks') },
                 { attribute: 'l2damagetracker:lightning_damage', operation: 0, amount: 0.2, id: 'shh_l2_lightning_damage:mainhand', slot: 'mainhand', condition: Platform.isLoaded('l2damagetracker') }
             ]);

@@ -1,23 +1,23 @@
 ﻿{
-"type": "create:mixing",
-"ingredients": [
-{
-"item": "l2hostility:charm_of_looting_1"
-},
-{
-"item": "l2hostility:tank"
-},
-{
-"item": "l2hostility:tank"
-}
-],
-"results": [
-{
-"id": "l2hostility:charm_of_looting_1"
-},
-{
-"count": 1,
-"id": "minecraft:netherite_scrap"
-}
-]
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "l2hostility:charm_of_looting_1"
+        },
+        {
+            "item": "l2hostility:tank"
+        },
+        {
+            "item": "l2hostility:tank"
+        }
+    ],
+    "results": [
+        {
+            "id": "l2hostility:charm_of_looting_1"
+        },
+        {
+            "count": 1,
+            "id": "minecraft:netherite_scrap"
+        }
+    ]
 }

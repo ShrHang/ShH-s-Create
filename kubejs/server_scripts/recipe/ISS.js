@@ -140,6 +140,14 @@ ServerEvents.recipes(event => {
     }
     // Items Recipe
     {
+        if (Platform.isLoaded('create')) {
+            event.recipes.create.cutting([
+                CreateItem.of(Item.of("irons_spellbooks:eldritch_manuscript", 2)),
+                CreateItem.of(Item.of("irons_spellbooks:eldritch_manuscript", 1), 0.5),
+                CreateItem.of(Item.of("irons_spellbooks:ancient_knowledge_fragment", 14)),
+                CreateItem.of(Item.of("irons_spellbooks:ancient_knowledge_fragment", 6), 0.8)
+            ], "irons_spellbooks:ruined_book")
+        }
         if (Platform.isLoaded('create_dragons_plus')) {
             event.custom({
                 type: "create_dragons_plus:freezing",

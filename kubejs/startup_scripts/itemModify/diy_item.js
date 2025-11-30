@@ -10,7 +10,7 @@ ItemEvents.modification(event => {
         }
     });
     event.modify('shh:hulibugulv', item => {
-        addAttModifier(item, [
+        addAttModifiers(item, [
             { attribute: "minecraft:generic.attack_damage", operation: 0, amount: 5, id: "minecraft:base_attack_damage", slot: "mainhand" }
         ]);
     });

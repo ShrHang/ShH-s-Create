@@ -40,6 +40,10 @@
     "item.shh.incomplete_upgrade_void": "虚空§7（半成品）",
     "item.shh.incomplete_upgrade_weak": "虚弱§7（半成品）",
     "item.shh.incomplete_upgrade_wither": "凋零§7（半成品）",
+
+    "fluid_type.shh.hostility": "恶意",
+
+
     "text.shh.create_enchantment_industry.super_experience_block.tooltip_1": "§b经验块在避雷针下方遭受雷击后转化。",
     "text.shh.create_enchantment_industry.super_experience_block.tooltip_2": "§3您可以对着§e经验颗粒§3思索查看详细信息",
 

@@ -159,6 +159,21 @@ StartupEvents.registry('item', event => {
     }
 })
 
+// StartupEvents.registry("potion", event => {
+//     event.create("shh:hostility")
+//         .effect()
+//         .displayName()
+// })
+
+StartupEvents.registry("fluid", event => {
+    event.create("shh:hostility")
+        .flowingTexture("shh:block/hostility_flow")
+        .stillTexture("shh:block/hostility_still")
+        .tint(0xcc71ec)
+        .noBlock()
+        .noBucket()
+})
+
 StartupEvents.registry('creative_mode_tab', event => {
     event.create('shh:shh_stuffs')
         .content(() => ['shh:etihw', 'shh:hulibugulv', 'shh:chimings_sword', 'shh:maid_tool'])
