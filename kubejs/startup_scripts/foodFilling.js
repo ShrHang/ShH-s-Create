@@ -14,7 +14,6 @@ CreateEvents.spoutHandler(event => {
     event.add("shh:filling_potion", "create:depot", (block, fluid, simulate) => {
         // 配方开始条件
         if (fluid.amount >= 250 && fluid.components.has("minecraft:potion_contents")) {
-            // if (block.getId() == "create:belt") if (block.getEntityData().getFloat("Speed") == 0.0) return 0;
             let inventory = block.getInventory();
             if (!inventory.isEmpty()) { // 工作区有物品
                 if (inventory.getStackInSlot(0).hasTag("c:foods") || !inventory.getStackInSlot(0).hasTag("c:foods/edible_when_placed")) { // 物品是食物

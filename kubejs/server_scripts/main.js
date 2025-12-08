@@ -3,12 +3,9 @@
 const SimpleMenuProvider = Java.loadClass('net.minecraft.world.SimpleMenuProvider')
 const ChestMenu = Java.loadClass('net.minecraft.world.inventory.ChestMenu')
 
-const StockTickerBlockEntity = Java.loadClass("com.simibubi.create.content.logistics.stockTicker.StockTickerBlockEntity");
-const RequestMenuProvider = Java.loadClass("com.simibubi.create.content.logistics.stockTicker.StockTickerBlockEntity$RequestMenuProvider");
-const CategoryMenuProvider = Java.loadClass("com.simibubi.create.content.logistics.stockTicker.StockTickerBlockEntity$CategoryMenuProvider");
+// const StockTickerBlockEntity = Java.loadClass("com.simibubi.create.content.logistics.stockTicker.StockTickerBlockEntity");
+// const CategoryMenuProvider = Java.loadClass("com.simibubi.create.content.logistics.stockTicker.StockTickerBlockEntity$CategoryMenuProvider");
 
-const CustomData = Java.loadClass("net.minecraft.world.item.component.CustomData")
-// const $BlockPos = Java.loadClass('net.minecraft.core.BlockPos')
 PlayerEvents.chat(event => {
     let player = event.player;
     let message = event.message;
@@ -35,7 +32,7 @@ PlayerEvents.chat(event => {
 
     if (message == "ed") {
         let enderChestContainer = player.enderChestInventory;
-        player["openMenu(net.minecraft.world.MenuProvider,java.util.function.Consumer)"](new SimpleMenuProvider(
+        player.openMenu(new SimpleMenuProvider(
             (id, inventory, player) => {
                 return ChestMenu.threeRows(id, inventory, enderChestContainer)
             },
@@ -118,47 +115,4 @@ PlayerEvents.chat(event => {
         event.cancel();
     }*/
 
-})
-
-ItemEvents.foodEaten(event => {
-    let item = event.item;
-    if (item.components.has("minecraft:potion_contents")) {
-        item.components.get("minecraft:potion_contents").allEffects.forEach(effect => {
-            event.entity.potionEffects.add(effect.getEffect(), effect.getDuration(), effect.getAmplifier(), effect.isAmbient(), effect.isVisible());
-        });
-    }
-})
-
-ItemEvents.firstRightClicked('shh:portable_stock_ticker', event => {
-    let player = event.player;
-    let item = event.item;
-    let data = item.components.get("minecraft:custom_data").copyTag();
-    if (player.isShiftKeyDown()) {
-        if (player.rayTrace(7).block.id == 'create:stock_ticker') {
-            let blockEntity = player.rayTrace(7).block.entity;
-            let pos = blockEntity.getBlockPos();
-            item.components.set("minecraft:custom_data", CustomData.of({
-                pos: player.rayTrace(7).block.pos.asLong(),
-                dimension: player.rayTrace(7).block.level.dimension.toString()
-            }));
-            player.tell(Component.green("仓储发报机绑定成功！"));
-        }
-    } else {
-        if (data.isEmpty()) {
-            player.tell(Component.translatable("text.shh.portable_stock_ticker.no_data"));
-            event.cancel();
-        } else {
-            let level = player.level;
-            if (level.dimension.toString() != data.getString("dimension")) {
-                player.tell(Component.red("当前维度与绑定的仓储发报机维度不符，无法打开！"));
-                event.cancel();
-            }
-            let blockEntity = level.getBlockEntity(BlockPos.of(data.getLong("pos")));
-            let provider = new RequestMenuProvider(blockEntity);
-            player["openMenu(net.minecraft.world.MenuProvider,java.util.function.Consumer)"](provider, buf => {
-                buf.writeBoolean(true).writeBoolean(false).writeLong(data.getLong("pos"));
-            });
-            event.cancel();
-        }
-    }
 })
