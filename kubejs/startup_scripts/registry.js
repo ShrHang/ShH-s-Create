@@ -1,3 +1,4 @@
+const CustomData = Java.loadClass("net.minecraft.world.item.component.CustomData")
 StartupEvents.registry('item', event => {
     event.create('shh:etihw')
         .tooltip(Text.translate('text.shh.etihw.tooltip'))
@@ -22,7 +23,6 @@ StartupEvents.registry('item', event => {
         .maxStackSize(16)
         .rarity('epic')
 
-
     event.create('shh:chimings_sword', "sword")
         .maxStackSize(1)
         .maxDamage(1024)
@@ -33,6 +33,9 @@ StartupEvents.registry('item', event => {
     event.create('shh:maid_tool')
         .maxStackSize(1)
         .rarity('epic')
+
+    event.create('shh:portable_stock_ticker')
+        .maxStackSize(1)
 
     if (CreateEvents) {
         event.create('shh:incomplete_upgrade_advanced_infinity', "create:sequenced_assembly")
@@ -159,16 +162,17 @@ StartupEvents.registry('item', event => {
     }
 })
 
-// StartupEvents.registry("potion", event => {
-//     event.create("shh:hostility")
-//         .effect()
-//         .displayName()
-// })
+StartupEvents.registry('block', event => {
+    event.create("shh:test_block")
+        .tagBlock(['create:wrench_pickup'])
+        .blockEntity(info => {
+            info.inventory("shh", "up", 9, 3)
+            info.rightClickOpensInventory("shh")
+        })
+})
 
 StartupEvents.registry("fluid", event => {
     event.create("shh:hostility")
-        .flowingTexture("shh:block/hostility_flow")
-        .stillTexture("shh:block/hostility_still")
         .tint(0xcc71ec)
         .noBlock()
         .noBucket()

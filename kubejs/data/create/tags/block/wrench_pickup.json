@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:iron_bars",
+        "#minecraft:doors",
+        "#minecraft:trapdoors",
+        {
+            "id":"#waystones:is_teleport_target",
+            "required": false
+        }
+    ]
+}

@@ -17,7 +17,7 @@ CreateEvents.spoutHandler(event => {
             // if (block.getId() == "create:belt") if (block.getEntityData().getFloat("Speed") == 0.0) return 0;
             let inventory = block.getInventory();
             if (!inventory.isEmpty()) { // 工作区有物品
-                if (inventory.getStackInSlot(0).hasTag("c:foods")) { // 物品是食物
+                if (inventory.getStackInSlot(0).hasTag("c:foods") || !inventory.getStackInSlot(0).hasTag("c:foods/edible_when_placed")) { // 物品是食物
 
                     let potionComp = fluid.components.get("minecraft:potion_contents");
                     // 获取流体的药水效果组件
@@ -42,6 +42,7 @@ CreateEvents.spoutHandler(event => {
                             if (compare(seen, effect)) return; // 已经有这个效果就跳过
                             newComp = newComp.withEffectAdded(effect); // 添加新的效果
                         });
+                        if (seen.size == 0) return 0; // 没有添加新的效果，就不执行
                     }
 
                     // 配方执行区域
