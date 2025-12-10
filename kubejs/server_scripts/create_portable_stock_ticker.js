@@ -3,7 +3,7 @@ const CustomData = Java.loadClass("net.minecraft.world.item.component.CustomData
 ItemEvents.firstRightClicked('shh:portable_stock_ticker', event => {
     let player = event.player;
     let item = event.item;
-    let data = item.components.get("minecraft:custom_data").copyTag();
+    let data = item.components.get("minecraft:custom_data");
     if (player.isShiftKeyDown()) {
         if (player.rayTrace(7).block.id == 'create:stock_ticker') {
             let blockEntity = player.rayTrace(7).block.entity;
@@ -15,19 +15,19 @@ ItemEvents.firstRightClicked('shh:portable_stock_ticker', event => {
             player.tell(Component.green("仓储发报机绑定成功！"));
         }
     } else {
-        if (data.isEmpty()) {
+        if (data.isEmpty() || !data) {
             player.tell(Component.translatable("text.shh.portable_stock_ticker.no_data"));
             event.cancel();
         } else {
             let level = player.level;
-            if (level.dimension.toString() != data.getString("dimension")) {
+            if (level.dimension.toString() != data.copyTag().getString("dimension")) {
                 player.tell(Component.red("当前维度与绑定的仓储发报机维度不符，无法打开！"));
                 event.cancel();
             }
-            let blockEntity = level.getBlockEntity(BlockPos.of(data.getLong("pos")));
+            let blockEntity = level.getBlockEntity(BlockPos.of(data.copyTag().getLong("pos")));
             let provider = new RequestMenuProvider(blockEntity);
             player["openMenu(net.minecraft.world.MenuProvider,java.util.function.Consumer)"](provider, buf => {
-                buf.writeBoolean(true).writeBoolean(false).writeLong(data.getLong("pos"));
+                buf.writeBoolean(true).writeBoolean(false).writeLong(data.copyTag().getLong("pos"));
             });
             event.cancel();
         }

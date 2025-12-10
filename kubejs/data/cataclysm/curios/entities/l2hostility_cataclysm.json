@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "condition": "neoforge:mod_loaded",
+      "modid": "l2hostility"
+    }
+  ],
   "entities": [
     "cataclysm:ignis",
     "cataclysm:netherite_monstrosity",

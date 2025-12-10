@@ -1,4 +1,5 @@
-const CustomData = Java.loadClass("net.minecraft.world.item.component.CustomData")
+// const CustomData = Java.loadClass("net.minecraft.world.item.component.CustomData")
+const StockTickerBlockEntity = Java.loadClass("com.simibubi.create.content.logistics.stockTicker.StockTickerBlockEntity")
 StartupEvents.registry('item', event => {
     event.create('shh:etihw')
         .tooltip(Text.translate('text.shh.etihw.tooltip'))
@@ -163,12 +164,14 @@ StartupEvents.registry('item', event => {
 })
 
 StartupEvents.registry('block', event => {
-    event.create("shh:test_block")
+    event.create("shh:packages_transportation_unit")
         .tagBlock(['create:wrench_pickup'])
         .blockEntity(info => {
-            info.inventory("shh", "up", 9, 3)
-            info.rightClickOpensInventory("shh")
+            info.inventory("shh", ["down", "east", "north", "south", "up", "west"], 1, 1, item => item.hasTag("create:packages"))
+            info.tickFrequency(20)
+            info.serverTicking()
         })
+
 })
 
 StartupEvents.registry("fluid", event => {
@@ -184,3 +187,7 @@ StartupEvents.registry('creative_mode_tab', event => {
         .translationKey('itemGroup.shh.shh_stuffs')
         .icon(() => 'shh:etihw')
 })
+
+// StartupEvents.postInit(event => {
+
+// })

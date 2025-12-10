@@ -9,6 +9,15 @@ ServerEvents.recipes(event => {
             A: "createaddition:electrum_wire",
             B: "createaddition:electrum_nugget"
         })
+        event.shaped("pandora:pandora_bracelet[pandora:backpack_content=[{item:{count:1,id:\"curseofpandora:curse_of_inertia\"},slot:0},{item:{count:1,id:\"curseofpandora:curse_of_proximity\"},slot:1},{item:{count:1,id:\"curseofpandora:curse_of_flesh\"},slot:2},{item:{count:1,id:\"curseofpandora:curse_of_metabolism\"},slot:3},{item:{count:1,id:\"curseofpandora:curse_of_tension\"},slot:4},{item:{count:1,id:\"curseofpandora:curse_of_prudence\"},slot:5},{item:{count:1,id:\"curseofpandora:curse_of_spell\"},slot:6}]]", [
+            "ACA",
+            "CBC",
+            "ACA"
+        ], {
+            A: "createaddition:electrum_nugget",
+            B: "curseofpandora:plain_charm",
+            C: "minecraft:nether_star"
+        })
 
         event.remove({ output: "pandora:pandora_necklace" })
         event.shaped("pandora:pandora_necklace", [
@@ -29,18 +38,20 @@ ServerEvents.recipes(event => {
             C: "minecraft:nether_star"
         })
         // 微缩信标基座
-        event.custom({
-            type: "create:compacting",
-            ingredients: [
-                { tag: "c:beacon_base_blocks" },
-                { tag: "c:beacon_base_blocks" },
-                { tag: "c:beacon_base_blocks" },
-                { tag: "c:beacon_base_blocks" }
-            ],
-            results: [
-                { chance: 0.0972, id: "curseofpandora:mini_beacon_base" }
-            ]
-        })
+        if (Platform.isLoaded("create")) {
+            event.custom({
+                type: "create:compacting",
+                ingredients: [
+                    { tag: "c:beacon_base_blocks" },
+                    { tag: "c:beacon_base_blocks" },
+                    { tag: "c:beacon_base_blocks" },
+                    { tag: "c:beacon_base_blocks" }
+                ],
+                results: [
+                    { chance: 0.0972, id: "curseofpandora:mini_beacon_base" }
+                ]
+            })
+        }
         // kubejs\data\curseofpandora\recipe\mini_beacon_base.json    
     }
 })

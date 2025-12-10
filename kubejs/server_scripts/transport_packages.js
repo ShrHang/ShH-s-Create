@@ -1,0 +1,7 @@
+BlockEvents.blockEntityTick("shh:packages_transportation_unit", blockEntity => {
+    let inventory = blockEntity.block.inventory;
+    let placer = blockEntity.level.getPlayerByUUID(blockEntity.block.entityData.getUUID("placer")) || null;
+    if (placer && !inventory.isEmpty()) {
+        placer.give(inventory.extractItem(0, 1, false));
+    }
+})

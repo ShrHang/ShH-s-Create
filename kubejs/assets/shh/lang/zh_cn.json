@@ -65,5 +65,8 @@
 
     "text.shh.portable_stock_ticker.no_data": "§c没有绑定仓储发报机，请Shift + 右键仓储发报机绑定！",
 
+    "text.shh.pandora_bracelet_init.tooltip": "§5七咒之镯",
+    "text.shh.pandora_necklet_init.tooltip": "§5七咒之链",
+
     "itemGroup.shh.shh_stuffs": "什物"
 }

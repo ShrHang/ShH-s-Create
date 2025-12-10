@@ -1,5 +1,5 @@
-if (Platform.isLoaded('create')) {
-    ServerEvents.recipes(event => {
+ServerEvents.recipes(event => {
+    if (Platform.isLoaded('create')) {
 
         // Compacting Recipes
         {
@@ -185,10 +185,10 @@ if (Platform.isLoaded('create')) {
                 ]
             })*/
             event.recipes.create.crushing([
-                    'create:powdered_obsidian',
-                    CreateItem.of('minecraft:obsidian', 0.75),
-                    CreateItem.of('minecraft:amethyst_shard', 0.5)
-                ], 
+                'create:powdered_obsidian',
+                CreateItem.of('minecraft:obsidian', 0.75),
+                CreateItem.of('minecraft:amethyst_shard', 0.5)
+            ],
                 'minecraft:crying_obsidian'
             ).processingTime(500)
             /*event.custom({
@@ -201,9 +201,9 @@ if (Platform.isLoaded('create')) {
                 ]
             })*/
             event.recipes.create.crushing([
-                    CreateItem.of(Item.of('minecraft:quartz', 2), 0.15),
-                    CreateItem.of('minecraft:lapis_lazuli', 0.35)
-                ], 
+                CreateItem.of(Item.of('minecraft:quartz', 2), 0.15),
+                CreateItem.of('minecraft:lapis_lazuli', 0.35)
+            ],
                 'create:limestone'
             ).processingTime(250)
             /*event.custom({
@@ -229,7 +229,7 @@ if (Platform.isLoaded('create')) {
                 CreateItem.of('minecraft:wither_skeleton_skull', 0.01),
                 CreateItem.of('l2complements:blackstone_core', 0.01)
             ],
-            'minecraft:blackstone'
+                'minecraft:blackstone'
             ).processingTime(350)
 
             /*event.custom({
@@ -260,7 +260,7 @@ if (Platform.isLoaded('create')) {
                 CreateItem.of('create:cinder_flour', 0.5),
                 CreateItem.of('minecraft:netherite_scrap', 0.005)
             ],
-            'minecraft:netherrack'
+                'minecraft:netherrack'
             ).processingTime(350)
 
             /*event.custom({
@@ -286,7 +286,7 @@ if (Platform.isLoaded('create')) {
                 CreateItem.of('minecraft:blaze_powder', 0.125),
                 CreateItem.of('minecraft:blaze_rod', 0.02)
             ],
-            'create:scoria'
+                'create:scoria'
             ).processingTime(125)
 
             /*event.custom({
@@ -307,48 +307,8 @@ if (Platform.isLoaded('create')) {
             event.recipes.create.crushing([
                 CreateItem.of('minecraft:glowstone_dust', 0.125)
             ],
-            'minecraft:soul_sand'
+                'minecraft:soul_sand'
             ).processingTime(125)
         }
-        // Testing Filling Recipes
-        {
-            /*event.custom({
-                type: "create:filling",
-                ingredients: [
-                    {
-                        item: "minecraft:apple"
-                    },
-                    {
-                        type: "neoforge:single",
-                        amount: 250,
-                        components: {
-                            "create:potion_fluid_bottle_type": "regular",
-                            "minecraft:potion_contents":
-                            {
-                                potion: "minecraft:swiftness"
-                            }
-                        },
-                        fluid: "create:potion"
-                    }
-                ],
-                results: [
-                    {
-                        components: {
-                            "minecraft:food":
-                            {
-                                nutrition: 6,
-                                saturation: 5,
-                                effects: [
-                                    { effect: { id: "minecraft:speed", duration: 200, amplifier: 0 } }
-                                ]
-                            }
-                        },
-                        id: "minecraft:apple"
-                    }
-                ]
-            })*/
-        }
-    })
-
-
-}
+    }
+})

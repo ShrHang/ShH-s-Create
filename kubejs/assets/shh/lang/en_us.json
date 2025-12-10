@@ -55,5 +55,8 @@
     "text.shh.maid_tool.tooltip_right_click": "§7- §2Right-clicking §7on the §5Maid §7can remove/restore her §6AI",
     "text.shh.maid_tool.tooltip_shift_right_click": "§7- §aShift + Right-clicking §7on the §dMaid §7can open her §eCurios §7slot",
 
+    "text.shh.pandora_bracelet_init.tooltip": "§5Bracelet of the Seven Curses",
+    "text.shh.pandora_necklet_init.tooltip": "§5Necklet of the Seven Curses",
+
     "itemGroup.shh.shh_stuffs": "ShH's Stuffs"
 }
