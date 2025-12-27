@@ -235,7 +235,7 @@
 					components: {
 						"irons_spellbooks:spell_container": {
 							data: [{
-								id: "gametechbcs_spellbooks:call_forth_the_dead_king"
+								id: "irons_spellbooks:none"
 								index: 0
 								level: 1
 								locked: 1b
@@ -305,7 +305,7 @@
 			id: "32349AC1C4887ED1"
 			tasks: [{
 				id: "2869727F9B96BC95"
-				item: { count: 1, id: "darkdoppelganger:shadow_orb" }
+				item: { components: { "ftbquests:missing_item": "darkdoppelganger:shadow_orb" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.5d

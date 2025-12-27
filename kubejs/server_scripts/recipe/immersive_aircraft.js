@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
             'create:fluid_tank'
         ])
 
-        /*event.custom({
+        event.custom({
             type: "create:mechanical_crafting",
             accept_mirrored: true,
             category: "misc",
@@ -36,18 +36,18 @@ ServerEvents.recipes(event => {
                 count: 2,
                 id: "immersive_aircraft:hull"
             }
-        })*/
-        event.recipes.create.mechanical_crafting(Item.of('immersive_aircraft:hull', 2), [
-            'BBBB',
-            'AAAA',
-            'BBBB'
-        ], {
-            A: [
-                "create:iron_sheet",
-                "createaddition:zinc_sheet"
-            ],
-            B: '#minecraft:logs'
         })
+        // event.recipes.create.mechanical_crafting(Item.of('immersive_aircraft:hull', 2), [
+        //     'BBBB',
+        //     'AAAA',
+        //     'BBBB'
+        // ], {
+        //     A: [
+        //         "create:iron_sheet",
+        //         "createaddition:zinc_sheet"
+        //     ],
+        //     B: '#minecraft:logs'
+        // })
 
         event.shaped(Item.of('immersive_aircraft:sail', 6), [
             'AB'
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
             D: '#minecraft:chest_boats'
         })
 
-        /*event.custom({
+        event.custom({
             "type": "create:mechanical_crafting",
             "accept_mirrored": true,
             "category": "misc",
@@ -98,18 +98,18 @@ ServerEvents.recipes(event => {
                 "count": 1,
                 "id": "immersive_aircraft:airship"
             }
-        })*/
-        event.recipes.create.mechanical_crafting('immersive_aircraft:airship', [
-            'CCC',
-            'CCC',
-            'BA '
-        ], {
-            A: "immersive_aircraft:hull",
-            B: "immersive_aircraft:engine",
-            C: "immersive_aircraft:sail"
         })
+        // event.recipes.create.mechanical_crafting('immersive_aircraft:airship', [
+        //     'CCC',
+        //     'CCC',
+        //     'BA '
+        // ], {
+        //     A: "immersive_aircraft:hull",
+        //     B: "immersive_aircraft:engine",
+        //     C: "immersive_aircraft:sail"
+        // })
 
-        /*event.custom({
+        event.custom({
             "type": "create:mechanical_crafting",
             "accept_mirrored": true,
             "category": "misc",
@@ -128,19 +128,19 @@ ServerEvents.recipes(event => {
                 "count": 1,
                 "id": "immersive_aircraft:bamboo_hopper"
             }
-        })*/
-        event.recipes.create.mechanical_crafting('immersive_aircraft:bamboo_hopper', [
-            'ACACA',
-            ' DBD ',
-            ' DDD '
-        ], {
-            A: "immersive_aircraft:hull",
-            B: "immersive_aircraft:engine",
-            C: "immersive_aircraft:biplane",
-            D: "minecraft:bamboo_block"
         })
+        // event.recipes.create.mechanical_crafting('immersive_aircraft:bamboo_hopper', [
+        //     'ACACA',
+        //     ' DBD ',
+        //     ' DDD '
+        // ], {
+        //     A: "immersive_aircraft:hull",
+        //     B: "immersive_aircraft:engine",
+        //     C: "immersive_aircraft:biplane",
+        //     D: "minecraft:bamboo_block"
+        // })
 
-        /*event.custom({
+        event.custom({
             "type": "create:mechanical_crafting",
             "accept_mirrored": true,
             "category": "misc",
@@ -161,21 +161,21 @@ ServerEvents.recipes(event => {
                 "count": 1,
                 "id": "immersive_aircraft:biplane"
             }
-        })*/
-        event.recipes.create.mechanical_crafting('immersive_aircraft:biplane', [
-            '   A ',
-            '   A ',
-            'AADBC',
-            '   A ',
-            '   A '
-        ], {
-            A: "immersive_aircraft:hull",
-            B: "immersive_aircraft:engine",
-            C: "immersive_aircraft:propeller",
-            D: "#create:seats"
         })
+        // event.recipes.create.mechanical_crafting('immersive_aircraft:biplane', [
+        //     '   A ',
+        //     '   A ',
+        //     'AADBC',
+        //     '   A ',
+        //     '   A '
+        // ], {
+        //     A: "immersive_aircraft:hull",
+        //     B: "immersive_aircraft:engine",
+        //     C: "immersive_aircraft:propeller",
+        //     D: "#create:seats"
+        // })
 
-        /*event.custom({
+        event.custom({
             "type": "create:sequenced_assembly",
             "ingredient": {
                 "item": "immersive_aircraft:airship"
@@ -272,20 +272,20 @@ ServerEvents.recipes(event => {
             "transitional_item": {
                 "id": "immersive_aircraft:airship"
             }
-        })*/
-        event.recipes.create.sequenced_assembly(
-            "immersive_aircraft:cargo_airship",
-            "immersive_aircraft:airship",
-            [
-                event.recipes.create.deploying("immersive_aircraft:airship", ["immersive_aircraft:airship", "immersive_aircraft:hull"]),
-                event.recipes.create.deploying("immersive_aircraft:airship", ["immersive_aircraft:airship", "minecraft:chest"]),
-                event.recipes.create.deploying("immersive_aircraft:airship", ["immersive_aircraft:airship", "minecraft:chest"]),
-                event.recipes.create.deploying("immersive_aircraft:airship", ["immersive_aircraft:airship", "minecraft:chest"]),
-                event.recipes.create.deploying("immersive_aircraft:airship", ["immersive_aircraft:airship", "minecraft:chest"])
-            ]
-        ).transitionalItem("immersive_aircraft:airship")
+        })
+        // event.recipes.create.sequenced_assembly(
+        //     "immersive_aircraft:cargo_airship",
+        //     "immersive_aircraft:airship",
+        //     [
+        //         event.recipes.create.deploying("immersive_aircraft:airship", ["immersive_aircraft:airship", "immersive_aircraft:hull"]),
+        //         event.recipes.create.deploying("immersive_aircraft:airship", ["immersive_aircraft:airship", "minecraft:chest"]),
+        //         event.recipes.create.deploying("immersive_aircraft:airship", ["immersive_aircraft:airship", "minecraft:chest"]),
+        //         event.recipes.create.deploying("immersive_aircraft:airship", ["immersive_aircraft:airship", "minecraft:chest"]),
+        //         event.recipes.create.deploying("immersive_aircraft:airship", ["immersive_aircraft:airship", "minecraft:chest"])
+        //     ]
+        // ).transitionalItem("immersive_aircraft:airship")
 
-        /*event.custom({
+        event.custom({
             "type": "create:mechanical_crafting",
             "accept_mirrored": true,
             "category": "misc",
@@ -333,24 +333,24 @@ ServerEvents.recipes(event => {
                 "count": 1,
                 "id": "man_of_many_planes:economy_plane"
             }
-        })*/
-        event.recipes.create.mechanical_crafting("man_of_many_planes:economy_plane", [
-            "   S ",
-            "S TSP",
-            "HH_EC",
-            "S TSP",
-            "   S "
-        ], {
-            H: "immersive_aircraft:hull",
-            E: "immersive_aircraft:engine",
-            P: "immersive_aircraft:propeller",
-            S: "immersive_aircraft:sail",
-            C: "immersive_aircraft:industrial_gears",
-            T: "create:fluid_tank",
-            _: "#create:seats"
         })
+        // event.recipes.create.mechanical_crafting("man_of_many_planes:economy_plane", [
+        //     "   S ",
+        //     "S TSP",
+        //     "HH_EC",
+        //     "S TSP",
+        //     "   S "
+        // ], {
+        //     H: "immersive_aircraft:hull",
+        //     E: "immersive_aircraft:engine",
+        //     P: "immersive_aircraft:propeller",
+        //     S: "immersive_aircraft:sail",
+        //     C: "immersive_aircraft:industrial_gears",
+        //     T: "create:fluid_tank",
+        //     _: "#create:seats"
+        // })
 
-        /*event.custom({
+        event.custom({
             "type": "create:mechanical_crafting",
             "accept_mirrored": true,
             "category": "misc",
@@ -378,7 +378,7 @@ ServerEvents.recipes(event => {
                 "count": 1,
                 "id": "immersive_aircraft:engine"
             }
-        })*/
+        })
         event.recipes.create.mechanical_crafting('immersive_aircraft:engine', [
             'AAAA',
             'BCDA',
@@ -393,7 +393,7 @@ ServerEvents.recipes(event => {
             D: "immersive_aircraft:boiler"
         })
 
-        /*event.custom({
+        event.custom({
             "type": "create:sequenced_assembly",
             "ingredient": {
                 "item": "minecraft:scaffolding"
@@ -457,18 +457,10 @@ ServerEvents.recipes(event => {
                 {
                     "type": "create:deploying",
                     "ingredients": [
-                        {
-                            "item": "minecraft:scaffolding"
-                        },
-                        {
-                            "item": "immersive_aircraft:propeller"
-                        }
+                        {"item": "minecraft:scaffolding"},
+                        {"item": "immersive_aircraft:propeller"}
                     ],
-                    "results": [
-                        {
-                            "id": "minecraft:scaffolding"
-                        }
-                    ]
+                    "results": [{"id": "minecraft:scaffolding"}]
                 },
                 {
                     "type": "create:deploying",
@@ -490,19 +482,19 @@ ServerEvents.recipes(event => {
             "transitional_item": {
                 "id": "minecraft:scaffolding"
             }
-        })*/
-        event.recipes.create.sequenced_assembly("immersive_aircraft:quadrocopter",
-            "minecraft:scaffolding",
-            [
-                event.recipes.create.deploying("minecraft:scaffolding", ["minecraft:scaffolding", "immersive_aircraft:engine"]),
-                event.recipes.create.deploying("minecraft:scaffolding", ["minecraft:scaffolding", "immersive_aircraft:propeller"]),
-                event.recipes.create.deploying("minecraft:scaffolding", ["minecraft:scaffolding", "immersive_aircraft:propeller"]),
-                event.recipes.create.deploying("minecraft:scaffolding", ["minecraft:scaffolding", "immersive_aircraft:propeller"]),
-                event.recipes.create.deploying("minecraft:scaffolding", ["minecraft:scaffolding", "immersive_aircraft:propeller"])
-            ]
-        ).transitionalItem("minecraft:scaffolding")
+        })
+        // event.recipes.create.sequenced_assembly("immersive_aircraft:quadrocopter",
+        //     "minecraft:scaffolding",
+        //     [
+        //         event.recipes.create.deploying("minecraft:scaffolding", ["minecraft:scaffolding", "immersive_aircraft:engine"]),
+        //         event.recipes.create.deploying("minecraft:scaffolding", ["minecraft:scaffolding", "immersive_aircraft:propeller"]),
+        //         event.recipes.create.deploying("minecraft:scaffolding", ["minecraft:scaffolding", "immersive_aircraft:propeller"]),
+        //         event.recipes.create.deploying("minecraft:scaffolding", ["minecraft:scaffolding", "immersive_aircraft:propeller"]),
+        //         event.recipes.create.deploying("minecraft:scaffolding", ["minecraft:scaffolding", "immersive_aircraft:propeller"])
+        //     ]
+        // ).transitionalItem("minecraft:scaffolding")
 
-        /*event.custom({
+        event.custom({
             "type": "create:mechanical_crafting",
             "accept_mirrored": true,
             "pattern": [
@@ -513,68 +505,40 @@ ServerEvents.recipes(event => {
                 "   S "
             ],
             "key": {
-                "H": [
-                    {
-                        "item": "immersive_aircraft:hull_reinforcement"
-                    }
-                ],
-                "E": [
-                    {
-                        "item": "man_of_many_planes:economy_plane"
-                    }
-                ],
-                "P": [
-                    {
-                        "item": "immersive_aircraft:propeller"
-                    }
-                ],
-                "S": [
-                    {
-                        "item": "immersive_aircraft:sail"
-                    }
-                ],
-                "_": [
-                    {
-                        "tag": "create:seats"
-                    }
-                ]
+                "H": [{"item": "immersive_aircraft:hull_reinforcement"}],
+                "E": [{"item": "man_of_many_planes:economy_plane"}],
+                "P": [{"item": "immersive_aircraft:propeller"}],
+                "S": [{"item": "immersive_aircraft:sail"}],
+                "_": [{"tag": "create:seats"}]
             },
             "result": {
                 "count": 1,
                 "id": "man_of_many_planes:scarlet_biplane"
             }
-        })*/
-        event.recipes.create.mechanical_crafting("man_of_many_planes:scarlet_biplane", [
-            "   S ",
-            "S  S ",
-            "HH_EP",
-            "S  S ",
-            "   S "
-        ], {
-            H: "immersive_aircraft:hull_reinforcement",
-            E: "man_of_many_planes:economy_plane",
-            P: "immersive_aircraft:propeller",
-            S: "immersive_aircraft:sail",
-            _: "#create:seats"
         })
+        // event.recipes.create.mechanical_crafting("man_of_many_planes:scarlet_biplane", [
+        //     "   S ",
+        //     "S  S ",
+        //     "HH_EP",
+        //     "S  S ",
+        //     "   S "
+        // ], {
+        //     H: "immersive_aircraft:hull_reinforcement",
+        //     E: "man_of_many_planes:economy_plane",
+        //     P: "immersive_aircraft:propeller",
+        //     S: "immersive_aircraft:sail",
+        //     _: "#create:seats"
+        // })
 
-        /*event.custom({
+        event.custom({
             "type": "create:mechanical_crafting",
             "accept_mirrored": true,
             "category": "misc",
             "key": {
-                "A": {
-                    "item": "immersive_aircraft:hull"
-                },
-                "B": {
-                    "item": "immersive_aircraft:engine"
-                },
-                "C": {
-                    "item": "immersive_aircraft:sail"
-                },
-                "D": {
-                    "item": "immersive_aircraft:cargo_airship"
-                }
+                "A": {"item": "immersive_aircraft:hull"},
+                "B": {"item": "immersive_aircraft:engine"},
+                "C": {"item": "immersive_aircraft:sail"},
+                "D": {"item": "immersive_aircraft:cargo_airship"}
             },
             "pattern": [
                 "CCCCC",
@@ -585,16 +549,16 @@ ServerEvents.recipes(event => {
                 "count": 1,
                 "id": "immersive_aircraft:warship"
             }
-        })*/
-       event.recipes.create.mechanical_crafting('immersive_aircraft:warship', [
-            "CCCCC",
-            "CBDBC",
-            " AAA "
-        ], {
-            A: "immersive_aircraft:hull",
-            B: "immersive_aircraft:engine",
-            C: "immersive_aircraft:sail",
-            D: "immersive_aircraft:cargo_airship"
         })
+    //    event.recipes.create.mechanical_crafting('immersive_aircraft:warship', [
+    //         "CCCCC",
+    //         "CBDBC",
+    //         " AAA "
+    //     ], {
+    //         A: "immersive_aircraft:hull",
+    //         B: "immersive_aircraft:engine",
+    //         C: "immersive_aircraft:sail",
+    //         D: "immersive_aircraft:cargo_airship"
+    //     })
     }
 })

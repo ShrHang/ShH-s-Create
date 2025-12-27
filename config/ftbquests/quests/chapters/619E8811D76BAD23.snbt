@@ -189,7 +189,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "78CEDF8E3756D82D"
-				item: { count: 1, id: "add_potion:potion_table" }
+				item: { components: { "ftbquests:missing_item": "add_potion:potion_table" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -243,7 +243,7 @@
 			id: "75CAF963C5E7053D"
 			tasks: [{
 				id: "2F1176DD75BFA7A7"
-				item: { count: 1, id: "toms_storage:storage_terminal" }
+				item: { components: { "ftbquests:missing_item": "toms_storage:storage_terminal" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -253,7 +253,7 @@
 			id: "26C51F5B6BB8328D"
 			tasks: [{
 				id: "0B480B274A39D24B"
-				item: { count: 1, id: "toms_storage:inventory_cable_connector" }
+				item: { components: { "ftbquests:missing_item": "toms_storage:inventory_cable_connector" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d

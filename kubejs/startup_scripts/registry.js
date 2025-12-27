@@ -35,9 +35,6 @@ StartupEvents.registry('item', event => {
         .maxStackSize(1)
         .rarity('epic')
 
-    event.create('shh:portable_stock_ticker')
-        .maxStackSize(1)
-
     if (CreateEvents) {
         event.create('shh:incomplete_upgrade_advanced_infinity', "create:sequenced_assembly")
             .texture('shh:item/incomplete_upgrade_advanced_infinity')

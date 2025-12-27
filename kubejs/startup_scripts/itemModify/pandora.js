@@ -4,25 +4,25 @@ ItemEvents.modification(event => {
         // 裁决
         event.modify('curseofpandora:angelic_judgement', item => {
             addAttModifiers(item, [
-                { attribute: "minecraft:generic.movement_speed", operation: 1, amount: 0.1, id: "shh_movement_speed:mainhand", slot: "mainhand" }
+                { attribute: "minecraft:generic.attack_damage", operation: 0, amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand" }
             ]);
         })
         // 黑星
         event.modify('curseofpandora:doom_star', item => {
             addAttModifiers(item, [
-                { attribute: "minecraft:generic.movement_speed", operation: 1, amount: -0.05, id: "shh_movement_speed:mainhand", slot: "mainhand" }
+                { attribute: "minecraft:generic.attack_damage", operation: 0, amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand" }
             ]);
         })
         // 罪业
         event.modify('curseofpandora:cursed_karma', item => {
             addAttModifiers(item, [
-                { attribute: "minecraft:generic.movement_speed", operation: 1, amount: -0.05, id: "shh_movement_speed:mainhand", slot: "mainhand" }
+                { attribute: "minecraft:generic.attack_damage", operation: 0, amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand" }
             ]);
         })
         // 深渊之锋
         event.modify('curseofpandora:abyssal_edge', item => {
             addAttModifiers(item, [
-                { attribute: "minecraft:generic.movement_speed", operation: 1, amount: -0.05, id: "shh_movement_speed:mainhand", slot: "mainhand" }
+                { attribute: "minecraft:generic.attack_damage", operation: 0, amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand" }
             ]);
         })
     }

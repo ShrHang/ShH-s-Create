@@ -9,26 +9,6 @@ const ChestMenu = Java.loadClass('net.minecraft.world.inventory.ChestMenu')
 PlayerEvents.chat(event => {
     let player = event.player;
     let message = event.message;
-    if (message == "ts") {
-        let comp = player.mainHandItem.components.get("minecraft:custom_data").copyTag();
-        player.tell(Component.literal(comp.isEmpty()));
-        event.cancel();
-    }
-
-    if (message == "open") {
-        let block = player.rayTrace(10).block;
-        if (block.id == 'create:stock_ticker') {
-            let blockEntity = block.entity;
-            let pos = blockEntity.getBlockPos();
-            let provider = new RequestMenuProvider(blockEntity);
-            player["openMenu(net.minecraft.world.MenuProvider,java.util.function.Consumer)"](provider, buf => {
-                buf.writeBoolean(true).writeBoolean(false).writeLong(pos.asLong());
-            });
-        } else {
-            player.tell(Component.red("未找到 StockTicker 方块实体！请看着方块或站在方块上方。"));
-        }
-        event.cancel();
-    }
 
     if (message == "ed") {
         let enderChestContainer = player.enderChestInventory;
