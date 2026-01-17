@@ -7,7 +7,7 @@
 		id: "cataclysm:altar_of_abyss"
 	}
 	id: "099D9445D1F810D2"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -288,28 +288,6 @@
 			}]
 			x: 8.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["44218C6C106692C8"]
-			id: "4EDCC7CBA9CBF05A"
-			tasks: [{
-				entity: "gametechbcs_spellbooks:hard_dead_king"
-				id: "36F88B7B5B3FEBC8"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.0d
-			y: 1.5d
-		}
-		{
-			id: "32349AC1C4887ED1"
-			tasks: [{
-				id: "2869727F9B96BC95"
-				item: { components: { "ftbquests:missing_item": "darkdoppelganger:shadow_orb" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: 3.5d
 		}
 	]
 }

@@ -9,20 +9,27 @@
 	id: "254BB498583A6B5B"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "63B0CE15E29577BB"
-		rewards: [{
-			exclude_from_claim_all: true
-			id: "29EF9CF47F1AACF1"
-			table_id: 3680183494035165661L
-			type: "all_table"
-		}]
-		tasks: [{
-			id: "297B01687858F2CC"
-			item: { count: 1, id: "kaleidoscope_cookery:iron_kitchen_knife" }
-			type: "item"
-		}]
-		x: -0.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "62E41C6D7E395964"
+			tasks: [{
+				advancement: "kaleidoscope_cookery:root"
+				criterion: ""
+				id: "4B27F2467E1D921F"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "501E4FA13BE647E9"
+			tasks: [{
+				id: "7195D619CA0BCF66"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(kaleidoscope_cookery:kitchen_knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+	]
 }

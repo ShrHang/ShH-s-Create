@@ -309,6 +309,7 @@
 		{
 			dependencies: ["56B2AB818F0E08EF"]
 			id: "7B7A3717DDD004CD"
+			invisible: true
 			tasks: [{
 				id: "30E21B13C328805F"
 				item: { components: { "ftbquests:missing_item": "gametechbcs_spellbooks:gtbcs_magical_repository" }, count: 1, id: "ftbquests:missing_item" }
@@ -581,8 +582,8 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				id: "3BBE53A1DF866205"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:staff)item(cataclysm_spellbooks:hellfire_forge))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "7A29A17C6AB4A0B9"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(irons_spellbooks:staff)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -9.5d

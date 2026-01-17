@@ -8,7 +8,7 @@
 		id: "create:wrench"
 	}
 	id: "619E8811D76BAD23"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -185,17 +185,6 @@
 			y: -5.0d
 		}
 		{
-			id: "745C9AD0FF6EA5C8"
-			shape: "hexagon"
-			tasks: [{
-				id: "78CEDF8E3756D82D"
-				item: { components: { "ftbquests:missing_item": "add_potion:potion_table" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 4.5d
-		}
-		{
 			id: "5F44C3FFC4D4C56C"
 			shape: "hexagon"
 			tasks: [{
@@ -218,17 +207,6 @@
 			y: 2.5d
 		}
 		{
-			id: "5D98E3A860ED7735"
-			shape: "hexagon"
-			tasks: [{
-				id: "575E594FC476A342"
-				item: { count: 1, id: "transmog:transmogrification_table" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 4.5d
-		}
-		{
 			id: "12C3CCD8A7F30365"
 			shape: "hexagon"
 			tasks: [{
@@ -238,26 +216,6 @@
 			}]
 			x: -1.5d
 			y: 2.5d
-		}
-		{
-			id: "75CAF963C5E7053D"
-			tasks: [{
-				id: "2F1176DD75BFA7A7"
-				item: { components: { "ftbquests:missing_item": "toms_storage:storage_terminal" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.5d
-		}
-		{
-			id: "26C51F5B6BB8328D"
-			tasks: [{
-				id: "0B480B274A39D24B"
-				item: { components: { "ftbquests:missing_item": "toms_storage:inventory_cable_connector" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 4.5d
 		}
 		{
 			id: "3DC9514ED644C108"
