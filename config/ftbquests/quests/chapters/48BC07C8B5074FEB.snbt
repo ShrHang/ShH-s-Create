@@ -109,25 +109,9 @@
 			height: 0.5d
 			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
 			rotation: 0.0d
-			width: 1.3d
-			x: 4.0d
-			y: -14.5d
-		}
-		{
-			height: 0.5d
-			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
-			rotation: 0.0d
 			width: 0.7d
 			x: 13.476190476190496d
 			y: -6.952380952380977d
-		}
-		{
-			height: 0.5d
-			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
-			rotation: 0.0d
-			width: 1.3d
-			x: 4.0d
-			y: -13.5d
 		}
 		{
 			height: 0.5d
@@ -162,7 +146,7 @@
 			y: 2.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -912,62 +896,6 @@
 			y: -17.5d
 		}
 		{
-			id: "7E0EE0DCA52EE44F"
-			shape: "none"
-			tasks: [{
-				id: "74EE83067D7C1449"
-				item: { count: 1, id: "minecraft:tuff" }
-				type: "item"
-			}]
-			x: 3.7142857142857153d
-			y: -14.964285714285701d
-		}
-		{
-			disable_toast: true
-			id: "761B0B12BB221826"
-			shape: "none"
-			tasks: [
-				{
-					disable_toast: true
-					id: "53A4BCDDB79506EF"
-					item: { count: 1, id: "minecraft:flint" }
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "776A0029F1C9A8E3"
-					item: { count: 1, id: "minecraft:iron_nugget" }
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "6E1614F3CB85ACC2"
-					item: { count: 1, id: "minecraft:gold_nugget" }
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "5D9A2A118107D833"
-					item: { count: 1, id: "create:copper_nugget" }
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "40ADD95A941C24C8"
-					item: { count: 1, id: "create:zinc_nugget" }
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "34534A7DF2C4ABC9"
-					item: { count: 1, id: "createaddition:electrum_nugget" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: -14.5d
-		}
-		{
 			dependencies: ["1D5CD2D9BF4A5898"]
 			id: "392DC7FA0F58FD3B"
 			shape: "rsquare"
@@ -1000,17 +928,6 @@
 				}
 			]
 			x: 4.0d
-			y: -12.0d
-		}
-		{
-			dependencies: ["1D5CD2D9BF4A5898"]
-			id: "4A2E7FE11340E52A"
-			tasks: [{
-				id: "484E1854D9345474"
-				item: { count: 1, id: "irons_spellbooks:cinderous_soul_rune" }
-				type: "item"
-			}]
-			x: 0.0d
 			y: -12.0d
 		}
 		{
@@ -1206,30 +1123,6 @@
 			}]
 			x: 5.5d
 			y: -7.0d
-		}
-		{
-			id: "63B9482F5D058808"
-			shape: "none"
-			tasks: [{
-				id: "565106F44BBF7417"
-				item: { count: 1, id: "minecraft:crying_obsidian" }
-				type: "item"
-			}]
-			x: 3.7380952380952337d
-			y: -13.952380952380956d
-		}
-		{
-			disable_toast: true
-			id: "62DEE95CA9F0DA9F"
-			shape: "none"
-			tasks: [{
-				disable_toast: true
-				id: "7ED509780B4A4260"
-				item: { count: 1, id: "minecraft:amethyst_shard" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -13.5d
 		}
 		{
 			dependencies: ["4F3E5B168E0DB71B"]
