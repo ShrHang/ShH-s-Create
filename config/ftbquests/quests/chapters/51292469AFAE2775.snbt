@@ -175,6 +175,16 @@
 					type: "item"
 				}
 				{
+					id: "06CF1A42AC65B2AD"
+					item: { count: 1, id: "create_connected:crank_wheel" }
+					type: "item"
+				}
+				{
+					id: "39667167014569CB"
+					item: { count: 1, id: "create_connected:large_crank_wheel" }
+					type: "item"
+				}
+				{
 					advancement: "create:hand_crank_000"
 					criterion: ""
 					disable_toast: true
@@ -613,7 +623,7 @@
 		{
 			disable_toast: true
 			id: "3A19D3B1A7C76533"
-			shape: "gear"
+			shape: "none"
 			tasks: [{
 				id: "0F546A38E11A516B"
 				item: { count: 1, id: "create:steam_engine" }

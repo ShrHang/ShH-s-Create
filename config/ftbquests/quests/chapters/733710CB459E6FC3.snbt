@@ -14,16 +14,18 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["151EFA638111B43F"]
 			id: "1DBFF38A134ADB85"
 			tasks: [{
 				id: "4F0404DAE6529C9C"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(touhou_little_maid:gohei_enchantable)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["151EFA638111B43F"]
 			id: "7FF49353D22BDE89"
 			tasks: [{
 				advancement: "touhou_little_maid:base/tamed_maid"
@@ -42,8 +44,8 @@
 				item: { count: 1, id: "shh:maid_tool" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1DBFF38A134ADB85"]
@@ -64,8 +66,8 @@
 				item: { components: { "patchouli:book": "touhou_little_maid:memorizable_gensokyo" }, count: 1, id: "patchouli:guide_book" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7FF49353D22BDE89"]
@@ -77,8 +79,8 @@
 				item: { count: 1, id: "l2hostility:bottle_of_curse" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: -2.0d
+			x: -8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7FF49353D22BDE89"]
@@ -89,31 +91,20 @@
 				item: { count: 1, id: "l2hostility:bottle_of_sanity" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.0d
+			x: -8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7FF49353D22BDE89"]
 			id: "7E332CB05AB0033D"
 			shape: "rsquare"
 			tasks: [{
-				id: "62467026BD54DD98"
-				item: { count: 1, id: "l2hostility:miracle_powder" }
+				id: "4F5F5CD4D14AA3B5"
+				item: { count: 1, id: "l2hostility:miracle_block" }
 				type: "item"
 			}]
 			x: -8.5d
 			y: -0.5d
-		}
-		{
-			dependencies: ["6D58C85868F94B41"]
-			id: "6DE5E1E2EE505276"
-			tasks: [{
-				id: "61C8EACA312B06C3"
-				item: { count: 1, id: "touhou_little_maid:substitute_jizo" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -128,7 +119,18 @@
 				type: "advancement"
 			}]
 			x: -4.5d
-			y: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D58C85868F94B41"]
+			id: "65C88319D391867F"
+			tasks: [{
+				id: "70860691C0F8D78F"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(touhou_little_maid:maid_bauble)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
 		}
 	]
 }

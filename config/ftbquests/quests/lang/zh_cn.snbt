@@ -6,13 +6,12 @@
 	chapter.3D300303E6965C1A.title: "弓艺"
 	chapter.40437B4F8E0FBBDF.title: "扩充"
 	chapter.4160A0C51D798695.title: "流体工业"
-	chapter.48B0B9F661CF0116.title: "物流与自动化"
+	chapter.48B0B9F661CF0116.title: "存储、物流与自动化"
 	chapter.48BC07C8B5074FEB.title: "主线"
 	chapter.51292469AFAE2775.title: "安山时代"
 	chapter.51BA51265914BD32.title: "黄铜时代"
 	chapter.599CD03FA645D8B1.title: "游玩须知"
 	chapter.619E8811D76BAD23.title: "实用工具"
-	chapter.627FF5181137FAF1.title: "潘多拉之咒"
 	chapter.7097F4A4201A50E6.title: "来乘坐列车吧！"
 	chapter.716E6AF19349BAC7.title: "main"
 	chapter.733710CB459E6FC3.title: "女仆"
@@ -67,6 +66,11 @@
 		""
 		"&6一级及以上&e恶意信标&a可对区域重复施加寒流。"
 	]
+	quest.0270AE5D21B483E4.quest_desc: [
+		"&a让特定生物站在&6石磨中心上方&a，即可让该生物操作石磨工作。"
+		""
+		"&a支持的生物：&d骡子、村民、马、羊驼、牛、羊。"
+	]
 	quest.02C16E241AA4DD35.quest_desc: [
 		"&a推荐法术："
 		""
@@ -118,6 +122,7 @@
 		"&a潘多拉之咒的&3罪业&a的剑气自带&e诅咒&a(还是AOE）。"
 	]
 	quest.058EE180EC5A2119.quest_subtitle: "打的还没它回的快.jpg"
+	quest.05CD9B7622BEB3AC.quest_desc: ["&e净化&a效果将清除实体身上除了&e净化&a以外的所有&e状态效果&a。"]
 	quest.06B15B851CF8C678.quest_desc: [
 		"&a打开&6物品栏&a，将&b鼠标光标&a放在&e机械动力物品&a上，长按[w]键以进行&6思索&a，学习&e物品&a的官方用法。"
 		"{image:kubejs:textures/ftbquests/ponder-1.png width:150 height:80 align:center}"
@@ -132,6 +137,13 @@
 		"&a没有&6思索&a的物品通常功能简单，根据物品显示的提示，大都可按&bshift键&a来获取官方说明。"
 	]
 	quest.06B15B851CF8C678.quest_subtitle: "官方内置的图文攻略"
+	quest.06FF57A375DAB3F1.quest_desc: [
+		"&a将油壶放在地上，手持&6油脂&a右键油壶即可&e存储油脂&a。"
+		""
+		"&a手持装有油脂的油壶右键&6炒锅&a即可&e往锅内添加油脂&a。"
+		""
+		"&a油壶最多可存储&e256&a个油脂。"
+	]
 	quest.073962841F5707A8.quest_desc: [
 		"&a该词条只在Boss身上出现。"
 		""
@@ -209,6 +221,15 @@
 		"&e如果您是一位老练的魔法师，您应该知道如何获取它们。"
 	]
 	quest.0B5D4E8A38187BBD.quest_subtitle: "也许会是您的第一本法术书"
+	quest.0C036F39A5D7474D.quest_desc: [
+		"&a您可以把&d面团&a和&d裹馅面食&a右键放入蒸笼以蒸制成&d馒头&a和&d包子&a。"
+		""
+		"&a蒸笼需要放置在&c热源&a上才能工作，您也可以&6在蒸笼上继续垒放蒸笼&a，或&6潜行右键蒸笼&a以&e封顶&a。"
+		""
+		"&a热源最高可以作用于&e8&a层高度的蒸笼，当蒸笼&c接收到热源且上方封顶时&a才会开始蒸制。"
+		""
+		"&a蒸制完成的蒸笼会有&f粒子效果&a作为提示。"
+	]
 	quest.0C7FAE5FB0D2C3BE.quest_desc: [
 		"手持&7空的烈焰人燃烧室&r右键&6烈焰人&r,即可将烈焰人装进燃烧室。"
 		"{image:kubejs:textures/ftbquests/catch_blaze.png width:100 height:150 align:center}"
@@ -243,7 +264,7 @@
 	]
 	quest.0D06B4E8FFCFB8FD.quest_subtitle: "合成安山合金前的准备"
 	quest.0D06B4E8FFCFB8FD.title: "获取安山岩"
-	quest.0D36198BAF9A875B.title: "经验流体与附魔工业"
+	quest.0F74BF8F5C57DCA7.quest_subtitle: "流体传输的核心原件"
 	quest.0FCB5207A394C397.quest_desc: [
 		"&a基于&e铜&a的&e流体元件&a可用于&6获取、储存和运输流体&a。"
 		""
@@ -253,7 +274,7 @@
 	quest.0FCB5207A394C397.title: "自动为工作盆加液体？"
 	quest.0FCECC1606771A8A.title: "盔甲耐久"
 	quest.0FD80C44EB48FBDC.quest_desc: [
-		"&a每当玩家击杀怪物提升难度等级时，会获得一个恶意吸收宝珠"
+		"&a每当玩家在一个区块内击杀足够多的怪物时，会获得一个&e恶意吸收宝珠&a。"
 		""
 		"&a使用后，可以创造一个没有恶意难度的区域，区域内生成的怪物不再具有&5恶意等级&a。"
 		""
@@ -319,6 +340,12 @@
 	quest.131378356A4C1C03.quest_subtitle: "烧不起来。"
 	quest.13AA3F2CEA919A1D.quest_desc: [""]
 	quest.13AA3F2CEA919A1D.quest_subtitle: "其实是转向架"
+	quest.13DC3E233BC331F0.quest_desc: [
+		"&a用&6打火石&a、&6火焰弹&a等可点火的物品右键炉灶即可点燃。"
+		""
+		"&a炉灶可以作为热源供&e汤锅&a、&e炒锅&a使用。"
+	]
+	quest.13DC3E233BC331F0.quest_subtitle: "行星发动机"
 	quest.143E5A18E6E326E3.title: "冰刃"
 	quest.147C64EA165F6C8F.quest_desc: [
 		"&a砂纸是一种能让您执行&6砂纸打磨&a的工具。"
@@ -336,6 +363,7 @@
 	quest.153F4F5F54A8175F.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c神速III重装III&a词条怪物获取。"]
 	quest.15ACB4ABA100A5C6.quest_desc: ["&a类似于装配&e安山机壳&a，对&e去皮原木&a使用&e黄铜锭&a即可。"]
 	quest.15DCFA4D8C6A7176.title: "属性戒指"
+	quest.1634BD8F98F95A99.quest_subtitle: "超越附魔的重要材料"
 	quest.16C0632E73E17B48.quest_desc: [
 		"&a不会被烧毁。"
 		""
@@ -407,6 +435,54 @@
 	quest.1A6A47C2970611F0.quest_desc: ["&a也可以拿&6恶意词条&a生成的&e潜影弹&a，如&e潜影&a和&e榴弹&a，&a以在末地前获得。"]
 	quest.1B0A8515FEE973A2.quest_subtitle: "不需要解锁就可以传送"
 	quest.1B0A8515FEE973A2.title: "共享石碑"
+	quest.1B1D9BECE49E10DA.quest_desc: [
+		"&a此处针对&dColorWheel&a环境下的光影选择进行简单概述，&6若您已经知晓这部分信息，可以跳过此部分内容。"
+		""
+		"&a整合包目前包含&e3&a个光影："
+		"&2[&aClarity&2]&7夜视光影"
+		"&2[&aComplementary&2]"
+		"&2[&aPhoton&2]"
+		""
+		"&a然而您会发现，光影选择界面不止&e3&a个光影，还多了&e2&a个带有“&eClrwl&a”后缀的光影。"
+		"&2带有“&eClrwl&2”后缀的光影是&6添加了补丁的光影&2，&6它能带来更好的优化&2。"
+		""
+		"&a因此，您只需要知道，在使用光影时，&6请尽量使用带有“&eClrwl&6”后缀的光影&a。"
+		""
+		"&a当然，如果您想，您依旧可以使用其它光影游玩。"
+		"&2只不过如果您选择了其它光影，可能会&4出现一大串红色的报错信息&2，但那只是&6看着吓人&2，实际体验除了优化稍逊一筹以外一般不会有其它问题。"
+		""
+		"&6如果您希望使用在整合包包含以外的光影，或者&4关闭报错信息&6，请阅读下一页。"
+		"{@pagebreak}"
+		"&6机械动力是一个对客户端渲染有&c较大性能开销&6的模组。"
+		""
+		"&a因此，当您开启光影&e站在机械动力的机器旁边时&a，会面临远比整合包内的其它模组更加严重的&c帧率下降&a。"
+		""
+		"&a为此，整合包安装了&6ColorWheel&a模组&2（简称&6色轮&2）&a，它为光影与机械动力之间提供了更好的兼容与优化。"
+		"&2但是&6色轮&e仅支持部分光影&2，在您使用了色轮不支持的光影时，色轮就会&4在游戏中弹出警告&2。"
+		""
+		"&6您可以使用指令&4关闭警告弹出&6。"
+		"&7/colorwheel alertIncompatiblePack off"
+		""
+		"&6或者开启&5降级模式&6，让不支持的光影包&5强行应用色轮优化&6。"
+		"&7/colorwheel enableFallbackMode on"
+		""
+		"&a当然，色轮支持的光影&6并不只有整合包目前包含的着&e3&6个光影&a。"
+		""
+		"&a下一页将列出色轮支持的光影。"
+		"{@pagebreak}"
+		"&2光影版本默认最新版，除去特殊标注外，这些光影均可以在&6Modrinth&2或&6PCL2&2上找到。"
+		"1）&aBliss"
+		"2）&aBSL"
+		"3）&aComplementary&7（整合包已包含）"
+		"4）&aEuphoria Patches&7（Complementary 的修改版，通过Euphoria Patches模组安装）"
+		"5）&aEclipse&7（Bliss 的修改版，在 GitHub 获取）"
+		"6）&aGlimmer&7（在 GitHub 获取）"
+		"7）&aPhoton&7（整合包已包含）"
+		"8）&aRethinking Voxels"
+		"9）&aShrimple&7（开发中的光影，在 GitHub 获取）"
+	]
+	quest.1B1D9BECE49E10DA.quest_subtitle: "警告？报错？低帧率？"
+	quest.1B1D9BECE49E10DA.title: "作为参考的知识：光影的选择"
 	quest.1C247CCE01C1BB0B.quest_desc: ["四处看看，收集物资。"]
 	quest.1C247CCE01C1BB0B.title: "起点"
 	quest.1C53C749361A3AA4.quest_desc: [
@@ -443,6 +519,12 @@
 	quest.1FB411220A26B0E2.title: "制造铁板"
 	quest.1FC36BFC395EB7CC.title: "巫师套装"
 	quest.204195980B298254.title: "咒魂法师套装"
+	quest.205C1D52A1570E51.quest_desc: [
+		"&a一个&d1*2*1&a大小的方块，可以像&6营火&a一样&e烤制食材&a，能同时烤制&e16&a个物品。"
+		""
+		"&a需要&c红石信号充能&a才会工作。"
+	]
+	quest.205C1D52A1570E51.quest_subtitle: "大号营火"
 	quest.212936F7AD6C9177.title: "诅咒之刃"
 	quest.21B1C3B5BA524287.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
@@ -473,12 +555,15 @@
 		"&5流派的代表物&a决定了您撰写的法术种类，&c墨水的品质&a则决定了法术卷轴的强度。"
 	]
 	quest.23A61A6633210D69.quest_subtitle: "当然，您可以自己撰写法术卷轴。"
-	quest.253B8855197D37F5.quest_desc: ["可在下界要塞和猪灵堡垒的箱子中找到。"]
+	quest.253B8855197D37F5.quest_desc: ["&a可在&4下界要塞&a和&4猪灵堡垒&a的箱子中找到。"]
 	quest.253B8855197D37F5.quest_subtitle: "用于升级烈焰人燃烧室"
+	quest.258DFD648FC816C9.quest_subtitle: "手持食材右键放入，手持菜刀右键切制。"
 	quest.25B68E2426B7998D.title: "冰棘"
+	quest.25BD47689D8DA9BA.quest_subtitle: "使用祭坛合成一个女仆背包，并给女仆装备上。"
 	quest.25BD47689D8DA9BA.title: "女仆背包！"
 	quest.2600AAD51FFD0860.quest_subtitle: "感到厌倦了？"
 	quest.2613DD2AB71652A8.quest_subtitle: "都说我没有胖！"
+	quest.266E0A7D1ECB2C6F.quest_subtitle: "粉碎经验"
 	quest.26BE72F4A0B6196E.quest_desc: ["&a无法抵消&6连锁挖矿&a的耐久扣除。"]
 	quest.26BE72F4A0B6196E.title: "硬化"
 	quest.26CEC88F4384CA99.quest_desc: [
@@ -638,6 +723,8 @@
 		""
 		"&6三级及以上&e恶意信标&a可对区域重复施加禁锢。"
 	]
+	quest.30122C913FE88D1E.quest_desc: ["&a穿戴&6草帽&a与&6农夫套装&a后，您可以&e在水中更快速地走动&a。"]
+	quest.30122C913FE88D1E.title: "农夫套装"
 	quest.307B7138C0CB68B8.title: "炽焰术士套装"
 	quest.30E4C1086E25E9B8.quest_subtitle: "准备召唤女仆"
 	quest.30E4C1086E25E9B8.title: "合成御币"
@@ -709,7 +796,7 @@
 	quest.33E62BE9423ADFE5.title: "&e欢迎来到机械动力"
 	quest.34812373C595A7D1.quest_desc: ["&a对策&c排斥&a、&c吸引&a。"]
 	quest.34812373C595A7D1.title: "绝缘"
-	quest.350F017B80A1EC55.quest_subtitle: "君临天下"
+	quest.350F017B80A1EC55.quest_subtitle: "骄兵必败，败兵必哀，哀兵必胜，所以骄兵必胜。"
 	quest.350F017B80A1EC55.title: "&6【核心】&r傲慢诅咒"
 	quest.354040B445266F74.quest_desc: [
 		"&e鸡&a拥有&6抗性保护4&a时可以抵抗一次&6低等级&e监守者&a的音爆攻击。&e神龟药水&a可以做到。"
@@ -722,6 +809,7 @@
 		""
 		"&a获得后可合成&e音爆枪&a来产生常规伤害音爆。可以被&e机械手&a使用。"
 	]
+	quest.357305459D7B1DA9.title: "稻米"
 	quest.3575B066BE152105.quest_desc: [
 		"&a推荐法术："
 		""
@@ -806,6 +894,7 @@
 	]
 	quest.382FA06FAA6DA1B4.quest_subtitle: "像是一脚踩进了细雪。"
 	quest.392DC7FA0F58FD3B.title: "飞机！"
+	quest.3A0FAF6E5C002586.quest_subtitle: "可以挂载两个工具的架子"
 	quest.3A19D3B1A7C76533.quest_desc: [
 		"&e蒸汽引擎&a用来构建&e锅炉&a。建议到&6黄铜时代&a再来使用这个&6超强动力源&a！"
 		""
@@ -830,9 +919,25 @@
 	]
 	quest.3A51AFAD260A1F59.quest_subtitle: "开始探索这个恶意的世界吧"
 	quest.3A51AFAD260A1F59.title: "&5莱特兰恶意教程"
+	quest.3ABC94B129A0043E.quest_desc: [
+		"&a汤锅需置于&6热源上&a，方可开始工作。"
+		""
+		"&a汤锅煲汤一共有&e三个步骤&a："
+		"&3[1]&a放入&6汤底&a和&6全部食材&a。"
+		"&3[2]&a盖上&e锅盖&a，等待。"
+		"&3[3]&a揭开锅盖，装盛菜品。"
+	]
+	quest.3ABC94B129A0043E.title: "煲汤"
 	quest.3B1956E03B3BD46A.quest_desc: ["&c恶意等级会归零，即使再摘下也不可逆。"]
 	quest.3B1956E03B3BD46A.quest_subtitle: "圣人始终不偏不倚地行走在正确的道路上。"
 	quest.3BB28F8055523AA7.title: "锁链传动轮：物流用途"
+	quest.3D979166A46FD8F6.quest_desc: [
+		"&a当您在&6汤锅/炒锅&a中&e放入所有食材后&a，您可以使用&6菜谱&a右键汤锅/炒锅，以记录下当前配方。"
+		"&2（这一步操作只能在您&3盖上锅盖/进行翻炒&2之前进行）"
+		""
+		"&a您可以使用记录有配方的菜谱直接右键&6汤锅/炒锅&a，菜谱会按照配方&e一次性将所有食材&e从您的背包中放入锅里&a，之后您要做的仅仅只是根据配方&3盖上锅盖/进行翻炒&a。"
+	]
+	quest.3D979166A46FD8F6.quest_subtitle: "一键烹饪"
 	quest.3DA7D8412EDDB308.quest_desc: [
 		"&e工作盆&a可容纳多种&e物品&a和&e液体&a。"
 		""
@@ -941,7 +1046,7 @@
 		"&a可以试试&6恶魂刷怪塔&a或&e机械动力&a产线。"
 	]
 	quest.42A11C13B5873E38.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c榴弹III&a词条怪物获取。"]
-	quest.42C2A3AAD4DAADBE.quest_subtitle: "衣服什么的全都扒光光"
+	quest.42C2A3AAD4DAADBE.quest_subtitle: "全都扒光光！"
 	quest.4357B662BA244220.quest_desc: [
 		"&a生物的&e无敌帧&a是0.5s，&6攻击速度>2&a时拳套即有效。"
 		""
@@ -1066,6 +1171,7 @@
 	]
 	quest.46AA61D3F63ADDE8.quest_subtitle: "查看物品的来源、用途，以及相关配方。"
 	quest.46AA61D3F63ADDE8.title: "请务必掌握的知识：使用JEI"
+	quest.46F55CE3728F1B92.quest_subtitle: "无限流体"
 	quest.470CEC5E9E905235.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
@@ -1129,6 +1235,9 @@
 	quest.4BB4A6C619B5D72A.title: "冰霜术士套装"
 	quest.4BC2F7E20BF9F6EE.quest_subtitle: "多在野外逛逛吧"
 	quest.4BC2F7E20BF9F6EE.title: "传送石碑"
+	quest.4C4A15E9164C8B51.quest_desc: ["&a嫌灶台太高看不到锅里的情况？试试这个量身打造厨娘凳吧！"]
+	quest.4C4A15E9164C8B51.quest_subtitle: "垫脚凳"
+	quest.4C9FE5FC5AD5B1D1.quest_subtitle: "量产附魔书"
 	quest.4CCD86ADF1674738.quest_desc: ["&6抗火&a效果就能抵抗。"]
 	quest.4CCD86ADF1674738.quest_subtitle: "好热——好热啊——！"
 	quest.4E2836EF2F6E283F.title: "炎刃"
@@ -1155,6 +1264,8 @@
 		"&d虚空凝视&a可以击穿。"
 	]
 	quest.4FCCF74457D8144F.quest_subtitle: "被真实了。"
+	quest.501E4FA13BE647E9.quest_subtitle: "切菜、切肉、屠宰。"
+	quest.501E4FA13BE647E9.title: "菜刀"
 	quest.507FFB6534902FBA.quest_desc: [
 		"&a你有&e动力搅拌器&a和&e工作盆&a了吗？如果没有，先准备好它们。"
 		""
@@ -1327,7 +1438,9 @@
 	quest.56BCED2FDD1D0F87.quest_subtitle: "我即天命"
 	quest.56BCED2FDD1D0F87.title: "&6【核心】&r宝石手套"
 	quest.57F6C4179811E160.title: "亲和戒指"
+	quest.587C93005F045722.quest_subtitle: "流体传输的基本途径"
 	quest.58B909F699F1219A.title: "基础物流元件"
+	quest.59ED871A613FEADE.quest_subtitle: "附魔工业的基础"
 	quest.5A13E6C10C18D5C3.quest_desc: [
 		"&a能工作的元件就是&6作业元件&a，用来加工的元件就是&6加工作业元件&a。&6妥善利用它们&a是&e机械动力&a的&6主要玩法之一&a。"
 		"{@pagebreak}"
@@ -1351,7 +1464,7 @@
 		"&a使用&6禁锢诅咒之戒&a对策。"
 	]
 	quest.5AB0D3993583910C.quest_subtitle: "跑得超快！"
-	quest.5B4E1E5F9AB883F2.quest_desc: ["&c并不能叠加。"]
+	quest.5B4E1E5F9AB883F2.quest_desc: ["&c不能重复穿戴。"]
 	quest.5B4E1E5F9AB883F2.quest_subtitle: "增加头饰栏位"
 	quest.5B4E1E5F9AB883F2.title: "&3异&5色&6眼镜"
 	quest.5C88216A88C8A529.quest_desc: [
@@ -1401,7 +1514,7 @@
 	quest.5CB83B207F4279BA.title: "让我们开导！"
 	quest.5DF518B27AF3EEFB.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c吸引&a词条怪物获取。"]
 	quest.5E14A5BED2F9E415.title: "深渊术士套装"
-	quest.5E2D39EB6D39D681.quest_desc: ["&c并不能叠加。"]
+	quest.5E2D39EB6D39D681.quest_desc: ["&c不能重复穿戴。"]
 	quest.5E2D39EB6D39D681.quest_subtitle: "增加背饰栏位"
 	quest.5E2D39EB6D39D681.title: "三&4色&8披&6风"
 	quest.5E489B1EF65A6F5F.quest_desc: [
@@ -1459,10 +1572,20 @@
 		"&a传动形式相当于&e(小)齿轮箱&a，可以接受&e大齿轮&a的传动。"
 	]
 	quest.5F6A3C29FC3450BC.quest_subtitle: "加工无序配方，酿造，以及制造黄铜"
+	quest.603F7157BE9D80A2.quest_desc: [
+		"&a炒锅需置于&6热源上&a，方可开始工作。"
+		""
+		"&a炒锅炒菜一共有&e三个步骤&a："
+		"&3[1]&a放入&6油脂&a和&6全部食材&a。"
+		"&3[2]&a根据配方要求&e翻炒&a数次菜品。"
+		"&3[3]&a装盛菜品。"
+	]
+	quest.603F7157BE9D80A2.title: "炒菜"
 	quest.6053138824349122.title: "瘟疫术士套装"
 	quest.605777A4931AD9B8.quest_desc: ["前往下界，找到烈焰人。"]
 	quest.605777A4931AD9B8.title: "找到烈焰人"
 	quest.608753B0F57435E7.title: "暗影行者套装"
+	quest.62E41C6D7E395964.quest_subtitle: "欢迎来到森罗厨房"
 	quest.631969B2A8E1153D.quest_subtitle: "开启弓艺之旅"
 	quest.631969B2A8E1153D.title: "找到竹子"
 	quest.63242C1FB281A6CA.quest_subtitle: "用来调整机械动力的构件"
@@ -1511,46 +1634,6 @@
 	]
 	quest.6448EE01DD79E42F.quest_subtitle: "知晓这些按键分别对应着什么功能。"
 	quest.6448EE01DD79E42F.title: "需要掌握的知识：基础按键绑定"
-	quest.64C3BF58E57323D2.quest_desc: [
-		"&l&6总目录"
-		""
-		"&a1.&e机械动力"
-		"&a2.&c莱特兰系列"
-		"&a3.&d铁魔法"
-		"&a4.&b女仆"
-		"{@pagebreak}"
-		"&e机械动力&a："
-		""
-		"&3物品保险库&a的单格容量从&e20格&a变为&e64格&a。"
-		""
-		"&a无限流体的要求降为&e4096&a。"
-		"{@pagebreak}"
-		"&c莱特兰系列&a："
-		""
-		"&a启用了扩充的&5免疫类附魔&a与&9空间碎片&a。"
-		""
-		"&a关闭了恶意的&c区块难度&a、&c距离难度&a、&c维度难度&a。"
-		""
-		"&a削弱了莱特兰恶意大部分词条的数值和怪物成长曲线。"
-		""
-		"&a降低了部分扩充材料的获取难度。"
-		"{@pagebreak}"
-		"&d铁魔法&a："
-		""
-		"&a升级法术球上限变为&e20&a。"
-		""
-		"&a增强了法术的&d等级上限&a和&d基础数值&a。"
-		""
-		"&a法术卷轴在炼金锅的回收成功率变为&e100%&a。"
-		"{@pagebreak}"
-		"&b女仆&a："
-		""
-		"&a女仆&e兼容恶意的等级与词条&a。"
-		""
-		"&a配置了女仆饰品栏，&b允许装备玩家饰品&a。"
-	]
-	quest.64C3BF58E57323D2.quest_subtitle: "主要写了一些在原模组基础上的改动，方便熟悉这些模组的人大致了解修改内容。"
-	quest.64C3BF58E57323D2.title: "整合包内容概览"
 	quest.66CCDDDD28402210.quest_desc: ["合成魔能抢夺宝珠，狩猎莱特兰·扩充提供的核心原料。"]
 	quest.66CCDDDD28402210.title: "成为更精明的猎人"
 	quest.67F6852B19DDAF0A.quest_desc: ["准备一个招募女仆的蛋糕，然后启程寻找/召唤她们，逐步享受起贵族般的生活。"]
@@ -1569,6 +1652,13 @@
 	quest.6943C93DA41CE317.quest_desc: ["杀一只怪，开启莱特兰·恶意下的冒险征程，应对随着你的杀戮而变强的怪物。最终，你将直面灾变和铁魔法的强力BOSS。"]
 	quest.6943C93DA41CE317.quest_subtitle: "进度：怪物猎人"
 	quest.6943C93DA41CE317.title: "冒险征程"
+	quest.69963694D2D6B7FA.quest_desc: [
+		"&a使用&6菜刀&a击杀&e猪&a、&e猪灵&a、&e疣猪兽&a获取。"
+		""
+		"&a使用&6石磨&a磨制&e种子&a获取。"
+		""
+		"&a右击&6炒锅&a即可&e往锅内添加油脂&a。"
+	]
 	quest.69A2A7FD953ED239.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
@@ -1672,6 +1762,7 @@
 		"&6地狱之刃&a：大范围锁头AOE。"
 	]
 	quest.6C362CAB7CE6A776.quest_subtitle: "&6炽焰&r流派代表物"
+	quest.6CBA18AB2EB70879.quest_subtitle: "收割作物与杂草的好帮手"
 	quest.6CCB77A3B811879C.quest_subtitle: "只去不回单程票"
 	quest.6D58C85868F94B41.quest_desc: ["对着御币思索，以查看女仆祭坛的搭建方法"]
 	quest.6D58C85868F94B41.quest_subtitle: "举行仪式的地方~"
@@ -1681,6 +1772,8 @@
 	quest.6E64503FBF13CB33.quest_desc: [""]
 	quest.6E64503FBF13CB33.title: "找到钻石"
 	quest.6E9DD2D68EB01709.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c复印&a词条怪物获取。"]
+	quest.6F846FF513A4FFFE.quest_desc: ["&a想要获取森罗厨房的&e农作种子&a，您需要&e穿戴草帽&a破坏草。"]
+	quest.6F846FF513A4FFFE.title: "草帽"
 	quest.6F98338D5F83FA2C.quest_desc: [
 		"&a使用&b物理伤害&a对策。"
 		""
@@ -1790,6 +1883,7 @@
 		"&7这三个符文没有对应的流派，因此只能用来合成法术升级球。"
 	]
 	quest.772768502028F1C1.quest_subtitle: "承载元素的良好材料。"
+	quest.774E1555EC84C27A.quest_subtitle: "手持面团长按右键获取"
 	quest.78FC1D37DCC2C65D.quest_desc: [
 		"&a佩戴这类饰品后&6击杀带有词条的怪物&a会获取对应的掉落物。"
 		""
@@ -1814,6 +1908,8 @@
 	quest.7A6856E70C510D74.quest_desc: ["&a佩戴&3魔能抢夺宝珠&a击杀&c分裂&a词条怪物获取。"]
 	quest.7A8DD18DE6BA3B81.quest_desc: ["&a佩戴&d混沌抢夺宝珠&a击杀&c再生III&a词条怪物获取。"]
 	quest.7ABE7350204D1673.quest_subtitle: "操作列车的仪器"
+	quest.7B1652E5CA758E59.quest_subtitle: "附魔工业的核心原料"
+	quest.7B1652E5CA758E59.title: "液态经验"
 	quest.7B38EC488FFC125C.quest_desc: [
 		"&a使用&6扭曲诅咒之戒&a或&6圣光守护之戒&a对策。"
 		""
@@ -1831,6 +1927,7 @@
 	]
 	quest.7BFB5FC9098750F8.quest_subtitle: "&1深渊&r法术流派"
 	quest.7C14A160A1024E72.title: "炎棘"
+	quest.7C1B4A8F981E847E.quest_subtitle: "造价低廉的小潜影盒"
 	quest.7CADD1827FAFACB9.quest_desc: ["&c该词条仅在史莱姆身上出现。"]
 	quest.7CADD1827FAFACB9.quest_subtitle: "无限生长"
 	quest.7CBED737E7CED270.quest_desc: ["&a能够自由控制输出侧&d转速&a和&d转向&a的&6高级传动元件&a。"]
@@ -1849,6 +1946,7 @@
 		"&a反击只对该实体&6仇恨锁定&a的目标起效。"
 	]
 	quest.7D2F0EEA397C59A5.quest_subtitle: "吼吼，非但没有逃跑，反而还向我靠近了吗？"
+	quest.7DB5A5E21C9F79B3.quest_subtitle: "将经验存入流体储罐"
 	quest.7E31F579872775F7.quest_desc: [
 		"&c可被击穿，可被诸神黄昏词条封印。"
 		""
@@ -1888,6 +1986,7 @@
 	]
 	quest.7FD21E494B9F661F.quest_subtitle: "廉价的庞大动力源"
 	quest.7FD21E494B9F661F.title: "水车"
+	quest.7FF49353D22BDE89.quest_subtitle: "使用蛋糕收养一只女仆。"
 	quest.7FF49353D22BDE89.title: "养一只女仆吧！"
 	quest.7FF68D0544CBA9A3.title: "特殊戒指"
 	reward.29EF9CF47F1AACF1.title: "种子"
@@ -1901,6 +2000,7 @@
 	task.0FC6C3CD1483B920.title: "法术卷轴"
 	task.1184BFCF679D1586.title: "墨水"
 	task.13AA535FC2321FBA.title: "快捷指令"
+	task.191F7873270B1039.title: "获得一顶草帽"
 	task.19845004BBBFFFD4.title: "获得一把法杖"
 	task.1C4F6EF0DF4D5A18.title: "获得任意御币"
 	task.1DCB9A53EA8E34C5.title: "药剂"
@@ -1919,6 +2019,7 @@
 	task.39FE39624B3FE4B3.title: "获得一个建筑棒"
 	task.3BF7DC55415C61E5.title: "自动完成"
 	task.3DA0D7B56F8D5981.title: "JEI"
+	task.3E8BD5618BAB5DED.title: "稻米和野生稻米"
 	task.426CDA8DC02E4D4C.title: "列车！"
 	task.4BC843F436357183.title: "找到安山岩"
 	task.4E62C496B5D3EFB1.title: "Any #create:sandpaper"
@@ -1928,14 +2029,18 @@
 	task.5534BC01A2B821FE.title: "按键绑定"
 	task.5A30DC29722C269C.title: "自动完成"
 	task.61539235D6C26BF0.title: "起点"
+	task.625EB6D97FDFE06E.title: "光影的选择"
+	task.657410192478F6ED.title: "厨娘凳"
 	task.66440F1D17637E87.title: "投影三件套"
 	task.68B7FB7CBC898883.title: "获得任意一件法师护甲"
 	task.69EB950B0396926A.title: "Any #minecraft:logs"
 	task.6BD7579693453498.title: "传送石碑"
 	task.7059C99A2FD01A26.title: "FTB任务书"
+	task.70860691C0F8D78F.title: "女仆饰品"
 	task.7195D619CA0BCF66.title: "拥有一把菜刀"
 	task.757ACA05CA85791D.title: "一些改动"
 	task.79CB87E352172A5D.title: "开始"
+	task.7A29A17C6AB4A0B9.title: "法杖"
 	task.7A50147885C9C85D.title: "制作一个区块加载器"
 	task.7C0F8D619ED894EB.title: "Any #waystones:waystones"
 	task.7F9783A8F36C9FF0.title: "自动完成"

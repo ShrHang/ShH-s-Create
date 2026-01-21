@@ -1599,11 +1599,6 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "04918CE399D3D870"
-					item: { components: { "ftbquests:missing_item": "gametechbcs_spellbooks:amulet_of_spectral_shift" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
 					id: "18332538940C3320"
 					item: { count: 1, id: "irons_spellbooks:expulsion_ring" }
 					type: "item"

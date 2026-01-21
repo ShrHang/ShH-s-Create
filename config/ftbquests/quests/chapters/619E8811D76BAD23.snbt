@@ -218,16 +218,6 @@
 			y: 2.5d
 		}
 		{
-			id: "3DC9514ED644C108"
-			tasks: [{
-				id: "7AA9D7D3DF5B39BB"
-				item: { count: 1, id: "create:item_vault" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 3.5d
-		}
-		{
 			id: "0E96B3D329E162F6"
 			tasks: [{
 				id: "0BDDFBAA9C61ED3C"
@@ -244,8 +234,8 @@
 				item: { components: { "ftbfiltersystem:filter": "mod(create_power_loader)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			id: "766AF5EB4F9ABB60"
@@ -262,6 +252,26 @@
 			}]
 			x: 4.5d
 			y: 3.0d
+		}
+		{
+			id: "1F17DD500DB1AE7B"
+			tasks: [{
+				id: "5D419ECBEDCEE908"
+				item: { count: 1, id: "create_logistics_by_shh:brass_ender_chest" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "4DC02EE1070DF52E"
+			tasks: [{
+				id: "1EE34BD3A438F5CA"
+				item: { count: 1, id: "create_logistics_by_shh:portable_stock_ticker" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
 		}
 	]
 }

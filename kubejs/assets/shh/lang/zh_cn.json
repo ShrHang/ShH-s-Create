@@ -63,10 +63,10 @@
     "text.shh.maid_tool.tooltip_right_click": "§7·§2右键§5女仆§7移除/恢复女仆的§6AI",
     "text.shh.maid_tool.tooltip_shift_right_click": "§7·§aShift+右键§d女仆§7打开女仆的§eCurios§7饰品栏",
 
-    "text.shh.portable_stock_ticker.no_data": "§c没有绑定仓储发报机，请Shift + 右键仓储发报机绑定！",
-
     "text.shh.pandora_bracelet_init.tooltip": "§5七咒之镯",
     "text.shh.pandora_necklet_init.tooltip": "§5七咒之链",
+
+    "text.shh.create.item_vault.tooltip": "§7拥有64个存储槽位的存储方块。",
 
     "itemGroup.shh.shh_stuffs": "什物"
 }

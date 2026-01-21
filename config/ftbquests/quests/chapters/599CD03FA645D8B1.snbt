@@ -71,15 +71,6 @@
 				id: "7059C99A2FD01A26"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: 9.5d
-		}
-		{
-			id: "64C3BF58E57323D2"
-			tasks: [{
-				id: "757ACA05CA85791D"
-				type: "checkmark"
-			}]
 			x: 8.5d
 			y: 6.0d
 		}
@@ -91,6 +82,15 @@
 			}]
 			x: 10.5d
 			y: 8.0d
+		}
+		{
+			id: "1B1D9BECE49E10DA"
+			tasks: [{
+				id: "625EB6D97FDFE06E"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 9.5d
 		}
 	]
 }

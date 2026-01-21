@@ -7,7 +7,7 @@
 		id: "create:mechanical_pump"
 	}
 	id: "4160A0C51D798695"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,45 +17,42 @@
 				item: { count: 1, id: "create_dragons_plus:blaze_upgrade_smithing_template" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["253B8855197D37F5"]
+			dependencies: [
+				"253B8855197D37F5"
+				"7B1652E5CA758E59"
+			]
 			id: "1BE0B4762DAEB494"
 			tasks: [{
 				id: "29430E92E4A27823"
 				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: -7.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["253B8855197D37F5"]
+			dependencies: [
+				"253B8855197D37F5"
+				"7B1652E5CA758E59"
+			]
 			id: "77A7A4E32DD76997"
 			tasks: [{
 				id: "1AD101AC177AF7DE"
 				item: { count: 1, id: "create_enchantment_industry:blaze_forger" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
-		}
-		{
-			id: "17F718311F966137"
-			tasks: [{
-				id: "0ED11D8036A19683"
-				item: { count: 1, id: "create_enchantment_industry:enchanting_template" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.0d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
 				"77A7A4E32DD76997"
 				"1BE0B4762DAEB494"
+				"1634BD8F98F95A99"
 			]
 			id: "0C726B729E7C5BC9"
 			tasks: [{
@@ -63,62 +60,48 @@
 				item: { count: 1, id: "create_enchantment_industry:super_enchanting_template" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: -4.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["7B1652E5CA758E59"]
 			id: "4C9FE5FC5AD5B1D1"
 			tasks: [{
 				id: "7DD976AA148C3940"
 				item: { count: 1, id: "create_enchantment_industry:printer" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: -4.0d
+			y: 5.5d
 		}
 		{
+			dependencies: ["59ED871A613FEADE"]
 			id: "266E0A7D1ECB2C6F"
 			tasks: [{
 				id: "1726084410D7B712"
 				item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -7.0d
+			y: 5.5d
 		}
 		{
+			dependencies: [
+				"59ED871A613FEADE"
+				"0B2F99FE3B048863"
+				"5BFACFD2C4E91954"
+			]
 			id: "7DB5A5E21C9F79B3"
 			tasks: [{
 				id: "0E9C7880C6CFFA1A"
 				item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: -10.0d
+			y: 3.5d
 		}
 		{
-			disable_toast: true
-			icon: {
-				id: "sophisticatedcore:xp_bucket"
-			}
-			id: "0D36198BAF9A875B"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				disable_toast: true
-				icon: {
-					id: "create:builders_tea"
-				}
-				id: "3465CB1983D36F19"
-				stat: "minecraft:play_time"
-				type: "stat"
-				value: 1
-			}]
-			x: -2.25d
-			y: 0.0d
-		}
-		{
-			dependencies: ["41F75CF2D6BA7BA7"]
+			dependencies: ["587C93005F045722"]
 			id: "0F74BF8F5C57DCA7"
 			size: 1.0d
 			tasks: [{
@@ -126,8 +109,8 @@
 				item: { count: 1, id: "create:mechanical_pump" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.5d
+			x: -9.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["41F75CF2D6BA7BA7"]
@@ -137,8 +120,8 @@
 				item: { count: 1, id: "create:fluid_pipe" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.5d
+			x: -10.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["587C93005F045722"]
@@ -148,8 +131,8 @@
 				item: { count: 1, id: "create:smart_fluid_pipe" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: -1.5d
+			x: -8.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["41F75CF2D6BA7BA7"]
@@ -159,8 +142,8 @@
 				item: { count: 1, id: "create:fluid_tank" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -0.5d
+			x: -10.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4276FA248D9F4A1E"]
@@ -170,8 +153,8 @@
 				item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -12.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7FF97A68599D651B"]
@@ -181,8 +164,8 @@
 				item: { count: 1, id: "create:item_drain" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: -14.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7FF97A68599D651B"]
@@ -192,18 +175,19 @@
 				item: { count: 1, id: "create:spout" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -3.0d
+			x: -15.0d
+			y: 4.5d
 		}
 		{
+			dependencies: ["2BA93265E73DEF28"]
 			id: "7FF97A68599D651B"
 			tasks: [{
 				id: "7DB2910F9A03C9AC"
 				item: { count: 1, id: "create:copper_casing" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -15.0d
+			y: 2.5d
 		}
 		{
 			id: "2BA93265E73DEF28"
@@ -212,18 +196,19 @@
 				item: { count: 1, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -15.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["2BA93265E73DEF28"]
 			id: "41F75CF2D6BA7BA7"
 			tasks: [{
 				id: "542D04C985C99350"
 				item: { count: 1, id: "create:copper_sheet" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: -11.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["587C93005F045722"]
@@ -233,8 +218,8 @@
 				item: { count: 1, id: "create:fluid_valve" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: -2.5d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7FF97A68599D651B"]
@@ -244,8 +229,42 @@
 				item: { count: 1, id: "create:hose_pulley" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.0d
+			x: -16.0d
+			y: 3.5d
+		}
+		{
+			id: "59ED871A613FEADE"
+			tasks: [{
+				id: "2C6FA3C3967F23B1"
+				item: { count: 1, id: "create:experience_nugget" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"266E0A7D1ECB2C6F"
+				"7DB5A5E21C9F79B3"
+			]
+			id: "7B1652E5CA758E59"
+			tasks: [{
+				id: "24FF86F048A5A154"
+				item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			id: "1634BD8F98F95A99"
+			tasks: [{
+				id: "3838B4812692BBF4"
+				item: { count: 1, id: "create_enchantment_industry:experience_cake" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
 		}
 	]
 }

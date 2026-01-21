@@ -36,4 +36,6 @@ ItemEvents.modifyTooltips(event => {
     event.add('l2archery:void_arrow', TOOLTIP_BAN)
     event.add('l2archery:upgrade[l2archery:item_upgrade="l2archery:explosion_breaker"]', TOOLTIP_BAN)
 
+
+    event.add('create:item_vault', Component.translate('text.shh.create.item_vault.tooltip'))
 })

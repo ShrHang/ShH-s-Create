@@ -1,6 +1,14 @@
 ServerEvents.recipes(event => {
-    if (Platform.isLoaded('create')) {
+    if (Platform.isLoaded("create")) {
 
+        if (Platform.isLoaded("kaleidoscope_cookery")) {
+            event.replaceInput({}, "create:dough",  "kaleidoscope_cookery:raw_dough")
+            event.replaceOutput({}, "create:dough",  "kaleidoscope_cookery:raw_dough")
+
+            event.replaceInput({}, "create:wheat_flour",  "kaleidoscope_cookery:flour")
+            event.replaceOutput({}, "create:wheat_flour",  "kaleidoscope_cookery:flour")
+        }
+        
         // Compacting Recipes
         {
             event.custom({
@@ -15,10 +23,6 @@ ServerEvents.recipes(event => {
                 ],
                 results: [{ id: "minecraft:deepslate" }]
             })
-            // event.recipes.create.compacting("minecraft:deepslate", [
-            //     "minecraft:cobblestone",
-            //     Fluid.of("minecraft:lava", 250)
-            // ])
 
             event.custom({
                 type: "create:compacting",
@@ -32,10 +36,6 @@ ServerEvents.recipes(event => {
                 ],
                 results: [{ id: "minecraft:tuff" }]
             })
-            // event.recipes.create.compacting("minecraft:tuff", [
-            //     "minecraft:cobblestone",
-            //     Fluid.of("minecraft:water", 250)
-            // ])
 
             event.custom({
                 type: "create:compacting",
@@ -167,12 +167,6 @@ ServerEvents.recipes(event => {
                 processing_time: 750,
                 results: [{ id: "minecraft:netherite_scrap" }]
             })
-            event.custom({
-                type: "create:crushing",
-                ingredients: [{ tag: "c:material/netherite" }],
-                processing_time: 750,
-                results: [{ id: "minecraft:netherite_scrap" }]
-            })
 
             event.custom({
                 type: "create:crushing",
@@ -184,13 +178,6 @@ ServerEvents.recipes(event => {
                     { chance: 0.5, id: "minecraft:amethyst_shard" }
                 ]
             })
-            // event.recipes.create.crushing([
-            //     'create:powdered_obsidian',
-            //     CreateItem.of('minecraft:obsidian', 0.75),
-            //     CreateItem.of('minecraft:amethyst_shard', 0.5)
-            // ],
-            //     'minecraft:crying_obsidian'
-            // ).processingTime(500)
             event.custom({
                 type: "create:crushing",
                 ingredients: [{ item: "create:limestone" }],
@@ -200,115 +187,61 @@ ServerEvents.recipes(event => {
                     { chance: 0.35, id: "minecraft:lapis_lazuli" }
                 ]
             })
-            // event.recipes.create.crushing([
-            //     CreateItem.of(Item.of('minecraft:quartz', 2), 0.15),
-            //     CreateItem.of('minecraft:lapis_lazuli', 0.35)
-            // ],
-            //     'create:limestone'
-            // ).processingTime(250)
             event.custom({
-                "type": "create:crushing",
-                "ingredients": [
+                type: "create:crushing",
+                ingredients: [
                     {
                         "item": "minecraft:blackstone"
                     }
                 ],
-                "results": [
+                results: [
                     {
-                        "chance": 0.01,
-                        "id": "minecraft:wither_skeleton_skull"
+                        chance: 0.01,
+                        id: "minecraft:wither_skeleton_skull"
                     },
                     {
-                        "chance": 0.01,
-                        "id": "l2complements:blackstone_core"
+                        chance: 0.01,
+                        id: "l2complements:blackstone_core"
                     }
                 ],
-                "processingTime": 350
+                processingTime: 350
             })
-            // event.recipes.create.crushing([
-            //     CreateItem.of('minecraft:wither_skeleton_skull', 0.01),
-            //     CreateItem.of('l2complements:blackstone_core', 0.01)
-            // ],
-            //     'minecraft:blackstone'
-            // ).processingTime(350)
 
             event.custom({
-                "type": "create:crushing",
-                "ingredients": [
-                    {
-                        "item": "minecraft:netherrack"
-                    }
-                ],
-                "results": [
-                    {
-                        "chance": 1.0,
-                        "id": "create:cinder_flour"
-                    },
-                    {
-                        "chance": 0.5,
-                        "id": "create:cinder_flour"
-                    },
-                    {
-                        "chance": 0.005,
-                        "id": "minecraft:netherite_scrap"
-                    }
-                ],
-                "processingTime": 350
-            })
-            // event.recipes.create.crushing([
-            //     CreateItem.of('create:cinder_flour', 1.0),
-            //     CreateItem.of('create:cinder_flour', 0.5),
-            //     CreateItem.of('minecraft:netherite_scrap', 0.005)
-            // ],
-            //     'minecraft:netherrack'
-            // ).processingTime(350)
-
-            event.custom({
-                "type": "create:crushing",
-                "ingredients": [
+                type: "create:crushing",
+                ingredients: [
                     {
                         "item": "create:scoria"
                     }
                 ],
-                "results": [
+                results: [
                     {
-                        "chance": 0.125,
-                        "id": "minecraft:blaze_powder"
+                        chance: 0.125,
+                        id: "minecraft:blaze_powder"
                     },
                     {
-                        "chance": 0.02,
-                        "id": "minecraft:blaze_rod"
+                        chance: 0.02,
+                        id: "minecraft:blaze_rod"
                     }
                 ],
-                "processingTime": 125
+                processingTime: 125
             })
-            // event.recipes.create.crushing([
-            //     CreateItem.of('minecraft:blaze_powder', 0.125),
-            //     CreateItem.of('minecraft:blaze_rod', 0.02)
-            // ],
-            //     'create:scoria'
-            // ).processingTime(125)
 
             event.custom({
-                "type": "create:crushing",
-                "ingredients": [
+                type: "create:crushing",
+                ingredients: [
                     {
                         "item": "minecraft:soul_sand"
                     }
                 ],
-                "results": [
+                results: [
                     {
-                        "chance": 0.125,
-                        "id": "minecraft:glowstone_dust"
+                        chance: 0.125,
+                        id: "minecraft:glowstone_dust"
                     }
                 ],
-                "processingTime": 125
+                processingTime: 125
             })
-            // event.recipes.create.crushing([
-            //     CreateItem.of('minecraft:glowstone_dust', 0.125)
-            // ],
-            //     'minecraft:soul_sand'
-            // ).processingTime(125)
         }
     }
 })

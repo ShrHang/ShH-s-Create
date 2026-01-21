@@ -11,7 +11,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "kaleidoscope_cookery:scramble_egg_with_tomatoes_rice_bowl"
+			}
 			id: "62E41C6D7E395964"
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				advancement: "kaleidoscope_cookery:root"
 				criterion: ""
@@ -22,14 +27,343 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["62E41C6D7E395964"]
 			id: "501E4FA13BE647E9"
 			tasks: [{
 				id: "7195D619CA0BCF66"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(kaleidoscope_cookery:kitchen_knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"501E4FA13BE647E9"
+				"0270AE5D21B483E4"
+			]
+			id: "69963694D2D6B7FA"
+			tasks: [{
+				id: "478F486B041387BB"
+				item: { count: 1, id: "kaleidoscope_cookery:oil" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69963694D2D6B7FA"]
+			dependency_requirement: "one_completed"
+			id: "06FF57A375DAB3F1"
+			tasks: [{
+				id: "464F0B7B7392A477"
+				item: { count: 1, id: "kaleidoscope_cookery:oil_pot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"06FF57A375DAB3F1"
+				"69963694D2D6B7FA"
+			]
+			dependency_requirement: "one_completed"
+			id: "603F7157BE9D80A2"
+			tasks: [
+				{
+					id: "7D1FCFF19979A35E"
+					item: { count: 1, id: "kaleidoscope_cookery:pot" }
+					type: "item"
+				}
+				{
+					id: "343B5F8DBB41619D"
+					item: { count: 1, id: "kaleidoscope_cookery:kitchen_shovel" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62E41C6D7E395964"]
+			id: "3ABC94B129A0043E"
+			tasks: [
+				{
+					id: "0AD399D1F25AA44F"
+					item: { count: 1, id: "kaleidoscope_cookery:stockpot" }
+					type: "item"
+				}
+				{
+					id: "04B273BD2622222C"
+					item: { count: 1, id: "kaleidoscope_cookery:stockpot_lid" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62E41C6D7E395964"]
+			id: "205C1D52A1570E51"
+			tasks: [{
+				id: "5F2BA71BEC359575"
+				item: { count: 1, id: "kaleidoscope_cookery:shawarma_spit" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["62E41C6D7E395964"]
+			id: "6F846FF513A4FFFE"
+			shape: "diamond"
+			tasks: [{
+				id: "191F7873270B1039"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(kaleidoscope_cookery:straw_hat)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62E41C6D7E395964"]
+			id: "13DC3E233BC331F0"
+			shape: "diamond"
+			tasks: [{
+				id: "4631323BAD18EA90"
+				item: { count: 1, id: "kaleidoscope_cookery:stove" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62E41C6D7E395964"]
+			id: "0C036F39A5D7474D"
+			tasks: [{
+				id: "0F388314D60009D4"
+				item: { count: 1, id: "kaleidoscope_cookery:steamer" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F846FF513A4FFFE"]
+			id: "6CBA18AB2EB70879"
+			shape: "diamond"
+			tasks: [{
+				id: "4098A464F98B35C2"
+				item: { count: 1, id: "kaleidoscope_cookery:sickle" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F846FF513A4FFFE"]
+			id: "357305459D7B1DA9"
+			tasks: [{
+				id: "3E8BD5618BAB5DED"
+				item: { components: { "ftbfiltersystem:filter": "or(item(kaleidoscope_cookery:wild_rice)item(kaleidoscope_cookery:rice))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6F846FF513A4FFFE"]
+			id: "51CD3C76ECDBE302"
+			tasks: [{
+				id: "35D804A6533CFBE9"
+				item: { count: 1, id: "kaleidoscope_cookery:tomato_seed" }
+				type: "item"
+			}]
+			x: -6.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["6F846FF513A4FFFE"]
+			id: "6CDBF081C25D688F"
+			tasks: [{
+				id: "5B9396B45571F376"
+				item: { count: 1, id: "kaleidoscope_cookery:chili_seed" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F846FF513A4FFFE"]
+			id: "3D56116FB017E4DB"
+			tasks: [{
+				id: "73FD3B5045802F74"
+				item: { count: 1, id: "kaleidoscope_cookery:lettuce_seed" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["357305459D7B1DA9"]
+			id: "563D551E1BB7A5D6"
+			tasks: [{
+				id: "6D0A2A7FD52205A7"
+				item: { count: 1, id: "kaleidoscope_cookery:rice_panicle" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51CD3C76ECDBE302"]
+			id: "0B5542E88D1505DF"
+			tasks: [{
+				id: "21F3BD3518E377F8"
+				item: { count: 1, id: "kaleidoscope_cookery:tomato" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CDBF081C25D688F"]
+			id: "6666BA40AE0567EB"
+			tasks: [{
+				id: "621F90791A53A7C7"
+				item: { components: { "ftbfiltersystem:filter": "or(item(kaleidoscope_cookery:green_chili)item(kaleidoscope_cookery:red_chili))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D56116FB017E4DB"]
+			id: "4DECB16FBD02FD20"
+			tasks: [{
+				id: "4CD3E0F83585ADF3"
+				item: { count: 1, id: "kaleidoscope_cookery:lettuce" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3ABC94B129A0043E"
+				"603F7157BE9D80A2"
+			]
+			dependency_requirement: "one_completed"
+			id: "3D979166A46FD8F6"
+			tasks: [{
+				id: "5102D0BE0AAA8308"
+				item: { count: 1, id: "kaleidoscope_cookery:recipe_item" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62E41C6D7E395964"]
+			id: "0270AE5D21B483E4"
+			tasks: [{
+				id: "4F5FCA3DB444C134"
+				item: { count: 1, id: "kaleidoscope_cookery:millstone" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["501E4FA13BE647E9"]
+			id: "258DFD648FC816C9"
+			tasks: [{
+				id: "40F09F9A060732AA"
+				item: { count: 1, id: "kaleidoscope_cookery:chopping_board" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F846FF513A4FFFE"]
+			id: "039AE0579AE8C74C"
+			shape: "diamond"
+			tasks: [{
+				id: "11D64DEEB839A368"
+				item: { count: 1, id: "kaleidoscope_cookery:scarecrow" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F846FF513A4FFFE"]
+			id: "30122C913FE88D1E"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0E0092548FA38FD4"
+					item: { count: 1, id: "kaleidoscope_cookery:farmer_chest_plate" }
+					type: "item"
+				}
+				{
+					id: "0F644BA87868A2F2"
+					item: { count: 1, id: "kaleidoscope_cookery:farmer_leggings" }
+					type: "item"
+				}
+				{
+					id: "3D73F3F53E8C50F7"
+					item: { count: 1, id: "kaleidoscope_cookery:farmer_boots" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "4C4A15E9164C8B51"
+			shape: "diamond"
+			tasks: [{
+				id: "657410192478F6ED"
+				item: { components: { "ftbfiltersystem:filter": "or(item(kaleidoscope_cookery:cook_stool_oak)item(kaleidoscope_cookery:cook_stool_spruce)item(kaleidoscope_cookery:cook_stool_acacia)item(kaleidoscope_cookery:cook_stool_bamboo)item(kaleidoscope_cookery:cook_stool_birch)item(kaleidoscope_cookery:cook_stool_cherry)item(kaleidoscope_cookery:cook_stool_crimson)item(kaleidoscope_cookery:cook_stool_dark_oak)item(kaleidoscope_cookery:cook_stool_jungle)item(kaleidoscope_cookery:cook_stool_mangrove)item(kaleidoscope_cookery:cook_stool_warped))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "7C1B4A8F981E847E"
+			shape: "diamond"
+			tasks: [{
+				id: "5CB79E0AF7AD1ADF"
+				item: { count: 1, id: "kaleidoscope_cookery:fruit_basket" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "3A0FAF6E5C002586"
+			shape: "diamond"
+			tasks: [{
+				id: "5053B798D6E76C5A"
+				item: { count: 1, id: "kaleidoscope_cookery:kitchenware_racks" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "774E1555EC84C27A"
+			tasks: [{
+				id: "2229FBF13037505D"
+				item: { count: 1, id: "kaleidoscope_cookery:raw_noodles" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
 		}
 	]
 }
