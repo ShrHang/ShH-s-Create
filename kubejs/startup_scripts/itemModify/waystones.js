@@ -1,8 +1,6 @@
-// Warp Stone
+// requires: waystones
 ItemEvents.modification(event => {
-    if (Platform.isLoaded("waystones")) {
-        event.modify('waystones:warp_stone', item => {
-            item.setUnbreakable()
-        })
-    }
+    event.modify('waystones:warp_stone', item => {
+        item.setUnbreakable()
+    })
 })

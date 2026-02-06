@@ -10,6 +10,17 @@ PlayerEvents.chat(event => {
     let player = event.player;
     let message = event.message;
 
+    if (message == "ts") {
+        let item = player.mainHandItem
+        if (!item) return;
+        try {
+            player.sendSystemMessage(Component.literal(item.components));
+        } catch (e) {
+            player.sendSystemMessage(Component.literal(e + "\n"))
+        }
+        event.cancel();
+    }
+
     if (message == "ed") {
         let enderChestContainer = player.enderChestInventory;
         player.openMenu(new SimpleMenuProvider(

@@ -1,5 +1,10 @@
 // const CustomData = Java.loadClass("net.minecraft.world.item.component.CustomData")
-const StockTickerBlockEntity = Java.loadClass("com.simibubi.create.content.logistics.stockTicker.StockTickerBlockEntity")
+const ResourceKey = Java.loadClass("net.minecraft.resources.ResourceKey");
+const UpgradeOrbTypeRegistry = Java.loadClass("io.redspace.ironsspellbooks.registries.UpgradeOrbTypeRegistry");
+
+const HEALTH = UpgradeOrbTypeRegistry.HEALTH;
+const REALITY_INDEX = ResourceKey.create("irons_spellbooks:upgrade_orb_type", "curseofpandora:reality_index");
+// const StockTickerBlockEntity = Java.loadClass("com.simibubi.create.content.logistics.stockTicker.StockTickerBlockEntity")
 StartupEvents.registry('item', event => {
     event.create('shh:etihw')
         .tooltip(Text.translate('text.shh.etihw.tooltip'))
@@ -35,6 +40,9 @@ StartupEvents.registry('item', event => {
         .maxStackSize(1)
         .rarity('epic')
 
+    event.create("shh:reality_index_upgrade_orb")
+        .component("irons_spellbooks:upgrade_orb_type", REALITY_INDEX)
+        
     if (CreateEvents) {
         event.create('shh:incomplete_upgrade_advanced_infinity', "create:sequenced_assembly")
             .texture('shh:item/incomplete_upgrade_advanced_infinity')
