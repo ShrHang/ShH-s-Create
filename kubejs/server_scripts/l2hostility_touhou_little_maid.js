@@ -1,3 +1,5 @@
+// requires: l2hostility
+// requires: touhou_little_maid
 ItemEvents.entityInteracted(event => {
     if (Platform.isLoaded('touhou_little_maid') && Platform.isLoaded('l2tabs')) {
         let _target = event.target;

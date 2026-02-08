@@ -34,5 +34,4 @@ ServerEvents.recipes(event => {
             results: [{ id: "shh:hulibugulv" }]
         }
     )
-
-})
+});

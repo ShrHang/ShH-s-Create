@@ -106,4 +106,5 @@ PlayerEvents.chat(event => {
         event.cancel();
     }*/
 
-})
+});
+

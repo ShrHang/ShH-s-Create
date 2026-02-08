@@ -166,6 +166,8 @@ StartupEvents.registry('item', event => {
         event.create('shh:incomplete_upgrade_wither')
             .texture('shh:item/incomplete_upgrade_wither')
     }
+
+    event.create("shh:unbreakable")
 })
 
 StartupEvents.registry('block', event => {
