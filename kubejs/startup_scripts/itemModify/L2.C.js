@@ -1,6 +1,6 @@
 // requires: l2complements
 ItemEvents.modification(event => {
-        // l2complements 剑类
+        //#region  l2complements 剑类
         // 生命剑
         event.modify("l2complements:totemic_gold_sword", item => {
             addAttModifiers(item, [
@@ -31,8 +31,9 @@ ItemEvents.modification(event => {
                 { attribute: "minecraft:generic.attack_damage", amount: 8, id: "shh_attack_damage:mainhand", slot: "mainhand" }
             ]);
         });
+        //#endregion
 
-        // l2complements 斧类
+        //#region  l2complements 斧类
         // 生命斧
         event.modify("l2complements:totemic_gold_axe", item => {
             addAttModifiers(item, [
@@ -63,8 +64,9 @@ ItemEvents.modification(event => {
                 { attribute: "minecraft:generic.attack_damage", amount: 8, id: "shh_attack_damage:mainhand", slot: "mainhand" }
             ]);
         });
+        //#endregion
 
-        // 生命套装
+        //#region  生命套装
         // 生命头盔
         event.modify("l2complements:totemic_gold_helmet", item => {
             addAttModifiers(item, [
@@ -97,8 +99,9 @@ ItemEvents.modification(event => {
                 { attribute: "l2damagetracker:damage_absorption", amount: 5, id: "shh_damage_absorption:feet", slot: "feet", condition: Platform.isLoaded('l2damagetracker') }
             ]);
         });
+        //#endregion
 
-        // 海神套装
+        //#region  海神套装
         // 海神头盔
         event.modify("l2complements:poseidite_helmet", item => {
             addAttModifiers(item, [
@@ -127,8 +130,9 @@ ItemEvents.modification(event => {
                 { attribute: "l2damagetracker:bow_strength", amount: 0.1, id: "shh_bow_strength:feet", slot: "feet", condition: Platform.isLoaded('l2damagetracker') }
             ]);
         });
+        //#endregion
 
-        // 潜影套装
+        //#region  潜影套装
         // 潜影头盔
         event.modify("l2complements:shulkerate_helmet", item => {
             addAttModifiers(item, [
@@ -157,8 +161,9 @@ ItemEvents.modification(event => {
                 { attribute: "l2damagetracker:damage_reduction", amount: -0.08, id: "shh_damage_reduction:feet", slot: "feet", condition: Platform.isLoaded('l2damagetracker') }
             ]);
         });
+        //#endregion
 
-        // 幽匿套装
+        //#region  幽匿套装
         // 幽匿头盔
         event.modify("l2complements:sculkium_helmet", item => {
             addAttModifiers(item, [
@@ -187,8 +192,9 @@ ItemEvents.modification(event => {
                 { attribute: "irons_spellbooks:eldritch_spell_power", amount: 0.08, id: "shh_spell_power:feet", slot: "feet", condition: Platform.isLoaded('irons_spellbooks') }
             ]);
         });
+        //#endregion
 
-        // 永恒套装
+        //#region  永恒套装
         // 永恒头盔
         event.modify("l2complements:eternium_helmet", item => {
             addAttModifiers(item, [
@@ -221,10 +227,12 @@ ItemEvents.modification(event => {
                 { attribute: "artifacts:generic.sprinting_step_height", amount: 0.5, id: "shh_sprinting_step_height:feet", slot: "feet", condition: Platform.isLoaded('artifacts') }
             ]);
         });
+        //#endregion
 
-        // 其它
+        //#region  其它
         // 结晶渗透法杖
         event.modify("l2complements:diffusion_wand", item => {
             item.setUnbreakable();
         });
+        //#endregion
 });

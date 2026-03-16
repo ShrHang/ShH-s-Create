@@ -1,5 +1,5 @@
+// requires: add_potion
 ServerEvents.recipes(event => {
-    if (Platform.isLoaded("add_potion")) {
         event.remove({ output: "add_potion:potion_table" })
         event.shaped("add_potion:potion_table", [
             "ABD",
@@ -14,5 +14,4 @@ ServerEvents.recipes(event => {
             F: "create:depot",
             G: "create:item_drain"
         })
-    }
 })

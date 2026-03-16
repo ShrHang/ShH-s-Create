@@ -14,9 +14,7 @@ ItemEvents.modification(event => {
             { attribute: "minecraft:generic.attack_damage", amount: 5, id: "minecraft:base_attack_damage", slot: "mainhand" }
         ]);
     });
-    // event.modify('shh:portable_stock_ticker', item => {
-    //     addAttModifiers(item, [
-    //         { attribute: "minecraft:player.entity_interaction_range", amount: 1000000000, id: "shh_entity_interaction:mainhand", slot: "mainhand" }
-    //     ]);
-    // })
+    event.modify("shh:reality_index_upgrade_orb", item => {
+        item.set("irons_spellbooks:upgrade_orb_type", "curseofpandora:reality_index");
+    })
 })

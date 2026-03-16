@@ -1,13 +1,18 @@
+/**
+ * @file 修改物品属性
+ */
 // requires: create
 ItemEvents.modification(event => {
-    // 扳手
+    //#region  扳手
     event.modify('create:wrench', item => {
         addAttModifiers(item, [
-            { attribute: "minecraft:generic.attack_damage", amount: 9, id: "minecraft:base_attack_damage", slot: "mainhand" },
-            { attribute: "minecraft:generic.attack_speed", amount: -1, id: "minecraft:base_attack_speed", slot: "mainhand" }
+            { attribute: "minecraft:generic.attack_damage", amount: 9, id: AttackDamage, slot: "mainhand" },
+            { attribute: "minecraft:generic.attack_speed", amount: -1, id: AttackSpeed, slot: "mainhand" }
         ]);
     });
-    // 铜潜水套装
+    //#endregion
+
+    //#region  铜潜水套装
     // 铜潜水头盔
     event.modify('create:copper_diving_helmet', item => {
         addAttModifiers(item, [
@@ -29,7 +34,9 @@ ItemEvents.modification(event => {
             { attribute: "irons_spellbooks:lightning_spell_power", amount: 0.05, id: "shh_lightning_spell_power:feet", slot: "feet", condition: Platform.isLoaded('irons_spellbooks') }
         ]);
     })
-    // 下界合金潜水套装
+    //#endregion
+
+    //#region  下界合金潜水套装
     // 下界合金潜水头盔
     event.modify('create:netherite_diving_helmet', item => {
         addAttModifiers(item, [
@@ -54,7 +61,9 @@ ItemEvents.modification(event => {
             { attribute: "l2damagetracker:damage_reduction", amount: -0.05, id: "shh_l2_damage_reduction:feet", slot: "feet", condition: Platform.isLoaded('l2damagetracker') }
         ]);
     })
-    // 纸板套装
+    //#endregion
+
+    //#region  纸板套装
     // 纸板头盔
     event.modify('create:cardboard_helmet', item => {
         addAttModifiers(item, [
@@ -79,4 +88,5 @@ ItemEvents.modification(event => {
             { attribute: "minecraft:player.sneaking_speed", amount: 0.15, id: "shh_sneaking_speed:feet", slot: "feet" }
         ]);
     })
+    //#endregion
 })

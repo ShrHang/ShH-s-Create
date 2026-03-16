@@ -1,4 +1,9 @@
+const Modifier = Java.loadClass("com.simibubi.create.foundation.item.ItemDescription$Modifier")
+const Palette = Java.loadClass("net.createmod.catnip.lang.FontHelper$Palette")
+
 const TOOLTIP_BAN = Component.translate('text.shh.common.tooltip.ban')
+
+var MyModifier = new Modifier(Items.BAMBOO.getItem(), Palette.STANDARD_CREATE)
 ItemEvents.modifyTooltips(event => {
     // 添加提示信息
     event.add('create_enchantment_industry:super_experience_block', [

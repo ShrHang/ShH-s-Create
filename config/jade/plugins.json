@@ -75,17 +75,12 @@
     "entity": true,
     "entity_variant": true
   },
-  "toms_storage": {
-    "inventory_config": true,
-    "inventory_connector": true
-  },
   "ftbquests": {
     "barrier": true
   },
   "kaleidoscope_cookery": {
     "chopping_board": true,
     "shawarma_spit": true,
-    "oil_pot": true,
     "recipe_block": true,
     "millstone": true,
     "enamel_basin": true
@@ -93,6 +88,9 @@
   "touhou_little_maid": {
     "maid": true,
     "shrine_lamp": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,

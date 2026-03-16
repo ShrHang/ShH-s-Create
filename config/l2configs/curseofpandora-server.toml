@@ -506,13 +506,13 @@
 	allowRealityTrait = true
 	# Default: 500
 	# Range: 1 ~ 10000
-	sealOfSwordDifficultyPerBonus = 100
+	sealOfSwordDifficultyPerBonus = 500
 	# Default: 3
 	# Range: 1 ~ 10000
-	sealOfSwordMaxRealityBonus = 7
+	sealOfSwordMaxRealityBonus = 4
 	# Default: 0.5
 	# Range: 0.0 ~ 5.0
-	spellSingularitySpellBonusPerReality = 0.823
+	spellSingularitySpellBonusPerReality = 0.1
 	# Default: 0.5
 	# Range: 0.0 ~ 5.0
-	spellSingularityMagicDamageBonusPerReality = 0.823
+	spellSingularityMagicDamageBonusPerReality = 0.1

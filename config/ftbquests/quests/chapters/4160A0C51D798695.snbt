@@ -17,8 +17,8 @@
 				item: { count: 1, id: "create_dragons_plus:blaze_upgrade_smithing_template" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 2.5d
+			x: -11.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -31,8 +31,8 @@
 				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 1.5d
+			x: -12.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -45,8 +45,8 @@
 				item: { count: 1, id: "create_enchantment_industry:blaze_forger" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.5d
+			x: -10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -60,8 +60,8 @@
 				item: { count: 1, id: "create_enchantment_industry:super_enchanting_template" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: -12.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7B1652E5CA758E59"]
@@ -71,8 +71,8 @@
 				item: { count: 1, id: "create_enchantment_industry:printer" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.5d
+			x: -8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["59ED871A613FEADE"]
@@ -82,7 +82,7 @@
 				item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: 5.5d
 		}
 		{
@@ -109,8 +109,8 @@
 				item: { count: 1, id: "create:mechanical_pump" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: -1.5d
+			x: -8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["41F75CF2D6BA7BA7"]
@@ -131,8 +131,8 @@
 				item: { count: 1, id: "create:smart_fluid_pipe" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: -0.5d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["41F75CF2D6BA7BA7"]
@@ -219,7 +219,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7FF97A68599D651B"]
@@ -239,8 +239,8 @@
 				item: { count: 1, id: "create:experience_nugget" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: 5.5d
+			x: -8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -248,23 +248,45 @@
 				"7DB5A5E21C9F79B3"
 			]
 			id: "7B1652E5CA758E59"
-			tasks: [{
-				id: "24FF86F048A5A154"
-				item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: 3.5d
+			tasks: [
+				{
+					id: "24FF86F048A5A154"
+					item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "create_enchantment_industry:experience"
+					}
+					id: "144B7B5DBAC4F81F"
+					type: "fluid"
+				}
+			]
+			x: -10.0d
+			y: 5.5d
 		}
 		{
+			dependencies: ["068AA0D3640CDA92"]
 			id: "1634BD8F98F95A99"
 			tasks: [{
 				id: "3838B4812692BBF4"
 				item: { count: 1, id: "create_enchantment_industry:experience_cake" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -0.5d
+			x: -15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B2F99FE3B048863"]
+			id: "14E9EF6E175C500B"
+			tasks: [{
+				id: "662ED59E445FAA73"
+				item: { count: 1, id: "create_connected:fluid_vessel" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
 		}
 	]
 }

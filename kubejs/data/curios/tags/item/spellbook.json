@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+        "id": "shh:spell_book",
+        "required": false
+    }
+  ]
+}

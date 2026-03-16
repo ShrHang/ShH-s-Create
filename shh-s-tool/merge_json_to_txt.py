@@ -1,3 +1,7 @@
+'''
+This script merges all JSON files in a specified directory into a single text file named "json.txt".
+Each JSON content is wrapped in an "event.custom()" function call.
+'''
 import os
 
 def merge_json_to_txt(input_dir: str):

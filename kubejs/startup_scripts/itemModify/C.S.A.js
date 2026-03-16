@@ -1,6 +1,6 @@
 // requires: create_sa
 ItemEvents.modification(event => {
-    // 玫瑰石英工具
+    //#region  玫瑰石英工具
     // 玫瑰石英剑
     event.modify('create_sa:rose_quartz_sword', item => {
         addAttModifiers(item, [
@@ -27,8 +27,9 @@ ItemEvents.modification(event => {
             { attribute: "minecraft:player.entity_interaction_range", amount: 3, id: "shh_entity_interaction:mainhand", slot: "mainhand" }
         ]);
     });
+    //#endregion
 
-    // 铜工具
+    //#region  铜工具
     // 铜剑
     event.modify('create_sa:copper_sword', item => {
         addAttModifiers(item, [
@@ -55,8 +56,9 @@ ItemEvents.modification(event => {
             { attribute: "irons_spellbooks:lightning_spell_power", amount: 0.05, id: "shh_lightning_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded('irons_spellbooks') }
         ]);
     });
+    //#endregion
 
-    // 锌工具
+    //#region  锌工具
     // 锌剑
     event.modify('create_sa:zinc_sword', item => {
         addAttModifiers(item, [
@@ -69,8 +71,9 @@ ItemEvents.modification(event => {
             { attribute: "minecraft:generic.attack_damage", amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand" }
         ]);
     });
+    //#endregion
 
-    // 黄铜工具
+    //#region  黄铜工具
     // 黄铜剑
     event.modify('create_sa:brass_sword', item => {
         addAttModifiers(item, [
@@ -97,8 +100,9 @@ ItemEvents.modification(event => {
             { attribute: "irons_spellbooks:lightning_spell_power", amount: 0.05, id: "shh_lightning_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded('irons_spellbooks') }
         ]);
     });
+    //#endregion
 
-    // 烈焰工具
+    //#region  烈焰工具
     // 烈焰长剑
     event.modify('create_sa:blazing_cleaver', item => {
         addAttModifiers(item, [
@@ -130,8 +134,9 @@ ItemEvents.modification(event => {
             { attribute: "irons_spellbooks:fire_spell_power", amount: 0.1, id: "shh_fire_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded('irons_spellbooks') }
         ]);
     });
+    //#endregion
 
-    // 经验工具
+    //#region  经验工具
     // 经验剑
     event.modify('create_sa:experience_sword', item => {
         addAttModifiers(item, [
@@ -166,8 +171,9 @@ ItemEvents.modification(event => {
             { attribute: "minecraft:generic.luck", amount: 2, id: "shh_luck:offhand", slot: "offhand" }
         ]);
     });
+    //#endregion
 
-    // 铜盔甲
+    //#region  铜盔甲
     // 铜头盔
     event.modify('create_sa:copper_helmet', item => {
         addAttModifiers(item, [
@@ -196,8 +202,9 @@ ItemEvents.modification(event => {
             { attribute: "irons_spellbooks:lightning_spell_power", amount: 0.05, id: "shh_lightning_spell_power:feet", slot: "feet", condition: Platform.isLoaded('irons_spellbooks') }
         ]);
     });
+    //#endregion
 
-    // 锌盔甲
+    //#region  锌盔甲
     // 锌头盔
     event.modify('create_sa:zinc_helmet', item => {
         addAttModifiers(item, [
@@ -226,8 +233,9 @@ ItemEvents.modification(event => {
             { attribute: "curseofpandora:reality_index", amount: 0.25, id: "shh_reality_index:feet", slot: "feet", condition: Platform.isLoaded('curseofpandora') }
         ]);
     });
+    //#endregion
 
-    // 黄铜盔甲
+    //#region  黄铜盔甲
     // 黄铜头盔
     event.modify('create_sa:brass_helmet', item => {
         addAttModifiers(item, [
@@ -260,7 +268,9 @@ ItemEvents.modification(event => {
             { attribute: "curseofpandora:reality_index", amount: 0.5, id: "shh_reality_index:feet", slot: "feet", condition: Platform.isLoaded('curseofpandora') }
         ]);
     });
-    // 粘液套装
+    //#endregion
+
+    //#region  粘液套装
     // 粘液头盔
     event.modify('create_sa:slime_helmet', item => {
         addAttModifiers(item, [
@@ -276,8 +286,9 @@ ItemEvents.modification(event => {
             { attribute: "artifacts:generic.sprinting_speed", amount: 0.3, id: "shh_sprinting_speed:feet", slot: "feet", condition: Platform.isLoaded('artifacts') }
         ]);
     });
+    //#endregion
 
-    // 喷气背包
+    //#region  喷气背包
     // 安山喷气背包
     event.modify('create_sa:andesite_jetpack_chestplate', item => {
         addAttModifiers(item, [
@@ -309,8 +320,9 @@ ItemEvents.modification(event => {
             { attribute: "curseofpandora:reality_index", amount: 1, id: "shh_reality_index:chest", slot: "chest", condition: Platform.isLoaded('curseofpandora') }
         ]);
     });
+    //#endregion
 
-    // 外骨骼
+    //#region  外骨骼
     // 安山外骨骼
     event.modify('create_sa:andesite_exoskeleton_chestplate', item => {
         addAttModifiers(item, [
@@ -333,5 +345,6 @@ ItemEvents.modification(event => {
             { attribute: "curseofpandora:reality_index", amount: 0.5, id: "shh_reality_index:chest", slot: "chest", condition: Platform.isLoaded('curseofpandora') }
         ]);
     });
+    //#endregion
 });
 

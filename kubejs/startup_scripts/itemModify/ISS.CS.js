@@ -1,6 +1,6 @@
 // requires: cataclysm_spellbooks
 ItemEvents.modification(event => {
-        // cataclysm_spellbooks 法杖类
+        //#region  cataclysm_spellbooks 法杖类
         // 花岩之杖
         event.modify('cataclysm_spellbooks:bloom_stone_staff', item => {
             addAttModifiers(item, [
@@ -42,8 +42,9 @@ ItemEvents.modification(event => {
                 { attribute: "minecraft:generic.attack_damage", amount: 7, id: "shh_attack_damage:mainhand", slot: "mainhand" }
             ]);
         });
+        //#endregion
 
-        // cataclysm_spellbooks 近战武器
+        //#region  cataclysm_spellbooks 近战武器
         // 恶兽焰型剑
         event.modify('cataclysm_spellbooks:monstrous_flamberge', item => {
             addAttModifiers(item, [
@@ -57,8 +58,9 @@ ItemEvents.modification(event => {
                 { attribute: "minecraft:generic.attack_damage", amount: 9, id: "shh_attack_damage:mainhand", slot: "mainhand" }
             ]);
         });
+        //#endregion
 
-        // 深渊术士套装
+        //#region  深渊术士套装
         // 深渊术士兜帽（多物品）
         event.modify(['cataclysm_spellbooks:abyssal_warlock_helmet', 'cataclysm_spellbooks:abyssal_warlock_mask'], item => {
             addAttModifiers(item, [
@@ -90,8 +92,9 @@ ItemEvents.modification(event => {
                 { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
             ]);
         });
+        //#endregion
 
-        // 咒魂法师套装
+        //#region  咒魂法师套装
         // 咒魂法师兜帽
         event.modify('cataclysm_spellbooks:cursium_mage_circlet', item => {
             addAttModifiers(item, [
@@ -123,8 +126,9 @@ ItemEvents.modification(event => {
                 { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
             ]);
         });
+        //#endregion
 
-        // 腾炎法师套装
+        //#region  腾炎法师套装
         // 腾炎法师兜帽
         event.modify('cataclysm_spellbooks:ignis_helmet', item => {
             addAttModifiers(item, [
@@ -156,4 +160,5 @@ ItemEvents.modification(event => {
                 { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
             ]);
         });
+        //#endregion
 })

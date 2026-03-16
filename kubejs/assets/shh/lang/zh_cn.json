@@ -34,9 +34,9 @@
     "item.shh.incomplete_upgrade_void": "虚空§7（半成品）",
     "item.shh.incomplete_upgrade_weak": "虚弱§7（半成品）",
     "item.shh.incomplete_upgrade_wither": "凋零§7（半成品）",
-    "item.shh.maid_tool": "女仆手杖",
     "item.shh.portable_stock_ticker": "便携式仓储发报机",
     "item.shh.reality_index_upgrade_orb": "现实指数升级法球",
+    "item.shh.unbreakable":"无法破坏",
     "itemGroup.shh.shh_stuffs": "什物",
     "text.shh.create.item_vault.tooltip": "§7拥有64个存储槽位的存储方块。",
     "text.shh.create_enchantment_industry.super_experience_block.tooltip_1": "§b经验块在避雷针下方遭受雷击后转化。",
@@ -54,5 +54,13 @@
     "text.shh.maid_tool.tooltip_right_click": "§7·§2右键§5女仆§7移除/恢复女仆的§6AI",
     "text.shh.maid_tool.tooltip_shift_right_click": "§7·§aShift+右键§d女仆§7打开女仆的§eCurios§7饰品栏",
     "text.shh.pandora_bracelet_init.tooltip": "§5七咒之镯",
-    "text.shh.pandora_necklet_init.tooltip": "§5七咒之链"
+    "text.shh.pandora_necklet_init.tooltip": "§5七咒之链",
+    "text.shh.unbreakable.tooltip":"手持时右键，让位于另一只手的物品获得无法破坏效果。",
+    
+    "item.shh.maid_tool": "女仆手杖",
+    "item.shh.maid_tool.tooltip.summary": "控制女仆行为的工具",
+    "item.shh.maid_tool.tooltip.condition1": "右键女仆：",
+    "item.shh.maid_tool.tooltip.behaviour1": "移除/恢复女仆的AI",
+    "item.shh.maid_tool.tooltip.condition2": "Shift+右键女仆：",
+    "item.shh.maid_tool.tooltip.behaviour2": "打开女仆的Curios饰品栏"
 }

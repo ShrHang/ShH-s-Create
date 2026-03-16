@@ -70,6 +70,15 @@
 	# Default: 10
 	# Range: 1 ~ 1000
 	hellfireWandDamage = 20
+	# Default: 20
+	# Range: 1 ~ 1000
+	sonicShooterCooldown = 20
+	# Default: 20
+	# Range: 1 ~ 1000
+	scepterOfHeliosDamage = 20
+	# Default: 5
+	# Range: 1 ~ 1000
+	scepterOfBoreasDamage = 5
 
 [enchantments]
 	#Be sure to inform players when you turn this off
@@ -97,7 +106,7 @@
 	bleedEnchantMax = 20
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
-	voidTouchChance = 0.20
+	voidTouchChance = 0.2
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
 	voidTouchChanceBonus = 0.5
