@@ -17,6 +17,7 @@
         "baseUrl": "../../.probe/packages",
         "skipLibCheck": true,
         "moduleResolution": "node",
+        "ignoreDeprecations": "6.0",
         "allowJs": true,
         "checkJs": false,
         "disableSizeLimit": true,
@@ -26,7 +27,6 @@
     },
     "include": [
         "./**/*.js",
-        "./**/*.ts",
-        null
+        "./**/*.ts"
     ]
 }

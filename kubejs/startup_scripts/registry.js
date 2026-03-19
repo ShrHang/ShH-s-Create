@@ -5,12 +5,12 @@
 
 StartupEvents.registry("item", event => {
     event.create("shh:etihw")
-        .tooltip(Text.translate("text.shh.etihw.tooltip"))
+        .tooltip(Text.translate("text.shh.shh.etihw.tooltip"))
         .texture("shh:item/etihw")
         .rarity("epic")
 
     event.create("shh:hulibugulv")
-        .tooltip(Text.translate("text.shh.hulibugulv.tooltip"))
+        .tooltip(Text.translate("text.shh.shh.hulibugulv.tooltip"))
         .texture("shh:item/hulibugulv")
         .food(food => {
             food.nutrition(1)
@@ -31,7 +31,7 @@ StartupEvents.registry("item", event => {
         .maxStackSize(1)
         .maxDamage(1024)
         .rarity("epic")
-        .tooltip(Text.translate("text.shh.chimings_sword.tooltip"))
+        .tooltip(Text.translate("text.shh.shh.chimings_sword.tooltip"))
         .texture("shh:item/chimings_sword")
 
     event.create("shh:maid_tool")
@@ -75,7 +75,7 @@ StartupEvents.registry("item", event => {
 
     event.create("shh:unbreakable")
         .rarity("epic")
-        .tooltip(Text.translate("text.shh.unbreakable.tooltip"))
+        .tooltip(Text.translate("text.shh.shh.unbreakable.tooltip"))
 
     createSpellBook(event, "shh:spell_book", 10, [
         { attribute: $AttributeRegistry.MAX_MANA, amount: 400, operation: 0 }

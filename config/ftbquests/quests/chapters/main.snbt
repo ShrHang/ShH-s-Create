@@ -10,6 +10,12 @@
 		{
 			id: "657E8BA12DD8263C"
 			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47DE7C4E577775DF"
+				table_id: 1358187796227839944L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "61539235D6C26BF0"
 				type: "checkmark"
@@ -133,6 +139,11 @@
 		{
 			dependencies: ["28E4DD0506E57CA7"]
 			id: "2888CE53493B6777"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59484F7F27A88DF8"
+				type: "choice"
+			}]
 			tasks: [{
 				id: "3A817E5FE3E53674"
 				item: { count: 1, id: "create:basin" }

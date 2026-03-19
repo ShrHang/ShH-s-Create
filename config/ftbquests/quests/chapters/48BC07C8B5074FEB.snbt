@@ -902,16 +902,6 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "206120FC57735726"
-					item: { count: 1, id: "man_of_many_planes:scarlet_biplane" }
-					type: "item"
-				}
-				{
-					id: "23D3F5D177F8509C"
-					item: { count: 1, id: "man_of_many_planes:economy_plane" }
-					type: "item"
-				}
-				{
 					id: "757DBAAE00981C45"
 					item: { count: 1, id: "immersive_aircraft:bamboo_hopper" }
 					type: "item"

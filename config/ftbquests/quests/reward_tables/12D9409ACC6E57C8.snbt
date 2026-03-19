@@ -1,0 +1,10 @@
+{
+	id: "12D9409ACC6E57C8"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "3100DE5089BBD9E5", item: { count: 1, id: "minecraft:oak_planks" } }
+		{ id: "6F76A6FB091BD085", item: { count: 1, id: "minecraft:stripped_oak_wood" } }
+		{ id: "4EC14C22F568AC6D", item: { count: 1, id: "minecraft:oak_wood" } }
+	]
+}

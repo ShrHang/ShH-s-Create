@@ -9,11 +9,21 @@ PlayerEvents.chat(event => {
         let item = player.mainHandItem
         if (!item) return;
         try {
-            player.sendSystemMessage(Component.literal(item.components));
+            player.sendSystemMessage(Component.literal(item.getBurnTime("minecraft:smelting")));
         } catch (e) {
             player.sendSystemMessage(Component.literal(e + "\n"))
         }
-        item.
+        event.cancel();
+    }
+
+    if (message == "tt") {
+        let item = player.mainHandItem
+        if (!item) return;
+        try {
+            player.sendSystemMessage(Component.literal(item.getBurnTime("minecraft:smelting")));
+        } catch (e) {
+            player.sendSystemMessage(Component.literal(e + "\n"))
+        }
         event.cancel();
     }
 

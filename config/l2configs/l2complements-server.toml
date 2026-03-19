@@ -57,7 +57,7 @@
 	totemicHealDuration = 100
 	# Default: 1
 	# Range: 1 ~ 1000
-	totemicHealAmount = 10
+	totemicHealAmount = 1
 	#This is for weapons made with totemic gold and poseidite.
 	#When weapons with above materials is used against mob types they are effective for
 	#This number determines the bonus in percentage of original damage

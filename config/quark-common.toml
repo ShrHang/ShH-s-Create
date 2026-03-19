@@ -276,7 +276,7 @@
 	"Automatic Tool Restock" = true
 	"Easy Transferring" = true
 	"Expanded Item Interactions" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Inventory Sorting" = true
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
@@ -1528,21 +1528,21 @@
 					"Is Blacklist" = false
 
 [client]
-	"Auto Walk Keybind" = true
-	"Back Button Keybind" = true
+	"Auto Walk Keybind" = false
+	"Back Button Keybind" = false
 	"Buckets Show Inhabitants" = true
 	Camera = true
 	"Chest Searching" = true
 	"Elytra Indicator" = true
 	"Greener Grass" = true
-	"Improved Tooltips" = true
+	"Improved Tooltips" = false
 	"Long Range Pick Block" = true
 	"Microcrafting Helper" = true
 	"Soul Candles" = true
 	"Usage Ticker" = true
 	"Uses For Curses" = true
 	"Variant Animal Textures" = true
-	"Wool Shuts Up Minecarts" = true
+	"Wool Shuts Up Minecarts" = false
 
 	[client.auto_walk_keybind]
 		"Draw Hud" = true

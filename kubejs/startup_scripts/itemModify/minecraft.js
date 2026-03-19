@@ -300,4 +300,8 @@ ItemEvents.modification(event => {
             { attribute: "neoforge:swim_speed", amount: 0.15, id: "shh_swim_speed:head", slot: "head" }
         ]);
     });
+
+    // event.modify('minecraft:coal', item => {
+    //     item.setBurnTime(1)
+    // })
 })

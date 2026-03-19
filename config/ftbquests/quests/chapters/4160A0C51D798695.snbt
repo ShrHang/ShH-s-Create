@@ -248,21 +248,11 @@
 				"7DB5A5E21C9F79B3"
 			]
 			id: "7B1652E5CA758E59"
-			tasks: [
-				{
-					id: "24FF86F048A5A154"
-					item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
-					type: "item"
-				}
-				{
-					fluid: {
-						amount: 1000
-						id: "create_enchantment_industry:experience"
-					}
-					id: "144B7B5DBAC4F81F"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				id: "24FF86F048A5A154"
+				item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
+				type: "item"
+			}]
 			x: -10.0d
 			y: 5.5d
 		}

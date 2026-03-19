@@ -55,9 +55,6 @@
   "l2hostility": {
     "mob": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -78,6 +75,26 @@
   "ftbquests": {
     "barrier": true
   },
+  "jade": {
+    "coordinates.rel": false,
+    "registry_name.special": false,
+    "block_states": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "block_properties": false,
+    "mod_name": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
   "kaleidoscope_cookery": {
     "chopping_board": true,
     "shawarma_spit": true,
@@ -92,21 +109,10 @@
   "supplementaries": {
     "hat_stand": true
   },
-  "jade": {
-    "coordinates.rel": false,
-    "registry_name.special": false,
-    "block_states": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "block_properties": false,
-    "mod_name": true
-  },
   "waystones": {
     "waystone": true
   },
-  "balm": {
-    "jade": true
+  "createtreadmill": {
+    "treadmill_provider": true
   }
 }

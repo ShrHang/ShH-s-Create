@@ -18,7 +18,7 @@
 				item: { count: 1, id: "create:controls" }
 				type: "item"
 			}]
-			x: -9.0d
+			x: -8.5d
 			y: 0.5d
 		}
 		{
@@ -32,8 +32,8 @@
 				item: { count: 1, id: "create:track_station" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.0d
+			x: -8.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["429A439C0A6589AD"]
@@ -46,7 +46,7 @@
 				item: { count: 1, id: "create:railway_casing" }
 				type: "item"
 			}]
-			x: -12.0d
+			x: -10.5d
 			y: -1.0d
 		}
 		{
@@ -58,7 +58,7 @@
 				item: { count: 1, id: "create:track" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -12.5d
 			y: -2.5d
 		}
 		{
@@ -67,8 +67,8 @@
 				id: "426CDA8DC02E4D4C"
 				type: "checkmark"
 			}]
-			x: -12.0d
-			y: -4.0d
+			x: -14.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -82,8 +82,8 @@
 				id: "7064A4FA66914AC6"
 				type: "advancement"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2C336C038BD82BF8"]
@@ -93,8 +93,8 @@
 				item: { count: 1, id: "create:sturdy_sheet" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: -2.5d
+			x: -12.5d
+			y: 0.5d
 		}
 	]
 }
