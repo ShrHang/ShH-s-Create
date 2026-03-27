@@ -1,0 +1,6 @@
+*.bak
+README*
+
+config/*
+!/config/client.json
+

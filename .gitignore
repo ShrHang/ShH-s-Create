@@ -1,71 +1,8 @@
-# KubeJS 生成文件
-.probe/
-kubejs/config/
-!/kubejs/config/client.json
-local/
+/*
 
-# Minecraft 运行时文件
-logs/
-crash-reports/
-screenshots/
-saves/
-resourcepacks/
-shaderpacks/
-ShH's Create.*
-usercache.json
-usernamecache.json
+!/config/
+!/defaultconfigs/
+!/kubejs/
+!/shh-s-tool/
+!/.gitignore
 
-options.txt
-
-#mod文件
-.mixin.out/
-mods/
-CustomSkinLoader/
-moonlight-global-datapacks/
-patchouli_books/
-schematics/
-ShH's Create-natives/
-spark-modernfix/tmp/
-tlm_custom_pack/
-xaero/
-XaeroWaypoints_BACKUP240807/
-command_history.txt
-patchouli_data.json
-ProbeJS-7.5.1.jar.disabled
-ProbeJS-7.5.1.jar
-dynamic*/
-.qmenu_opened.marker
-
-# 临时文件
-*.log
-*.log.gz
-*.tmp
-*.bak
-
-#启动器文件
-PCL/
-downloads/
-servers.dat
-servers.dat_old
-hmclversion.cfg
-log4j2.xml
-modpack.cfg
-modrinth.index.json
-debug/
-
-# IDE 文件
-.vscode/
-.idea/
-
-# 系统文件
-.DS_Store
-*README.txt
-Thumbs.db
-.probe
-
-# Git文件
-# .gitattributes
-
-# ShrHang的妙妙工具
-assets/
-libs/
