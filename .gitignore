@@ -36,6 +36,7 @@ ProbeJS-7.5.1.jar.disabled
 ProbeJS-7.5.1.jar
 config/chunky/tasks/
 dynamic*/
+.qmenu_opened.marker
 
 # 临时文件
 *.log
