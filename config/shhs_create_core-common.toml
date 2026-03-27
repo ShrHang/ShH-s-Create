@@ -1,0 +1,5 @@
+[compat]
+	#The cost of printing a spell scroll per lv.
+	# Default: 250
+	# Range: 1 ~ 1000
+	scrollPrintingCost = 250

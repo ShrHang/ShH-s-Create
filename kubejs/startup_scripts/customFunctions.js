@@ -17,7 +17,7 @@
  * @see {@link SequencedAssemblyItem} 以了解该物品的特殊属性和行为
  */
 function createSequencedAssemblyItem(event, itemId) {
-    event.createCustom(itemId, () => new SequencedAssemblyItem(new ItemProperties().stacksTo(1)))
+    event.createCustom(itemId, () => new SequencedAssemblyItem(new ItemProperties().stacksTo(1)));
 }
 
 /**

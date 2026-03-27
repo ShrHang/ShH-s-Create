@@ -17,4 +17,5 @@ ItemEvents.modification(event => {
     event.modify("shh:reality_index_upgrade_orb", item => {
         item.set("irons_spellbooks:upgrade_orb_type", "curseofpandora:reality_index");
     })
+
 })

@@ -13,3 +13,21 @@ const ChestMenu = Java.loadClass('net.minecraft.world.inventory.ChestMenu')
  */
 const SimpleMenuProvider = Java.loadClass('net.minecraft.world.SimpleMenuProvider')
 //#endregion
+
+const colors = [
+    'black',
+    'blue',
+    'brown',
+    'cyan',
+    'gray',
+    'green',
+    'light_blue',
+    'light_gray',
+    'lime', // 黄绿色
+    'magenta',
+    'orange',
+    'pink',
+    'purple',
+    'red',
+    'yellow'
+]

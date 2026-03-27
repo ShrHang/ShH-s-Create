@@ -1,10 +1,16 @@
 {
     "enchantment.shh.absurd": "荒诞",
     "enchantment.shh.unbreakable": "无法破坏",
-    "fluid_type.shh.hostility": "恶意",
+
     "item.shh.chimings_sword": "砺剑子剑",
+    "item.shh.chimings_sword.tooltip.summary": "流淌着冰与火的力量。",
+
     "item.shh.etihw": "Etihw",
+    "item.shh.etihw.tooltip.summary": "感谢您游玩ShrHang的机械动力！",
+
     "item.shh.hulibugulv": "全糖顾虑",
+    "item.shh.hulibugulv.tooltip.summary": "吃完不打胰岛素就是死路一条。",
+
     "item.shh.incomplete_upgrade_advanced_infinity": "高级无限§7（半成品）",
     "item.shh.incomplete_upgrade_anti_gravity": "无重力§7（半成品）",
     "item.shh.incomplete_upgrade_blackstone": "禁锢§7（半成品）",
@@ -35,26 +41,35 @@
     "item.shh.incomplete_upgrade_void": "虚空§7（半成品）",
     "item.shh.incomplete_upgrade_weak": "虚弱§7（半成品）",
     "item.shh.incomplete_upgrade_wither": "凋零§7（半成品）",
+
     "item.shh.maid_tool": "女仆手杖",
+    "item.shh.maid_tool.tooltip.summary": "一个管理女仆的工具。",
+    "item.shh.maid_tool.tooltip.condition1": "使用时",
+    "item.shh.maid_tool.tooltip.behaviour1": "_移除/恢复_女仆的AI",
+    "item.shh.maid_tool.tooltip.condition2": "潜行使用时",
+    "item.shh.maid_tool.tooltip.behaviour2": "打开女仆的_Curios_饰品栏",
+
     "item.shh.reality_index_upgrade_orb": "现实指数升级法球",
+
     "item.shh.unbreakable":"无法破坏",
+    "item.shh.unbreakable.tooltip.summary":"无法合成",
+    "item.shh.unbreakable.tooltip.condition1":"使用时",
+    "item.shh.unbreakable.tooltip.behaviour1":"让位于另一只手的物品获得_无法破坏_效果。",
+
     "itemGroup.shh.shh_stuffs": "什物",
+
     "text.shh.create.item_vault.tooltip": "§7拥有64个存储槽位的存储方块。",
     "text.shh.create_enchantment_industry.super_experience_block.tooltip_1": "§b经验块在避雷针下方遭受雷击后转化。",
     "text.shh.create_enchantment_industry.super_experience_block.tooltip_2": "§3您可以对着§e经验颗粒§3思索查看详细信息",
+    
     "text.shh.common.tooltip.ban": "§4已禁用",
+    
     "text.shh.l2hostility.bottle_of_curse.tooltip": "§5单次右键即饮用",
     "text.shh.l2hostility.bottle_of_curse.tooltip_maid": "§5对女仆右键使用可以提升其恶意等级",
     "text.shh.l2hostility.bottle_of_sanity.tooltip": "§e单次右键即饮用",
     "text.shh.l2hostility.bottle_of_sanity.tooltip_maid": "§e对女仆右键使用可以清空其恶意等级和词条",
     "text.shh.l2hostility.miracle_block.tooltip_maid": "§2对女仆右键使用可以根据其当前等级刷新词条",
-    "text.shh.maid_tool.tooltip": "§8按住[§7Shift§8]显示详情",
-    "text.shh.maid_tool.tooltip_right_click": "§7·§2右键§5女仆§7移除/恢复女仆的§6AI",
-    "text.shh.maid_tool.tooltip_shift_right_click": "§7·§aShift+右键§d女仆§7打开女仆的§eCurios§7饰品栏",
+    
     "text.shh.pandora_bracelet_init.tooltip": "§5七咒之镯",
-    "text.shh.pandora_necklet_init.tooltip": "§5七咒之链",
-    "text.shh.shh.chimings_sword.tooltip": "流淌着冰与火的力量。",
-    "text.shh.shh.etihw.tooltip": "感谢您游玩ShrHang的机械动力！",
-    "text.shh.shh.hulibugulv.tooltip": "吃完不打胰岛素就是死路一条。",
-    "text.shh.shh.unbreakable.tooltip":"手持时右键，让位于另一只手的物品获得无法破坏效果。"
+    "text.shh.pandora_necklet_init.tooltip": "§5七咒之链"
 }

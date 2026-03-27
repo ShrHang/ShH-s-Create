@@ -53,5 +53,39 @@ const AttributeContainer = Java.loadClass("io.redspace.ironsspellbooks.item.weap
 const AttackDamage = "minecraft:base_attack_damage";
 const AttackSpeed = "minecraft:base_attack_speed";
 
+//#endregion
 
+//#region 常量
+const l2archeryUpgradeTypes = [
+    "advanced_infinity",
+    "anti_gravity",
+    "blackstone",
+    "cleanse",
+    "corrosion",
+    "curse",
+    "damage",
+    "double_charge",
+    "explosion",
+    "explosion_breaker",
+    "flux_up",
+    "frozen",
+    "glow",
+    "glowing",
+    "harm",
+    "heal",
+    "levitate",
+    "levitation",
+    "magnify_x2",
+    "magnify_x4",
+    "magnify_x8",
+    "poison",
+    "punch",
+    "railgun",
+    "slowness",
+    "soul_fire",
+    "super_damage",
+    "void",
+    "weak",
+    "wither"
+]
 //#endregion

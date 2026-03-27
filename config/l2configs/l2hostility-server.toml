@@ -5,11 +5,11 @@ enableEquipmentDatapack = true
 [scaling]
 	# Default: 0.03
 	# Range: 0.0 ~ 1000.0
-	healthFactor = 0.02
+	healthFactor = 0.01
 	exponentialHealth = false
 	# Default: 0.02
 	# Range: 0.0 ~ 1000.0
-	damageFactor = 0.02
+	damageFactor = 0.03
 	exponentialDamage = false
 	# Default: 0.05
 	# Range: 0.0 ~ 1000.0
@@ -68,13 +68,14 @@ enableEquipmentDatapack = true
 	# Default: 9
 	# Range: 1 ~ 100
 	maxTraitCount = 9
+	enableAdaptiveLeveling = true
 
 [difficulty]
 	# Default: 2000
-	# Range: 100 ~ 100000
+	# Range: 1 ~ 100000
 	maxPlayerLevel = 2000
 	# Default: 3000
-	# Range: 100 ~ 100000
+	# Range: 1 ~ 100000
 	maxMobLevel = 3000
 	# Default: 30
 	# Range: 1 ~ 100000

@@ -1,12 +1,12 @@
 ServerEvents.recipes(event => {
     // shh:maid_tool
-    event.shaped('shh:maid_tool', [
-        '  A',
-        ' B ',
-        'B  '
+    event.shaped("shh:maid_tool", [
+        "  A",
+        " B ",
+        "B  "
     ], {
-        A: 'l2complements:heirophant_green',
-        B: 'create_sa:zinc_handle'
+        A: "l2complements:heirophant_green",
+        B: "create_sa:zinc_handle"
     })
     // shh:hulibugulv
     event.custom(
@@ -34,4 +34,20 @@ ServerEvents.recipes(event => {
             results: [{ id: "shh:hulibugulv" }]
         }
     )
+
+    event.custom({
+            type: "create:mixing",
+            ingredients: [
+                { item: "l2hostility:miracle_powder" },
+                {
+                    type: "neoforge:single",
+                    amount: 250,
+                    fluid: "minecraft:water"
+                }
+            ],
+            results: [{
+                amount: 250,
+                id: "shhs_create_core:wonder"
+            }]
+        })
 });

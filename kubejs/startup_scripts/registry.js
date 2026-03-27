@@ -5,12 +5,10 @@
 
 StartupEvents.registry("item", event => {
     event.create("shh:etihw")
-        .tooltip(Text.translate("text.shh.shh.etihw.tooltip"))
         .texture("shh:item/etihw")
         .rarity("epic")
 
     event.create("shh:hulibugulv")
-        .tooltip(Text.translate("text.shh.shh.hulibugulv.tooltip"))
         .texture("shh:item/hulibugulv")
         .food(food => {
             food.nutrition(1)
@@ -31,7 +29,6 @@ StartupEvents.registry("item", event => {
         .maxStackSize(1)
         .maxDamage(1024)
         .rarity("epic")
-        .tooltip(Text.translate("text.shh.shh.chimings_sword.tooltip"))
         .texture("shh:item/chimings_sword")
 
     event.create("shh:maid_tool")
@@ -41,41 +38,24 @@ StartupEvents.registry("item", event => {
     event.create("shh:reality_index_upgrade_orb")
 
     //#region 序列装配物品
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_advanced_infinity")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_anti_gravity")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_blackstone")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_cleanse")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_corrosion")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_curse")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_damage")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_double_charge")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_explosion")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_explosion_breaker")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_flux_up")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_frozen")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_glow")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_glowing")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_harm")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_heal")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_levitate")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_levitation")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_magnify_x2")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_magnify_x4")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_magnify_x8")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_poison")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_punch")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_railgun")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_slowness")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_soul_fire")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_super_damage")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_void")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_weak")
-    createSequencedAssemblyItem(event, "shh:incomplete_upgrade_wither")
+    for (let type of l2archeryUpgradeTypes) {
+        createSequencedAssemblyItem(event, `shh:incomplete_upgrade_${type}`)
+    }
     //#endregion
 
     event.create("shh:unbreakable")
+        .use((level, player, hand) => {
+            let item = hand != "MAIN_HAND" ? player.mainHandItem : player.offHandItem;
+            let self = hand == "MAIN_HAND" ? player.mainHandItem : player.offHandItem;
+            if (item.hasTag("minecraft:enchantable/durability") && !item.has("minecraft:unbreakable")) {
+                item.setUnbreakableWithTooltip();
+                item.setDamage(0);
+                if (!player.isCreative()) self.shrink(1);
+                return true;
+            }
+            return false;
+        })
         .rarity("epic")
-        .tooltip(Text.translate("text.shh.shh.unbreakable.tooltip"))
 
     createSpellBook(event, "shh:spell_book", 10, [
         { attribute: $AttributeRegistry.MAX_MANA, amount: 400, operation: 0 }
@@ -93,16 +73,19 @@ StartupEvents.registry("block", event => {
 
 })
 
-StartupEvents.registry("fluid", event => {
-    event.create("shh:hostility")
-        .tint(0xcc71ec)
-        .noBlock()
-        .noBucket()
-})
+/**
+ * @deprecated 已移交 ShH's Create: Core。
+ */
+// StartupEvents.registry("fluid", event => {
+//     event.create("shh:hostility")
+//         .tint(0xcc71ec)
+//         .noBlock()
+//         .noBucket()
+// })
 
 StartupEvents.registry("creative_mode_tab", event => {
     event.create("shh:shh_stuffs")
-        .content(() => ["shh:etihw", "shh:hulibugulv", "shh:chimings_sword", "shh:maid_tool"])
+        .content(() => ["shh:etihw", "shh:hulibugulv", "shh:maid_tool"])
         .translationKey("itemGroup.shh.shh_stuffs")
         .icon(() => "shh:etihw")
 })

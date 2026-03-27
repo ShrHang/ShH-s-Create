@@ -1,14 +1,10 @@
 // requires: create
 ServerEvents.recipes(event => {
     if (Platform.isLoaded("kaleidoscope_cookery")) {
-        //#region 替换面团配方
         event.replaceInput({}, "create:dough", "kaleidoscope_cookery:raw_dough")
         event.replaceOutput({}, "create:dough", "kaleidoscope_cookery:raw_dough")
-        //#endregion
-        //#region 替换面粉配方
         event.replaceInput({}, "create:wheat_flour", "kaleidoscope_cookery:flour")
         event.replaceOutput({}, "create:wheat_flour", "kaleidoscope_cookery:flour")
-        //#endregion
     }
 
     //#region  Compacting Recipes
@@ -243,6 +239,14 @@ ServerEvents.recipes(event => {
         ],
         processingTime: 125
     })
+    //#endregion
+
+    //#region Stonecutting 切石机
+    if (Platform.isLoaded("railways")) {
+        const items = Ingredient.of("#railways:palettes/cycle_groups/base").itemIds;
+        for (let item of items) 
+            event.stonecutting(Item.of(item, 8), "minecraft:iron_block");
+    }
     //#endregion
 
 })
