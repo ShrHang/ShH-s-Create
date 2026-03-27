@@ -1,5 +1,7 @@
 # KubeJS 生成文件
 .probe/
+kubejs/config/
+!/kubejs/config/client.json
 local/
 
 # Minecraft 运行时文件
@@ -9,8 +11,7 @@ screenshots/
 saves/
 resourcepacks/
 shaderpacks/
-ShH's Create*.jar
-ShH's Create*.json
+ShH's Create.*
 usercache.json
 usernamecache.json
 

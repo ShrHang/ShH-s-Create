@@ -29,11 +29,11 @@
     "flipMainHand": false,
     "autoScaleThreshold": 0.4,
     "overlayScale": 1.0,
-    "overlayAnchorX": 0.0,
+    "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
     "activeTheme": "jade:create",
-    "overlayPosX": 0.0,
-    "overlayPosY": 0.84227467
+    "overlayPosX": 0.5,
+    "overlayPosY": 0.990121
   },
   "formatting": {
     "itemModNameStyle": {
