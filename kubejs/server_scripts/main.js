@@ -6,6 +6,10 @@ PlayerEvents.chat(event => {
     let message = event.message;
 
     if (message == "ts") {
+        let curios = player.curiosInventory["findCurios(net.minecraft.world.item.Item)"]("shh:etihw");
+        if (curios.isEmpty()) player.sendSystemMessage(Component.literal("没有装备"));
+        else player.sendSystemMessage(Component.literal(curios.get(0).stack()));
+        event.cancel();
     }
 
     if (message == "tt") {

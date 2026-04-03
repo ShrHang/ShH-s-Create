@@ -49,10 +49,8 @@ const AttributeContainer = Java.loadClass("io.redspace.ironsspellbooks.item.weap
 //#endregion
 
 //#region 属性名称
-
 const AttackDamage = "minecraft:base_attack_damage";
 const AttackSpeed = "minecraft:base_attack_speed";
-
 //#endregion
 
 //#region 常量

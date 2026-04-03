@@ -24,7 +24,7 @@ const colors = [
     'light_blue',
     'light_gray',
     'lime', // 黄绿色
-    'magenta',
+    'magenta', // 品红色
     'orange',
     'pink',
     'purple',

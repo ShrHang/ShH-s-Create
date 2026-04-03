@@ -216,6 +216,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["5CA73A75230A22E9"]
 			id: "79C940C67D51E7F3"
 			tasks: [{
 				advancement: "irons_spellbooks:irons_spellbooks/enter_catacombs"
@@ -223,8 +224,8 @@
 				id: "531AE2A18603616B"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["79C940C67D51E7F3"]
@@ -251,8 +252,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
-			y: -0.5d
+			x: 10.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2762D02CD01ED826"]
@@ -288,6 +289,17 @@
 			}]
 			x: 8.0d
 			y: 1.5d
+		}
+		{
+			id: "5CA73A75230A22E9"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/make_wayward_compass"
+				criterion: ""
+				id: "1E030C5A11BA8743"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -2.0d
 		}
 	]
 }

@@ -1,13 +1,5 @@
-const TooltipModifier = Java.loadClass("com.simibubi.create.foundation.item.TooltipModifier");
-const FontHelper = Java.loadClass("net.createmod.catnip.lang.FontHelper");
-const ItemDescription = Java.loadClass("com.simibubi.create.foundation.item.ItemDescription");
-const KineticStats = Java.loadClass("com.simibubi.create.foundation.item.KineticStats");
-
 ItemEvents.modifyTooltips(event => {
-    console.log("正在添加提示信息...")
-
-    // event.add("create:item_vault", Component.translate("text.shh.create.item_vault.tooltip"))
-
+    //#region 基础物品描述
     event.add("create_enchantment_industry:super_experience_block", [
         Component.translate("text.shh.create_enchantment_industry.super_experience_block.tooltip_1"),
         Component.translate("text.shh.create_enchantment_industry.super_experience_block.tooltip_2")
@@ -36,20 +28,5 @@ ItemEvents.modifyTooltips(event => {
 
     event.add("#shh:ban", Component.translate("text.shh.common.tooltip.ban"))
     event.add("l2archery:upgrade[l2archery:item_upgrade=\"l2archery:explosion_breaker\"]", Component.translate("text.shh.common.tooltip.ban"))
-})
-
-const createTooltipIds = new Set([
-    'shh:chimings_sword',
-    "shh:etihw",
-    "shh:hulibugulv",
-    "shh:maid_tool",
-    "shh:unbreakable"
-]);
-
-NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.ItemTooltipEvent", event => {
-    let item = event.getItemStack().getItem();
-    if (createTooltipIds.has(String(event.getItemStack().id))) {
-        let kinetic = TooltipModifier.mapNull(KineticStats.create(item));
-        new ItemDescription.Modifier(item, FontHelper.Palette.STANDARD_CREATE).andThen(kinetic).modify(event);
-    }
+    //#endregion
 })

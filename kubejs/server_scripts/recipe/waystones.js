@@ -6,12 +6,9 @@ ServerEvents.recipes(event => {
         'AAA',
         'ABA',
         'AAA'
-    ], {
-        A: 'waystones:warp_dust',
-        B: 'minecraft:diamond'
-    })
+    ], { A: 'waystones:warp_dust', B: 'minecraft:diamond' });
 
-    //Share Stone
+    // Share Stone
     for (let color of colors) {
         event.shapeless(`waystones:${color}_sharestone`, [
             'waystones:waystone',

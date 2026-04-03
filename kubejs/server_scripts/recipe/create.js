@@ -186,67 +186,36 @@ ServerEvents.recipes(event => {
     })
     event.custom({
         type: "create:crushing",
-        ingredients: [
-            {
-                "item": "minecraft:blackstone"
-            }
-        ],
+        ingredients: [{ item: "minecraft:blackstone" }],
+        processingTime: 350,
         results: [
-            {
-                chance: 0.01,
-                id: "minecraft:wither_skeleton_skull"
-            },
-            {
-                chance: 0.01,
-                id: "l2complements:blackstone_core"
-            }
-        ],
-        processingTime: 350
+            { chance: 0.01, id: "minecraft:wither_skeleton_skull" },
+            { chance: 0.01, id: "l2complements:blackstone_core" }
+        ]
     })
 
     event.custom({
         type: "create:crushing",
-        ingredients: [
-            {
-                "item": "create:scoria"
-            }
-        ],
+        ingredients: [{ item: "create:scoria" }],
+        processingTime: 125,
         results: [
-            {
-                chance: 0.125,
-                id: "minecraft:blaze_powder"
-            },
-            {
-                chance: 0.02,
-                id: "minecraft:blaze_rod"
-            }
-        ],
-        processingTime: 125
+            { chance: 0.125, id: "minecraft:blaze_powder" },
+            { chance: 0.02, id: "minecraft:blaze_rod" }
+        ]
     })
 
     event.custom({
         type: "create:crushing",
-        ingredients: [
-            {
-                "item": "minecraft:soul_sand"
-            }
-        ],
-        results: [
-            {
-                chance: 0.125,
-                id: "minecraft:glowstone_dust"
-            }
-        ],
-        processingTime: 125
+        ingredients: [{ item: "minecraft:soul_sand" }],
+        processingTime: 125,
+        results: [{ chance: 0.125, id: "minecraft:glowstone_dust" }]
     })
     //#endregion
 
     //#region Stonecutting 切石机
-    if (Platform.isLoaded("railways")) {
-        const items = Ingredient.of("#railways:palettes/cycle_groups/base").itemIds;
-        for (let item of items) 
+    if (Platform.isLoaded("railways")) 
+        for (var item of Ingredient.of("#railways:palettes/cycle_groups/base").itemIds) 
             event.stonecutting(Item.of(item, 8), "minecraft:iron_block");
-    }
     //#endregion
 
 })

@@ -1,12 +1,17 @@
+// const { $MobEffectInstance } = Java.loadClass("net.minecraft.world.effect.MobEffectInstance");
+
 ItemEvents.modification(event => {
     event.modify('shh:etihw', item => {
         if (CuriosApi) {
-            item.attachCuriosCapability(CuriosJSCapabilityBuilder.create().addAttribute(
-                "minecraft:generic.attack_damage",
-                "shh_attack_damage:curios_curio",
-                8.23,
-                "add_value"
-            ))
+            item.attachCuriosCapability(CuriosJSCapabilityBuilder
+                .create()
+                .addAttribute(
+                    "minecraft:generic.attack_damage",
+                    "shh_attack_damage:curios_curio",
+                    8.23,
+                    "add_value"
+                )
+            )
         }
     });
     event.modify('shh:hulibugulv', item => {
