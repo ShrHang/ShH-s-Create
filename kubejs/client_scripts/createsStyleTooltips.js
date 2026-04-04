@@ -33,10 +33,7 @@ function createModifier(id) {
 }
 function rebuildModifiers() {
     modifiersOfCreate.clear();
-    for (let id of idsForTooltipOfCreate) {
-        let modifier = createModifier(id);
-        if (modifier != null) modifiersOfCreate.set(id, modifier);
-    }
+    for (let id of idsForTooltipOfCreate) modifiersOfCreate.set(id, createModifier(id));
 }
 ItemEvents.modifyTooltips(event => rebuildModifiers())
 //#endregion

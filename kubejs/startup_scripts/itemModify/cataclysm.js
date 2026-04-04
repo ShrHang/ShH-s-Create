@@ -80,86 +80,34 @@ ItemEvents.modification(event => {
         ]);
     });
     //#endregion
-
+    
     //#region  腾炎盔甲
-    //腾炎头盔
-    event.modify("cataclysm:ignitium_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 6, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:fire_spell_power", amount: 0.05, id: "shh_fire_spell_power:head", slot: "head", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "irons_spellbooks:fire_magic_resist", amount: 0.15, id: "shh_fire_magic_resist:head", slot: "head", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "l2damagetracker:damage_reduction", amount: -0.08, id: "shh_l2_damage_reduction:head", slot: "head", condition: Platform.isLoaded("l2damagetracker") }
-        ]);
-        item.remove("minecraft:unbreakable");
-    });
-    //腾炎胸甲
-    event.modify(["cataclysm:ignitium_chestplate", "cataclysm:ignitium_elytra_chestplate"], item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 6, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:fire_spell_power", amount: 0.05, id: "shh_fire_spell_power:chest", slot: "chest", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "irons_spellbooks:fire_magic_resist", amount: 0.15, id: "shh_fire_magic_resist:chest", slot: "chest", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "l2damagetracker:damage_reduction", amount: -0.08, id: "shh_l2_damage_reduction:chest", slot: "chest", condition: Platform.isLoaded("l2damagetracker") }
-        ]);
-        item.remove("minecraft:unbreakable");
-    });
-    //腾炎护腿
-    event.modify("cataclysm:ignitium_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 6, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:fire_spell_power", amount: 0.05, id: "shh_fire_spell_power:legs", slot: "legs", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "irons_spellbooks:fire_magic_resist", amount: 0.15, id: "shh_fire_magic_resist:legs", slot: "legs", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "l2damagetracker:damage_reduction", amount: -0.08, id: "shh_l2_damage_reduction:legs", slot: "legs", condition: Platform.isLoaded("l2damagetracker") }
-        ]);
-        item.remove("minecraft:unbreakable");
-    });
-    //腾炎靴子
-    event.modify("cataclysm:ignitium_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 6, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:fire_spell_power", amount: 0.05, id: "shh_fire_spell_power:feet", slot: "feet", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "irons_spellbooks:fire_magic_resist", amount: 0.15, id: "shh_fire_magic_resist:feet", slot: "feet", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "l2damagetracker:damage_reduction", amount: -0.08, id: "shh_l2_damage_reduction:feet", slot: "feet", condition: Platform.isLoaded("l2damagetracker") }
-        ]);
-        item.remove("minecraft:unbreakable");
+    pieceSlot.forEach(ps => {
+        let itemId = (ps.piece === "chestplate")
+            ? ["cataclysm:ignitium_chestplate", "cataclysm:ignitium_elytra_chestplate"]
+            : `cataclysm:ignitium_${ps.piece}`;
+        event.modify(itemId, item => {
+            addAttModifiers(item, [
+                { attribute: "minecraft:generic.armor", amount: 6, id: `shh_armor:${ps.slot}`, slot: ps.slot },
+                { attribute: "irons_spellbooks:fire_spell_power", amount: 0.05, id: `shh_fire_spell_power:${ps.slot}`, slot: ps.slot, condition: Platform.isLoaded("irons_spellbooks") },
+                { attribute: "irons_spellbooks:fire_magic_resist", amount: 0.15, id: `shh_fire_magic_resist:${ps.slot}`, slot: ps.slot, condition: Platform.isLoaded("irons_spellbooks") },
+                { attribute: "l2damagetracker:damage_reduction", amount: -0.08, id: `shh_l2_damage_reduction:${ps.slot}`, slot: ps.slot, condition: Platform.isLoaded("l2damagetracker") }
+            ]);
+            item.remove("minecraft:unbreakable");
+        });
     });
     //#endregion
 
     //#region  咒魂盔甲
-    // 咒魂头盔
-    event.modify("cataclysm:cursium_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 5, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:ice_spell_power", amount: 0.05, id: "shh_curse_spell_power:head", slot: "head", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "minecraft:generic.attack_speed", operation: 1, amount: 0.05, id: "shh_curse_magic_resist:head", slot: "head" }
-        ])
-        item.remove("minecraft:unbreakable");
-    });
-    // 咒魂胸甲
-    event.modify("cataclysm:cursium_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 5, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:ice_spell_power", amount: 0.05, id: "shh_curse_spell_power:chest", slot: "chest", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "minecraft:generic.attack_speed", operation: 1, amount: 0.05, id: "shh_curse_magic_resist:chest", slot: "chest" }
-        ])
-        item.remove("minecraft:unbreakable");
-    });
-    // 咒魂护腿
-    event.modify("cataclysm:cursium_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 5, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:ice_spell_power", amount: 0.05, id: "shh_curse_spell_power:legs", slot: "legs", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "minecraft:generic.attack_speed", operation: 1, amount: 0.05, id: "shh_curse_magic_resist:legs", slot: "legs" }
-        ])
-        item.remove("minecraft:unbreakable");
-    });
-    // 咒魂靴子
-    event.modify("cataclysm:cursium_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 5, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:ice_spell_power", amount: 0.05, id: "shh_curse_spell_power:feet", slot: "feet", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "minecraft:generic.attack_speed", operation: 1, amount: 0.05, id: "shh_curse_magic_resist:feet", slot: "feet" }
-        ])
-        item.remove("minecraft:unbreakable");
+    pieceSlot.forEach(ps => {
+        event.modify(`cataclysm:cursium_${ps.piece}`, item => {
+            addAttModifiers(item, [
+                { attribute: "minecraft:generic.armor", amount: 5, id: `shh_armor:${ps.slot}`, slot: ps.slot },
+                { attribute: "irons_spellbooks:ice_spell_power", amount: 0.05, id: `shh_curse_spell_power:${ps.slot}`, slot: ps.slot, condition: Platform.isLoaded("irons_spellbooks") },
+                { attribute: "minecraft:generic.attack_speed", operation: 1, amount: 0.05, id: `shh_curse_magic_resist:${ps.slot}`, slot: ps.slot }
+            ]);
+            item.remove("minecraft:unbreakable");
+        });
     });
     //#endregion
 

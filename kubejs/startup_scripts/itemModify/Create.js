@@ -64,29 +64,12 @@ ItemEvents.modification(event => {
     //#endregion
 
     //#region  纸板套装
-    // 纸板头盔
-    event.modify('create:cardboard_helmet', item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:player.sneaking_speed", amount: 0.15, id: "shh_sneaking_speed:head", slot: "head" }
-        ]);
-    })
-    // 纸板胸甲
-    event.modify('create:cardboard_chestplate', item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:player.sneaking_speed", amount: 0.15, id: "shh_sneaking_speed:chest", slot: "chest" }
-        ]);
-    })
-    // 纸板护腿
-    event.modify('create:cardboard_leggings', item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:player.sneaking_speed", amount: 0.15, id: "shh_sneaking_speed:legs", slot: "legs" }
-        ]);
-    })
-    // 纸板靴子
-    event.modify('create:cardboard_boots', item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:player.sneaking_speed", amount: 0.15, id: "shh_sneaking_speed:feet", slot: "feet" }
-        ]);
-    })
+    pieceSlot.forEach(ps => {
+        event.modify(`create:cardboard_${ps.piece}`, item => {
+            addAttModifiers(item, [
+                { attribute: "minecraft:player.sneaking_speed", amount: 0.15, id: `shh_sneaking_speed:${ps.slot}`, slot: ps.slot }
+            ]);
+        });
+    });
     //#endregion
 })

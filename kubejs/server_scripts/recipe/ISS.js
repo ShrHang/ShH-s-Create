@@ -141,65 +141,86 @@ ServerEvents.recipes(event => {
 
     //#region Items Recipe
     event.custom({
-        "type": "create:cutting",
-        "ingredients": [
+        type: "create:cutting",
+        ingredients: [{ item: "irons_spellbooks:ruined_book" }],
+        processing_time: 200,
+        results: [
+            { count: 2, id: "irons_spellbooks:eldritch_manuscript" },
+            { chance: 0.5, count: 1, id: "irons_spellbooks:eldritch_manuscript" },
+            { count: 14, id: "irons_spellbooks:ancient_knowledge_fragment" },
+            { chance: 0.8, count: 6, id: "irons_spellbooks:ancient_knowledge_fragment" }
+        ]
+    });
+    event.custom({
+        type: "create:sequenced_assembly",
+        ingredient: { item: "irons_spellbooks:tarnished_helmet" },
+        loops: 18,
+        results: [{ id: "irons_spellbooks:gold_crown" }],
+        sequence: [
             {
-                "item": "irons_spellbooks:ruined_book"
+                type: "create:deploying",
+                ingredients: [
+                    { item: "irons_spellbooks:tarnished_helmet" },
+                    { item: "irons_spellbooks:pyrium_ingot" }
+                ],
+                results: [{ id: "irons_spellbooks:tarnished_helmet" }]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    { item: "irons_spellbooks:tarnished_helmet" },
+                    { item: "irons_spellbooks:mana_upgrade_orb" }
+                ],
+                results: [{ id: "irons_spellbooks:tarnished_helmet" }]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    { item: "irons_spellbooks:tarnished_helmet" },
+                    { item: "irons_spellbooks:cooldown_upgrade_orb" }
+                ],
+                results: [{ id: "irons_spellbooks:tarnished_helmet" }]
+            },
+            {
+                type: "create:filling",
+                ingredients: [
+                    { item: "irons_spellbooks:tarnished_helmet" },
+                    { type: "neoforge:single", amount: 250, fluid: "irons_spellbooks:timeless_slurry" }
+                ],
+                results: [{ id: "irons_spellbooks:tarnished_helmet" }]
             }
         ],
-        "processing_time": 200,
-        "results": [
-            {
-                "count": 2,
-                "id": "irons_spellbooks:eldritch_manuscript"
-            },
-            {
-                "chance": 0.5,
-                "count": 1,
-                "id": "irons_spellbooks:eldritch_manuscript"
-            },
-            {
-                "count": 14,
-                "id": "irons_spellbooks:ancient_knowledge_fragment"
-            },
-            {
-                "chance": 0.8,
-                "count": 6,
-                "id": "irons_spellbooks:ancient_knowledge_fragment"
-            }
-
-        ]
-    })
-    if (Platform.isLoaded('create_dragons_plus')) {
-        event.custom({
-            type: "create_dragons_plus:freezing",
-            ingredients: [
-                {
-                    item: "minecraft:bone"
-                }
-            ],
-            results: [
-                {
-                    id: "irons_spellbooks:frozen_bone"
-                }
-            ]
-        })
-    }
+        transitional_item: { id: "irons_spellbooks:tarnished_helmet" }
+    });
     if (Platform.isLoaded('createaddition')) {
         event.custom({
             type: "createaddition:charging",
             energy: 4000,
-            ingredients: [
-                {
-                    item: "minecraft:glass_bottle"
-                }
-            ],
+            ingredients: [{ item: "minecraft:glass_bottle" }],
             max_charge_rate: 200,
-            results: [
-                {
-                    id: "irons_spellbooks:lightning_bottle"
-                }
-            ]
+            results: [{ id: "irons_spellbooks:lightning_bottle" }]
+        })
+    }
+    if (Platform.isLoaded('create_dragons_plus')) {
+        event.custom({
+            type: "create_dragons_plus:freezing",
+            ingredients: [{ item: "minecraft:bone" }],
+            results: [{ id: "irons_spellbooks:frozen_bone" }]
+        })
+    }
+    if (Platform.isLoaded("create_wizardry")) {
+        event.custom({
+            type: "create:mixing",
+            heat_requirement: "superheated",
+            ingredients: [
+                { item: "create:ochrum" },
+                { item: "create:asurine" },
+                { item: "create:crimsite" },
+                { item: "create:veridium" },
+                { type: "neoforge:single", amount: 250, fluid: "create_wizardry:mana" },
+                { type: "neoforge:single", amount: 250, fluid: "irons_spellbooks:timeless_slurry" }
+            ],
+            results: [{ id: "irons_spellbooks:raw_mithril" }]
         })
     }
     //#endregion

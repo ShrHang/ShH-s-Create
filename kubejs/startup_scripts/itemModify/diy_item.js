@@ -1,5 +1,3 @@
-// const { $MobEffectInstance } = Java.loadClass("net.minecraft.world.effect.MobEffectInstance");
-
 ItemEvents.modification(event => {
     event.modify('shh:etihw', item => {
         if (CuriosApi) {

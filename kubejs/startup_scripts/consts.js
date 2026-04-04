@@ -54,6 +54,13 @@ const AttackSpeed = "minecraft:base_attack_speed";
 //#endregion
 
 //#region 常量
+const pieceSlot = [
+    { piece: "helmet", slot: "head" },
+    { piece: "chestplate", slot: "chest" },
+    { piece: "leggings", slot: "legs" },
+    { piece: "boots", slot: "feet" }
+];
+
 const l2archeryUpgradeTypes = [
     "advanced_infinity",
     "anti_gravity",

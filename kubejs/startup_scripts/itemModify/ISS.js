@@ -1,38 +1,14 @@
 // requires: irons_spellbooks
 ItemEvents.modification(event => {
     //#region 法杖
-    // 猩红神杖
-    event.modify("irons_spellbooks:blood_staff", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.attack_damage", amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand" }
-        ]);
-    });
-    // 长者手杖
-    event.modify("irons_spellbooks:graybeard_staff", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.attack_damage", amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand" }
-        ])
-    });
-    // 冰霜魔杖
-    event.modify("irons_spellbooks:ice_staff", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.attack_damage", amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand" }
-        ]);
-    });
-    // 匠师之杖
-    event.modify("irons_spellbooks:artificer_cane", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.attack_damage", amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand" }
-        ]);
-    });
-    // 雷霆之杖
-    event.modify("irons_spellbooks:lightning_rod", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.attack_damage", amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand" }
-        ]);
-    });
-    // 炽金魔杖
-    event.modify("irons_spellbooks:pyrium_staff", item => {
+    event.modify([
+        "irons_spellbooks:blood_staff",
+        "irons_spellbooks:graybeard_staff",
+        "irons_spellbooks:ice_staff",
+        "irons_spellbooks:artificer_cane",
+        "irons_spellbooks:lightning_rod",
+        "irons_spellbooks:pyrium_staff"
+    ], item => {
         addAttModifiers(item, [
             { attribute: "minecraft:generic.attack_damage", amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand" }
         ]);
@@ -95,376 +71,48 @@ ItemEvents.modification(event => {
     });
     //#endregion
 
-    //#region 流浪法师套装
-    // 流浪法师兜帽
-    event.modify("irons_spellbooks:wandering_magician_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:max_mana", amount: 50, id: "shh_max_mana:head", slot: "head" }
-        ]);
-    })
-    // 流浪法师法袍
-    event.modify("irons_spellbooks:wandering_magician_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:max_mana", amount: 50, id: "shh_max_mana:chest", slot: "chest" }
-        ]);
-    })
-    // 流浪法师裤子
-    event.modify("irons_spellbooks:wandering_magician_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:max_mana", amount: 50, id: "shh_max_mana:legs", slot: "legs" }
-        ]);
-    })
-    // 流浪法师靴子
-    event.modify("irons_spellbooks:wandering_magician_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:max_mana", amount: 50, id: "shh_max_mana:feet", slot: "feet" }
-        ]);
-    })
+    //#region 基础法师套装 (3护甲 50魔力)
+    ["wandering_magician", "pumpkin"].forEach(material => {
+        pieceSlot.forEach(ps => {
+            event.modify(`irons_spellbooks:${material}_${ps.piece}`, item => {
+                addAttModifiers(item, [
+                    { attribute: "minecraft:generic.armor", amount: 3, id: `shh_armor:${ps.slot}`, slot: ps.slot },
+                    { attribute: "irons_spellbooks:max_mana", amount: 50, id: `shh_max_mana:${ps.slot}`, slot: ps.slot }
+                ]);
+            });
+        });
+    });
     //#endregion
 
-    //#region 惊悚南瓜套装
-    // 惊悚南瓜帽子
-    event.modify("irons_spellbooks:pumpkin_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:max_mana", amount: 50, id: "shh_max_mana:head", slot: "head" }
-        ]);
-    })
-    // 惊悚南瓜法袍
-    event.modify("irons_spellbooks:pumpkin_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:max_mana", amount: 50, id: "shh_max_mana:chest", slot: "chest" }
-        ]);
-    })
-    // 惊悚南瓜裤子
-    event.modify("irons_spellbooks:pumpkin_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:max_mana", amount: 50, id: "shh_max_mana:legs", slot: "legs" }
-        ]);
-    })
-    // 惊悚南瓜靴子
-    event.modify("irons_spellbooks:pumpkin_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:max_mana", amount: 50, id: "shh_max_mana:feet", slot: "feet" }
-        ]);
-    })
-    //#endregion
-
-    //#region 术士套装
-    // 术士兜帽
-    event.modify(["irons_spellbooks:wizard_helmet", "irons_spellbooks:wizard_hat"], item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:head", slot: "head" }
-        ]);
-    })
-    // 术士法袍
-    event.modify("irons_spellbooks:wizard_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:chest", slot: "chest" }
-        ]);
-    })
-    // 术士裤子
-    event.modify("irons_spellbooks:wizard_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:legs", slot: "legs" }
-        ]);
-    })
-    // 术士靴子
-    event.modify("irons_spellbooks:wizard_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
-        ]);
-    })
-    //#endregion
-
-    //#region 高位唤魔者套装
-    // 高位唤魔者法帽
-    event.modify("irons_spellbooks:archevoker_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:head", slot: "head" }
-        ]);
-    })
-    // 高位唤魔者法袍
-    event.modify("irons_spellbooks:archevoker_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:chest", slot: "chest" }
-        ]);
-    })
-    // 高位唤魔者裤子
-    event.modify("irons_spellbooks:archevoker_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:legs", slot: "legs" }
-        ]);
-    })
-    // 高位唤魔者靴子
-    event.modify("irons_spellbooks:archevoker_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
-        ]);
-    })
-    //#endregion
-
-    //#region 雷霆术士套装
-    // 雷霆术士兜帽
-    event.modify("irons_spellbooks:electromancer_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:head", slot: "head" }
-        ]);
-    })
-    // 雷霆术士法袍
-    event.modify("irons_spellbooks:electromancer_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:chest", slot: "chest" }
-        ]);
-    })
-    // 雷霆术士裤子
-    event.modify("irons_spellbooks:electromancer_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:legs", slot: "legs" }
-        ]);
-    })
-    // 雷霆术士靴子
-    event.modify("irons_spellbooks:electromancer_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
-        ]);
-    })
-    //#endregion
-
-    //#region 炽焰术士套装
-    // 炽焰术士兜帽
-    event.modify("irons_spellbooks:pyromancer_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:head", slot: "head" }
-        ]);
-    })
-    // 炽焰术士法袍
-    event.modify("irons_spellbooks:pyromancer_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:chest", slot: "chest" }
-        ]);
-    })
-    // 炽焰术士裤子
-    event.modify("irons_spellbooks:pyromancer_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:legs", slot: "legs" }
-        ]);
-    })
-    // 炽焰术士靴子
-    event.modify("irons_spellbooks:pyromancer_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
-        ]);
-    })
+    //#region 法师套装
+    [
+        "wizard", "archevoker", "electromancer", "pyromancer",
+        "plagued", "priest", "shadowwalker", "cryomancer", "cultist"
+    ].forEach(material => {
+        pieceSlot.forEach(ps => {
+            let itemIds = (material === "wizard" && ps.piece === "helmet") 
+                ? ["irons_spellbooks:wizard_helmet", "irons_spellbooks:wizard_hat"] 
+                : `irons_spellbooks:${material}_${ps.piece}`;
+            
+            event.modify(itemIds, item => {
+                addAttModifiers(item, [
+                    { attribute: "minecraft:generic.armor", amount: 3, id: `shh_armor:${ps.slot}`, slot: ps.slot },
+                    { attribute: "irons_spellbooks:max_mana", amount: 75, id: `shh_max_mana:${ps.slot}`, slot: ps.slot }
+                ]);
+            });
+        });
+    });
     //#endregion
 
     //#region 下界合金战斗法师套装
-    // 下界合金战斗法师帽
-    event.modify("irons_spellbooks:netherite_mage_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 4, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:head", slot: "head" }
-        ]);
-    })
-    // 下界合金战斗法师法袍
-    event.modify("irons_spellbooks:netherite_mage_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 4, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:chest", slot: "chest" }
-        ]);
-    })
-    // 下界合金战斗法师裤子
-    event.modify("irons_spellbooks:netherite_mage_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 4, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:legs", slot: "legs" }
-        ]);
-    })
-    // 下界合金战斗法师靴子
-    event.modify("irons_spellbooks:netherite_mage_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 4, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
-        ]);
-    })
-    //#endregion
-
-    //#region 瘟疫术士套装
-    // 瘟疫术士兜帽
-    event.modify("irons_spellbooks:plagued_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:head", slot: "head" }
-        ]);
-    })
-    // 瘟疫术士法袍
-    event.modify("irons_spellbooks:plagued_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:chest", slot: "chest" }
-        ]);
-    })
-    // 瘟疫术士裤子
-    event.modify("irons_spellbooks:plagued_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:legs", slot: "legs" }
-        ]);
-    })
-    // 瘟疫术士靴子
-    event.modify("irons_spellbooks:plagued_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
-        ]);
-    })
-    //#endregion
-
-    //#region 牧师套装
-    // 牧师兜帽
-    event.modify("irons_spellbooks:priest_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:head", slot: "head" }
-        ]);
-    })
-    // 牧师法袍
-    event.modify("irons_spellbooks:priest_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:chest", slot: "chest" }
-        ]);
-    })
-    // 牧师裤子
-    event.modify("irons_spellbooks:priest_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:legs", slot: "legs" }
-        ]);
-    })
-    // 牧师靴子
-    event.modify("irons_spellbooks:priest_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
-        ]);
-    })
-    //#endregion
-
-    //#region 暗影行者套装
-    // 暗影行者兜帽
-    event.modify("irons_spellbooks:shadowwalker_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:head", slot: "head" }
-        ]);
-    })
-    // 暗影行者法袍
-    event.modify("irons_spellbooks:shadowwalker_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:chest", slot: "chest" }
-        ]);
-    })
-    // 暗影行者裤子
-    event.modify("irons_spellbooks:shadowwalker_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:legs", slot: "legs" }
-        ]);
-    })
-    // 暗影行者靴子
-    event.modify("irons_spellbooks:shadowwalker_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
-        ]);
-    })
-    //#endregion
-
-    //#region 冰霜术士套装
-    // 冰霜术士兜帽
-    event.modify("irons_spellbooks:cryomancer_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:head", slot: "head" }
-        ]);
-    })
-    // 冰霜术士法袍
-    event.modify("irons_spellbooks:cryomancer_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:chest", slot: "chest" }
-        ]);
-    })
-    // 冰霜术士裤子
-    event.modify("irons_spellbooks:cryomancer_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:legs", slot: "legs" }
-        ]);
-    })
-    // 冰霜术士靴子
-    event.modify("irons_spellbooks:cryomancer_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
-        ]);
-    })
-    //#endregion
-
-    //#region 猩红教徒套装
-    // 猩红教徒兜帽
-    event.modify("irons_spellbooks:cultist_helmet", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:head", slot: "head" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:head", slot: "head" }
-        ]);
-    })
-    // 猩红教徒法袍
-    event.modify("irons_spellbooks:cultist_chestplate", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:chest", slot: "chest" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:chest", slot: "chest" }
-        ]);
-    })
-    // 猩红教徒裤子
-    event.modify("irons_spellbooks:cultist_leggings", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:legs", slot: "legs" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:legs", slot: "legs" }
-        ]);
-    })
-    // 猩红教徒靴子
-    event.modify("irons_spellbooks:cultist_boots", item => {
-        addAttModifiers(item, [
-            { attribute: "minecraft:generic.armor", amount: 3, id: "shh_armor:feet", slot: "feet" },
-            { attribute: "irons_spellbooks:max_mana", amount: 75, id: "shh_max_mana:feet", slot: "feet" }
-        ]);
-    })
+    pieceSlot.forEach(ps => {
+        event.modify(`irons_spellbooks:netherite_mage_${ps.piece}`, item => {
+            addAttModifiers(item, [
+                { attribute: "minecraft:generic.armor", amount: 4, id: `shh_armor:${ps.slot}`, slot: ps.slot },
+                { attribute: "irons_spellbooks:max_mana", amount: 75, id: `shh_max_mana:${ps.slot}`, slot: ps.slot }
+            ]);
+        });
+    });
     //#endregion
 
     //#region 其它装备

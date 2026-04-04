@@ -1,25 +1,6 @@
 {
+  "replace": false,
   "values": [
-    {
-      "id": "bosses_of_mass_destruction:lich",
-      "required": false
-    },
-    {
-      "id": "bosses_of_mass_destruction:gauntlet",
-      "required": false
-    },
-    {
-      "id": "bosses_of_mass_destruction:obsidilith",
-      "required": false
-    },
-    {
-      "id": "bosses_of_mass_destruction:void_blossom",
-      "required": false
-    },
-    {
-      "id": "mutantmonsters:spider_pig",
-      "required": false
-    },
     {
       "id": "touhou_little_maid:maid",
       "required": false

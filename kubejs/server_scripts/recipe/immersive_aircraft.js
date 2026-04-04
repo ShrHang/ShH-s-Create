@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
         result: { count: 2, id: "immersive_aircraft:hull" }
     });
 
-    event.shaped(Item.of('immersive_aircraft:sail', 6), ['AB'], { A: 'create:white_sail', B: 'createaddition:iron_wire' });
+    event.shaped(Item.of('immersive_aircraft:sail', 6), ['AB'], { A: 'create:white_sail', B: '#c:wires/iron' });
     
     event.shaped('immersive_aircraft:engine', [
         'PIP',
