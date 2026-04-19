@@ -4,15 +4,15 @@ ItemEvents.modification(event => {
     ["sword", "axe", "pickaxe", "shovel"].forEach(tool => {
         event.modify("create_sa:rose_quartz_" + tool, item => {
             addAttModifiers(item, [
-                { attribute: "minecraft:player.entity_interaction_range", amount: 3, id: "shh_entity_interaction:mainhand", slot: "mainhand" },
-                { attribute: "minecraft:generic.attack_damage", amount: tool === "sword" ? 7 : tool === "axe" ? 6 : 0, id: "shh_attack_damage:mainhand", slot: "mainhand", condition: (tool === "sword" || tool === "axe") }
+                { attribute: "minecraft:player.entity_interaction_range", amount: 2, id: "shh_entity_interaction:mainhand", slot: "mainhand" },
+                { attribute: "minecraft:generic.attack_damage", amount: tool === "sword" ? 6.5 : tool === "axe" ? 5.5 : 0, id: "shh_attack_damage:mainhand", slot: "mainhand", condition: (tool === "sword" || tool === "axe") }
             ]);
         });
     });
     //#endregion
 
     //#region  铜工具
-    ["sword", "axe", "pickaxe", "shovel"].forEach(tool => {
+    ["sword", "axe", "pickaxe", "shovel", "hoe"].forEach(tool => {
         event.modify("create_sa:copper_" + tool, item => {
             addAttModifiers(item, [
                 { attribute: "irons_spellbooks:lightning_spell_power", amount: 0.05, id: "shh_lightning_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded("irons_spellbooks") },
@@ -23,15 +23,19 @@ ItemEvents.modification(event => {
     //#endregion
 
     //#region  锌工具
-    ["sword", "axe"].forEach(tool => {
+    ["sword", "axe", "pickaxe", "shovel", "hoe"].forEach(tool => {
         event.modify("create_sa:zinc_" + tool, item => {
-            addAttModifiers(item, [{ attribute: "minecraft:generic.attack_damage", amount: tool === "sword" ? 7 : tool === "axe" ? 6 : 0, id: "shh_attack_damage:mainhand", slot: "mainhand", condition: (tool === "sword" || tool === "axe") }]);
+            addAttModifiers(item, [
+                { attribute: "minecraft:generic.attack_damage", amount: tool === "sword" ? 7 : tool === "axe" ? 6 : 0, id: "shh_attack_damage:mainhand", slot: "mainhand", condition: (tool === "sword" || tool === "axe") },
+                { attribute: "minecraft:player.entity_interaction_range", amount: -1, id: "shh_entity_interaction:mainhand", slot: "mainhand" },
+                { attribute: "minecraft:player.block_interaction_range", amount: -1, id: "shh_entity_interaction:mainhand", slot: "mainhand" },
+            ]);
         });
     });
     //#endregion
 
     //#region  黄铜工具
-    ["sword", "axe", "pickaxe", "shovel"].forEach(tool => {
+    ["sword", "axe", "pickaxe", "shovel", "hoe"].forEach(tool => {
         event.modify("create_sa:brass_" + tool, item => {
             addAttModifiers(item, [
                 { attribute: "irons_spellbooks:lightning_spell_power", amount: 0.05, id: "shh_lightning_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded("irons_spellbooks") },
@@ -48,7 +52,7 @@ ItemEvents.modification(event => {
                 { attribute: "minecraft:generic.attack_damage", amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand", condition: (tool === "cleaver" || tool === "axe") },
                 { attribute: "player.sweeping_damage_ratio", amount: 1, id: "shh_sweeping_damage_ratio:mainhand", slot: "mainhand", condition: tool === "cleaver" },
                 { attribute: "artifacts:generic.attack_burning_duration", operation: 1, amount: 0.4, id: "shh_attack_burning_duration:mainhand", slot: "mainhand", condition: Platform.isLoaded("artifacts") },
-                { attribute: "irons_spellbooks:fire_spell_power", amount: 0.1, id: "shh_fire_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded("irons_spellbooks") }
+                { attribute: "irons_spellbooks:fire_spell_power", amount: 0.07, id: "shh_fire_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded("irons_spellbooks") }
             ]);
         });
     });
@@ -59,8 +63,7 @@ ItemEvents.modification(event => {
         event.modify("create_sa:experience_" + tool, item => {
             addAttModifiers(item, [
                 { attribute: "minecraft:generic.attack_speed", amount: 0.2, id: "shh_attack_speed:mainhand", slot: "mainhand" },
-                { attribute: "minecraft:generic.luck", amount: 2, id: "shh_luck:mainhand", slot: "mainhand" },
-                { attribute: "minecraft:generic.luck", amount: 2, id: "shh_luck:offhand", slot: "offhand" },
+                { attribute: "minecraft:generic.luck", amount: 2, id: "shh_luck:any", slot: "any" },
                 { attribute: "minecraft:generic.attack_damage", amount: 6, id: "shh_attack_damage:mainhand", slot: "mainhand", condition: (tool === "sword" || tool === "axe") }
             ]);
         });
@@ -80,7 +83,7 @@ ItemEvents.modification(event => {
             material: "zinc",
             armor: 4,
             modifiers: slot => [
-                { attribute: "curseofpandora:reality_index", amount: 0.25, id: `shh_reality_index:${slot}`, slot: slot, condition: Platform.isLoaded("curseofpandora") }
+                { attribute: "curseofpandora:reality_index", amount: 0.5, id: `shh_reality_index:${slot}`, slot: slot, condition: Platform.isLoaded("curseofpandora") }
             ]
         },
         {

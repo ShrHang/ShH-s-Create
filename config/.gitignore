@@ -15,8 +15,10 @@
 !/createdieselgenerators-server.toml
 !/constructionstick-server.toml
 !/curios-common.toml
+!/entityculling.json
 !/fml.toml
 !/ftblibrary-client.snbt
+!/immediatelyfast.json
 !/immersive_aircraft.json
 !/irons_spellbooks-server.toml
 !/kaleidoscope_cookery_satiated_shield_tuner-server.toml

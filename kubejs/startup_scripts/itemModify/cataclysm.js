@@ -11,12 +11,10 @@ ItemEvents.modification(event => {
     // 蔚蓝海石盾
     event.modify("cataclysm:azure_sea_shield", item => {
         addAttModifiers(item, [
-            { attribute: "neoforge:swim_speed", amount: 0.12, id: "shh_swim_speed:any" },
             { attribute: "minecraft:generic.armor", amount: 6, id: "shh_armor:any" },
             { attribute: "minecraft:generic.knockback_resistance", amount: 0.08, id: "shh_nockback_resistance:any" },
             { attribute: "irons_spellbooks:lightning_spell_power", amount: 0.05, id: "shh_lightning_spell_power:any", condition: Platform.isLoaded("irons_spellbooks") },
             { attribute: "irons_spellbooks:lightning_magic_resist", amount: 0.15, id: "shh_lightning_magic_resist:any", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "l2damagetracker:lightning_damage", amount: 0.2, id: "shh_l2_lightning_damage:any", condition: Platform.isLoaded("l2damagetracker") }
         ])
     });
     // 火焰壁垒
@@ -25,7 +23,8 @@ ItemEvents.modification(event => {
             { attribute: "l2damagetracker:fire_damage", amount: 0.2, id: "shh_fire_damage:any", condition: Platform.isLoaded("l2damagetracker") },
             { attribute: "minecraft:generic.armor", amount: 12, id: "shh_armor:any" },
             { attribute: "minecraft:generic.knockback_resistance", amount: 0.2, id: "shh_nockback_resistance:any" },
-            { attribute: "irons_spellbooks:fire_spell_power", amount: 0.15, id: "shh_fire_spell_power:any", condition: Platform.isLoaded("irons_spellbooks") },
+            { attribute: "irons_spellbooks:fire_spell_power", amount: 0.05, id: "shh_fire_spell_power:any", condition: Platform.isLoaded("irons_spellbooks") },
+            { attribute: "irons_spellbooks:fire_magic_resist", amount: 0.15, id: "shh_fire_magic_resist:any", condition: Platform.isLoaded("irons_spellbooks") },
         ])
     });
     //#endregion
@@ -56,25 +55,25 @@ ItemEvents.modification(event => {
     });
     //#endregion
 
-    //#region  骨蜥盔甲
-    // 骨蜥头盔
+    //#region  骸龙盔甲
+    // 骸龙头盔
     event.modify("cataclysm:bone_reptile_helmet", item => {
         addAttModifiers(item, [
             { attribute: "irons_spellbooks:spell_power", amount: 0.05, id: "shh_spell_power:head", slot: "head", condition: Platform.isLoaded("irons_spellbooks") },
             { attribute: "minecraft:generic.armor", amount: 8, id: "shh_armor:head", slot: "head" },
             { attribute: "irons_spellbooks:holy_spell_power", amount: 0.05, id: "shh_holy_spell_power:head", slot: "head", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "minecraft:generic.armor_toughness", amount: 1, id: "shh_armor_toughness:head", slot: "head" },
+            { attribute: "minecraft:generic.armor_toughness", amount: 2, id: "shh_armor_toughness:head", slot: "head" },
             { attribute: "minecraft:generic.knockback_resistance", amount: 0.05, id: "shh_knockback_resistance:head", slot: "head" },
             { attribute: "l2damagetracker:damage_absorption", amount: 4, id: "shh_l2_damage_absorption:head", slot: "head", condition: Platform.isLoaded("l2damagetracker") }
         ]);
     });
-    // 骨蜥胸甲
+    // 骸龙胸甲
     event.modify("cataclysm:bone_reptile_chestplate", item => {
         addAttModifiers(item, [
             { attribute: "irons_spellbooks:spell_power", amount: 0.05, id: "shh_spell_power:chest", slot: "chest", condition: Platform.isLoaded("irons_spellbooks") },
             { attribute: "minecraft:generic.armor", amount: 8, id: "shh_armor:chest", slot: "chest" },
             { attribute: "irons_spellbooks:holy_spell_power", amount: 0.05, id: "shh_holy_spell_power:chest", slot: "chest", condition: Platform.isLoaded("irons_spellbooks") },
-            { attribute: "minecraft:generic.armor_toughness", amount: 1, id: "shh_armor_toughness:chest", slot: "chest" },
+            { attribute: "minecraft:generic.armor_toughness", amount: 2, id: "shh_armor_toughness:chest", slot: "chest" },
             { attribute: "minecraft:generic.knockback_resistance", amount: 0.05, id: "shh_knockback_resistance:chest", slot: "chest" },
             { attribute: "l2damagetracker:damage_absorption", amount: 8, id: "shh_l2_damage_absorption:chest", slot: "chest", condition: Platform.isLoaded("l2damagetracker") }
         ]);
@@ -196,7 +195,16 @@ ItemEvents.modification(event => {
     event.modify("cataclysm:void_forge", item => {
         addAttModifiers(item, [
             { attribute: "minecraft:generic.attack_damage", amount: 8, id: "shh_attack_damage:mainhand", slot: "mainhand" },
-            { attribute: "minecraft:generic.knockback_resistance", amount: 0.15, id: "shh_nockback_resistance:mainhand", slot: "mainhand" }
+            { attribute: "minecraft:generic.knockback_resistance", amount: 0.15, id: "shh_nockback_resistance:mainhand", slot: "mainhand" },
+            { attribute: "irons_spellbooks:ender_spell_power", amount: 0.05, id: "shh_ender_spell_power:any", condition: Platform.isLoaded("irons_spellbooks") }
+        ]);
+    });
+    // 掣雷巨锤
+    event.modify("cataclysm:brontes", item => {
+        addAttModifiers(item, [
+            { attribute: "minecraft:generic.attack_damage", amount: 8, id: "shh_attack_damage:mainhand", slot: "mainhand" },
+            { attribute: "irons_spellbooks:lightning_spell_power", operation: 1, amount: 0.1, id: "shh_lightning_spell_power:any", condition: Platform.isLoaded("irons_spellbooks") },
+            { attribute: "l2damagetracker:lightning_damage", amount: 0.2, id: "shh_l2_lightning_damage:any", condition: Platform.isLoaded("l2damagetracker") }
         ]);
     });
     //#endregion
@@ -237,13 +245,13 @@ ItemEvents.modification(event => {
     event.modify("cataclysm:soul_render", item => {
         addAttModifiers(item, [
             { attribute: "minecraft:generic.attack_damage", amount: 7, id: "shh_attack_damage:mainhand", slot: "mainhand" },
-            { attribute: "irons_spellbooks:ice_spell_power", operation: 1, amount: 0.05, id: "shh_ice_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded("irons_spellbooks") }
+            { attribute: "irons_spellbooks:ice_spell_power", operation: 1, amount: 0.1, id: "shh_ice_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded("irons_spellbooks") }
         ]);
     });
     // 歼灭战锤
     event.modify("cataclysm:the_annihilator", item => {
         addAttModifiers(item, [
-            { attribute: "minecraft:generic.attack_damage", amount: 6.5, id: "shh_attack_damage:mainhand", slot: "mainhand" }
+            { attribute: "minecraft:generic.attack_damage", amount: 6.5, id: "shh_attack_damage:mainhand", slot: "mainhand" },
         ]);
     });
     //#endregion
@@ -273,7 +281,7 @@ ItemEvents.modification(event => {
     event.modify("cataclysm:astrape", item => {
         addAttModifiers(item, [
             { attribute: "minecraft:generic.attack_damage", amount: 7.5, id: "shh_attack_damage:mainhand", slot: "mainhand" },
-            { attribute: "irons_spellbooks:lightning_spell_power", operation: 1, amount: 0.05, id: "shh_lightning_spell_power:any", condition: Platform.isLoaded("irons_spellbooks") },
+            { attribute: "irons_spellbooks:lightning_spell_power", operation: 1, amount: 0.1, id: "shh_lightning_spell_power:any", condition: Platform.isLoaded("irons_spellbooks") },
             { attribute: "l2damagetracker:lightning_damage", amount: 0.2, id: "shh_l2_lightning_damage:any", condition: Platform.isLoaded("l2damagetracker") }
         ]);
     });
@@ -282,7 +290,7 @@ ItemEvents.modification(event => {
         addAttModifiers(item, [
             { attribute: "minecraft:generic.attack_damage", amount: 8, id: "shh_attack_damage:mainhand", slot: "mainhand" },
             { attribute: "minecraft:generic.attack_speed", amount: 0.4, id: "shh_attack_speed:mainhand", slot: "mainhand" },
-            { attribute: "irons_spellbooks:lightning_spell_power", operation: 1, amount: 0.15, id: "shh_lightning_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded("irons_spellbooks") },
+            { attribute: "irons_spellbooks:lightning_spell_power", operation: 1, amount: 0.05, id: "shh_lightning_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded("irons_spellbooks") },
             { attribute: "l2damagetracker:lightning_damage", amount: 0.2, id: "shh_l2_lightning_damage:mainhand", slot: "mainhand", condition: Platform.isLoaded("l2damagetracker") }
         ]);
     });

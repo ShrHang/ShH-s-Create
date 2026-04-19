@@ -1,3 +1,6 @@
+/**
+ * @file 添加标签。
+ */
 ServerEvents.tags("item", event => {
     event.add("c:beacon_base_blocks", [
         "minecraft:netherite_block",

@@ -1,13 +1,13 @@
 // requires: immersive_aircraft
 ServerEvents.recipes(event => {
-    event.shaped(Item.of('immersive_aircraft:propeller', 4), [
-        ' A ',
-        'ABA',
-        ' A '
-    ], { A: 'create:iron_sheet', B: 'create:propeller' });
+    event.shaped(Item.of("immersive_aircraft:propeller", 4), [
+        " A ",
+        "ABA",
+        " A "
+    ], { A: "create:iron_sheet", B: "create:propeller" });
 
-    event.remove({ output: 'immersive_aircraft:boiler' });
-    event.shapeless(Item.of('immersive_aircraft:boiler', 4), ['create:steam_engine', 'create:fluid_tank']);
+    event.remove({ output: "immersive_aircraft:boiler" });
+    event.shapeless(Item.of("immersive_aircraft:boiler", 4), ["create:steam_engine", "create:fluid_tank"]);
 
     event.custom({
         type: "create:mechanical_crafting", accept_mirrored: true, category: "misc",
@@ -20,25 +20,25 @@ ServerEvents.recipes(event => {
         result: { count: 2, id: "immersive_aircraft:hull" }
     });
 
-    event.shaped(Item.of('immersive_aircraft:sail', 6), ['AB'], { A: 'create:white_sail', B: '#c:wires/iron' });
+    event.shaped(Item.of("immersive_aircraft:sail", 6), ["AB"], { A: "create:white_sail", B: "#c:wires/iron" });
     
-    event.shaped('immersive_aircraft:engine', [
-        'PIP',
-        'MBM',
-        'ILI'
+    event.shaped("immersive_aircraft:engine", [
+        "PIP",
+        "MBM",
+        "ILI"
     ], {
-        P: 'create:piston_extension_pole', I: 'create:iron_sheet', M: 'minecraft:piston',
-        B: 'immersive_aircraft:boiler', L: 'minecraft:blast_furnace'
+        P: "create:piston_extension_pole", I: "create:iron_sheet", M: "minecraft:piston",
+        B: "immersive_aircraft:boiler", L: "minecraft:blast_furnace"
     });
 
-    event.remove({ output: 'immersive_aircraft:gyrodyne' });
-    event.shaped('immersive_aircraft:gyrodyne', [
-        ' A ',
-        ' B ',
-        'CDC'
+    event.remove({ output: "immersive_aircraft:gyrodyne" });
+    event.shaped("immersive_aircraft:gyrodyne", [
+        " A ",
+        " B ",
+        "CDC"
     ], {
-        A: 'immersive_aircraft:propeller', B: 'minecraft:stick',
-        C: 'immersive_aircraft:sail', D: '#minecraft:chest_boats'
+        A: "immersive_aircraft:propeller", B: "minecraft:stick",
+        C: "immersive_aircraft:sail", D: "#minecraft:chest_boats"
     });
 
     event.custom({

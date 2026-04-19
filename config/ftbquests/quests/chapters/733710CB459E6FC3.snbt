@@ -26,6 +26,7 @@
 		}
 		{
 			dependencies: ["151EFA638111B43F"]
+			dependency_requirement: "one_started"
 			id: "7FF49353D22BDE89"
 			tasks: [{
 				advancement: "touhou_little_maid:base/tamed_maid"
@@ -71,8 +72,8 @@
 		}
 		{
 			dependencies: ["7FF49353D22BDE89"]
-			hide_until_deps_complete: true
 			id: "58CC7355C05FC722"
+			invisible: true
 			shape: "rsquare"
 			tasks: [{
 				id: "4D162930B88FBFC5"
@@ -85,6 +86,7 @@
 		{
 			dependencies: ["7FF49353D22BDE89"]
 			id: "10FA61EE221F6E8D"
+			invisible: true
 			shape: "rsquare"
 			tasks: [{
 				id: "16CC8595652BBA4D"
@@ -97,6 +99,7 @@
 		{
 			dependencies: ["7FF49353D22BDE89"]
 			id: "7E332CB05AB0033D"
+			invisible: true
 			shape: "rsquare"
 			tasks: [{
 				id: "4F5F5CD4D14AA3B5"

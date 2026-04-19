@@ -1,6 +1,6 @@
 // requires: create
 ServerEvents.recipes(event => {
-    //#region Remove Recipes
+    //#region Remove
     event.remove({ id: "create:crushing/crimsite" });
     event.remove({ id: "create:crushing/diorite" });
     event.remove({ id: "create:crushing/ochrum" });
@@ -64,31 +64,23 @@ ServerEvents.recipes(event => {
     }
     //#endregion
 
-    //#region Compacting Recipes
+    //#region Compacting
     event.custom({
         type: "create:compacting",
         ingredients: [
             { item: "minecraft:cobblestone" },
-            {
-                type: "neoforge:single",
-                amount: 250,
-                fluid: "minecraft:lava"
-            }
+            { type: "neoforge:single", amount: 250, fluid: "minecraft:lava" }
         ],
         results: [{ id: "minecraft:deepslate" }]
-    })
+    });
     event.custom({
         type: "create:compacting",
         ingredients: [
-            { item: "minecraft:cobblestone" },
-            {
-                type: "neoforge:single",
-                amount: 250,
-                fluid: "minecraft:water"
-            }
+            { item: "minecraft:cobbled_deepslate" },
+            { type: "neoforge:single", amount: 500, fluid: "minecraft:water" }
         ],
         results: [{ id: "minecraft:tuff" }]
-    })
+    });
     event.custom({
         type: "create:compacting",
         ingredients: [
@@ -96,17 +88,10 @@ ServerEvents.recipes(event => {
             { item: "minecraft:bone_meal" },
             { item: "minecraft:bone_meal" },
             { item: "minecraft:bone_meal" },
-            { item: "minecraft:blaze_powder" },
-            { item: "minecraft:blaze_powder" },
-            { item: "minecraft:blaze_powder" },
-            {
-                type: "neoforge:single",
-                amount: 250,
-                fluid: "minecraft:water"
-            }
+            { type: "neoforge:single", amount: 500, fluid: "minecraft:water" }
         ],
         results: [{ id: "minecraft:calcite" }]
-    })
+    });
     event.custom({
         type: "create:compacting",
         heat_requirement: "heated",
@@ -120,21 +105,10 @@ ServerEvents.recipes(event => {
             { item: "minecraft:coal_block" },
             { item: "minecraft:coal_block" },
             { item: "minecraft:coal_block" },
-            { item: "minecraft:coal_block" },
-            { item: "minecraft:coal_block" },
-            { item: "minecraft:coal_block" },
-            { item: "minecraft:coal_block" },
-            { item: "minecraft:coal_block" },
-            { item: "minecraft:coal_block" },
-            { item: "minecraft:coal_block" },
-            {
-                type: "neoforge:single",
-                amount: 500,
-                fluid: "minecraft:lava"
-            }
+            { type: "neoforge:single", amount: 500, fluid: "minecraft:lava" }
         ],
         results: [{ id: "minecraft:diamond" }]
-    })
+    });
     event.custom({
         type: "create:compacting",
         ingredients: [
@@ -143,14 +117,10 @@ ServerEvents.recipes(event => {
             { item: "create:zinc_nugget" },
             { item: "create:zinc_nugget" },
             { item: "minecraft:tuff" },
-            {
-                type: "neoforge:single",
-                amount: 1000,
-                fluid: "minecraft:water"
-            }
+            { type: "neoforge:single", amount: 1000, fluid: "minecraft:water" }
         ],
         results: [{ id: "create:asurine" }]
-    })
+    });
     event.custom({
         type: "create:compacting",
         ingredients: [
@@ -159,14 +129,10 @@ ServerEvents.recipes(event => {
             { item: "minecraft:iron_nugget" },
             { item: "minecraft:iron_nugget" },
             { item: "minecraft:tuff" },
-            {
-                type: "neoforge:single",
-                amount: 1000,
-                fluid: "minecraft:water"
-            }
+            { type: "neoforge:single", amount: 1000, fluid: "minecraft:water" }
         ],
         results: [{ id: "create:crimsite" }]
-    })
+    });
     event.custom({
         type: "create:compacting",
         ingredients: [
@@ -175,14 +141,10 @@ ServerEvents.recipes(event => {
             { item: "minecraft:gold_nugget" },
             { item: "minecraft:gold_nugget" },
             { item: "minecraft:tuff" },
-            {
-                type: "neoforge:single",
-                amount: 1000,
-                fluid: "minecraft:water"
-            }
+            { type: "neoforge:single", amount: 1000, fluid: "minecraft:water" }
         ],
         results: [{ id: "create:ochrum" }]
-    })
+    });
     event.custom({
         type: "create:compacting",
         ingredients: [
@@ -191,23 +153,42 @@ ServerEvents.recipes(event => {
             { item: "create:copper_nugget" },
             { item: "create:copper_nugget" },
             { item: "minecraft:tuff" },
-            {
-                type: "neoforge:single",
-                amount: 1000,
-                fluid: "minecraft:water"
-            }
+            { type: "neoforge:single", amount: 1000, fluid: "minecraft:water" }
         ],
         results: [{ id: "create:veridium" }]
-    })
+    });
+    if (Platform.isLoaded("createdieselgenerators")) {
+        event.custom({
+            type: "create:compacting",
+            ingredients: [
+                { item: "createdieselgenerators:wood_chip" },
+                { item: "createdieselgenerators:wood_chip" },
+                { item: "createdieselgenerators:wood_chip" },
+                { item: "createdieselgenerators:wood_chip" },
+                { item: "createdieselgenerators:wood_chip" },
+                { item: "createdieselgenerators:wood_chip" }
+            ],
+            results: [{ id: "createdieselgenerators:chip_wood_beam" }]
+        });
+        event.custom({
+            type: "create:compacting",
+            ingredients: [
+                { item: "createdieselgenerators:wood_chip" },
+                { item: "createdieselgenerators:wood_chip" },
+                { item: "createdieselgenerators:chip_wood_block" }
+            ],
+            results: [{ id: "createdieselgenerators:chip_wood_beam" }]
+        });
+    }
     //#endregion
 
-    //#region Crushing Recipes
+    //#region Crushing
     event.custom({
         type: "create:crushing",
         ingredients: [{ tag: "c:material/netherite" }],
         processing_time: 750,
         results: [{ id: "minecraft:netherite_scrap" }]
-    })
+    });
     event.custom({
         type: "create:crushing",
         ingredients: [{ item: "minecraft:crying_obsidian" }],
@@ -217,7 +198,7 @@ ServerEvents.recipes(event => {
             { chance: 0.75, id: "minecraft:obsidian" },
             { chance: 0.5, id: "minecraft:amethyst_shard" }
         ]
-    })
+    });
     event.custom({
         type: "create:crushing",
         ingredients: [{ item: "create:limestone" }],
@@ -226,7 +207,7 @@ ServerEvents.recipes(event => {
             { chance: 0.15, id: "minecraft:quartz", count: 2 },
             { chance: 0.35, id: "minecraft:lapis_lazuli" }
         ]
-    })
+    });
     event.custom({
         type: "create:crushing",
         ingredients: [{ item: "minecraft:blackstone" }],
@@ -235,7 +216,7 @@ ServerEvents.recipes(event => {
             { chance: 0.01, id: "minecraft:wither_skeleton_skull" },
             { chance: 0.01, id: "l2complements:blackstone_core" }
         ]
-    })
+    });
     event.custom({
         type: "create:crushing",
         ingredients: [{ item: "create:scoria" }],
@@ -244,13 +225,13 @@ ServerEvents.recipes(event => {
             { chance: 0.125, id: "minecraft:blaze_powder" },
             { chance: 0.02, id: "minecraft:blaze_rod" }
         ]
-    })
+    });
     event.custom({
         type: "create:crushing",
         ingredients: [{ item: "minecraft:soul_sand" }],
         processingTime: 125,
         results: [{ chance: 0.125, id: "minecraft:glowstone_dust" }]
-    })
+    });
     //#endregion
 
     //#region Haunting
@@ -258,17 +239,50 @@ ServerEvents.recipes(event => {
         type: "create:haunting",
         ingredients: [{ item: "minecraft:poppy" }],
         results: [{ id: "minecraft:wither_rose" }]
-    })
+    });
     event.custom({
         type: "create:haunting",
         ingredients: [{ item: "minecraft:skeleton_skull" }],
         results: [{ id: "minecraft:wither_skeleton_skull" }]
-    })
+    });
     event.custom({
         type: "create:haunting",
         ingredients: [{ item: "minecraft:charcoal" }],
         results: [{ id: "minecraft:coal" }]
-    })
+    });
+    //#endregion
+
+    //#region Deploying
+    
+    //#endregion
+
+    //#region Item Application
+    if (Platform.isLoaded("createdieselgenerators")) {
+        event.custom({
+            type: "create:item_application",
+            ingredients: [
+                { item: "createdieselgenerators:chip_wood_beam" },
+                { item: "create:andesite_alloy" }
+            ],
+            results: [{ "id": "create:andesite_casing" }]
+        });
+        event.custom({
+            type: "create:item_application",
+            ingredients: [
+                { item: "createdieselgenerators:chip_wood_beam" },
+                { item: "create:brass_ingot" }
+            ],
+            results: [{ "id": "create:brass_casing" }]
+        });
+        event.custom({
+            type: "create:item_application",
+            ingredients: [
+                { item: "createdieselgenerators:chip_wood_beam" },
+                { item: "minecraft:copper_ingot" }
+            ],
+            results: [{ "id": "create:copper_casing" }]
+        });
+    }
     //#endregion
 
     //#region Splashing
@@ -280,14 +294,6 @@ ServerEvents.recipes(event => {
             { chance: 0.2, count: 2, id: "create:copper_nugget" },
             { chance: 0.125, count: 2, id: "create:copper_nugget" }
         ]
-    })
+    });
     //#endregion
-    
-    //#region Stonecutting 切石机
-    if (Platform.isLoaded("railways")) {
-        for (var item of Ingredient.of("#railways:palettes/cycle_groups/base").itemIds) {
-            event.stonecutting(Item.of(item, 8), "minecraft:iron_block");
-        }
-    }
-    //#endregion
-})
+});
