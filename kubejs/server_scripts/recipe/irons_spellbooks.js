@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
         "irons_spellbooks:iron_spell_book",
         "minecraft:chain",
         "irons_spellbooks:copper_spell_book",
-        ["create:iron_sheet", "createaddition:zinc_sheet"]
+        ["create:iron_sheet", '#c:plates/zinc']
     )
 
     // 铁箍->学徒
@@ -102,14 +102,13 @@ ServerEvents.recipes(event => {
     )
 
     // 破败->远古
-    if (Platform.isLoaded('cataclysm_spellbooks')) {
-        event.smithing(
-            "irons_spellbooks:netherite_spell_book",
-            "l2complements:warden_bone_shard",
-            "irons_spellbooks:rotten_spell_book",
-            "irons_spellbooks:eldritch_manuscript"
-        )
-    }
+    event.smithing(
+        "irons_spellbooks:netherite_spell_book",
+        "l2complements:warden_bone_shard",
+        "irons_spellbooks:rotten_spell_book",
+        "irons_spellbooks:eldritch_manuscript"
+    )
+
     // 破败->拉莱耶
     if (Platform.isLoaded('cataclysm_spellbooks')) {
         event.smithing(

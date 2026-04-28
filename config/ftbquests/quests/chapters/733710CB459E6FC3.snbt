@@ -65,6 +65,7 @@
 			tasks: [{
 				id: "488A5540F87C046F"
 				item: { components: { "patchouli:book": "touhou_little_maid:memorizable_gensokyo" }, count: 1, id: "patchouli:guide_book" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: -4.5d

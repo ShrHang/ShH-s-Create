@@ -12,11 +12,54 @@
     "bundleDisplayRequireShift": true,
     "bundleDisplayRowWidth": 9,
     "clientPlacementRotation": true,
+    "clientPlacementValidation": true,
     "debugLogging": false,
+    "entityDataSync": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "entityDataSyncBackup": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "entityDataSyncCacheRefresh": 0.25,
+    "entityDataSyncCacheTimeout": 2.75,
     "fastLeftClickAllowTools": false,
     "fastPlacementRememberOrientation": true,
-    "freeCameraPlayerInputs": false,
-    "freeCameraPlayerMovement": false,
+    "freeCameraPlayerInputs": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "freeCameraPlayerMovement": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "freeCameraShowHands": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "freeCameraShowHotBar": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "freeCameraShowStatusBars": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
     "handRestockPre": true,
     "hangableEntityBypassInverse": false,
     "inventoryPreviewVillagerBGColor": false,
@@ -26,6 +69,7 @@
     "placementRestrictionTiedToFast": true,
     "potionWarningBeneficialOnly": true,
     "rememberFlexibleFromClick": true,
+    "serverNbtRequestRate": 2,
     "shulkerDisplayBgColor": true,
     "shulkerDisplayEnderChest": false,
     "shulkerDisplayRequireShift": true,
@@ -78,15 +122,11 @@
     "itemSwapDurabilityThreshold": 20,
     "mapPreviewSize": 160,
     "periodicAttackInterval": 20,
-    "periodicAttackResetIntervalOnActivate": true,
     "periodicUseInterval": 20,
-    "periodicUseResetIntervalOnActivate": true,
     "periodicHoldAttackDuration": 20,
     "periodicHoldAttackInterval": 20,
-    "periodicHoldAttackResetIntervalOnActivate": true,
     "periodicHoldUseDuration": 20,
     "periodicHoldUseInterval": 20,
-    "periodicHoldUseResetIntervalOnActivate": true,
     "placementGridSize": 3,
     "placementLimit": 3,
     "potionWarningThreshold": 600,
@@ -95,15 +135,18 @@
     "scaffoldPlaceDistance": 5,
     "scaffoldPlaceVanilla": false,
     "sculkSensorPulseLength": 40,
-    "serverDataSyncCacheRefresh": 0.25,
-    "serverDataSyncCacheTimeout": 0.75,
-    "serverNbtRequestRate": 2,
     "snapAimPitchStep": 12.5,
     "snapAimThresholdPitch": 1.5,
     "snapAimThresholdYaw": 5.0,
     "snapAimYawStep": 45.0,
     "structureBlockMaxSize": 128,
     "toolSwitchableSlots": "1-9",
+    "toolSwapAllowUnenchantedToBreak": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
     "toolSwitchIgnoredSlots": "",
     "toolSwapBetterEnchants": {
       "enabled": false,
@@ -220,6 +263,18 @@
     "freeCameraPlayerMovement": {
       "keys": ""
     },
+    "freeCameraPresetAdd": {
+      "keys": ""
+    },
+    "freeCameraPresetCycle": {
+      "keys": ""
+    },
+    "freeCameraPresetDelete": {
+      "keys": ""
+    },
+    "freeCameraPresetDeleteAll": {
+      "keys": ""
+    },
     "hotbarScroll": {
       "keys": ""
     },
@@ -243,6 +298,9 @@
     },
     "openConfigGui": {
       "keys": "X,C"
+    },
+    "openCameraPresetEditorGui": {
+      "keys": "X,P"
     },
     "placementYMirror": {
       "keys": ""
@@ -312,7 +370,8 @@
     "flySpeedPreset": 0,
     "gammaValueOriginal": 1.0,
     "hotbarScrollCurrentRow": 3,
-    "slimeBlockSlipperinessOriginal": 0.800000011920929
+    "slimeBlockSlipperinessOriginal": 0.800000011920929,
+    "shulkerMaxStackSize": 64
   },
   "Lists": {
     "blockTypeBreakRestrictionListType": "blacklist",
@@ -420,6 +479,12 @@
       }
     },
     "disableBlockBreakCooldown": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableClientBlockEvents": {
       "enabled": false,
       "hotkey": {
         "keys": ""
@@ -679,6 +744,9 @@
     "disableBlockBreakCooldown": {
       "keys": ""
     },
+    "disableClientBlockEvents": {
+      "keys": ""
+    },
     "disableDoubleTapSprint": {
       "keys": ""
     },
@@ -808,6 +876,7 @@
     "tweakBlockTypeBreakRestriction": false,
     "tweakBreakingGrid": false,
     "tweakBreakingRestriction": false,
+    "tweakBreakReplace": false,
     "tweakBundleDisplay": false,
     "tweakChatBackgroundColor": false,
     "tweakChatPersistentText": false,
@@ -868,8 +937,6 @@
     "§6tweakSculkPulseLength§r": false,
     "tweakSelectiveBlocksRendering": false,
     "tweakSelectiveBlocksRenderOutline": false,
-    "tweakServerDataSync": false,
-    "tweakServerDataSyncBackup": false,
     "tweakShulkerBoxDisplay": false,
     "tweakSignCopy": false,
     "tweakSnapAim": false,
@@ -913,6 +980,9 @@
       "keys": ""
     },
     "tweakBreakingRestriction": {
+      "keys": ""
+    },
+    "tweakBreakReplace": {
       "keys": ""
     },
     "tweakBundleDisplay": {
@@ -1093,12 +1163,6 @@
       "keys": ""
     },
     "tweakSelectiveBlocksRenderOutline": {
-      "keys": ""
-    },
-    "tweakServerDataSync": {
-      "keys": ""
-    },
-    "tweakServerDataSyncBackup": {
       "keys": ""
     },
     "tweakShulkerBoxDisplay": {

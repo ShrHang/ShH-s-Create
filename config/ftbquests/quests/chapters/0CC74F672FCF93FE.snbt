@@ -493,6 +493,7 @@
 			optional: true
 			shape: "diamond"
 			tasks: [{
+				consume_items: true
 				disable_toast: true
 				id: "2B1E5ADF83BDA81D"
 				item: { count: 1, id: "cataclysm:crystallized_coral_fragments" }
