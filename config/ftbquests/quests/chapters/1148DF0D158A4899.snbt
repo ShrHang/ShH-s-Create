@@ -168,13 +168,13 @@
 			dependencies: ["117415EA3AEE8ABD"]
 			id: "49FE2B832252A7EF"
 			shape: "square"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "6ED4CD97F1548B51"
 				item: { count: 1, id: "l2hostility:ring_of_reflection" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -8.5d
 			y: -7.5d
 		}
 		{
@@ -1465,6 +1465,18 @@
 			}]
 			x: -12.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["117415EA3AEE8ABD"]
+			id: "2647C35745F4CD01"
+			shape: "square"
+			tasks: [{
+				id: "364AA5FD07890141"
+				item: { count: 1, id: "l2hostility:ring_of_corrosion" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.5d
 		}
 	]
 }

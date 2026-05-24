@@ -1,12 +1,29 @@
 {
+    "block.create_enchantment_industry.super_experience_block": "Super Experience Block",
+    "block.create_enchantment_industry.super_experience_block.tooltip.summary": "It is transformed from the Experience Block that is struck by lightning under the Lightning Rod. You can ponder about the _Experience Nugget_ to view detailed information.",
+
+    "block.l2hostility.miracle_block": "Miracle Block",
+    "block.l2hostility.miracle_block.tooltip.summary": "",
+    "block.l2hostility.miracle_block.tooltip.condition1": "When using on a maid",
+    "block.l2hostility.miracle_block.tooltip.behaviour1": "§2Refresh their traits based on their current level",
+
     "enchantment.shh.absurd": "Absurd",
     "enchantment.shh.unbreakable": "Unbreakable",
+
+    "item.l2hostility.bottle_of_curse": "Bottle Of Curse",
+    "item.l2hostility.bottle_of_curse.tooltip.summary": "§5Right-click to drink immediately.",
+    "item.l2hostility.bottle_of_curse.tooltip.condition1": "When using on a maid",
+    "item.l2hostility.bottle_of_curse.tooltip.behaviour1": "§5Increase her malice level.",
+    "item.l2hostility.bottle_of_sanity": "Bottle Of Sanity",
+    "item.l2hostility.bottle_of_sanity.tooltip.summary": "§eRight-click to drink immediately.",
+    "item.l2hostility.bottle_of_sanity.tooltip.condition1": "When using on a maid",
+    "item.l2hostility.bottle_of_sanity.tooltip.behaviour1": "§eClear her malice level and traits.",
 
     "item.shh.chimings_sword": "Chimings Sword",
     "item.shh.chimings_sword.tooltip.summary": "Flowing with the power of ice and fire.",
 
     "item.shh.etihw": "Etihw",
-    "item.shh.etihw.tooltip.summary": "Thank you for playing ShrHang's Create!",
+    "item.shh.etihw.tooltip.summary": "Thank you for playing _ShrHang's Create_!",
 
     "item.shh.hulibugulv": "Full Sugar Concern",
     "item.shh.hulibugulv.tooltip.summary": "Eating without insulin is a one-way ticket to death.",
@@ -57,20 +74,6 @@
     "item.shh.unbreakable.tooltip.behaviour1":"Make the item in the other hand unbreakable.",
 
     "itemGroup.shh.shh_stuffs": "ShH's Stuffs",
-
-    "text.shh.create.item_vault.tooltip": "§7A storage block with 64 storage slots.",
-    "text.shh.create_enchantment_industry.super_experience_block.tooltip_1": "§bIt is transformed from the Block of Experience that is struck by lightning under the Lightning Rod.",
-    "text.shh.create_enchantment_industry.super_experience_block.tooltip_2": "§3You can ponder about the §eExperience Nugget §3to view detailed information.",
     
-    
-    "text.shh.common.tooltip.ban": "§4Disabled",
-    
-    "text.shh.l2hostility.bottle_of_curse.tooltip": "§5Right-click to drink",
-    "text.shh.l2hostility.bottle_of_curse.tooltip_maid": "§5Right-click on a maid to increase their malice level",
-    "text.shh.l2hostility.bottle_of_sanity.tooltip": "§eRight-click to drink",
-    "text.shh.l2hostility.bottle_of_sanity.tooltip_maid": "§eRight-click on a maid to clear their malice level and traits",
-    "text.shh.l2hostility.miracle_block.tooltip_maid": "§2Right-click on a maid to refresh their traits based on their current level",
-    
-    "text.shh.pandora_bracelet_init.tooltip": "§5Bracelet of Seven Curses",
-    "text.shh.pandora_necklet_init.tooltip": "§5Necklet of Seven Curses"
+    "text.shh.common.tooltip.ban": "§4Disabled"
 }

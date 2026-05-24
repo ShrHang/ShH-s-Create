@@ -1,5 +1,4 @@
 ServerEvents.recipes(event => {
-    event.printExamples("create:deploying")
     // shh:maid_tool
     event.shaped("shh:maid_tool", [
         "  A",

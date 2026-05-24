@@ -253,7 +253,7 @@ ServerEvents.recipes(event => {
     //#endregion
 
     //#region Deploying
-    
+
     //#endregion
 
     //#region Item Application
@@ -294,6 +294,39 @@ ServerEvents.recipes(event => {
             { chance: 0.2, count: 2, id: "create:copper_nugget" },
             { chance: 0.125, count: 2, id: "create:copper_nugget" }
         ]
+    });
+    //#endregion
+
+    //#region Mixing
+    event.custom({
+        type: "create:mixing",
+        heat_requirement: "heated",
+        ingredients: [{ item: "create:experience_nugget" }],
+        results: [{ amount: 3, id: "create_enchantment_industry:experience" }]
+    });
+    event.custom({
+        type: "create:mixing",
+        heat_requirement: "heated",
+        ingredients: [{ item: "create_sa:heap_of_experience" }],
+        results: [{ amount: 12, id: "create_enchantment_industry:experience" }]
+    });
+    event.custom({
+        type: "create:mixing",
+        heat_requirement: "heated",
+        ingredients: [{ item: "create:experience_block" }],
+        results: [{ amount: 27, id: "create_enchantment_industry:experience" }]
+    });
+    event.custom({
+        type: "create:mixing",
+        heat_requirement: "heated",
+        ingredients: [{ item: "create_enchantment_industry:super_experience_nugget" }],
+        results: [{ amount: 3, id: "create_enchantment_industry:experience" }]
+    });
+    event.custom({
+        type: "create:mixing",
+        heat_requirement: "heated",
+        ingredients: [{ item: "create_enchantment_industry:super_experience_block" }],
+        results: [{ amount: 27, id: "create_enchantment_industry:experience" }]
     });
     //#endregion
 });

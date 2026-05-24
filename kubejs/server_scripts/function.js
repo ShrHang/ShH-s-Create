@@ -13,10 +13,9 @@
 function createDeploying(event, target, held, output, isKeepItem) {
     isKeepItem = isKeepItem || false;
     if (held.startsWith("#")) {
-        held = held.substring(1);
         event.custom({
             type: "create:deploying",
-            ingredients: [{ item: target }, { tag: held }],
+            ingredients: [{ item: target }, { tag: held.substring(1) }],
             keep_held_item: isKeepItem,
             results: [{ id: output }]
         });

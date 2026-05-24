@@ -1,12 +1,29 @@
 {
+    "block.create_enchantment_industry.super_experience_block": "超越经验块",
+    "block.create_enchantment_industry.super_experience_block.tooltip.summary": "经验块在避雷针下方遭受雷击后转化。您可以对着_经验颗粒_思索查看详细信息。",
+
+    "block.l2hostility.miracle_block": "奇迹块",
+    "block.l2hostility.miracle_block.tooltip.summary": "",
+    "block.l2hostility.miracle_block.tooltip.condition1": "对女仆使用时",
+    "block.l2hostility.miracle_block.tooltip.behaviour1": "§2根据其当前等级刷新词条。",
+
     "enchantment.shh.absurd": "荒诞",
     "enchantment.shh.unbreakable": "无法破坏",
+
+    "item.l2hostility.bottle_of_curse": "瓶装恶意",
+    "item.l2hostility.bottle_of_curse.tooltip.summary": "§5单次右键即饮用。",
+    "item.l2hostility.bottle_of_curse.tooltip.condition1": "对女仆使用时",
+    "item.l2hostility.bottle_of_curse.tooltip.behaviour1": "§5提升其恶意等级。",
+    "item.l2hostility.bottle_of_sanity": "恶意吸收药水",
+    "item.l2hostility.bottle_of_sanity.tooltip.summary": "§e单次右键即饮用。",
+    "item.l2hostility.bottle_of_sanity.tooltip.condition1": "对女仆使用时",
+    "item.l2hostility.bottle_of_sanity.tooltip.behaviour1": "§e清空其恶意等级和词条。",
 
     "item.shh.chimings_sword": "砺剑子剑",
     "item.shh.chimings_sword.tooltip.summary": "流淌着冰与火的力量。",
 
     "item.shh.etihw": "Etihw",
-    "item.shh.etihw.tooltip.summary": "感谢您游玩ShrHang的机械动力！",
+    "item.shh.etihw.tooltip.summary": "感谢您游玩_ShrHang的机械动力_！",
 
     "item.shh.hulibugulv": "全糖顾虑",
     "item.shh.hulibugulv.tooltip.summary": "吃完不打胰岛素就是死路一条。",
@@ -57,19 +74,6 @@
     "item.shh.unbreakable.tooltip.behaviour1":"让位于另一只手的物品获得_无法破坏_效果。",
 
     "itemGroup.shh.shh_stuffs": "什物",
-
-    "text.shh.create.item_vault.tooltip": "§7拥有64个存储槽位的存储方块。",
-    "text.shh.create_enchantment_industry.super_experience_block.tooltip_1": "§b经验块在避雷针下方遭受雷击后转化。",
-    "text.shh.create_enchantment_industry.super_experience_block.tooltip_2": "§3您可以对着§e经验颗粒§3思索查看详细信息",
     
-    "text.shh.common.tooltip.ban": "§4已禁用",
-    
-    "text.shh.l2hostility.bottle_of_curse.tooltip": "§5单次右键即饮用",
-    "text.shh.l2hostility.bottle_of_curse.tooltip_maid": "§5对女仆右键使用可以提升其恶意等级",
-    "text.shh.l2hostility.bottle_of_sanity.tooltip": "§e单次右键即饮用",
-    "text.shh.l2hostility.bottle_of_sanity.tooltip_maid": "§e对女仆右键使用可以清空其恶意等级和词条",
-    "text.shh.l2hostility.miracle_block.tooltip_maid": "§2对女仆右键使用可以根据其当前等级刷新词条",
-    
-    "text.shh.pandora_bracelet_init.tooltip": "§5七咒之镯",
-    "text.shh.pandora_necklet_init.tooltip": "§5七咒之链"
+    "text.shh.common.tooltip.ban": "§4已禁用"
 }

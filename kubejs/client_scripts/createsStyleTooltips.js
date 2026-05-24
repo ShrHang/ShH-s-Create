@@ -17,29 +17,33 @@ const ResourceLocation = Java.loadClass("net.minecraft.resources.ResourceLocatio
 
 // 支持Create风格的Tooltip的物品列表
 const idsForTooltipOfCreate = [
+    "create_enchantment_industry:super_experience_block",
+    "l2hostility:bottle_of_curse",
+    "l2hostility:bottle_of_sanity",
+    "l2hostility:miracle_block",
     'shh:chimings_sword',
     "shh:etihw",
     "shh:hulibugulv",
     "shh:maid_tool",
-    "shh:unbreakable"
+    "shh:unbreakable",
 ];
 
 //#region 预先构建好TooltipModifier
-const modifiersOfCreate = new Map();
+const modifiers = new Map();
 function createModifier(id) {
     let item = BuiltInRegistries.ITEM.get(ResourceLocation.parse(id));
     if (item.toString() == "minecraft:air") return null;
     return new ItemDescription.Modifier(item, FontHelper.Palette.STANDARD_CREATE).andThen(TooltipModifier.mapNull(KineticStats.create(item)));
 }
 function rebuildModifiers() {
-    modifiersOfCreate.clear();
-    for (let id of idsForTooltipOfCreate) modifiersOfCreate.set(id, createModifier(id));
+    modifiers.clear();
+    for (let id of idsForTooltipOfCreate) modifiers.set(id, createModifier(id));
 }
 ItemEvents.modifyTooltips(event => rebuildModifiers())
 //#endregion
 
 // 最终渲染
 NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.ItemTooltipEvent", event => {
-    let modifier = modifiersOfCreate.get(String(event.getItemStack().id));
+    let modifier = modifiers.get(String(event.getItemStack().id));
     if (modifier) modifier.modify(event);
 })

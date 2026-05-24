@@ -28,3 +28,7 @@ PlayerEvents.chat(event => {
         event.cancel();
     }
 });
+
+ServerEvents.recipes(event => {
+    event.printExamples("create:mixing");
+});
