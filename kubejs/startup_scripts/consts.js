@@ -31,6 +31,7 @@ const SequencedAssemblyItem = Java.loadClass("com.simibubi.create.content.proces
  * @type {import("io.redspace.ironsspellbooks.item.curios.CurioBaseItem")}
  */
 const $CurioBaseItem = Java.loadClass("io.redspace.ironsspellbooks.item.curios.CurioBaseItem");
+const $SpellContainer = Java.loadClass("io.redspace.ironsspellbooks.capabilities.magic.SpellContainer");
 /**
  * 法术书类
  * @type {import("io.redspace.ironsspellbooks.item.SpellBook")}
@@ -46,6 +47,8 @@ const $AttributeRegistry = Java.loadClass("io.redspace.ironsspellbooks.api.regis
  * @type {import("io.redspace.ironsspellbooks.item.weapons.AttributeContainer")}
  */
 const AttributeContainer = Java.loadClass("io.redspace.ironsspellbooks.item.weapons.AttributeContainer");
+const $SpellRegistry = Java.loadClass("io.redspace.ironsspellbooks.api.registry.SpellRegistry");
+const $ComponenteRegistry = Java.loadClass("io.redspace.ironsspellbooks.registries.ComponentRegistry");
 //#endregion
 
 //#region 属性名称
@@ -60,6 +63,8 @@ const pieceSlot = [
     { piece: "leggings", slot: "legs" },
     { piece: "boots", slot: "feet" }
 ];
+
+const toolTypes = ["sword", "axe", "pickaxe", "shovel", "hoe"];
 
 const l2archeryUpgradeTypes = [
     "advanced_infinity",

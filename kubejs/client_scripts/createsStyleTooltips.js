@@ -17,7 +17,6 @@ const ResourceLocation = Java.loadClass("net.minecraft.resources.ResourceLocatio
 
 // 支持Create风格的Tooltip的物品列表
 const idsForTooltipOfCreate = [
-    "create_enchantment_industry:super_experience_block",
     "l2hostility:bottle_of_curse",
     "l2hostility:bottle_of_sanity",
     "l2hostility:miracle_block",

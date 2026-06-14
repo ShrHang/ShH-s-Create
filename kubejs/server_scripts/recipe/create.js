@@ -328,5 +328,19 @@ ServerEvents.recipes(event => {
         ingredients: [{ item: "create_enchantment_industry:super_experience_block" }],
         results: [{ amount: 27, id: "create_enchantment_industry:experience" }]
     });
+    if (Platform.isLoaded("create_enchantment_industry")) {
+        event.custom({
+            type: "create:mixing",
+            heat_requirement: "heated",
+            ingredients: [
+                { item: "minecraft:sculk_catalyst" },
+                { type: "neoforge:single", amount: 200, fluid: "create_enchantment_industry:experience" }
+            ],
+            results: [
+                { count: 8, id: "minecraft:sculk" },
+                { id: "minecraft:sculk_catalyst" }
+            ]
+        })
+    }
     //#endregion
 });

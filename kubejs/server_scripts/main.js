@@ -6,10 +6,7 @@ PlayerEvents.chat(event => {
     let message = event.message;
 
     if (message == "ts") {
-        Ingredient.of('#minecraft:pickaxes').itemIds.forEach(itemId => {
-            let tag = Item.of(itemId).getItem().tier.incorrectBlocksForDrops;
-            player.sendSystemMessage(Component.literal(itemId + ": " + tag.location() + "\n\n"));
-        });
+        
         event.cancel();
     }
 

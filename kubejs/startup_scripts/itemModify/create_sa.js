@@ -12,7 +12,7 @@ ItemEvents.modification(event => {
     //#endregion
 
     //#region  铜工具
-    ["sword", "axe", "pickaxe", "shovel", "hoe"].forEach(tool => {
+    toolTypes.forEach(tool => {
         event.modify("create_sa:copper_" + tool, item => {
             addAttModifiers(item, [
                 { attribute: "irons_spellbooks:lightning_spell_power", amount: 0.05, id: "shh_lightning_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded("irons_spellbooks") },
@@ -23,7 +23,7 @@ ItemEvents.modification(event => {
     //#endregion
 
     //#region  锌工具
-    ["sword", "axe", "pickaxe", "shovel", "hoe"].forEach(tool => {
+    toolTypes.forEach(tool => {
         event.modify("create_sa:zinc_" + tool, item => {
             addAttModifiers(item, [
                 { attribute: "minecraft:generic.attack_damage", amount: tool === "sword" ? 7 : tool === "axe" ? 6 : 0, id: "shh_attack_damage:mainhand", slot: "mainhand", condition: (tool === "sword" || tool === "axe") },
@@ -35,7 +35,7 @@ ItemEvents.modification(event => {
     //#endregion
 
     //#region  黄铜工具
-    ["sword", "axe", "pickaxe", "shovel", "hoe"].forEach(tool => {
+    toolTypes.forEach(tool => {
         event.modify("create_sa:brass_" + tool, item => {
             addAttModifiers(item, [
                 { attribute: "irons_spellbooks:lightning_spell_power", amount: 0.05, id: "shh_lightning_spell_power:mainhand", slot: "mainhand", condition: Platform.isLoaded("irons_spellbooks") },

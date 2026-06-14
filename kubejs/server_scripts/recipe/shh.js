@@ -27,12 +27,12 @@ ServerEvents.recipes(event => {
         results: [{ id: "shh:hulibugulv" }]
     })
 
-    event.custom({
-        type: "create:mixing",
-        ingredients: [
-            { item: "l2hostility:miracle_powder" },
-            { type: "neoforge:single", amount: 250, fluid: "minecraft:water" }
-        ],
-        results: [{ amount: 250, id: "shhs_create_core:wonder" }]
-    })
+    // event.custom({
+    //     type: "create:mixing",
+    //     ingredients: [
+    //         { item: "l2hostility:miracle_powder" },
+    //         { type: "neoforge:single", amount: 250, fluid: "minecraft:water" }
+    //     ],
+    //     results: [{ amount: 250, id: "shhs_create_core:wonder" }]
+    // })
 });

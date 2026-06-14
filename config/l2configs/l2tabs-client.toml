@@ -16,4 +16,4 @@ attributeSettings = "ALL_EXCEPT_UNCHANGED"
 #Example: "attribute" for attribute tab
 #Example: "curios" for curios tab
 #Example: "pandora" for pandora tab
-hiddenTabs = ["curios"]
+hiddenTabs = ["curios", "difficulty"]

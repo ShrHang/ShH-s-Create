@@ -11,6 +11,16 @@ ServerEvents.recipes(event => {
             { count: 64, chance: 0.125, id: "create:experience_nugget" }
         ]
     })
+    event.custom({
+        type: "create_dragons_plus:freezing",
+        ingredients: [{ item: "minecraft:fire_charge" }],
+        results: [{ id: "l2complements:black_fire_charge" }]
+    })
+    event.custom({
+        type: "create:haunting",
+        ingredients: [{ item: "minecraft:fire_charge" }],
+        results: [{ id: "l2complements:soul_fire_charge" }]
+    })
 
     //#region charm of looting 1
     event.custom({

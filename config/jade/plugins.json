@@ -92,10 +92,14 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "create_rns": {
+    "deposit_block_info": true
+  },
   "kaleidoscope_cookery": {
     "chopping_board": true,
     "shawarma_spit": true,
     "recipe_block": true,
+    "food_bite_block": true,
     "millstone": true,
     "enamel_basin": true
   },
@@ -105,9 +109,6 @@
   },
   "supplementaries": {
     "hat_stand": true
-  },
-  "kaleidoscope_tavern": {
-    "barrel": true
   },
   "waystones": {
     "waystone": true

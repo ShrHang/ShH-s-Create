@@ -83,9 +83,10 @@ StartupEvents.registry("block", event => {
 //         .noBucket()
 // })
 
-StartupEvents.registry("creative_mode_tab", event => {
-    event.create("shh:shh_stuffs")
-        .content(() => ["shh:etihw", "shh:hulibugulv", "shh:maid_tool"])
-        .translationKey("itemGroup.shh.shh_stuffs")
-        .icon(() => "shh:etihw")
+StartupEvents.modifyCreativeTab("shhs_create_core:default", event => {
+    event.add("shh:etihw");
+    event.add("shh:hulibugulv");
+    event.add("shh:maid_tool");
+    event.add("shh:reality_index_upgrade_orb");
+    event.setIcon("shh:etihw");
 })
