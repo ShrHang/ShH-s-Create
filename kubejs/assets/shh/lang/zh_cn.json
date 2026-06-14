@@ -7,6 +7,8 @@
     "block.l2hostility.miracle_block.tooltip.condition1": "对女仆使用时",
     "block.l2hostility.miracle_block.tooltip.behaviour1": "§2根据其当前等级刷新词条。",
 
+    "effect.shh.flight": "飞行",
+
     "enchantment.shh.absurd": "荒诞",
     "enchantment.shh.unbreakable": "无法破坏",
 
@@ -18,6 +20,11 @@
     "item.l2hostility.bottle_of_sanity.tooltip.summary": "§e单次右键即饮用。",
     "item.l2hostility.bottle_of_sanity.tooltip.condition1": "对女仆使用时",
     "item.l2hostility.bottle_of_sanity.tooltip.behaviour1": "§e清空其恶意等级和词条。",
+
+    "item.minecraft.lingering_potion.effect.flight_potion": "滞留型飞行药水",
+    "item.minecraft.potion.effect.flight_potion": "飞行药水",
+    "item.minecraft.splash_potion.effect.flight_potion": "喷溅型飞行药水",
+    "item.minecraft.tipped_arrow.effect.flight_potion": "飞行之箭",
 
     "item.shh.chimings_sword": "砺剑子剑",
     "item.shh.chimings_sword.tooltip.summary": "流淌着冰与火的力量。",

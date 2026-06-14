@@ -152,17 +152,6 @@
 		{
 			disable_toast: true
 			id: "1C247CCE01C1BB0B"
-			rewards: [{
-				auto: "no_toast"
-				command: "/give @p shh:etihw"
-				exclude_from_claim_all: true
-				id: "7F8CE12FC1AAB02D"
-				ignore_reward_blocking: true
-				permission_level: 3
-				silent: true
-				team_reward: false
-				type: "command"
-			}]
 			shape: "rsquare"
 			size: 4.0d
 			tasks: [{
@@ -206,6 +195,7 @@
 						id: "minecraft:andesite"
 					}
 					id: "4BC843F436357183"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "minecraft:andesite"
@@ -217,6 +207,7 @@
 						id: "minecraft:diorite"
 					}
 					id: "0D84A629DD18F623"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "minecraft:diorite"
@@ -270,6 +261,7 @@
 					id: "minecraft:blaze_spawn_egg"
 				}
 				id: "25B5B30BCC398C28"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "minecraft:blaze"

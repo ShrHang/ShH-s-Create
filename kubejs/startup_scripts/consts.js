@@ -15,6 +15,11 @@ const ItemProperties = Java.loadClass("net.minecraft.world.item.Item$Properties"
  * @see {@linkcode ItemProperties} 中的条件处理机制也适用于这个类，可以通过条件来决定是否添加某个药水效果
  */
 const PotionContents = Java.loadClass("net.minecraft.world.item.alchemy.PotionContents");
+/**
+ * 状态效果实例类
+ * @type {import("net.minecraft.world.effect").$MobEffectInstance}
+ */
+const $MobEffectInstance = Java.loadClass("net.minecraft.world.effect.MobEffectInstance");
 
 
 // create

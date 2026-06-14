@@ -14,35 +14,15 @@
 			can_repeat: false
 			dependencies: ["1C247CCE01C1BB0B"]
 			disable_recipe_mod: true
+			icon: {
+				id: "shh:etihw"
+			}
 			id: "37670BDF8DB8F020"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/clear @p shh:etihw"
-					disable_reward_screen_blur: true
-					id: "0645FEC5B23C37B1"
-					ignore_reward_blocking: true
-					permission_level: 3
-					silent: true
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					id: "3AF5B896744E7C2C"
-					item: {
-						count: 1
-						id: "ftbquests:book"
-					}
-					type: "item"
-				}
-			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "68AD8F85087C8AFF"
-				item: { count: 1, id: "shh:etihw" }
-				type: "item"
+				id: "7B394703742068AE"
+				type: "checkmark"
 			}]
 			x: 8.5d
 			y: 8.0d
@@ -53,8 +33,8 @@
 				id: "3DA0D7B56F8D5981"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: 10.0d
+			x: 7.0d
+			y: 9.5d
 		}
 		{
 			id: "6448EE01DD79E42F"
@@ -71,8 +51,8 @@
 				id: "7059C99A2FD01A26"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: 6.0d
+			x: 10.0d
+			y: 9.5d
 		}
 		{
 			id: "1D2F07F03CE56385"
@@ -89,8 +69,27 @@
 				id: "625EB6D97FDFE06E"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: 9.5d
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: false
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/accept_gray"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "094DB80FA13B50B3"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "5A2E954BB59932B3"
+				item: { count: 1, id: "shh:etihw" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
 		}
 	]
 }

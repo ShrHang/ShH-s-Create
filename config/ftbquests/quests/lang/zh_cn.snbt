@@ -178,6 +178,7 @@
 	quest.0887BE6D7CF822DB.quest_subtitle: "看上去不好吃。"
 	quest.08A12E6FDC61C4E6.quest_desc: ["&a对策&c分裂&a。"]
 	quest.08A12E6FDC61C4E6.title: "分裂抑制"
+	quest.094DB80FA13B50B3.title: "尾声"
 	quest.0A6F69B11C27C5E5.title: "细雪行者"
 	quest.0A8F420158CB6587.quest_desc: [
 		"&e鼓风机&a利用&6气流&a在直线上加工各种材料，还可以推拉实体。"
@@ -738,7 +739,7 @@
 	quest.30FF51B4DE9BFB79.quest_subtitle: "百分比减伤"
 	quest.3133CB90FA04C967.title: "剑风"
 	quest.31464096DE2E0E87.quest_subtitle: "还是个列车装配站"
-	quest.3180326A9E4A10FB.quest_desc: ["&a为您解锁了&6粉碎&a这一工序，&e这既是机械动力处理矿物的重要工序，也是机械动力科技树的尽头&a。"]
+	quest.3180326A9E4A10FB.quest_desc: ["&a您解锁了&6粉碎&a这一工序，&e这既是机械动力处理矿物的重要工序，也是原版机械动力科技树的尽头&a。"]
 	quest.3180326A9E4A10FB.quest_subtitle: "单次合成即可得到一对粉碎轮"
 	quest.3221CA24BA35A5E1.quest_desc: [
 		"&6附魔生命胡萝卜&a：提供&e3s饱和&a，&e3m夜视、急迫II和迅捷III&a。"
@@ -880,6 +881,7 @@
 	]
 	quest.371AE1A194994D09.quest_subtitle: "制作强大饰品的必需材料"
 	quest.371AE1A194994D09.title: "&5混沌锭"
+	quest.37670BDF8DB8F020.quest_desc: ["如你所见，这里什么都没有。"]
 	quest.37670BDF8DB8F020.title: "欢迎来到ShH's Create"
 	quest.3787F8C1BA907180.quest_desc: [
 		"&6充分利用&a各类&e辅助工具&a，以让&6建造&a变得&6更加简单&a。"
@@ -1867,6 +1869,7 @@
 	]
 	quest.766AF5EB4F9ABB60.quest_subtitle: "建筑师的好帮手"
 	quest.766AF5EB4F9ABB60.title: "建筑棒"
+	quest.76BC7D4668D25C05.title: "修建祭坛"
 	quest.772768502028F1C1.quest_desc: [
 		"&a可以与各个流派的代表物合成对应的符文。"
 		""
@@ -2000,6 +2003,7 @@
 	task.1DCB9A53EA8E34C5.title: "药剂"
 	task.20AC3D2430FF9866.title: "被动状态"
 	task.2474A62D92FAA7B0.title: "获得任意一件法师装备"
+	task.2556FFDDE618DE35.title: " "
 	task.25B5B30BCC398C28.title: "观察：烈焰人"
 	task.25D0AA8BEA16BED3.title: "制作一个女仆背包，并给女仆背上吧！"
 	task.25E33F93892AF6D9.title: "共享石碑"
@@ -2037,6 +2041,7 @@
 	task.79CB87E352172A5D.title: "开始"
 	task.7A29A17C6AB4A0B9.title: "法杖"
 	task.7A50147885C9C85D.title: "制作一个区块加载器"
+	task.7B394703742068AE.title: "欢迎"
 	task.7C0F8D619ED894EB.title: "Any #waystones:waystones"
 	task.7F9783A8F36C9FF0.title: "自动完成"
 }

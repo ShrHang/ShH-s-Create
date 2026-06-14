@@ -83,6 +83,14 @@ StartupEvents.registry("block", event => {
 //         .noBucket()
 // })
 
+StartupEvents.registry("mob_effect", event => {
+    event.create("shh:flight").modifyAttribute("neoforge:creative_flight", "shh:flight_effect", 1, "add_value");
+})
+
+StartupEvents.registry("potion", event => {
+    event.create("shh:flight_potion").addEffect(new $MobEffectInstance("shh:flight", 36000, 0, false, true));
+})
+
 StartupEvents.modifyCreativeTab("shhs_create_core:default", event => {
     event.add("shh:etihw");
     event.add("shh:hulibugulv");
