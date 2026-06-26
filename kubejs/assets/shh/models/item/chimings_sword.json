@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "shh:item/preview/template_sword",
+    "textures": {
+      "layer0": "shh:item/chimings_sword"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "shh:item/chimings_sword_gui"
+      }
+    }
+  }
+}

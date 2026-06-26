@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 { tag: "c:flours/wheat" },
-                { type: "neoforge:single", amount: 1000, fluid: "minecraft:water" }
+                { type: "fluid_stack", amount: 1000, fluid: "minecraft:water" }
             ],
             results: [{ id: "create:dough" }]
         }).id("create:mixing/wheat_flour");
@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
         type: "create:compacting",
         ingredients: [
             { item: "minecraft:cobblestone" },
-            { type: "neoforge:single", amount: 250, fluid: "minecraft:lava" }
+            { type: "fluid_stack", amount: 250, fluid: "minecraft:lava" }
         ],
         results: [{ id: "minecraft:deepslate" }]
     });
@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
         type: "create:compacting",
         ingredients: [
             { item: "minecraft:cobbled_deepslate" },
-            { type: "neoforge:single", amount: 500, fluid: "minecraft:water" }
+            { type: "fluid_stack", amount: 500, fluid: "minecraft:water" }
         ],
         results: [{ id: "minecraft:tuff" }]
     });
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
             { item: "minecraft:bone_meal" },
             { item: "minecraft:bone_meal" },
             { item: "minecraft:bone_meal" },
-            { type: "neoforge:single", amount: 500, fluid: "minecraft:water" }
+            { type: "fluid_stack", amount: 500, fluid: "minecraft:water" }
         ],
         results: [{ id: "minecraft:calcite" }]
     });
@@ -105,7 +105,7 @@ ServerEvents.recipes(event => {
             { item: "minecraft:coal_block" },
             { item: "minecraft:coal_block" },
             { item: "minecraft:coal_block" },
-            { type: "neoforge:single", amount: 500, fluid: "minecraft:lava" }
+            { type: "fluid_stack", amount: 500, fluid: "minecraft:lava" }
         ],
         results: [{ id: "minecraft:diamond" }]
     });
@@ -117,7 +117,7 @@ ServerEvents.recipes(event => {
             { item: "create:zinc_nugget" },
             { item: "create:zinc_nugget" },
             { item: "minecraft:tuff" },
-            { type: "neoforge:single", amount: 1000, fluid: "minecraft:water" }
+            { type: "fluid_stack", amount: 1000, fluid: "minecraft:water" }
         ],
         results: [{ id: "create:asurine" }]
     });
@@ -129,7 +129,7 @@ ServerEvents.recipes(event => {
             { item: "minecraft:iron_nugget" },
             { item: "minecraft:iron_nugget" },
             { item: "minecraft:tuff" },
-            { type: "neoforge:single", amount: 1000, fluid: "minecraft:water" }
+            { type: "fluid_stack", amount: 1000, fluid: "minecraft:water" }
         ],
         results: [{ id: "create:crimsite" }]
     });
@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
             { item: "minecraft:gold_nugget" },
             { item: "minecraft:gold_nugget" },
             { item: "minecraft:tuff" },
-            { type: "neoforge:single", amount: 1000, fluid: "minecraft:water" }
+            { type: "fluid_stack", amount: 1000, fluid: "minecraft:water" }
         ],
         results: [{ id: "create:ochrum" }]
     });
@@ -153,7 +153,7 @@ ServerEvents.recipes(event => {
             { item: "create:copper_nugget" },
             { item: "create:copper_nugget" },
             { item: "minecraft:tuff" },
-            { type: "neoforge:single", amount: 1000, fluid: "minecraft:water" }
+            { type: "fluid_stack", amount: 1000, fluid: "minecraft:water" }
         ],
         results: [{ id: "create:veridium" }]
     });
@@ -334,7 +334,7 @@ ServerEvents.recipes(event => {
             heat_requirement: "heated",
             ingredients: [
                 { item: "minecraft:sculk_catalyst" },
-                { type: "neoforge:single", amount: 200, fluid: "create_enchantment_industry:experience" }
+                { type: "fluid_stack", amount: 200, fluid: "create_enchantment_industry:experience" }
             ],
             results: [
                 { count: 8, id: "minecraft:sculk" },

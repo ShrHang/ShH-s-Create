@@ -22,9 +22,13 @@
     "item.l2hostility.bottle_of_sanity.tooltip.behaviour1": "§e清空其恶意等级和词条。",
 
     "item.minecraft.lingering_potion.effect.flight_potion": "滞留型飞行药水",
+    "item.minecraft.lingering_potion.effect.long_flight_potion": "滞留型飞行药水",
     "item.minecraft.potion.effect.flight_potion": "飞行药水",
+    "item.minecraft.potion.effect.long_flight_potion": "飞行药水",
     "item.minecraft.splash_potion.effect.flight_potion": "喷溅型飞行药水",
+    "item.minecraft.splash_potion.effect.long_flight_potion": "喷溅型飞行药水",
     "item.minecraft.tipped_arrow.effect.flight_potion": "飞行之箭",
+    "item.minecraft.tipped_arrow.effect.long_flight_potion": "飞行之箭",
 
     "item.shh.chimings_sword": "砺剑子剑",
     "item.shh.chimings_sword.tooltip.summary": "流淌着冰与火的力量。",

@@ -33,7 +33,7 @@
         "item": "curseofpandora:mini_beacon"
       },
       {
-        "type": "neoforge:single",
+        "type": "fluid_stack",
         "amount": 1000,
         "components": {
         "create:potion_fluid_bottle_type": "regular",

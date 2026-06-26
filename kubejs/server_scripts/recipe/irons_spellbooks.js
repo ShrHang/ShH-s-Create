@@ -184,7 +184,7 @@ ServerEvents.recipes(event => {
                 type: "create:filling",
                 ingredients: [
                     { item: "irons_spellbooks:tarnished_helmet" },
-                    { type: "neoforge:single", amount: 250, fluid: "irons_spellbooks:timeless_slurry" }
+                    { type: "fluid_stack", amount: 250, fluid: "irons_spellbooks:timeless_slurry" }
                 ],
                 results: [{ id: "irons_spellbooks:tarnished_helmet" }]
             }
@@ -216,8 +216,8 @@ ServerEvents.recipes(event => {
                 { item: "create:asurine" },
                 { item: "create:crimsite" },
                 { item: "create:veridium" },
-                { type: "neoforge:single", amount: 250, fluid: "create_wizardry:mana" },
-                { type: "neoforge:single", amount: 250, fluid: "irons_spellbooks:timeless_slurry" }
+                { type: "fluid_stack", amount: 250, fluid: "create_wizardry:mana" },
+                { type: "fluid_stack", amount: 250, fluid: "irons_spellbooks:timeless_slurry" }
             ],
             results: [{ id: "irons_spellbooks:raw_mithril" }]
         })

@@ -84,12 +84,18 @@ StartupEvents.registry("block", event => {
 // })
 
 StartupEvents.registry("mob_effect", event => {
-    event.create("shh:flight").modifyAttribute("neoforge:creative_flight", "shh:flight_effect", 1, "add_value");
+    event.create("shh:flight").color(0xFFFFFF).modifyAttribute("neoforge:creative_flight", "shh:flight_effect", 1, "add_value");
 })
 
 StartupEvents.registry("potion", event => {
-    event.create("shh:flight_potion").addEffect(new $MobEffectInstance("shh:flight", 36000, 0, false, true));
+    event.create("shh:flight_potion").addEffect(new $MobEffectInstance("shh:flight", 12000, 0, false, true));
+    event.create("shh:long_flight_potion").addEffect(new $MobEffectInstance("shh:flight", -1, 0, false, true));
 })
+
+NativeEvents.onEvent("net.neoforged.neoforge.event.brewing.RegisterBrewingRecipesEvent", event => {
+    event.getBuilder().addMix("minecraft:awkward", "curseofpandora:angelic_feather", "shh:flight_potion");
+    event.getBuilder().addMix("shh:flight_potion", "minecraft:elytra", "shh:long_flight_potion");
+});
 
 StartupEvents.modifyCreativeTab("shhs_create_core:default", event => {
     event.add("shh:etihw");

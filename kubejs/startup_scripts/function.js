@@ -88,7 +88,7 @@ function createCuriosItem(event, itemId, attributesList) {
  */
 function createSpellBook(event, itemId, spellSize, attributeModifiers) {
     event.createCustom(itemId, () => {
-        let item = new $SpellBook(spellSize);
+        let item = new $SpellBook(spellSize, new ItemProperties().stacksTo(1).rarity("uncommon"));
         if (attributeModifiers && Array.isArray(attributeModifiers)) {
             let containers = buildAttributeContainers(attributeModifiers);
             item = item.withAttributes("spellbook", containers);

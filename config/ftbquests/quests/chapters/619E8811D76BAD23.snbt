@@ -256,8 +256,8 @@
 		{
 			id: "1F17DD500DB1AE7B"
 			tasks: [{
-				id: "5D419ECBEDCEE908"
-				item: { count: 1, id: "create_logistics_by_shh:brass_ender_chest" }
+				id: "11FEDBAFFA55B434"
+				item: { count: 1, id: "shhs_create_core:portable_stock_ticker" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -266,8 +266,8 @@
 		{
 			id: "4DC02EE1070DF52E"
 			tasks: [{
-				id: "1EE34BD3A438F5CA"
-				item: { count: 1, id: "create_logistics_by_shh:portable_stock_ticker" }
+				id: "4D2F3A94EF5DA25A"
+				item: { count: 1, id: "shhs_create_core:brass_ender_chest" }
 				type: "item"
 			}]
 			x: 1.0d
