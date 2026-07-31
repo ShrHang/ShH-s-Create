@@ -8,6 +8,7 @@
 		id: "create:brass_tunnel"
 	}
 	id: "51BA51265914BD32"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

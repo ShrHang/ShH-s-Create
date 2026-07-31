@@ -107,6 +107,9 @@
     "maid": true,
     "shrine_lamp": true
   },
+  "quark": {
+    "oretoise_eating_cooldown": true
+  },
   "supplementaries": {
     "hat_stand": true
   },

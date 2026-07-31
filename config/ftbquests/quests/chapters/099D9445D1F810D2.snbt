@@ -7,6 +7,7 @@
 		id: "cataclysm:altar_of_abyss"
 	}
 	id: "099D9445D1F810D2"
+	images: [ ]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

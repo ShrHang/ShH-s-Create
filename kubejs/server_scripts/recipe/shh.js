@@ -29,6 +29,7 @@ ServerEvents.recipes(event => {
 
     event.custom({
         type: "create:mixing",
+        heat_requirement: "superheated",
         ingredients: [
             { item: "l2complements:captured_shulker_bullet" },
             { type: "neoforge:components", amount: 1000, components: { "create:potion_fluid_bottle_type": "regular", "minecraft:potion_contents": { potion: "minecraft:slow_falling" } }, fluids: "create:potion" },
@@ -39,6 +40,7 @@ ServerEvents.recipes(event => {
 
     event.custom({
         type: "create:mixing",
+        heat_requirement: "superheated",
         ingredients: [
             { item: "minecraft:phantom_membrane" },
             { type: "neoforge:components", amount: 1000, components: { "create:potion_fluid_bottle_type": "regular", "minecraft:potion_contents": { potion: "l2complements:levitation" } }, fluids: "create:potion" },
@@ -49,6 +51,7 @@ ServerEvents.recipes(event => {
 
     event.custom({
         type: "create:mixing",
+        heat_requirement: "superheated",
         ingredients: [
             { item: "l2hostility:miracle_powder" },
             { type: "neoforge:components", amount: 1000, components: { "create:potion_fluid_bottle_type": "regular", "minecraft:potion_contents": { potion: "l2complements:levitation" } }, fluids: "create:potion" },

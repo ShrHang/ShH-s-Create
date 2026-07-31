@@ -27,6 +27,7 @@ ServerEvents.tags("item", event => {
 
     event.add("curios:curio", ["shh:etihw"]);
     event.add("curios:spellbook", ["shh:spell_book"]);
+    event.add("curios:shh", ['minecraft:turtle_helmet']);
 
     event.add("minecraft:enchantable/durability", ["touhou_little_maid:camera"]);
 

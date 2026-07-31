@@ -15,6 +15,7 @@
 		id: "irons_spellbooks:copper_spell_book"
 	}
 	id: "0CC74F672FCF93FE"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

@@ -8,6 +8,7 @@
 		id: "l2hostility:teleport"
 	}
 	id: "1148DF0D158A4899"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 15.0d
+			id: "5309E93CC2106492"
 			image: "minecraft:item/bow_pulling_2"
 			rotation: -45.0d
 			width: 15.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 15.0d
+			id: "4416D651F3ABE817"
 			image: "minecraft:item/crossbow_arrow"
 			rotation: -135.0d
 			width: 15.0d
