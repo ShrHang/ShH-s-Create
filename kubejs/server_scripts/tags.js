@@ -10,8 +10,8 @@ ServerEvents.tags("item", event => {
         "minecraft:iron_block"
     ]);
     event.add("c:enchantables", ["touhou_little_maid:camera"]);
-    event.add("c:flour", ['create:wheat_flour']);
-    event.add("c:flours", ['kaleidoscope_cookery:flour']);
+    event.add("c:flour", ["create:wheat_flour"]);
+    event.add("c:flours", ["kaleidoscope_cookery:flour"]);
     event.add("c:material/netherite", [
         "minecraft:netherite_axe",
         "minecraft:netherite_boots",
@@ -27,7 +27,9 @@ ServerEvents.tags("item", event => {
 
     event.add("curios:curio", ["shh:etihw"]);
     event.add("curios:spellbook", ["shh:spell_book"]);
-    event.add("curios:shh", ['minecraft:turtle_helmet']);
+    event.add("curios:shh", ["minecraft:turtle_helmet"]);
+
+    event.add("powergrid:wire_cutters", "#immersiveengineering:tools/wirecutters");
 
     event.add("minecraft:enchantable/durability", ["touhou_little_maid:camera"]);
 

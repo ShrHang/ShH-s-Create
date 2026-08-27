@@ -34,31 +34,31 @@ ServerEvents.recipes(event => {
         "irons_spellbooks:iron_spell_book",
         "minecraft:chain",
         "irons_spellbooks:copper_spell_book",
-        ["create:iron_sheet", '#c:plates/zinc']
+        ["#c:plates/iron", "#c:plates/zinc"]
     )
 
     // 铁箍->学徒
     event.smithing(
         "irons_spellbooks:gold_spell_book",
-        "irons_spellbooks:hogskin",
+        'minecraft:purple_carpet',
         "irons_spellbooks:iron_spell_book",
-        ["create:golden_sheet", "createaddition:electrum_sheet"]
+        "#c:plates/gold"
     )
 
     // 铁箍->残破
     event.smithing(
         "irons_spellbooks:rotten_spell_book",
-        'create:cardboard',
+        "minecraft:moss_carpet",
         "irons_spellbooks:iron_spell_book",
-        "minecraft:moss_carpet"
+        'create:cardboard'
     )
 
     // 学徒->附魔
     event.smithing(
         "irons_spellbooks:diamond_spell_book",
-        "create_enchantment_industry:super_enchanting_template",
+        "irons_spellbooks:hogskin",
         "irons_spellbooks:gold_spell_book",
-        "createaddition:diamond_grit_sandpaper"
+        "create_enchantment_industry:super_enchanting_template"
     )
 
     // 附魔->炽焰

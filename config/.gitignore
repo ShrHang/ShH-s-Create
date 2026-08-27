@@ -7,6 +7,7 @@
 !/jade/jade.json
 !/jade/plugins.json
 !/l2configs/
+!/ModernUI/
 !/xaero/
 
 !/.gitignore
@@ -22,7 +23,7 @@
 !/immediatelyfast.json
 !/immersive_aircraft.json
 !/irons_spellbooks-server.toml
-!/kaleidoscope_cookery_satiated_shield_tuner-server.toml
+!/kaleidoscope_cookery-common.toml
 !/quark-common.toml
 !/sodium-options.json
 !/tectonic.json

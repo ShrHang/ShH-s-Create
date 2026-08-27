@@ -17,6 +17,8 @@ const ResourceLocation = Java.loadClass("net.minecraft.resources.ResourceLocatio
 
 // 支持Create风格的Tooltip的物品列表
 const idsForTooltipOfCreate = [
+    "fluidlogistics:copper_basin",
+    "fluidlogistics:copper_bucket",
     "l2hostility:bottle_of_curse",
     "l2hostility:bottle_of_sanity",
     "l2hostility:miracle_block",
@@ -38,7 +40,6 @@ function rebuildModifiers() {
     modifiers.clear();
     for (let id of idsForTooltipOfCreate) modifiers.set(id, createModifier(id));
 }
-ItemEvents.modifyTooltips(event => rebuildModifiers())
 //#endregion
 
 // 最终渲染

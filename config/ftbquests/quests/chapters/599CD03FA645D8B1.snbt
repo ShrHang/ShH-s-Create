@@ -1,7 +1,8 @@
 {
+	autofocus_id: "37670BDF8DB8F020"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "599CD03FA645D8B1"
+	filename: "599cd03fa645d8b1"
 	group: "04704A4785A6D007"
 	icon: {
 		id: "minecraft:lectern"

@@ -2,7 +2,7 @@
 	autofocus_id: "117415EA3AEE8ABD"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "1148DF0D158A4899"
+	filename: "1148df0d158a4899"
 	group: "24E1E7D7A02B474F"
 	icon: {
 		id: "l2hostility:teleport"

@@ -2,7 +2,7 @@
 	autofocus_id: "3E617E68463DA6A9"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "619E8811D76BAD23"
+	filename: "619e8811d76bad23"
 	group: "04704A4785A6D007"
 	icon: {
 		id: "create:wrench"
@@ -187,10 +187,11 @@
 		}
 		{
 			id: "5F44C3FFC4D4C56C"
+			invisible: true
 			shape: "hexagon"
 			tasks: [{
 				id: "789F552D1B9779C6"
-				item: { count: 1, id: "immersive_aircraft:biplane" }
+				item: { components: { "ftbquests:missing_item": "immersive_aircraft:biplane" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -198,10 +199,11 @@
 		}
 		{
 			id: "29547282583155E8"
+			invisible: true
 			shape: "hexagon"
 			tasks: [{
 				id: "3E444B206FDC331B"
-				item: { count: 1, id: "immersive_aircraft:gyrodyne" }
+				item: { components: { "ftbquests:missing_item": "immersive_aircraft:gyrodyne" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -209,10 +211,11 @@
 		}
 		{
 			id: "12C3CCD8A7F30365"
+			invisible: true
 			shape: "hexagon"
 			tasks: [{
 				id: "621DF5D1DB762611"
-				item: { count: 1, id: "immersive_aircraft:quadrocopter" }
+				item: { components: { "ftbquests:missing_item": "immersive_aircraft:quadrocopter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.5d

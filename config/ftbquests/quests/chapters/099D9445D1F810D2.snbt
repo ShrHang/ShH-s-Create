@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "099D9445D1F810D2"
+	filename: "099d9445d1f810d2"
 	group: "04704A4785A6D007"
 	icon: {
 		id: "cataclysm:altar_of_abyss"

@@ -2,7 +2,7 @@
 	autofocus_id: "507FFB6534902FBA"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "51BA51265914BD32"
+	filename: "51ba51265914bd32"
 	group: "7437108D1F64EFF9"
 	icon: {
 		id: "create:brass_tunnel"
@@ -51,8 +51,8 @@
 		}
 		{
 			dependencies: [
-				"2F986DEEFC4055C5"
 				"5AA2C528EEFD3F6C"
+				"485B745B1C221307"
 			]
 			id: "7CE4FE7F4520A49B"
 			tasks: [{
@@ -131,16 +131,6 @@
 			y: 2.0d
 		}
 		{
-			id: "3507789B457DA0B1"
-			tasks: [{
-				id: "48B815C797C3AC08"
-				item: { count: 1, id: "createaddition:straw" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -2.5d
-		}
-		{
 			dependencies: ["6E1D4D2BDEF2A63C"]
 			id: "5AA2C528EEFD3F6C"
 			tasks: [{
@@ -184,17 +174,6 @@
 			}]
 			x: -3.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["485B745B1C221307"]
-			id: "2F986DEEFC4055C5"
-			tasks: [{
-				id: "3C11FB667497721D"
-				item: { count: 1, id: "create:brass_hand" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["507FFB6534902FBA"]

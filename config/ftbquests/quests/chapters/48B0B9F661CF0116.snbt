@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "48B0B9F661CF0116"
+	filename: "48b0b9f661cf0116"
 	group: "7437108D1F64EFF9"
 	icon: {
 		id: "create:item_vault"

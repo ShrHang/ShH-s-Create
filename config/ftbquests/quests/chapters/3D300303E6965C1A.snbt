@@ -2,7 +2,7 @@
 	autofocus_id: "02ED933D0A028B2D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "3D300303E6965C1A"
+	filename: "3d300303e6965c1a"
 	group: "24E1E7D7A02B474F"
 	icon: {
 		id: "l2archery:void_bow"

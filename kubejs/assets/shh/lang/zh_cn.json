@@ -1,8 +1,8 @@
 {
-    "block.create_enchantment_industry.super_experience_block": "超越经验块",
     "block.create_enchantment_industry.super_experience_block.tooltip.summary": "经验块在避雷针下方遭受雷击后转化。您可以对着_经验颗粒_思索查看详细信息。",
 
-    "block.l2hostility.miracle_block": "奇迹块",
+    "block.fluidlogistics.copper_basin.tooltip.summary": "容量更大的_工作盆_。",
+
     "block.l2hostility.miracle_block.tooltip.summary": "",
     "block.l2hostility.miracle_block.tooltip.condition1": "对女仆使用时",
     "block.l2hostility.miracle_block.tooltip.behaviour1": "§2根据其当前等级刷新词条。",
@@ -12,11 +12,21 @@
     "enchantment.shh.absurd": "荒诞",
     "enchantment.shh.unbreakable": "无法破坏",
 
-    "item.l2hostility.bottle_of_curse": "瓶装恶意",
+    "item.createdieselgenerators.wire_cutters": "剪线钳",
+    "item.createdieselgenerators.wire_cutters.tooltip.behaviour1": "裁剪_副手_上的物品",
+    "item.createdieselgenerators.wire_cutters.tooltip.action1": "移除悬空导线，或方块导线的所选片段",
+    "item.createdieselgenerators.wire_cutters.tooltip.action2": "移除整块导线",
+    "item.createdieselgenerators.wire_cutters.tooltip.condition1": "使用时",
+    "item.createdieselgenerators.wire_cutters.tooltip.control1": "鼠标右键单击导线时",
+    "item.createdieselgenerators.wire_cutters.tooltip.control2": "按住Shift并鼠标右键单击方块导线时",
+    "item.createdieselgenerators.wire_cutters.tooltip.summary": "可以用于_裁剪_物品。也可以当作_移除导线_的工具。",
+
+    "item.fluidlogistics.copper_bucket.tooltip.summary": "容量更大的_桶_，只能用于_注液_和_分液_。",
+
     "item.l2hostility.bottle_of_curse.tooltip.summary": "§5单次右键即饮用。",
     "item.l2hostility.bottle_of_curse.tooltip.condition1": "对女仆使用时",
     "item.l2hostility.bottle_of_curse.tooltip.behaviour1": "§5提升其恶意等级。",
-    "item.l2hostility.bottle_of_sanity": "恶意吸收药水",
+
     "item.l2hostility.bottle_of_sanity.tooltip.summary": "§e单次右键即饮用。",
     "item.l2hostility.bottle_of_sanity.tooltip.condition1": "对女仆使用时",
     "item.l2hostility.bottle_of_sanity.tooltip.behaviour1": "§e清空其恶意等级和词条。",
@@ -86,5 +96,7 @@
 
     "itemGroup.shh.shh_stuffs": "什物",
     
-    "text.shh.common.tooltip.ban": "§4已禁用"
+    "text.shh.common.tooltip.ban": "已禁用",
+    "text.shh.common.tooltip.press_key_to": "按下 [%s] 来 %s",
+    "text.shh.common.tooltip.youcanalso": "你也可以%s"
 }

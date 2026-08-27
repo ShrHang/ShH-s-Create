@@ -2,7 +2,7 @@
 	autofocus_id: "1C247CCE01C1BB0B"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "48BC07C8B5074FEB"
+	filename: "48bc07c8b5074feb"
 	group: "04704A4785A6D007"
 	icon: {
 		id: "minecraft:grass_block"
@@ -167,8 +167,24 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: false
+			disable_recipe_mod: true
 			disable_toast: true
 			id: "1C247CCE01C1BB0B"
+			rewards: [{
+				auto: "invisible"
+				disable_reward_screen_blur: true
+				exclude_from_claim_all: true
+				id: "7752916F100366D9"
+				ignore_reward_blocking: true
+				item: {
+					count: 1
+					id: "ftbquests:book"
+				}
+				only_one: true
+				team_reward: false
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 4.0d
 			tasks: [{
@@ -806,7 +822,7 @@
 			id: "58E7FFFDF8083FE3"
 			tasks: [{
 				id: "05D648650FD0EEA4"
-				item: { count: 1, id: "createaddition:diamond_grit" }
+				item: { components: { "ftbquests:missing_item": "createaddition:diamond_grit" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -818,7 +834,7 @@
 			id: "7DBD2286EF7A09D1"
 			tasks: [{
 				id: "45D9449092C05FC1"
-				item: { count: 1, id: "createaddition:diamond_grit_sandpaper" }
+				item: { components: { "ftbquests:missing_item": "createaddition:diamond_grit_sandpaper" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -912,17 +928,17 @@
 			tasks: [
 				{
 					id: "757DBAAE00981C45"
-					item: { count: 1, id: "immersive_aircraft:bamboo_hopper" }
+					item: { components: { "ftbquests:missing_item": "immersive_aircraft:bamboo_hopper" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "5D90BB5976B609E2"
-					item: { count: 1, id: "immersive_aircraft:biplane" }
+					item: { components: { "ftbquests:missing_item": "immersive_aircraft:biplane" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "65F24033789AF91C"
-					item: { count: 1, id: "immersive_aircraft:warship" }
+					item: { components: { "ftbquests:missing_item": "immersive_aircraft:warship" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -1155,12 +1171,12 @@
 			tasks: [
 				{
 					id: "79C6E296971A1691"
-					item: { count: 1, id: "createaddition:alternator" }
+					item: { components: { "ftbquests:missing_item": "createaddition:alternator" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "79C0DFA686BAD2CB"
-					item: { count: 1, id: "createaddition:electric_motor" }
+					item: { components: { "ftbquests:missing_item": "createaddition:electric_motor" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]

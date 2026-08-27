@@ -6,15 +6,15 @@ ServerEvents.recipes(event => {
         "A A",
         "BAB"
     ], {
-        A: "createaddition:electrum_wire",
-        B: "createaddition:electrum_nugget"
+        A: '#c:wires/gold',
+        B: '#c:nuggets/gold'
     })
     event.shaped("pandora:pandora_bracelet[pandora:backpack_content=[{item:{count:1,id:\"curseofpandora:curse_of_inertia\"},slot:0},{item:{count:1,id:\"curseofpandora:curse_of_proximity\"},slot:1},{item:{count:1,id:\"curseofpandora:curse_of_flesh\"},slot:2},{item:{count:1,id:\"curseofpandora:curse_of_metabolism\"},slot:3},{item:{count:1,id:\"curseofpandora:curse_of_tension\"},slot:4},{item:{count:1,id:\"curseofpandora:curse_of_prudence\"},slot:5},{item:{count:1,id:\"curseofpandora:curse_of_spell\"},slot:6}]]", [
         "ACA",
         "CBC",
         "ACA"
     ], {
-        A: "createaddition:electrum_nugget",
+        A: '#c:nuggets/gold',
         B: "curseofpandora:plain_charm",
         C: "minecraft:nether_star"
     })
@@ -25,15 +25,15 @@ ServerEvents.recipes(event => {
         "A A",
         "ABA"
     ], {
-        A: "createaddition:electrum_wire",
-        B: "createaddition:electrum_ingot"
+        A: '#c:wires/gold',
+        B: '#c:ingots/gold'
     })
     event.shaped("pandora:pandora_necklace[pandora:backpack_content=[{item:{count:1,id:\"curseofpandora:curse_of_inertia\"},slot:0},{item:{count:1,id:\"curseofpandora:curse_of_proximity\"},slot:1},{item:{count:1,id:\"curseofpandora:curse_of_flesh\"},slot:2},{item:{count:1,id:\"curseofpandora:curse_of_metabolism\"},slot:3},{item:{count:1,id:\"curseofpandora:curse_of_tension\"},slot:4},{item:{count:1,id:\"curseofpandora:curse_of_prudence\"},slot:5},{item:{count:1,id:\"curseofpandora:curse_of_spell\"},slot:6}]]", [
         "ACA",
         "CBC",
         "ACA"
     ], {
-        A: "createaddition:electrum_wire",
+        A: '#c:wires/gold',
         B: "curseofpandora:plain_charm",
         C: "minecraft:nether_star"
     })

@@ -1,6 +1,7 @@
 // requires: l2archery
 ServerEvents.recipes(event => {
     event.remove({ output: 'l2archery:void_arrow' })
+    event.remove({ output: 'l2archery:upgrade' })
     //#region upgrade recipes
     event.custom({
         type: "create:sequenced_assembly",
@@ -131,9 +132,9 @@ ServerEvents.recipes(event => {
         loops: 1,
         results: [{ components: { "l2archery:item_upgrade": "l2archery:flux_up" }, id: "l2archery:upgrade" }],
         sequence: [
-            { type: "create:deploying", ingredients: [{ item: "shh:incomplete_upgrade_flux_up" }, { item: "createaddition:capacitor" }], results: [{ id: "shh:incomplete_upgrade_flux_up" }] },
-            { type: "create:deploying", ingredients: [{ item: "shh:incomplete_upgrade_flux_up" }, { item: "createaddition:copper_wire" }], results: [{ id: "shh:incomplete_upgrade_flux_up" }] },
-            { type: "create:deploying", ingredients: [{ item: "shh:incomplete_upgrade_flux_up" }, { item: "createaddition:connector" }], results: [{ id: "shh:incomplete_upgrade_flux_up" }] }
+            { type: "create:deploying", ingredients: [{ item: "shh:incomplete_upgrade_flux_up" }, { item: "powergrid:capacitor" }], results: [{ id: "shh:incomplete_upgrade_flux_up" }] },
+            { type: "create:deploying", ingredients: [{ item: "shh:incomplete_upgrade_flux_up" }, { item: "powergrid:wire" }], results: [{ id: "shh:incomplete_upgrade_flux_up" }] },
+            { type: "create:deploying", ingredients: [{ item: "shh:incomplete_upgrade_flux_up" }, { item: "powergrid:device_connector" }], results: [{ id: "shh:incomplete_upgrade_flux_up" }] }
         ],
         transitional_item: { id: "shh:incomplete_upgrade_flux_up" }
     })

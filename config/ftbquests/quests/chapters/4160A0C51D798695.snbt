@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "4160A0C51D798695"
+	filename: "4160a0c51d798695"
 	group: "7437108D1F64EFF9"
 	icon: {
 		id: "create:mechanical_pump"
