@@ -171,20 +171,85 @@
 			disable_recipe_mod: true
 			disable_toast: true
 			id: "1C247CCE01C1BB0B"
-			rewards: [{
-				auto: "invisible"
-				disable_reward_screen_blur: true
-				exclude_from_claim_all: true
-				id: "7752916F100366D9"
-				ignore_reward_blocking: true
-				item: {
-					count: 1
-					id: "ftbquests:book"
+			rewards: [
+				{
+					auto: "invisible"
+					disable_reward_screen_blur: true
+					exclude_from_claim_all: true
+					id: "7752916F100366D9"
+					ignore_reward_blocking: true
+					item: {
+						count: 1
+						id: "ftbquests:book"
+					}
+					only_one: true
+					team_reward: false
+					type: "item"
 				}
-				only_one: true
-				team_reward: false
-				type: "item"
-			}]
+				{
+					auto: "invisible"
+					id: "5B6A0C75D8F8F061"
+					item: {
+						components: {
+							"pandora:backpack_content": [
+								{
+									item: {
+										count: 1
+										id: "curseofpandora:curse_of_inertia"
+									}
+									slot: 0
+								}
+								{
+									item: {
+										count: 1
+										id: "curseofpandora:curse_of_proximity"
+									}
+									slot: 1
+								}
+								{
+									item: {
+										count: 1
+										id: "curseofpandora:curse_of_flesh"
+									}
+									slot: 2
+								}
+								{
+									item: {
+										count: 1
+										id: "curseofpandora:curse_of_metabolism"
+									}
+									slot: 3
+								}
+								{
+									item: {
+										count: 1
+										id: "curseofpandora:curse_of_tension"
+									}
+									slot: 4
+								}
+								{
+									item: {
+										count: 1
+										id: "curseofpandora:curse_of_prudence"
+									}
+									slot: 5
+								}
+								{
+									item: {
+										count: 1
+										id: "curseofpandora:curse_of_spell"
+									}
+									slot: 6
+								}
+							]
+						}
+						count: 1
+						id: "pandora:pandora_bracelet"
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 4.0d
 			tasks: [{

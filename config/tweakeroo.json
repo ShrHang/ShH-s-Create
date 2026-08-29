@@ -1052,7 +1052,16 @@
       "keys": "F4"
     },
     "tweakGammaOverride": {
-      "keys": "I"
+      "keys": "I",
+      "settings": {
+        "activate_on": "RELEASE",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": true,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": false
+      }
     },
     "tweakHandRestock": {
       "keys": ""
