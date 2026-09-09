@@ -1,0 +1,9 @@
+{
+    "amount": 0.04,
+    "attribute": "l2damagetracker:magic_damage",
+    "containerItem": {
+        "count": 1,
+        "id": "curseofpandora:charm_of_magic"
+    },
+    "operation": "add_multiplied_base"
+}

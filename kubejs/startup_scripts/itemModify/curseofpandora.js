@@ -1,0 +1,1 @@
+ItemEvents.modification(event=>{["archery","armor","critical","damage","explosion","health","magic","protection","speed"].forEach(type=>{event.modify(`curseofpandora:charm_of_${type}`,item=>{item.set("irons_spellbooks:upgrade_orb_type",`curseofpandora:${type}`)})})});

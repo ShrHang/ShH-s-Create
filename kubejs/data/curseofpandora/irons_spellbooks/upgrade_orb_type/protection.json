@@ -1,0 +1,9 @@
+{
+    "amount": -0.03,
+    "attribute": "l2damagetracker:damage_reduction",
+    "containerItem": {
+        "count": 1,
+        "id": "curseofpandora:charm_of_protection"
+    },
+    "operation": "add_multiplied_total"
+}

@@ -130,8 +130,8 @@
 			dependencies: ["6D58C85868F94B41"]
 			id: "65C88319D391867F"
 			tasks: [{
-				id: "70860691C0F8D78F"
-				item: { components: { "ftbfiltersystem:filter": "item_tag(touhou_little_maid:maid_bauble)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "37B0A705A87CC13F"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(touhou_little_maid:maid_baubles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -0.5d

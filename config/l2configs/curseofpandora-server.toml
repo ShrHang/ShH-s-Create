@@ -9,13 +9,13 @@
 [attribute]
 	# Default: 2.0
 	# Range: 0.0 ~ 100.0
-	charmOfHealth = 5.0
+	charmOfHealth = 4.0
 	# Default: 2.0
 	# Range: 0.0 ~ 100.0
 	charmOfArmor = 6.0
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
-	charmOfArmorToughness = 2.0
+	charmOfArmorToughness = 3.0
 	# Default: 0.05
 	# Range: 0.0 ~ 10.0
 	charmOfSpeed = 0.05
@@ -27,7 +27,7 @@
 	charmOfCritical = 0.1
 	# Default: 0.05
 	# Range: 0.0 ~ 10.0
-	charmOfArchery = 0.05
+	charmOfArchery = 0.15
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
 	charmOfHeavyWeapon = 1.2
@@ -42,10 +42,10 @@
 	charmOfAccuracySlow = 0.5
 	# Default: 0.04
 	# Range: 0.0 ~ 1.0
-	charmOfProtection = 0.05
+	charmOfProtection = 0.03
 	# Default: 0.1
 	# Range: 0.0 ~ 10.0
-	charmOfMagic = 0.15
+	charmOfMagic = 0.04
 	# Default: 0.1
 	# Range: 0.0 ~ 10.0
 	charmOfExplosion = 0.15

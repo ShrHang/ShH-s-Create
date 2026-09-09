@@ -1,0 +1,9 @@
+{
+    "amount": 6.0,
+    "attribute": "minecraft:generic.armor",
+    "containerItem": {
+        "count": 1,
+        "id": "curseofpandora:charm_of_armor"
+    },
+    "operation": "add_value"
+}

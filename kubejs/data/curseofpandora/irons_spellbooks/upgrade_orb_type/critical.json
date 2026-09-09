@@ -1,0 +1,9 @@
+{
+    "amount": 0.1,
+    "attribute": "l2damagetracker:crit_damage",
+    "containerItem": {
+        "count": 1,
+        "id": "curseofpandora:charm_of_critical"
+    },
+    "operation": "add_multiplied_base"
+}

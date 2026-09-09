@@ -1,0 +1,9 @@
+{
+    "amount": 0.15,
+    "attribute": "l2damagetracker:bow_strength",
+    "containerItem": {
+        "count": 1,
+        "id": "curseofpandora:charm_of_archery"
+    },
+    "operation": "add_multiplied_base"
+}

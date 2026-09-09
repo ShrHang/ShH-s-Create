@@ -1,0 +1,1 @@
+{"list":[{"attackScale":1,"blacklist":["l2hostility:fiery","l2hostility:regenerate","l2hostility:undying"],"difficulty":{"apply_chance":1,"base":0,"min":0,"scale":0,"suppression":0,"trait_chance":1,"variation":1},"entities":"minecraft:phantom","healthScale":1,"items":[],"maxLevel":0,"maxTraitCount":-1,"minSpawnLevel":0,"specialConditions":[],"traits":[]}]}

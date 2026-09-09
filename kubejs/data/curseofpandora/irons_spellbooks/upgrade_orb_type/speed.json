@@ -1,0 +1,9 @@
+{
+    "amount": 0.05,
+    "attribute": "minecraft:generic.movement_speed",
+    "containerItem": {
+        "count": 1,
+        "id": "curseofpandora:charm_of_speed"
+    },
+    "operation": "add_multiplied_base"
+}

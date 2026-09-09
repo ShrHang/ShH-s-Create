@@ -1,0 +1,9 @@
+{
+    "amount": 0.05,
+    "attribute": "minecraft:generic.attack_damage",
+    "containerItem": {
+        "count": 1,
+        "id": "curseofpandora:charm_of_damage"
+    },
+    "operation": "add_multiplied_base"
+}
