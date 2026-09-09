@@ -20,5 +20,6 @@ glowingRangeHidden = 32
 # Default: 16
 # Range: 1 ~ 256
 glowingRangeNear = 16
-showUndyingParticles = true
+showUndyingParticles = false
 killerAuraSoundEffect = true
+editorSavePath = ""

@@ -1,23 +1,31 @@
 {
   "list": [
     {
-      "attackScale": 1.0,
-      "blacklist": ["l2hostility:killer_aura","l2hostility:ragnarok","l2hostility:grenade","l2hostility:shulker","l2hostility:reprint"],
+      "attackScale": 0.2,
+      "blacklist": [
+        "l2hostility:killer_aura",
+        "l2hostility:ragnarok",
+        "l2hostility:grenade",
+        "l2hostility:shulker",
+        "l2hostility:reprint",
+        "shhs_create_core:wizard"
+      ],
       "difficulty": {
-        "apply_chance": 1.0,
-        "base": 0,
         "min": 0,
+        "base": 0,
+        "variation": 0.0,
         "scale": 0.0,
-        "suppression": 0.0,
-        "trait_chance": 1.0,
-        "variation": 1.0
+        "apply_chance": 1.0,
+        "trait_chance": 0.1,
+        "suppression": 0.0
       },
       "entities": "touhou_little_maid:maid",
-      "healthScale": 1.0,
+      "healthScale": 0.5,
       "items": [],
       "maxLevel": 0,
-      "maxTraitCount": -1,
+      "maxTraitCount": 5,
       "minSpawnLevel": 0,
+      "presetTraitsOnly": false,
       "specialConditions": [],
       "traits": []
     }

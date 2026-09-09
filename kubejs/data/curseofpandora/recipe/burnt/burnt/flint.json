@@ -1,6 +1,6 @@
 {
   "type": "l2complements:burnt",
-  "chance": 1,
+  "chance": 10,
   "ingredient": {
     "item": "minecraft:flint"
   },

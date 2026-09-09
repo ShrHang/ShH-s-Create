@@ -62,6 +62,10 @@ ServerEvents.recipes(event => {
             results: [{ "id": "createaddition:cake_base" }]
         }).id("createaddition:compacting/cake_base");
     }
+    if (Platform.isLoaded("powergrid")) {
+        event.remove({ output: "powergrid:wire_cutter" });
+        event.shapeless('createdieselgenerators:wire_cutters', ['powergrid:wire_cutter']);
+    }
     //#endregion
 
     //#region Compacting
@@ -250,10 +254,6 @@ ServerEvents.recipes(event => {
         ingredients: [{ item: "minecraft:charcoal" }],
         results: [{ id: "minecraft:coal" }]
     });
-    //#endregion
-
-    //#region Deploying
-
     //#endregion
 
     //#region Item Application

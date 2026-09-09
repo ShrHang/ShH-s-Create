@@ -1,36 +1,26 @@
 {
-    "block.create_enchantment_industry.super_experience_block.tooltip.summary": "经验块在避雷针下方遭受雷击后转化。您可以对着_经验颗粒_思索查看详细信息。",
-
     "block.fluidlogistics.copper_basin.tooltip.summary": "容量更大的_工作盆_。",
-
-    "block.l2hostility.miracle_block.tooltip.summary": "",
-    "block.l2hostility.miracle_block.tooltip.condition1": "对女仆使用时",
     "block.l2hostility.miracle_block.tooltip.behaviour1": "§2根据其当前等级刷新词条。",
-
+    "block.l2hostility.miracle_block.tooltip.condition1": "对女仆使用时",
+    "block.l2hostility.miracle_block.tooltip.summary": "",
     "effect.shh.flight": "飞行",
-
     "enchantment.shh.absurd": "荒诞",
     "enchantment.shh.unbreakable": "无法破坏",
-
     "item.createdieselgenerators.wire_cutters": "剪线钳",
     "item.createdieselgenerators.wire_cutters.tooltip.behaviour1": "裁剪_副手_上的物品",
-    "item.createdieselgenerators.wire_cutters.tooltip.action1": "移除悬空导线，或方块导线的所选片段",
-    "item.createdieselgenerators.wire_cutters.tooltip.action2": "移除整块导线",
+    "item.createdieselgenerators.wire_cutters.tooltip.behaviour2": "移除_悬挂导线_或选定的一段_方块导线_",
+    "item.createdieselgenerators.wire_cutters.tooltip.behaviour3": "移除_整条_方块导线",
     "item.createdieselgenerators.wire_cutters.tooltip.condition1": "使用时",
-    "item.createdieselgenerators.wire_cutters.tooltip.control1": "鼠标右键单击导线时",
-    "item.createdieselgenerators.wire_cutters.tooltip.control2": "按住Shift并鼠标右键单击方块导线时",
+    "item.createdieselgenerators.wire_cutters.tooltip.condition2": "右击导线时",
+    "item.createdieselgenerators.wire_cutters.tooltip.condition3": "潜行右击方块导线时",
     "item.createdieselgenerators.wire_cutters.tooltip.summary": "可以用于_裁剪_物品。也可以当作_移除导线_的工具。",
-
     "item.fluidlogistics.copper_bucket.tooltip.summary": "容量更大的_桶_，只能用于_注液_和_分液_。",
-
-    "item.l2hostility.bottle_of_curse.tooltip.summary": "§5单次右键即饮用。",
-    "item.l2hostility.bottle_of_curse.tooltip.condition1": "对女仆使用时",
     "item.l2hostility.bottle_of_curse.tooltip.behaviour1": "§5提升其恶意等级。",
-
-    "item.l2hostility.bottle_of_sanity.tooltip.summary": "§e单次右键即饮用。",
-    "item.l2hostility.bottle_of_sanity.tooltip.condition1": "对女仆使用时",
+    "item.l2hostility.bottle_of_curse.tooltip.condition1": "对女仆使用时",
+    "item.l2hostility.bottle_of_curse.tooltip.summary": "§5单次右键即饮用。",
     "item.l2hostility.bottle_of_sanity.tooltip.behaviour1": "§e清空其恶意等级和词条。",
-
+    "item.l2hostility.bottle_of_sanity.tooltip.condition1": "对女仆使用时",
+    "item.l2hostility.bottle_of_sanity.tooltip.summary": "§e单次右键即饮用。",
     "item.minecraft.lingering_potion.effect.flight_potion": "滞留型飞行药水",
     "item.minecraft.lingering_potion.effect.long_flight_potion": "滞留型飞行药水",
     "item.minecraft.potion.effect.flight_potion": "飞行药水",
@@ -39,16 +29,12 @@
     "item.minecraft.splash_potion.effect.long_flight_potion": "喷溅型飞行药水",
     "item.minecraft.tipped_arrow.effect.flight_potion": "飞行之箭",
     "item.minecraft.tipped_arrow.effect.long_flight_potion": "飞行之箭",
-
     "item.shh.chimings_sword": "砺剑子剑",
     "item.shh.chimings_sword.tooltip.summary": "流淌着冰与火的力量。",
-
     "item.shh.etihw": "Etihw",
     "item.shh.etihw.tooltip.summary": "感谢您游玩_ShrHang的机械动力_！",
-
     "item.shh.hulibugulv": "全糖顾虑",
     "item.shh.hulibugulv.tooltip.summary": "吃完不打胰岛素就是死路一条。",
-
     "item.shh.incomplete_upgrade_advanced_infinity": "高级无限§7（半成品）",
     "item.shh.incomplete_upgrade_anti_gravity": "无重力§7（半成品）",
     "item.shh.incomplete_upgrade_blackstone": "禁锢§7（半成品）",
@@ -79,24 +65,21 @@
     "item.shh.incomplete_upgrade_void": "虚空§7（半成品）",
     "item.shh.incomplete_upgrade_weak": "虚弱§7（半成品）",
     "item.shh.incomplete_upgrade_wither": "凋零§7（半成品）",
-
     "item.shh.maid_tool": "女仆手杖",
-    "item.shh.maid_tool.tooltip.summary": "一个管理女仆的工具。",
-    "item.shh.maid_tool.tooltip.condition1": "使用时",
     "item.shh.maid_tool.tooltip.behaviour1": "_移除/恢复_女仆的AI",
-    "item.shh.maid_tool.tooltip.condition2": "潜行使用时",
     "item.shh.maid_tool.tooltip.behaviour2": "打开女仆的_Curios_饰品栏",
-
+    "item.shh.maid_tool.tooltip.condition1": "使用时",
+    "item.shh.maid_tool.tooltip.condition2": "潜行使用时",
+    "item.shh.maid_tool.tooltip.summary": "一个管理女仆的工具。",
     "item.shh.reality_index_upgrade_orb": "现实指数升级法球",
-
-    "item.shh.unbreakable":"无法破坏",
-    "item.shh.unbreakable.tooltip.summary":"无法合成",
-    "item.shh.unbreakable.tooltip.condition1":"使用时",
-    "item.shh.unbreakable.tooltip.behaviour1":"让位于另一只手的物品获得_无法破坏_效果。",
-
+    "item.shh.unbreakable": "无法破坏",
+    "item.shh.unbreakable.tooltip.behaviour1": "让位于另一只手的物品获得_无法破坏_效果。",
+    "item.shh.unbreakable.tooltip.condition1": "使用时",
+    "item.shh.unbreakable.tooltip.summary": "无法合成",
     "itemGroup.shh.shh_stuffs": "什物",
-    
+    "text.shh.miracle_powder.tooltip.pom": "奇迹发生的概率是 0.0823",
     "text.shh.common.tooltip.ban": "已禁用",
+    "text.shh.common.tooltip.fluidmetfluid": "由流动的%s遇到流动的%s产生。",
     "text.shh.common.tooltip.press_key_to": "按下 [%s] 来 %s",
     "text.shh.common.tooltip.youcanalso": "你也可以"
 }

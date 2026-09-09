@@ -75,6 +75,9 @@
   "ftbquests": {
     "barrier": true
   },
+  "fluidlogistics": {
+    "blaze_cooler_icon": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,

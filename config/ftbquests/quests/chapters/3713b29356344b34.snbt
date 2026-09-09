@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3713b29356344b34"
+	group: "04704A4785A6D007"
+	id: "3713B29356344B34"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "45F1D4AA70F4A25B"
+			tasks: [{
+				id: "75A081CA467B13F0"
+				item: { count: 1, id: "minecraft:netherite_helmet" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "78CE7C26472EB871"
+			tasks: [{
+				id: "3D932FEE9E93B2E7"
+				item: { count: 1, id: "minecraft:netherite_chestplate" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "784B7D7A8E52FAE9"
+			tasks: [{
+				id: "390CDE0E727ED8E8"
+				item: { count: 1, id: "minecraft:netherite_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "48D32E86BBB8C33D"
+			tasks: [{
+				id: "0257DF20F5AF892E"
+				item: { count: 1, id: "minecraft:netherite_boots" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "4FF5D90E0B0147EE"
+			tasks: [{
+				id: "5A7EB283340EB23D"
+				item: { count: 1, id: "minecraft:diamond_helmet" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "50B9B79CAC23EE33"
+			tasks: [{
+				id: "487B522700B96566"
+				item: { count: 1, id: "minecraft:diamond_chestplate" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "6A6F9BDE9DE175A2"
+			tasks: [{
+				id: "0FB3A89B074F7B19"
+				item: { count: 1, id: "minecraft:diamond_leggings" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "547F1445BB21BB0E"
+			tasks: [{
+				id: "2955EABFB234AFEE"
+				item: { count: 1, id: "minecraft:diamond_boots" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+	]
+}

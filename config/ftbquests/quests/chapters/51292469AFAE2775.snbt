@@ -73,7 +73,7 @@
 			y: 0.5d
 		}
 	]
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -135,6 +135,7 @@
 			y: -3.0d
 		}
 		{
+			disable_toast: true
 			id: "33E62BE9423ADFE5"
 			shape: "gear"
 			tasks: [{

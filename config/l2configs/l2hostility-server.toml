@@ -5,7 +5,7 @@ enableEquipmentDatapack = true
 [scaling]
 	# Default: 0.03
 	# Range: 0.0 ~ 1000.0
-	healthFactor = 0.01
+	healthFactor = 0.00823
 	exponentialHealth = false
 	# Default: 0.02
 	# Range: 0.0 ~ 1000.0
@@ -36,7 +36,7 @@ enableEquipmentDatapack = true
 	# Range: 0.0 ~ 1.0
 	globalTraitSuppression = 0.1
 	allowLegendary = true
-	allowSectionDifficulty = false
+	allowSectionDifficulty = true
 	allowBypassMinimum = true
 	allowExtraEnchantments = true
 	# Default: 20
@@ -82,13 +82,13 @@ enableEquipmentDatapack = true
 	killsPerLevel = 10
 	# Default: 0.8
 	# Range: 0.0 ~ 2.0
-	playerDeathDecay = 0.9
+	playerDeathDecay = 0.65
 	keepInventoryRuleKeepDifficulty = false
-	deathDecayDimension = true
+	deathDecayDimension = false
 	deathDecayTraitCap = true
 	# Default: 48
 	# Range: 0 ~ 128
-	newPlayerProtectRange = 128
+	newPlayerProtectRange = 16
 
 [orb_and_spawner]
 	allowHostilityOrb = true
@@ -100,10 +100,10 @@ enableEquipmentDatapack = true
 	allowHostilitySpawner = true
 	# Default: 16
 	# Range: 1 ~ 64
-	hostilitySpawnCount = 16
+	hostilitySpawnCount = 23
 	# Default: 2
 	# Range: 1 ~ 10000
-	hostilitySpawnLevelFactor = 2
+	hostilitySpawnLevelFactor = 3
 
 [items]
 	banBottles = false
@@ -116,22 +116,22 @@ enableEquipmentDatapack = true
 	witchChargeMinDuration = 200
 	# Default: 0.9
 	# Range: 0.0 ~ 1.0
-	ringOfLifeMaxDamage = 0.15
+	ringOfLifeMaxDamage = 0.7
 	# Default: 100
 	# Range: 1 ~ 10000
 	flameThornTime = 100
 	# Default: 16
 	# Range: 1 ~ 256
-	ringOfReflectionRadius = 32
+	ringOfReflectionRadius = 16
 	# Default: 4
 	# Range: 1 ~ 100
 	witchWandFactor = 5
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
-	ringOfCorrosionFactor = 0.5
+	ringOfCorrosionFactor = 0.35
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	ringOfCorrosionPenalty = 0.0
+	ringOfCorrosionPenalty = 0.35
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
 	ringOfHealingRate = 0.08
@@ -155,13 +155,13 @@ enableEquipmentDatapack = true
 	envyDropRate = 0.1
 	# Default: 0.02
 	# Range: 0.0 ~ 1.0
-	gluttonyBottleDropRate = 0.1
+	gluttonyBottleDropRate = 0.008
 	# Default: 0.02
 	# Range: 0.0 ~ 1.0
-	wrathDamageBonus = 0.15
+	wrathDamageBonus = 0.1
 	# Default: 0.005
 	# Range: 0.0 ~ 1.0
-	prideDamageBonus = 0.001
+	prideDamageBonus = 0.005
 	# Default: 0.005
 	# Range: 0.0 ~ 1.0
 	prideHealthBonus = 0.005
@@ -176,12 +176,12 @@ enableEquipmentDatapack = true
 	nidhoggurExtraLevel = 100
 	# Default: 0.005
 	# Range: 0.0 ~ 10.0
-	nidhoggurDropFactor = 0.05
+	nidhoggurDropFactor = 0.02
 	nidhoggurCapAtItemMaxStack = true
 	bookOfReprintSpread = true
 	# Default: 0.8
 	# Range: 0.0 ~ 1.0
-	insulatorFactor = 0.9
+	insulatorFactor = 0.95
 
 [performance]
 	enableCurioCheckFilter = true

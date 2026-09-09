@@ -163,7 +163,7 @@
 			y: 2.0d
 		}
 	]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -171,85 +171,20 @@
 			disable_recipe_mod: true
 			disable_toast: true
 			id: "1C247CCE01C1BB0B"
-			rewards: [
-				{
-					auto: "invisible"
-					disable_reward_screen_blur: true
-					exclude_from_claim_all: true
-					id: "7752916F100366D9"
-					ignore_reward_blocking: true
-					item: {
-						count: 1
-						id: "ftbquests:book"
-					}
-					only_one: true
-					team_reward: false
-					type: "item"
+			rewards: [{
+				auto: "invisible"
+				disable_reward_screen_blur: true
+				exclude_from_claim_all: true
+				id: "7752916F100366D9"
+				ignore_reward_blocking: true
+				item: {
+					count: 1
+					id: "ftbquests:book"
 				}
-				{
-					auto: "invisible"
-					id: "5B6A0C75D8F8F061"
-					item: {
-						components: {
-							"pandora:backpack_content": [
-								{
-									item: {
-										count: 1
-										id: "curseofpandora:curse_of_inertia"
-									}
-									slot: 0
-								}
-								{
-									item: {
-										count: 1
-										id: "curseofpandora:curse_of_proximity"
-									}
-									slot: 1
-								}
-								{
-									item: {
-										count: 1
-										id: "curseofpandora:curse_of_flesh"
-									}
-									slot: 2
-								}
-								{
-									item: {
-										count: 1
-										id: "curseofpandora:curse_of_metabolism"
-									}
-									slot: 3
-								}
-								{
-									item: {
-										count: 1
-										id: "curseofpandora:curse_of_tension"
-									}
-									slot: 4
-								}
-								{
-									item: {
-										count: 1
-										id: "curseofpandora:curse_of_prudence"
-									}
-									slot: 5
-								}
-								{
-									item: {
-										count: 1
-										id: "curseofpandora:curse_of_spell"
-									}
-									slot: 6
-								}
-							]
-						}
-						count: 1
-						id: "pandora:pandora_bracelet"
-					}
-					team_reward: false
-					type: "item"
-				}
-			]
+				only_one: true
+				team_reward: false
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 4.0d
 			tasks: [{
@@ -986,31 +921,6 @@
 			y: -17.5d
 		}
 		{
-			dependencies: ["1D5CD2D9BF4A5898"]
-			id: "392DC7FA0F58FD3B"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [
-				{
-					id: "757DBAAE00981C45"
-					item: { components: { "ftbquests:missing_item": "immersive_aircraft:bamboo_hopper" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "5D90BB5976B609E2"
-					item: { components: { "ftbquests:missing_item": "immersive_aircraft:biplane" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "65F24033789AF91C"
-					item: { components: { "ftbquests:missing_item": "immersive_aircraft:warship" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: -12.0d
-		}
-		{
 			dependencies: ["0CF370FA3A8E60A5"]
 			id: "033E5E0625E1EE00"
 			size: 1.0d
@@ -1227,26 +1137,6 @@
 			}]
 			x: 2.0d
 			y: -19.499999999999986d
-		}
-		{
-			dependencies: ["1D5CD2D9BF4A5898"]
-			id: "44B65A038A221311"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [
-				{
-					id: "79C6E296971A1691"
-					item: { components: { "ftbquests:missing_item": "createaddition:alternator" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "79C0DFA686BAD2CB"
-					item: { components: { "ftbquests:missing_item": "createaddition:electric_motor" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: -10.0d
 		}
 	]
 }

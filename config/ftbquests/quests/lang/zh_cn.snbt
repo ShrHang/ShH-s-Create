@@ -3,6 +3,7 @@
 	chapter.0CC74F672FCF93FE.title: "最远的捷径"
 	chapter.1148DF0D158A4899.title: "恶意"
 	chapter.254BB498583A6B5B.title: "烹饪"
+	chapter.3713B29356344B34.title: "装备列表"
 	chapter.3D300303E6965C1A.title: "弓艺"
 	chapter.40437B4F8E0FBBDF.title: "扩充"
 	chapter.4160A0C51D798695.title: "流体工业"
@@ -12,9 +13,9 @@
 	chapter.51BA51265914BD32.title: "黄铜时代"
 	chapter.599CD03FA645D8B1.title: "游玩须知"
 	chapter.619E8811D76BAD23.title: "实用工具"
-	chapter.7019FF67B23F2DD8.title: "Phase1 机械动力"
 	chapter.7097F4A4201A50E6.title: "来乘坐列车吧！"
-	chapter.716E6AF19349BAC7.title: "main"
+	chapter.70A81A152D151869.title: "应力充盈"
+	chapter.716E6AF19349BAC7.title: "Phase 1 机械动力"
 	chapter.733710CB459E6FC3.title: "女仆"
 	chapter_group.04704A4785A6D007.title: "开始"
 	chapter_group.04ABB4452F0A1E9A.title: "Iron的魔法书"
@@ -870,7 +871,6 @@
 		"&c奇异饰品的&6解毒容器&c无效。"
 	]
 	quest.382FA06FAA6DA1B4.quest_subtitle: "像是一脚踩进了细雪。"
-	quest.392DC7FA0F58FD3B.title: "飞机！"
 	quest.3A0FAF6E5C002586.quest_subtitle: "可以挂载两个工具的架子"
 	quest.3A19D3B1A7C76533.quest_desc: [
 		"&e蒸汽引擎&a用来构建&e锅炉&a。建议到&6黄铜时代&a再来使用这个&6超强动力源&a！"
@@ -1065,7 +1065,6 @@
 		"&a和&c诸神黄昏&a搭配时近战威胁显著上升。"
 	]
 	quest.448FD101F7DE41CE.quest_subtitle: "杀~戮~光~环~！"
-	quest.44B65A038A221311.title: "机电动力"
 	quest.44CCF84445AFC4A2.quest_desc: [
 		"&a机械动力中的高级材料之一，经由&6序列装配&a合成而来。"
 		""
