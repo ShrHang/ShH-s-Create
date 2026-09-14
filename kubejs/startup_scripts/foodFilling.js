@@ -19,7 +19,7 @@ newComp=comp.copy().get("minecraft:potion_contents");comp.get("minecraft:potion_
 });let length=seen.size;potionComp.allEffects.forEach(effect=>{if(compare(seen,effect))return;// 已经有这个效果就跳过
 newComp=newComp.withEffectAdded(effect);// 添加新的效果
 });if(seen.size==length)return 0;// 没有添加新的效果，就不执行
-}else{newComp=new PotionContents("minecraft:mundane");potionComp.allEffects.forEach(effect=>{if(compare(seen,effect))return;// 已经有这个效果就跳过
+}else{newComp=new $PotionContents("minecraft:mundane");potionComp.allEffects.forEach(effect=>{if(compare(seen,effect))return;// 已经有这个效果就跳过
 newComp=newComp.withEffectAdded(effect);// 添加新的效果
 });if(seen.size==0)return 0;// 没有添加新的效果，就不执行
 }

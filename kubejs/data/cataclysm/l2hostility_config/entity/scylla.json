@@ -1,7 +1,7 @@
 {
   "list": [
-    {
-      "asMaster": {
+        {
+                "asMaster": {
         "maxTotalCount": 5,
         "minions": [
           {
@@ -47,20 +47,19 @@
         "spawnInterval": 80
       },
       "attackScale": 0.8,
-      "blacklist": ["l2hostility:undying"],
+      "blacklist": [],
       "difficulty": {
         "apply_chance": 1.0,
         "base": 0,
-        "min": 80,
+        "min": 40,
         "scale": 0.0,
         "suppression": 0.0,
         "trait_chance": 1.0,
         "variation": 0.0
       },
       "entities": "cataclysm:scylla",
-      "healthScale": 1,
-      "items": [
-        {
+      "healthScale": 0.8,
+      "items": [{
           "chance": 1.0,
           "entries": [
             {
@@ -81,30 +80,7 @@
           ],
           "level": 600,
           "slot": "equipment/mainhand"
-        },
-        {
-          "chance": 1.0,
-          "entries": [
-            {
-              "stack": {
-                "components": {
-                  "minecraft:enchantments": {
-                    "levels": {
-                      "l2hostility:vanish": 1,
-                      "minecraft:binding_curse": 1
-                    }
-                  }
-                },
-                "count": 1,
-                "id": "l2hostility:ring_of_divinity"
-              },
-              "weight": 100
-            }
-          ],
-          "level": 600,
-          "slot": "curios/ring"
-        }
-      ],
+        }],
       "maxLevel": 0,
       "maxTraitCount": -1,
       "minSpawnLevel": 0,

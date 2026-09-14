@@ -1,0 +1,2 @@
+/**@description 将玩家头颅转换为指定玩家的头颅 */
+NativeEvents.onEvent($AnvilUpdateEvent,event=>{let left=event.getLeft();let name=event.getName();if(left.getId()!=="minecraft:player_head"||!event.getRight().isEmpty()||name==null)return;let match=/^@([A-Za-z0-9_]{1,16})$/.exec(name);if(match==null)return;let output=left.copy();output.setProfile(match[1],null);output.setCustomName(null);event.setCost(Math.max(1,Number(event.getCost())+1));event.setOutput(output)});

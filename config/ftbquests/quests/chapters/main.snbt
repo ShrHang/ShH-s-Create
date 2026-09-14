@@ -163,10 +163,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"47A52DED089C4B9B"
-				"47944592BB1511C1"
-			]
+			dependencies: ["47A52DED089C4B9B"]
 			id: "367E3C73124CD4C7"
 			tasks: [{
 				id: "4B3048B14A939247"
@@ -281,18 +278,6 @@
 			}]
 			x: 17.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["657E8BA12DD8263C"]
-			hide_dependency_lines: true
-			id: "47944592BB1511C1"
-			tasks: [{
-				id: "20DEF6EF6A8F3EB7"
-				item: { count: 1, id: "create:polished_rose_quartz" }
-				type: "item"
-			}]
-			x: 12.0d
-			y: 4.5d
 		}
 		{
 			dependencies: ["102FADD0F8A39ACF"]

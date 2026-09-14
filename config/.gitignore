@@ -11,7 +11,7 @@
 !/ModernUI/
 !/xaero/
 
-
+!/better-advanced-tooltips-client.toml
 !/cataclysm-common.toml
 !/create-server.toml
 !/createdieselgenerators-server.toml
@@ -26,6 +26,7 @@
 !/kaleidoscope_cookery-common.toml
 !/quark-common.toml
 !/sodium-options.json
+!/structurify.json
 !/tectonic.json
 !/touhou_little_maid-common.toml
 !/tweakeroo.json

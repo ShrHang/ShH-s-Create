@@ -14,9 +14,9 @@
  *  registerSequencedAssemblyItem(event, "shh:example_assembly_item");
  * });
  * ```
- * @see {@link SequencedAssemblyItem} 以了解该物品的特殊属性和行为
+ * @see {@link $SequencedAssemblyItem} 以了解该物品的特殊属性和行为
  */
-function createSequencedAssemblyItem(event,itemId){event.createCustom(itemId,()=>new SequencedAssemblyItem((new ItemProperties).stacksTo(1)))}
+function createSequencedAssemblyItem(event,itemId){event.createCustom(itemId,()=>new $SequencedAssemblyItem((new $ItemProperties).stacksTo(1)))}
 /**
  * @typedef {Object} AttributeModifier
  * @property {DeferredHolder<Attribute, Attribute>} attribute           - 属性，需要使用Java导入的属性类
@@ -27,8 +27,8 @@ function createSequencedAssemblyItem(event,itemId){event.createCustom(itemId,()=
 /**
  * @summary 构建属性容器列表，自动处理条件
  * @param {Array<AttributeModifier>} attributeModifiers - 属性修饰器条目数组 {@link AttributeModifier}
- * @returns {Array<AttributeContainer>} 返回 {@link AttributeContainer} 数组
- */function buildAttributeContainers(attributeModifiers){let containers=attributeModifiers.map(entry=>{if(!(entry&&typeof entry==="object"))return null;if(!entry.attribute||!entry.amount)return null;if(Object.prototype.hasOwnProperty.call(entry,"condition")){let cond=false;if(typeof entry.condition==="function"){try{cond=!!entry.condition()}catch(e){console.error(e);cond=false}}else{cond=!!entry.condition}if(!cond)return null}return new AttributeContainer(entry.attribute,entry.amount,entry.operation||0)}).filter(v=>!!v);// 过滤掉 null 值
+ * @returns {Array<AttributeContainer>} 返回 {@link $AttributeContainer} 数组
+ */function buildAttributeContainers(attributeModifiers){let containers=attributeModifiers.map(entry=>{if(!(entry&&typeof entry==="object"))return null;if(!entry.attribute||!entry.amount)return null;if(Object.prototype.hasOwnProperty.call(entry,"condition")){let cond=false;if(typeof entry.condition==="function"){try{cond=!!entry.condition()}catch(e){console.error(e);cond=false}}else{cond=!!entry.condition}if(!cond)return null}return new $AttributeContainer(entry.attribute,entry.amount,entry.operation||0)}).filter(v=>!!v);// 过滤掉 null 值
 return containers}
 /**
  * @typedef {Object} AttributesList
@@ -40,14 +40,14 @@ return containers}
  * @param {import("moe.wolfgirl.probejs.generated.registry.minecraft.Item").$Item} event - 注册事件
  * @param {string} itemId - 物品ID
  * @param {AttributesList} [attributesList] - 可选的属性列表项目{@link AttributesList}，如果提供，将为该物品添加属性修饰器
- */function createCuriosItem(event,itemId,attributesList){event.createCustom(itemId,()=>{let item=new $CurioBaseItem((new ItemProperties).stacksTo(1));if(attributesList.slotName&&attributesList.modifiers&&Array.isArray(attributesList.modifiers)){let containers=buildAttributeContainers(attributesList.modifiers);item=item.withAttributes(attributesList.slotName,containers)}return item})}
+ */function createCuriosItem(event,itemId,attributesList){event.createCustom(itemId,()=>{let item=new $CurioBaseItem((new $ItemProperties).stacksTo(1));if(attributesList.slotName&&attributesList.modifiers&&Array.isArray(attributesList.modifiers)){let containers=buildAttributeContainers(attributesList.modifiers);item=item.withAttributes(attributesList.slotName,containers)}return item})}
 /**
  * @summary 注册一个法术书物品
  * @param {import("moe.wolfgirl.probejs.generated.registry.minecraft.Item").$Item} event - 注册事件
  * @param {string} itemId - 物品ID
  * @param {number} spellSize - 法术书的法术槽数量
  * @param {Array<AttributeModifier>} [attributeModifiers] - 可选的属性修饰符数组，应用于 "spell_book" 插槽
- */function createSpellBook(event,itemId,spellSize,attributeModifiers){event.createCustom(itemId,()=>{let item=new $SpellBook(spellSize,(new ItemProperties).stacksTo(1).rarity("uncommon"));if(attributeModifiers&&Array.isArray(attributeModifiers)){let containers=buildAttributeContainers(attributeModifiers);item=item.withAttributes("spellbook",containers)}return item})}
+ */function createSpellBook(event,itemId,spellSize,attributeModifiers){event.createCustom(itemId,()=>{let item=new $SpellBook(spellSize,(new $ItemProperties).stacksTo(1).rarity("uncommon"));if(attributeModifiers&&Array.isArray(attributeModifiers)){let containers=buildAttributeContainers(attributeModifiers);item=item.withAttributes("spellbook",containers)}return item})}
 //#endregion
 //#region 属性修改
 /**

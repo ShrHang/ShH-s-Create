@@ -41,7 +41,7 @@
     // Horizontally scales the ridge noise, primarily impacting rivers and terrain around them like plateaus. Lower values = wider rivers and terrain between them.
     "ridge_scale": 0.2,
     // Underground rivers under snowy biomes will generate with ice.
-    "river_ice": false,
+    "river_ice": true,
     // Underground rivers will rarely generate with hanging lanterns.
     "river_lanterns": true,
     // Some Plains biomes generate very smooth, hilly terrain.
@@ -51,7 +51,8 @@
   },
   "experimental": {
     "alternate_continents_scaling": false,
-    "alternate_erosion_scaling": false
+    "alternate_erosion_scaling": false,
+    "improved_jungle_pillars": false
   },
   "general": {
     // When disabled, the mod lays dormant and does nothing. Game restart required!

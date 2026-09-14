@@ -40,4 +40,7 @@ event.modify("irons_spellbooks:speed_boots",item=>{addAttModifiers(item,[{attrib
 // 金皇冠
 event.modify("irons_spellbooks:gold_crown",item=>{addAttModifiers(item,[{attribute:"irons_spellbooks:spell_power",operation:1,amount:.5,id:"shh_spell_power:head",slot:"head"},{attribute:"curseofpandora:spell_tolerance",amount:20,id:"shh_spell_tolerance:head",slot:"head",condition:Platform.isLoaded("curseofpandora")},{attribute:"l2damagetracker:magic_damage",amount:.25,id:"shh_l2_magic_damage:head",slot:"head",condition:Platform.isLoaded("l2damagetracker")}])});
 //#endregion
+//#region 法术书
+event.modify("irons_spellbooks:gold_spell_book",item=>{});
+//#endregion
 });
