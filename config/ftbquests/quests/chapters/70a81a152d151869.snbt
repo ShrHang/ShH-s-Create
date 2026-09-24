@@ -1,20 +1,166 @@
 {
+	autofocus_id: "030C4EDE543F60F4"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "square"
 	filename: "70a81a152d151869"
 	group: "7437108D1F64EFF9"
+	icon: {
+		id: "createdieselgenerators:huge_diesel_engine"
+	}
 	id: "70A81A152D151869"
 	images: [ ]
 	order_index: 1
-	quest_links: [ ]
-	quests: [{
-		id: "030C4EDE543F60F4"
-		invisible: true
-		tasks: [{
-			id: "1C7AA5CE52B8E927"
-			type: "checkmark"
-		}]
-		x: 0.0d
+	quest_links: [{
+		id: "2E54BD6E5B90906D"
+		linked_quest: "27F3E9E03417A028"
+		x: 3.0d
 		y: 0.0d
 	}]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			id: "030C4EDE543F60F4"
+			tasks: [{
+				id: "1C7AA5CE52B8E927"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"030C4EDE543F60F4"
+				"507FFB6534902FBA"
+			]
+			id: "6B3D2FD776C169CB"
+			tasks: [{
+				id: "7768D59059E80155"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(shh:diesel_engine)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["030C4EDE543F60F4"]
+			id: "2ABA14C1754D2A1A"
+			tasks: [{
+				id: "7D93FB26CBA3B291"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(shh:generator_components)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["030C4EDE543F60F4"]
+			id: "3ED1C43611FF7D59"
+			tasks: [{
+				id: "7556B2181408F152"
+				item: { count: 1, id: "createtreadmill:treadmill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0077256FCDEBB714"]
+			id: "4626FD0AA419FABC"
+			tasks: [
+				{
+					id: "047DC527EC8DCA58"
+					item: { count: 1, id: "createdieselgenerators:diesel_bucket" }
+					type: "item"
+				}
+				{
+					id: "7DD3CDF27771DB75"
+					item: { count: 1, id: "createdieselgenerators:gasoline_bucket" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"085C20CBC1EDCE7B"
+				"0B1E47F10A1E2D76"
+			]
+			id: "22C8CFC6602F4CC2"
+			tasks: [{
+				id: "3116F52A33323BDE"
+				item: { count: 1, id: "createdieselgenerators:biodiesel_bucket" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B3D2FD776C169CB"]
+			id: "085C20CBC1EDCE7B"
+			tasks: [{
+				id: "3FF910793DE46C91"
+				item: { count: 1, id: "createdieselgenerators:plant_oil_bucket" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B3D2FD776C169CB"]
+			id: "0077256FCDEBB714"
+			tasks: [
+				{
+					id: "3C27CEFD950BC60D"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "332F546231B3198D"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_head" }
+					type: "item"
+				}
+				{
+					id: "4BC04854268FB030"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16930F1438162DCB"]
+			id: "0B1E47F10A1E2D76"
+			tasks: [{
+				id: "0F0142F11708BEB5"
+				item: { count: 1, id: "createdieselgenerators:ethanol_bucket" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B3D2FD776C169CB"]
+			id: "16930F1438162DCB"
+			tasks: [{
+				id: "249AFD13D85CC01E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(createdieselgenerators:basin_lid)item(createdieselgenerators:bulk_fermenter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ED1C43611FF7D59"]
+			id: "5DE2F4A0E0FA4084"
+			tasks: [{
+				id: "6A7B998FD0BF3071"
+				item: { count: 1, id: "createtreadmill:maid_motor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+	]
 }

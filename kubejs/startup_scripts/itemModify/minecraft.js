@@ -5,9 +5,9 @@ event.modify("minecraft:shield",item=>{addAttModifiers(item,[{attribute:"minecra
 event.modify(["minecraft:wooden_sword","minecraft:stone_sword","minecraft:golden_sword","minecraft:iron_sword","minecraft:diamond_sword","minecraft:netherite_sword","minecraft:wooden_axe","minecraft:stone_axe","minecraft:golden_axe","minecraft:iron_axe","minecraft:diamond_axe","minecraft:netherite_axe"],item=>{addAttModifiers(item,[{attribute:"minecraft:generic.attack_damage",amount:6,id:"shh_attack_damage:mainhand",slot:"mainhand"}])});
 //#region 三叉戟&重锤
 // 三叉戟
-event.modify("minecraft:trident",item=>{addAttModifiers(item,[{attribute:"minecraft:generic.attack_damage",amount:6,id:"shh_attack_damage:mainhand",slot:"mainhand"},{attribute:"neoforge:swim_speed",amount:.15,id:"shh_swim_speed:any"}])});
+event.modify("minecraft:trident",item=>{addAttModifiers(item,[{attribute:"minecraft:generic.attack_damage",amount:6,id:"shh_attack_damage:mainhand",slot:"mainhand"},{attribute:"minecraft:player.entity_interaction_range",amount:1,id:"shh_entity_interaction:mainhand",slot:"mainhand"},{attribute:"neoforge:swim_speed",amount:.15,id:"shh_swim_speed:any"}])});
 // 重锤
-event.modify("minecraft:mace",item=>{addAttModifiers(item,[{attribute:"minecraft:generic.attack_damage",amount:7,id:"shh_attack_damage:mainhand",slot:"mainhand"},{attribute:"minecraft:generic.knockback_resistance",amount:.15,id:"shh_knockback_resistance:any"}])});
+event.modify("minecraft:mace",item=>{addAttModifiers(item,[{attribute:"minecraft:generic.attack_damage",amount:12,id:"shh_attack_damage:mainhand",slot:"mainhand"},{attribute:"minecraft:generic.knockback_resistance",amount:.15,id:"shh_knockback_resistance:any"}])});
 //#endregion
 // 基础护甲套装（皮革/锁链/铁/金）
 [{material:"leather",armor:4},{material:"chainmail",armor:4},{material:"iron",armor:5},{material:"golden",armor:4}].forEach(ma=>{pieceSlot.forEach(ps=>{event.modify(`minecraft:${ma.material}_${ps.piece}`,item=>{addAttModifiers(item,[{attribute:"minecraft:generic.armor",amount:ma.armor,id:`shh_armor:${ps.slot}`,slot:ps.slot},{attribute:"minecraft:generic.armor_toughness",amount:2,id:`shh_armor_toughness:${ps.slot}`,slot:ps.slot,condition:ma.material==="iron"},{attribute:"curseofpandora:spell_tolerance",amount:1,id:`shh_spell_tolerance:${ps.slot}`,slot:ps.slot,condition:Platform.isLoaded("curseofpandora")&&ma.material==="golden"}])})})});

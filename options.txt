@@ -19,7 +19,7 @@ guiScale:5
 maxFps:260
 mipmapLevels:2
 narrator:0
-particles:2
+particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 renderDistance:12
@@ -236,6 +236,9 @@ key_key.ftbquests.gui_editor.toggle_crosshairs:key.keyboard.r:CONTROL
 key_key.ftbquests.gui_editor.copy:key.keyboard.c:CONTROL
 key_key.ftbquests.gui_editor.paste:key.keyboard.v:CONTROL
 key_key.ftbquests.gui_editor.reward_tables:key.keyboard.t:CONTROL
+key_key.ftbquests.gui_editor.complete_object:key.keyboard.c:ALT
+key_key.ftbquests.gui_editor.reset_object:key.keyboard.r:ALT
+key_key.ftbquests.gui_editor.save:key.keyboard.s:CONTROL
 key_key.ftbquests.gui_editor.reload_theme:key.keyboard.f5
 key_key.ftbquests.gui_quest_panel.edit_title:key.keyboard.t
 key_key.ftbquests.gui_quest_panel.edit_subtitle:key.keyboard.s
@@ -351,7 +354,7 @@ key_create.keyinfo.shift_modifier:key.keyboard.left.shift
 key_create.keyinfo.ctrl_modifier:key.keyboard.left.control
 key_create.keyinfo.alt_modifier:key.keyboard.left.alt
 key_key.liubai.open_config:key.keyboard.l
-key_key.shhs_create_core.open_portable_stock_ticker:key.keyboard.b
+key_key.shhs_create_core.open_portable_stock_ticker:key.keyboard.h
 soundCategory_master:0.10099337748344371
 soundCategory_music:0.3573943661971831
 soundCategory_record:0.33098591549295775

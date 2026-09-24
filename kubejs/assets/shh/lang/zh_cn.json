@@ -94,5 +94,6 @@
     "text.shh.common.tooltip.ban": "已禁用",
     "text.shh.common.tooltip.fluidmetfluid": "由流动的%s遇到流动的%s产生。",
     "text.shh.common.tooltip.press_key_to": "按下 [%s] 来 %s",
+    "text.shh.common.tooltip.superheated_fuels": "可用于超级燃烧",
     "text.shh.common.tooltip.youcanalso": "你也可以"
 }

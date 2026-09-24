@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "0cc74f672fcf93fe"
 	group: "04ABB4452F0A1E9A"
+	hide_quest_until_deps_complete: true
 	icon: {
 		components: {
 			"irons_spellbooks:spell_container": {

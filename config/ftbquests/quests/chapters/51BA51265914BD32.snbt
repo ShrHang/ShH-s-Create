@@ -10,7 +10,12 @@
 	id: "51BA51265914BD32"
 	images: [ ]
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [{
+		id: "02A7D960D9687BE7"
+		linked_quest: "6B3D2FD776C169CB"
+		x: -5.5d
+		y: -2.0d
+	}]
 	quests: [
 		{
 			dependencies: [
@@ -21,7 +26,7 @@
 			dependency_requirement: "all_started"
 			id: "507FFB6534902FBA"
 			shape: "square"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "2092180B42DE7D38"
 				item: { count: 1, id: "create:brass_ingot" }
@@ -31,6 +36,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["22D46E770D66A030"]
 			id: "0C7FAE5FB0D2C3BE"
 			tasks: [
 				{
@@ -46,7 +52,7 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
+			x: -7.5d
 			y: -0.5d
 		}
 		{
@@ -111,24 +117,18 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"030C4EDE543F60F4"
+				"0C7FAE5FB0D2C3BE"
+			]
 			id: "27F3E9E03417A028"
 			tasks: [{
 				id: "307AC114C67434AA"
 				item: { count: 1, id: "create:steam_engine" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["27F3E9E03417A028"]
-			id: "470D440D698DE696"
-			tasks: [{
-				id: "20AC3D2430FF9866"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 2.0d
+			x: -6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6E1D4D2BDEF2A63C"]

@@ -1,0 +1,1381 @@
+{
+	autofocus_id: "544332BA349F3376"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20f6d37effec20ce"
+	group: "04704A4785A6D007"
+	icon: {
+		components: {
+			"ftbquests:icon": "quark:textures/attribute/armor_toughness.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "20F6D37EFFEC20CE"
+	images: [ ]
+	order_index: 5
+	quest_links: [
+		{
+			id: "0D2D2EA494D04001"
+			linked_quest: "10FB99A4C7C763FF"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "2398804BBFF9879B"
+			linked_quest: "0751DE5C8FC925B8"
+			x: -7.0d
+			y: 6.5d
+		}
+	]
+	quests: [
+		{
+			id: "422FB1C177C2188F"
+			tasks: [{
+				id: "5BDA66319D67A8D3"
+				item: { count: 1, id: "minecraft:iron_helmet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "103DF44CE976FA7E"
+			tasks: [{
+				id: "4BB753603AE85D48"
+				item: { count: 1, id: "minecraft:iron_chestplate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "66B6FA6382DD1D4D"
+			tasks: [{
+				id: "549E34F3BD9774C2"
+				item: { count: 1, id: "minecraft:iron_leggings" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "71B5B5616824A5F5"
+			tasks: [{
+				id: "573691377727328C"
+				item: { count: 1, id: "minecraft:iron_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "1DF27625A31EB89F"
+			tasks: [{
+				id: "64461D59FE59F291"
+				item: { count: 1, id: "minecraft:netherite_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "169535702988336A"
+			tasks: [{
+				id: "66346B9980A94E31"
+				item: { count: 1, id: "minecraft:netherite_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "1A123D19A48D258A"
+			tasks: [{
+				id: "4266479C41D88740"
+				item: { count: 1, id: "minecraft:netherite_leggings" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "273FB12D04DDF5F2"
+			tasks: [{
+				id: "05582A125283778B"
+				item: { count: 1, id: "minecraft:netherite_boots" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "3A6A556B7A0BC6FE"
+			tasks: [{
+				id: "0302F9A98673865B"
+				item: { count: 1, id: "minecraft:diamond_helmet" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "476E683BE5CA3E8E"
+			tasks: [{
+				id: "5D60BAA30EB05B27"
+				item: { count: 1, id: "minecraft:diamond_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "34932E59AFBD637C"
+			tasks: [{
+				id: "30B60F133A4F74CD"
+				item: { count: 1, id: "minecraft:diamond_leggings" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "13F74D0782841D61"
+			tasks: [{
+				id: "1111F9667AE5B097"
+				item: { count: 1, id: "minecraft:diamond_boots" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "7BB4BAE6EFD3318E"
+			tasks: [{
+				id: "3DCAE8BB8F025800"
+				item: { count: 1, id: "minecraft:golden_chestplate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "5FD861D0655467CC"
+			tasks: [{
+				id: "518F01E4556ED81E"
+				item: { count: 1, id: "minecraft:golden_leggings" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "3D682DE1B0F9C04E"
+			tasks: [{
+				id: "79311C2C45279F6A"
+				item: { count: 1, id: "minecraft:golden_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "7ADE4147E4E3A9A5"
+			tasks: [{
+				id: "04F13832A809F8DE"
+				item: { count: 1, id: "minecraft:golden_helmet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "2FD44AB2176C0CA7"
+			tasks: [{
+				id: "0518E0570F0F72E1"
+				item: { count: 1, id: "create_sa:brass_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "1B93691F1AB00F17"
+			tasks: [{
+				id: "1AD5ED5D884D7494"
+				item: { count: 1, id: "create_sa:brass_boots" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "78279488FE0E7367"
+			tasks: [{
+				id: "226425224097FB94"
+				item: { count: 1, id: "create_sa:brass_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			id: "0EE3B47230BE2404"
+			tasks: [{
+				id: "4DE4822155AE1C00"
+				item: { count: 1, id: "create_sa:brass_helmet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "6057DCD898201D4B"
+			tasks: [{
+				id: "6252FE425F2DEADD"
+				item: { count: 1, id: "create_sa:copper_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "6B2A2AEDB102DC92"
+			tasks: [{
+				id: "18624F52A4341C35"
+				item: { count: 1, id: "create_sa:copper_helmet" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "54C4C3BD73F59570"
+			tasks: [{
+				id: "4AB64255FD0993B6"
+				item: { count: 1, id: "create_sa:copper_leggings" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "6C8716706B109C9F"
+			tasks: [{
+				id: "2BD0AF024BC71AE5"
+				item: { count: 1, id: "create_sa:brass_boots" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "300B973C77EF1537"
+			tasks: [{
+				id: "649289EA63FE3AE4"
+				item: { count: 1, id: "create_sa:zinc_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "741372BC18B3B940"
+			tasks: [{
+				id: "73AE0C445A40FFEE"
+				item: { count: 1, id: "create_sa:zinc_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "79E173CA36DA87A0"
+			tasks: [{
+				id: "056FA1DD770E7FFB"
+				item: { count: 1, id: "create_sa:zinc_boots" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "59744D2AA0F0F1B1"
+			tasks: [{
+				id: "618BBACF5FB88243"
+				item: { count: 1, id: "create_sa:zinc_leggings" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "1A2A17693751D04D"
+			tasks: [{
+				id: "7800FA72AD0C2E7F"
+				item: { count: 1, id: "shhs_create_core:augmented_reality" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "15CDE7A66FF2534E"
+			tasks: [{
+				id: "153EC27F6F00B63F"
+				item: { count: 1, id: "shhs_create_core:wizard" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			id: "4ED88F982E0CD797"
+			tasks: [{
+				id: "245B1F1A9A72969E"
+				item: { count: 1, id: "create:cardboard_helmet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "37C6E45E3F90799C"
+			tasks: [{
+				id: "328C82573BE176F3"
+				item: { count: 1, id: "create:cardboard_chestplate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "3858104550B4D8E8"
+			tasks: [{
+				id: "026DBBFB21425F90"
+				item: { count: 1, id: "create:cardboard_leggings" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "23F03D66820341F8"
+			tasks: [{
+				id: "732CCB81C6C8A3D0"
+				item: { count: 1, id: "create:cardboard_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "1AF5E13BBF442D03"
+			tasks: [{
+				id: "001E7C3D6A451DCB"
+				item: { count: 1, id: "cataclysm:bone_reptile_helmet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "2BAEB3C90FFD1BAB"
+			tasks: [{
+				id: "53A3A23B12748694"
+				item: { count: 1, id: "cataclysm:bone_reptile_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "6AB7E304FAAF46CB"
+			tasks: [{
+				id: "0BDC5641A4E833A6"
+				item: { count: 1, id: "cataclysm:bloom_stone_pauldrons" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "20A979AFC6AAE4F4"
+			tasks: [{
+				id: "4297425E4DBA541B"
+				item: { count: 1, id: "cataclysm:cursium_helmet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "447D9E176ACF9D1F"
+			tasks: [{
+				id: "3FC613C73817392D"
+				item: { count: 1, id: "cataclysm:cursium_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "65AE994BE0004DFA"
+			tasks: [{
+				id: "39A39529EB6E3017"
+				item: { count: 1, id: "cataclysm:cursium_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "4C04EACC4EE97DFC"
+			tasks: [{
+				id: "34EEA9A8A1C3FAC8"
+				item: { count: 1, id: "cataclysm:cursium_boots" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "3819001F79281A4A"
+			tasks: [{
+				id: "33548BD9F718602C"
+				item: { count: 1, id: "cataclysm:ignitium_helmet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "6086374FB2528B90"
+			tasks: [{
+				id: "7F392EC0DA0FC5AA"
+				item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "7BA22CDEE2F6F7DB"
+			tasks: [{
+				id: "4E6F769E29160D0C"
+				item: { count: 1, id: "cataclysm:ignitium_leggings" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "0166BB78EB04B7C7"
+			tasks: [{
+				id: "625E0FEB25E91EBB"
+				item: { count: 1, id: "cataclysm:ignitium_boots" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			id: "52C1C9190C923070"
+			tasks: [{
+				id: "718999DEB0DA9F8F"
+				item: { count: 1, id: "l2complements:sculkium_helmet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "3F6DAA9C1246F555"
+			tasks: [{
+				id: "37964C88FF4F8513"
+				item: { count: 1, id: "l2complements:sculkium_chestplate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "51CC57B2EE35326B"
+			tasks: [{
+				id: "0ADFC3017E2B6C26"
+				item: { count: 1, id: "l2complements:sculkium_leggings" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			id: "2E0C4B3EE8F0722A"
+			tasks: [{
+				id: "21C1C2FEB85D0483"
+				item: { count: 1, id: "l2complements:sculkium_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			id: "41908E5401F66510"
+			tasks: [{
+				id: "61A572C7E20067F4"
+				item: { count: 1, id: "create_sa:brass_exoskeleton_chestplate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "5D0702C2FF7FF71E"
+			tasks: [{
+				id: "71871D04AA1D4CA4"
+				item: { count: 1, id: "create_sa:netherite_jetpack_chestplate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "072386434F225F4A"
+			tasks: [{
+				id: "39C76D20528C5C65"
+				item: { components: { "create:banktank_air": 900 }, count: 1, id: "create:netherite_backtank" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "7E0E95D8473DC25A"
+			tasks: [{
+				id: "30413EF04792BF17"
+				item: { count: 1, id: "cataclysm:monstrous_helm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "35B7A291876C10DC"
+			tasks: [{
+				id: "2DDF492733969279"
+				item: { count: 1, id: "l2complements:poseidite_helmet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			id: "44951DCF3F9FBB50"
+			tasks: [{
+				id: "50C144899BA6501E"
+				item: { count: 1, id: "l2complements:poseidite_leggings" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "23C8F32589AE4C59"
+			tasks: [{
+				id: "0650473C1E4B8E19"
+				item: { count: 1, id: "l2complements:poseidite_chestplate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			id: "1A4F17A2B71F2050"
+			tasks: [{
+				id: "7DEA28299216F0D1"
+				item: { count: 1, id: "l2complements:poseidite_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "7DA350CE56E9456B"
+			tasks: [{
+				id: "11D8A0F06C1BCB81"
+				item: { count: 1, id: "l2complements:shulkerate_boots" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "44EF5015A44A4ED6"
+			tasks: [{
+				id: "1A73C264834019D2"
+				item: { count: 1, id: "l2complements:eternium_boots" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "4DEAEA47FDE1E0AF"
+			tasks: [{
+				id: "5EF11F58CABF8433"
+				item: { count: 1, id: "l2complements:eternium_chestplate" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			id: "33FEFBE60EBD534A"
+			tasks: [{
+				id: "2BC62A7374E94F2D"
+				item: { count: 1, id: "l2complements:eternium_leggings" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			id: "209065FA119DCB5C"
+			tasks: [{
+				id: "0F67F2949F215279"
+				item: { count: 1, id: "l2complements:eternium_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			id: "12928E9747E51C41"
+			tasks: [{
+				id: "1CEEF6D08232E1F3"
+				item: { count: 1, id: "l2complements:shulkerate_helmet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			id: "4E02F7F6511AC88F"
+			tasks: [{
+				id: "78D13FC07F1AEC1D"
+				item: { count: 1, id: "l2complements:shulkerate_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			id: "1319C64EB156271B"
+			tasks: [{
+				id: "43EFD591F5D491C8"
+				item: { count: 1, id: "l2complements:shulkerate_leggings" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "544332BA349F3376"
+			tasks: [{
+				id: "35ED104F4C5DF9CF"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "1EAF0C1113A158E5"
+			tasks: [{
+				id: "4CF95F3C77B179D8"
+				item: { count: 1, id: "minecraft:stone_sword" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "3AA48A6E11B13D35"
+			tasks: [{
+				id: "7683E149CAF2C01B"
+				item: { count: 1, id: "minecraft:iron_sword" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			id: "005773391220C7D7"
+			tasks: [{
+				id: "4547BD927F26D8E4"
+				item: { count: 1, id: "minecraft:diamond_sword" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			id: "69EBA025144BA413"
+			tasks: [{
+				id: "1A52DEE4F4C4A99B"
+				item: { count: 1, id: "minecraft:netherite_sword" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			id: "25732902E90434D5"
+			tasks: [{
+				id: "2D68B15B78715D00"
+				item: { count: 1, id: "minecraft:stone_axe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "07ABEC8D54710DA6"
+			tasks: [{
+				id: "7D1EEF43EE8B2FB3"
+				item: { count: 1, id: "minecraft:diamond_axe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			id: "2103ABFD441CCB10"
+			tasks: [{
+				id: "6A66321A7A74B4FA"
+				item: { count: 1, id: "minecraft:iron_axe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			id: "3BF2C9BB215751AC"
+			tasks: [{
+				id: "07C78342B6A62246"
+				item: { count: 1, id: "minecraft:netherite_axe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			id: "5B0D9C540224F51C"
+			tasks: [{
+				id: "6F87EABED0B4E7F2"
+				item: { count: 1, id: "create_sa:copper_sword" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			id: "5412DFEC03E301DE"
+			tasks: [{
+				id: "435F16313386DF89"
+				item: { count: 1, id: "create_sa:zinc_sword" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			id: "6B0FCFCC56FE309A"
+			tasks: [{
+				id: "33AA264B690CE04B"
+				item: { count: 1, id: "create_sa:brass_sword" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			id: "5C0B3599FE3618EA"
+			tasks: [{
+				id: "681290017B8B413A"
+				item: { count: 1, id: "create_sa:rose_quartz_sword" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			id: "6457B7F422646F5B"
+			tasks: [{
+				id: "799FEB5A5199EFB3"
+				item: { count: 1, id: "l2complements:poseidite_sword" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			id: "0A1AFD1860C93003"
+			tasks: [{
+				id: "508DE87E31242F9E"
+				item: { count: 1, id: "create_sa:rose_quartz_axe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			id: "34B2AC8E7B5C9039"
+			tasks: [{
+				id: "14BB8385EDC9A144"
+				item: { count: 1, id: "create_sa:brass_axe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			id: "4D475DACC2434D4F"
+			tasks: [{
+				id: "21A4E96E553C2DE6"
+				item: { count: 1, id: "create_sa:zinc_axe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			id: "5268A01FBCCFF995"
+			tasks: [{
+				id: "065B422B50972BCA"
+				item: { count: 1, id: "create_sa:copper_axe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			id: "6D528A467D26B5CC"
+			tasks: [{
+				id: "402286FF8B03B7F8"
+				item: { count: 1, id: "l2complements:poseidite_axe" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			id: "41314194B3F7CA2B"
+			tasks: [{
+				id: "10B3DDDC3B9AA6B7"
+				item: { count: 1, id: "l2complements:shulkerate_axe" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			id: "69E5EEE247FABBC8"
+			tasks: [{
+				id: "15D5E9E42922562F"
+				item: { count: 1, id: "l2complements:eternium_axe" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			id: "70FBDD5741D098B7"
+			tasks: [{
+				id: "373669179C45DCB2"
+				item: { count: 1, id: "l2complements:eternium_sword" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			id: "36B427F22253B741"
+			tasks: [{
+				id: "523378313D0D30C6"
+				item: { count: 1, id: "l2complements:shulkerate_sword" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			id: "49DE1D6CBBDE95C9"
+			tasks: [{
+				id: "73990BF6E0E2B58A"
+				item: { count: 1, id: "create_sa:experience_sword" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			id: "7ADC33FAB5A26B3A"
+			tasks: [{
+				id: "53CBE5A4D6819912"
+				item: { count: 1, id: "create_sa:experience_axe" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			id: "7DD00F60D3B28720"
+			tasks: [{
+				id: "727FEE5C3A9E6A08"
+				item: { count: 1, id: "minecraft:golden_sword" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			id: "5B4BAB73F9BE02DF"
+			tasks: [{
+				id: "2CC17E2727E8AF48"
+				item: { count: 1, id: "minecraft:golden_axe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			id: "4096877BD3D1CD6B"
+			tasks: [{
+				id: "70CFBD73BF8C4E94"
+				item: { count: 1, id: "create_sa:blazing_cleaver" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			id: "0257CBD3216F9C59"
+			tasks: [{
+				id: "69524D248D93255A"
+				item: { count: 1, id: "create_sa:blazing_axe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			id: "6A35381927A2230E"
+			tasks: [{
+				id: "36D64C891603D7B9"
+				item: { count: 1, id: "cataclysm:black_steel_sword" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			id: "62F284A20DA31D26"
+			tasks: [{
+				id: "71F881A0E4259354"
+				item: { count: 1, id: "cataclysm:black_steel_axe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			id: "370051B9FE44A6C6"
+			tasks: [{
+				id: "2AB2F8AFC96B506A"
+				item: { count: 1, id: "cataclysm:khopesh" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			id: "76D44A0D84E04390"
+			tasks: [{
+				id: "01F75C6E4DD9B2C8"
+				item: { count: 1, id: "l2complements:sculkium_sword" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			id: "35192B973DA04277"
+			tasks: [{
+				id: "3B703A82C4B51D6D"
+				item: { count: 1, id: "l2complements:sculkium_axe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			id: "635EF0A9A2295E15"
+			tasks: [{
+				id: "067A190597463F5A"
+				item: { count: 1, id: "minecraft:trident" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			id: "1ABC63097476373A"
+			tasks: [{
+				id: "269831C0C6BBA319"
+				item: { count: 1, id: "minecraft:mace" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			id: "09EECD7EA8824094"
+			tasks: [{
+				id: "229914ECEDAF1436"
+				item: { count: 1, id: "cataclysm:ancient_spear" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.0d
+		}
+		{
+			id: "62CD4CE3927E224D"
+			tasks: [{
+				id: "141C343F369767EE"
+				item: { count: 1, id: "cataclysm:coral_spear" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			id: "677FF3CBE4D0C445"
+			tasks: [{
+				id: "414965D8E23E62DA"
+				item: { count: 1, id: "cataclysm:coral_bardiche" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.0d
+		}
+		{
+			id: "0F7A3623518A8A4D"
+			tasks: [{
+				id: "2AEAAEAA50587862"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:counterspell", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:spellbreaker" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			id: "722192412270E9E2"
+			tasks: [{
+				id: "7B6040816F297A66"
+				item: { count: 1, id: "irons_spellbooks:magehunter" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			id: "41705058827E8657"
+			tasks: [{
+				id: "7EF7819AC26C5A70"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:echoing_strikes", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:amethyst_rapier" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			id: "14A259E67E98AD9E"
+			tasks: [{
+				id: "1559620987AF1B26"
+				item: { count: 1, id: "irons_spellbooks:legionnaire_flamberge" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			id: "6E8022F8DBA3979D"
+			tasks: [{
+				id: "01D3D349DAA9AF5E"
+				item: { count: 1, id: "irons_spellbooks:keeper_flamberge" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			id: "23D921AB40330C1B"
+			tasks: [{
+				id: "6030606C7760D7F4"
+				item: { count: 1, id: "irons_spellbooks:decrepit_scythe" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			id: "01AB1C24FDC2A81B"
+			tasks: [{
+				id: "4BA929136DBE90A9"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:raise_hell", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:hellrazor" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 8.0d
+		}
+		{
+			id: "38237DD4E7792513"
+			tasks: [{
+				id: "49EB7537F8C4BDAF"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:frostbite", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:boreal_blade" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			id: "5771A044C78B87F8"
+			tasks: [{
+				id: "3427DBB6740FEEFE"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:volt_strike", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:twilight_gale" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			id: "304A79FC78B1084C"
+			tasks: [{
+				id: "66D12130B37F88E3"
+				item: { count: 1, id: "cataclysm:the_incinerator" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			id: "38008D45FACCF18D"
+			tasks: [{
+				id: "20E86C127894A989"
+				item: { count: 1, id: "cataclysm:the_annihilator" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 5.0d
+		}
+		{
+			id: "7E7930379B9ED856"
+			tasks: [{
+				id: "01ABF3873B39B7AA"
+				item: { count: 1, id: "cataclysm:the_immolator" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 5.0d
+		}
+		{
+			id: "32ECEF257B33CA57"
+			tasks: [{
+				id: "2C0AC6F0920A8E63"
+				item: { count: 1, id: "cataclysm:soul_render" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			id: "1ECEBFB643999603"
+			tasks: [{
+				id: "1161D8E612F3D732"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			id: "7799DE875288FABE"
+			tasks: [{
+				id: "061A6C4B6886D3AA"
+				item: { count: 1, id: "cataclysm:black_steel_targe" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			id: "3AC5588FAF26B826"
+			tasks: [{
+				id: "37CE24D837738DEF"
+				item: { count: 1, id: "cataclysm:azure_sea_shield" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			id: "797DA6F5DB8B6422"
+			tasks: [{
+				id: "2D26466A54D0674F"
+				item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			id: "4FB5AC44D260A137"
+			tasks: [{
+				id: "192DAD9F15B7B595"
+				item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.0d
+		}
+		{
+			id: "1A3D8F13440216C4"
+			tasks: [{
+				id: "5C3969AD8C4BA781"
+				item: { count: 1, id: "cataclysm:gauntlet_of_bulwark" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 7.0d
+		}
+		{
+			id: "3EBA9066DC0B092D"
+			tasks: [{
+				id: "379DF0628B553F70"
+				item: { count: 1, id: "cataclysm:gauntlet_of_maelstrom" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.0d
+		}
+		{
+			id: "1CD2693807650743"
+			tasks: [{
+				id: "18D8307DF4722C4F"
+				item: { count: 1, id: "l2complements:totemic_gold_helmet" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "56EDEEAAC5CD9355"
+			tasks: [{
+				id: "6CF943C5AF4B9D25"
+				item: { count: 1, id: "l2complements:totemic_gold_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "5F1E7D8FAF482A3F"
+			tasks: [{
+				id: "507836E1731221F2"
+				item: { count: 1, id: "l2complements:totemic_gold_leggings" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "37FE5A9491019B33"
+			tasks: [{
+				id: "49E30250E5BEC18D"
+				item: { count: 1, id: "l2complements:totemic_gold_boots" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			id: "4F1B9096E14935B7"
+			tasks: [{
+				id: "787690C06B8DCAE0"
+				item: { count: 1, id: "l2complements:totemic_gold_sword" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			id: "4DE3F82724B90B0A"
+			tasks: [{
+				id: "3FB818C7DC4C498B"
+				item: { count: 1, id: "l2complements:totemic_gold_axe" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			id: "5813A312FF550BCE"
+			tasks: [{
+				id: "1BBD6C12E9426A64"
+				item: { count: 1, id: "cataclysm:astrape" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 7.0d
+		}
+		{
+			id: "35518FFF367BB252"
+			tasks: [{
+				id: "1370A6BBE901717D"
+				item: { count: 1, id: "cataclysm:ceraunus" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			id: "155C4C96905C1655"
+			tasks: [{
+				id: "185CB7B692E5A94B"
+				item: { count: 1, id: "cataclysm:meat_shredder" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 8.0d
+		}
+		{
+			id: "33770C3B23C4AC43"
+			tasks: [{
+				id: "59AF51E076837FB9"
+				item: { count: 1, id: "cataclysm:infernal_forge" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: 5.0d
+		}
+		{
+			id: "789586E2D9D7B82B"
+			tasks: [{
+				id: "3B0E39CCA21F7453"
+				item: { count: 1, id: "cataclysm:void_forge" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: 5.0d
+		}
+	]
+}

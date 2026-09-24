@@ -1,7 +1,6 @@
 {
-	autofocus_id: "3E617E68463DA6A9"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	filename: "619e8811d76bad23"
 	group: "04704A4785A6D007"
 	icon: {
@@ -9,18 +8,21 @@
 	}
 	id: "619E8811D76BAD23"
 	images: [ ]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["28CB99069C2B6416"]
+			dependencies: [
+				"28CB99069C2B6416"
+				"01F4390155607940"
+			]
 			id: "63242C1FB281A6CA"
 			tasks: [{
 				id: "6F94F82901D9F7B9"
 				item: { count: 1, id: "create:wrench" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -0.5d
 		}
 		{
@@ -31,7 +33,7 @@
 				item: { count: 1, id: "create:brown_toolbox" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
@@ -42,7 +44,7 @@
 				item: { count: 1, id: "create:goggles" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 1.5d
 		}
 		{
@@ -53,8 +55,8 @@
 				item: { count: 1, id: "create:crafting_blueprint" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.5d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			id: "3E617E68463DA6A9"
@@ -66,13 +68,14 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["01F4390155607940"]
 			id: "28CB99069C2B6416"
 			tasks: [{
 				id: "48469EE8F26BF8EA"
 				item: { count: 1, id: "create:golden_sheet" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -83,7 +86,7 @@
 				item: { count: 1, id: "create:schematic_table" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: -0.5d
 		}
 		{
@@ -94,7 +97,7 @@
 				item: { count: 1, id: "create:schematicannon" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: 0.5d
 		}
 		{
@@ -105,7 +108,7 @@
 				item: { count: 1, id: "create:empty_schematic" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 1.5d
 		}
 		{
@@ -117,7 +120,7 @@
 				id: "66440F1D17637E87"
 				type: "checkmark"
 			}]
-			x: -4.5d
+			x: -5.0d
 			y: 0.5d
 		}
 		{
@@ -128,8 +131,8 @@
 				item: { count: 1, id: "waystones:warp_stone" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["357F29F7C797BCCE"]
@@ -140,7 +143,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["357F29F7C797BCCE"]
@@ -150,8 +153,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:waystones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.5d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0425206A21B6230C"]
@@ -161,7 +164,7 @@
 				item: { count: 1, id: "waystones:warp_plate" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: -3.0d
 		}
 		{
@@ -172,7 +175,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["357F29F7C797BCCE"]
@@ -182,8 +185,8 @@
 				item: { count: 1, id: "waystones:white_portstone" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.0d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			id: "5F44C3FFC4D4C56C"
@@ -194,7 +197,7 @@
 				item: { components: { "ftbquests:missing_item": "immersive_aircraft:biplane" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -6.5d
 			y: 3.5d
 		}
 		{
@@ -206,7 +209,7 @@
 				item: { components: { "ftbquests:missing_item": "immersive_aircraft:gyrodyne" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -7.0d
 			y: 2.5d
 		}
 		{
@@ -218,7 +221,7 @@
 				item: { components: { "ftbquests:missing_item": "immersive_aircraft:quadrocopter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -6.0d
 			y: 2.5d
 		}
 		{
@@ -228,8 +231,8 @@
 				item: { count: 1, id: "create:clipboard" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: -3.5d
+			y: 3.5d
 		}
 		{
 			id: "0CE2992B71AA0ED2"
@@ -238,8 +241,8 @@
 				item: { components: { "ftbfiltersystem:filter": "mod(create_power_loader)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			id: "766AF5EB4F9ABB60"
@@ -254,8 +257,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			id: "1F17DD500DB1AE7B"
@@ -264,8 +267,8 @@
 				item: { count: 1, id: "shhs_create_core:portable_stock_ticker" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			id: "4DC02EE1070DF52E"
@@ -274,8 +277,48 @@
 				item: { count: 1, id: "shhs_create_core:brass_ender_chest" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.5d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "092C5697A45990C3"
+			tasks: [{
+				id: "48F420D28F99F816"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "790403D044BE99EC"
+			tasks: [{
+				id: "429D0C8C355E6D7F"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "27EE08363781DFCD"
+			tasks: [{
+				id: "640C75719F51F2BC"
+				item: { count: 1, id: "shhs_create_core:hostility_debit_card" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "112398955F44D1F2"
+			tasks: [{
+				id: "2B3D79F206CBF094"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 27, "sophisticatedcore:number_of_upgrade_slots": 1 }, count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
 		}
 	]
 }

@@ -1,0 +1,19 @@
+{
+  "values": {
+    "createdieselgenerators:plant_oil_bucket": {
+      "burn_time": 5000
+    },
+    "createdieselgenerators:ethanol_bucket": {
+      "burn_time": 9000
+    },
+    "createdieselgenerators:biodiesel_bucket": {
+      "burn_time": 10000
+    },
+    "createdieselgenerators:diesel_bucket": {
+      "burn_time": 6000
+    },
+    "createdieselgenerators:gasoline_bucket": {
+      "burn_time": 11000
+    }
+  }
+}

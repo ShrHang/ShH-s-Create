@@ -1,0 +1,62 @@
+{
+	always_invisible: true
+	autofocus_id: "2C09B584A9DEEC97"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "60adc647e58412c8"
+	group: "04704A4785A6D007"
+	id: "60ADC647E58412C8"
+	images: [ ]
+	order_index: 4
+	quest_links: [{
+		id: "2C09B584A9DEEC97"
+		linked_quest: "1C247CCE01C1BB0B"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["5578461703FCFED9"]
+			id: "1D31A17C290A89C9"
+			tasks: [{
+				id: "73713C0F1341F92A"
+				item: { count: 1, id: "l2hostility:miracle_powder" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C247CCE01C1BB0B"]
+			id: "3536B0B2D125E585"
+			tasks: [{
+				id: "28D4740787E11BB3"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3536B0B2D125E585"]
+			id: "5578461703FCFED9"
+			tasks: [{
+				id: "08E9C454D784475E"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "17468DE7A19D108B"
+			tasks: [{
+				id: "6B519175A599A318"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

@@ -25,6 +25,7 @@
 			dependencies: [
 				"253B8855197D37F5"
 				"7B1652E5CA758E59"
+				"0C7FAE5FB0D2C3BE"
 			]
 			id: "1BE0B4762DAEB494"
 			tasks: [{
@@ -39,6 +40,7 @@
 			dependencies: [
 				"253B8855197D37F5"
 				"7B1652E5CA758E59"
+				"0C7FAE5FB0D2C3BE"
 			]
 			id: "77A7A4E32DD76997"
 			tasks: [{

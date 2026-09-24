@@ -79,7 +79,6 @@
 		{
 			dependencies: ["33E62BE9423ADFE5"]
 			dependency_requirement: "one_started"
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:andesite"
 			}
@@ -567,7 +566,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["1FB411220A26B0E2"]
+			dependencies: [
+				"1FB411220A26B0E2"
+				"102FADD0F8A39ACF"
+			]
 			dependency_requirement: "one_completed"
 			id: "22D46E770D66A030"
 			shape: "gear"

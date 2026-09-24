@@ -4,11 +4,14 @@
 	filename: "099d9445d1f810d2"
 	group: "04704A4785A6D007"
 	icon: {
-		id: "cataclysm:altar_of_abyss"
+		components: {
+			"ftbquests:icon": "minecraft:textures/particle/raid_omen.png"
+		}
+		id: "ftbquests:custom_icon"
 	}
 	id: "099D9445D1F810D2"
 	images: [ ]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -301,6 +304,22 @@
 			}]
 			x: 8.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"43355E6AD4BBBF5C"
+				"7CE656B5117D4871"
+			]
+			hide_dependency_lines: true
+			id: "4980B68D43C394CE"
+			shape: "square"
+			tasks: [{
+				id: "134E301AEF4BA0FA"
+				item: { count: 1, id: "shh:etihw" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
 		}
 	]
 }
